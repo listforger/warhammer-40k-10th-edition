@@ -1,0 +1,382 @@
+{
+    "name": "Adeptus Mechanicus",
+    "armyRule": "ADEPTUS MECHANICUS\t\r\nARMY RULE\t\r\nAn Adeptus Mechanicus army marching to war is a sight\t\r\nboth terrifying and glorious, each holy warrior a disturbing\t\r\nfusion of Human and machine. While the ruling Tech-\t\r\nPriests and their fanatical followers raise modified voices\t\r\nin praise of the Machine God, their Skitari soldiery and\t\r\nServitor creations are controlled by doctrina imperatives\t\r\nloaded by their masters to augment and adapt the\t\r\nwarriors' abilities.\t\r\nDOCTRINA IMPERATIVES\t\r\nAt the start of the battle round, you can select one of the\t\r\nDoctrina Imperatives below. Until the end of the battle\t\r\nround, that Doctrina Imperative is active for your army, and\t\r\nall units from your army that have the Doctrina Imperatives\t\r\nability gain the relevant abilities shown below.\t\r\nPROTECTOR IMPERATIVE\t\r\n\u2022 Ranged weapons equipped by models in this unit have\t\r\nthe [HEAVY] ability.\t\r\n\u2022 Each time a ranged attack targets this unit, if this unit\t\r\nis within your deployment zone, worsen the Armour\t\r\nPenetration characteristic of that attack by 1.\t\r\nCONQUEROR IMPERATIVE\t\r\n\u2022 Ranged weapons equipped by models in this unit have\t\r\nthe [ASSAULT] ability.\t\r\n\u2022 Each time a model in this unit makes a ranged attack,\t\r\nif the target of that attack is within your opponent's\t\r\ndeployment zone, improve the Armour Penetration\t\r\ncharacteristic of that attack by 1.\t\r\n",
+    "detachmentName": "RAD-COHORT",
+    "detachmentRule": "ADEPTUS MECHANICUS - RAD-COHORT\t\r\nDETACHMENT RULE\t\r\nIf your Army Faction is ADEPTUS MECHANICUS, you can use\t\r\nthis Rad-Cohort Detachment rule.\t\r\nRAD-BOMBARDMENT\t\r\nWhether as a result of natural phenomena, apocalyptic\t\r\ninternecine strife or calamitous accidents, many forge\t\r\nworlds are heavily irradiated. When holy wars of requisition\t\r\nare unleashed, the Tech-Priests think nothing of turning\t\r\nthis invisible curse upon their foes, bombarding the\t\r\nbattlefield with deadly radiation prior to an assault.\t\r\nBATTLE ROUND\t1\t\r\nBOMBARDMENT\t\r\nAt the start of the first battle round, for each enemy unit\t\r\nwithin your opponent's deployment zone, your opponent\t\r\nmust decide whether that unit will take cover or stand firm.\t\r\nIf a unit takes cover, until the end of the battle round, that\t\r\nunit is Battle-shocked. If a unit stands firm, roll one D6 for\t\r\nthat unit: on a 3+, that unit suffers D3 mortal wounds.\t\r\nBATTLE ROUND\t2 ONWARDS\t\r\nFALLOUT\t\r\nAt the start of the second, third, fourth and fifth battle\t\r\nrounds, roll one D6 for each enemy unit within your\t\r\nopponent's deployment zone. On a 3+, that unit suffers 1\t\r\nmortal wound.\t\r\n",
+    "units": [
+        {
+            "page": 7,
+            "name": "ARCHAEOPTER FUSILAVE",
+            "handle": "archaeopter-fusilave",
+            "movement": "20+\"",
+            "toughness": 9,
+            "wounds": 10,
+            "save": 3,
+            "leadership": 7,
+            "oc": 0,
+            "inv": null,
+            "epicHero": false,
+            "wargearOptions": " \u2022 This model's command uplink can be replaced with 1 chaff launcher.",
+            "unitComposition": "\u2022 1 Archaeopter Fusilave",
+            "factionKeywords": [
+                "ADEPTUS MECHANICUS"
+            ],
+            "equippedWith": "cognis heavy stubber array; armoured hull; command uplink.",
+            "coreAbilities": [
+                "Deadly Demise D3",
+                "Hover"
+            ],
+            "unitAbilities": [
+                "Bomb Rack: Each time this model finishes a Normal move, you can select one enemy unit it moved across and roll six D6: for each 3+, that unit suffers 1 mortal wound.",
+                "Chaff Launcher: The bearer has the SMOKe keyword.",
+                "Command Uplink: Each time you select the bearer's unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+                "DAMAGED: 1-3 WOUNDS REMAINING While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            ],
+            "keywords": [
+                "VEHICLE",
+                "AIRCRAFT",
+                "FLY",
+                "IMPERIUM",
+                "SKITARII",
+                "ARCHAEOPTER FUSILAVE"
+            ],
+            "faction": "Doctrina Imperatives",
+            "ranged": [
+                {
+                    "name": "Cognis heavy stubber array",
+                    "handle": "cognis-heavy-stubber-array",
+                    "range": "36\"",
+                    "attacks": "9",
+                    "bs": 4,
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": "RAPID FIRE 9, SUSTAINED HITS 1, TWIN-LINKED",
+                    "rapid_fire": "9",
+                    "sustained_hits": "1",
+                    "twin_linked": true
+                }
+            ],
+            "melee": [
+                {
+                    "name": "Armoured hull",
+                    "handle": "armoured-hull",
+                    "range": "Melee",
+                    "attacks": "3",
+                    "bs": 4,
+                    "strength": "6",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": null
+                }
+            ]
+        },
+        {
+            "page": 9,
+            "name": "ARCHAEOPTER STRATORAPTOR",
+            "handle": "archaeopter-stratoraptor",
+            "movement": "20+\"",
+            "toughness": 9,
+            "wounds": 10,
+            "save": 3,
+            "leadership": 7,
+            "oc": 0,
+            "inv": null,
+            "epicHero": false,
+            "wargearOptions": " \u2022 This model's command uplink can be replaced with 1 chaff launcher.",
+            "unitComposition": "\u2022 1 Archaeopter Stratoraptor",
+            "factionKeywords": [
+                "ADEPTS MECHANICUS"
+            ],
+            "equippedWith": "2 cognis heavy stubbers; 2 heavy phosphor blasters; twin cognis lascannon; armoured hull; command uplink.",
+            "coreAbilities": [
+                "Deadly Demise D3",
+                "Hover"
+            ],
+            "unitAbilities": [
+                "Strafing Run: Each time this model makes a ranged attack that targets an enemy unit (excluding units that can FLY], add 1 to the Hit roll.",
+                "Chaff Launcher: The bearer has the SMOKe keyword.",
+                "Command Uplink: Each time you select the bearer's unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+                "DAMAGED: 1-3 WOUNDS REMAINING While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            ],
+            "keywords": [
+                "VEHICLE",
+                "AIRCRAFT",
+                "FLY",
+                "IMPERIUM",
+                "SKITARII"
+            ],
+            "faction": "Doctrina Imperatives",
+            "ranged": [
+                {
+                    "name": "Cognis heavy stubber",
+                    "handle": "cognis-heavy-stubber",
+                    "range": "36\"",
+                    "attacks": "3",
+                    "bs": 4,
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": "RAPID FIRE 3, SUSTAINED HITS 1",
+                    "rapid_fire": "3",
+                    "sustained_hits": "1"
+                },
+                {
+                    "name": "Heavy phosphor blaster",
+                    "handle": "heavy-phosphor-blaster",
+                    "range": "36\"",
+                    "attacks": "3",
+                    "bs": 4,
+                    "strength": "-1",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": "IGNORES COVER!",
+                    "ignores_cover": true
+                },
+                {
+                    "name": "Twin cognis lascannon",
+                    "handle": "twin-cognis-lascannon",
+                    "range": "48\"",
+                    "attacks": "1",
+                    "bs": 4,
+                    "strength": "12",
+                    "ap": "3",
+                    "damage": "D6+1",
+                    "abilities": "SUSTAINED HITS 1, TWIN-LINKED I",
+                    "sustained_hits": "1",
+                    "twin_linked": true
+                }
+            ],
+            "melee": [
+                {
+                    "name": "Armoured hull",
+                    "handle": "armoured-hull",
+                    "range": "Melee",
+                    "attacks": "4+",
+                    "bs": 6,
+                    "strength": "0",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": null
+                }
+            ]
+        },
+        {
+            "page": 11,
+            "name": "ARCHAEOPTER TRANSVECTOR",
+            "handle": "archaeopter-transvector",
+            "movement": "20+\"",
+            "toughness": 9,
+            "wounds": 10,
+            "save": 3,
+            "leadership": 7,
+            "oc": 0,
+            "inv": null,
+            "epicHero": false,
+            "wargearOptions": " \u2022 This model's command uplink can be replaced with 1 chaff launcher.",
+            "unitComposition": "\u2022 1 Archaeopter Transvector",
+            "factionKeywords": [
+                "ADEPTS MECHANICUS"
+            ],
+            "equippedWith": "cognis heavy stubber array; armoured hull; command uplink.",
+            "coreAbilities": [
+                "Deadly Demise D3",
+                "Deep Strike",
+                "Hover"
+            ],
+            "unitAbilities": [
+                "Aerial Deployment: If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+                "Chaff Launcher: The bearer has the SMoKe keyword.",
+                "Command Uplink: Each time you select the bearer's unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+                "DAMAGED: 1-3 WOUNDS REMAINING While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+                "27: "
+            ],
+            "keywords": [
+                "VEHICLE",
+                "AIRCRAFT",
+                "TRANSPORT",
+                "FLY",
+                "IMPERIUM",
+                "SKITARII"
+            ],
+            "faction": "Doctrina Imperatives",
+            "ranged": [
+                {
+                    "name": "Cognis heavy stubber array",
+                    "handle": "cognis-heavy-stubber-array",
+                    "range": "36\"",
+                    "attacks": "9",
+                    "bs": 4,
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": "RAPID FIRE 9, SUSTAINED HITS 1, TWIN-LINKED",
+                    "rapid_fire": "9",
+                    "sustained_hits": "1",
+                    "twin_linked": true
+                }
+            ],
+            "melee": [
+                {
+                    "name": "Armoured hull",
+                    "handle": "armoured-hull",
+                    "range": "Melee",
+                    "attacks": "3",
+                    "bs": 4,
+                    "strength": "6",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": null
+                }
+            ]
+        },
+        {
+            "page": 13,
+            "name": "BELISARIUS CAWL",
+            "handle": "belisarius-cawl",
+            "movement": "6\"",
+            "toughness": 8,
+            "wounds": 10,
+            "save": 2,
+            "leadership": 6,
+            "oc": 3,
+            "inv": "4+",
+            "epicHero": true,
+            "wargearOptions": " \u2022 None",
+            "unitComposition": "\u2022 1 Belisarius Cawl",
+            "factionKeywords": [
+                "ADEPTS MECHANICUS"
+            ],
+            "equippedWith": "solar atomiser; arc scourge; Cawl's Omnissian axe; mechadendrite hive.",
+            "coreAbilities": [],
+            "unitAbilities": [
+                "Canticles of the Omnissiah: At the start of the battle round, select one of the abilities in the Canticles of the Omnissiah section (see left. Until the start of the next battle round, this model has that ability.",
+                "Mechanicus Bodyguard: While this model is within 3\" of one or more other friendly ADEPTUS MECHANICUS units, this model has the Lone Operative ability.",
+                "Self-repair Mechanisms: At the start of your Command phase, this model regains up to D3 lost wounds.",
+                "Invocation of Machine Vengeance (Aura]: While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1.",
+                "Mantra of Discipline (Aura]: While a friendly AdEPTUS MECHANICUS unit is within 6\" of this model, each time you take a Battle-shock or Leadership test for that unit, you can re-roll that test.",
+                "Shroudpsalm (Aura): While a friendly AdEPTUS MECHANICUS unit is within 6\" of this model, that unit has the Stealth ability."
+            ],
+            "keywords": [
+                "MONSTER",
+                "CHARACTER",
+                "EPIC HERO",
+                "IMPERIUM",
+                "TECH-PRIEST"
+            ],
+            "faction": "",
+            "ranged": [
+                {
+                    "name": "Solar atomiser",
+                    "handle": "solar-atomiser",
+                    "range": "18\"",
+                    "attacks": "D3",
+                    "bs": 2,
+                    "strength": "14",
+                    "ap": "4",
+                    "damage": "3",
+                    "abilities": "BLAST, MELTA D31",
+                    "blast": true,
+                    "melta": "D3"
+                }
+            ],
+            "melee": [
+                {
+                    "name": "Arc scourge",
+                    "handle": "arc-scourge",
+                    "range": "Melee",
+                    "attacks": "4",
+                    "bs": 24,
+                    "strength": "5",
+                    "ap": "1",
+                    "damage": "1",
+                    "abilities": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS, EXTRA ATTACKS",
+                    "anti_vehicle": "4+",
+                    "devastating_wounds": true,
+                    "extra_attacks": true
+                },
+                {
+                    "name": "Cawls Omnissian axe",
+                    "handle": "cawls-omnissian-axe",
+                    "range": "Melee",
+                    "attacks": "4",
+                    "bs": 24,
+                    "strength": "8",
+                    "ap": "2",
+                    "damage": "2",
+                    "abilities": null
+                },
+                {
+                    "name": "Mechadendrite hive",
+                    "handle": "mechadendrite-hive",
+                    "range": "Melee",
+                    "attacks": "2D6",
+                    "bs": 3,
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": "EXTRA ATTACKS",
+                    "extra_attacks": true
+                }
+            ]
+        },
+        {
+            "page": 15,
+            "name": "CORPUSCARII ELECTRO-PRIESTS",
+            "handle": "corpuscarii-electro-priests",
+            "movement": "6\"",
+            "toughness": 3,
+            "wounds": 1,
+            "save": 7,
+            "leadership": 7,
+            "oc": 1,
+            "inv": "5+",
+            "epicHero": false,
+            "wargearOptions": " \u2022 None",
+            "unitComposition": "\u2022 5-10 Corpuscarif Electro-Priests Every model is equipped with: electrostatic gauntlets. FACTION KEYWORDS: ADEPTUS MECHANICUS",
+            "factionKeywords": [],
+            "equippedWith": null,
+            "coreAbilities": [
+                "Feel No Pain 5+"
+            ],
+            "unitAbilities": [
+                "Electro-infusion: While a CHARACTER model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll"
+            ],
+            "keywords": [
+                "INFANTRY",
+                "IMPERIUM",
+                "ELECTRO-PRIESTS",
+                "CORPUSCARII"
+            ],
+            "faction": "",
+            "ranged": [
+                {
+                    "name": "Electrostatic gauntlets",
+                    "handle": "electrostatic-gauntlets",
+                    "range": "12\"",
+                    "attacks": "3",
+                    "bs": 3,
+                    "strength": "5",
+                    "ap": "0",
+                    "damage": "1",
+                    "abilities": "PISTOL, SUSTAINED HITS 2",
+                    "sustained_hits": "2"
+                }
+            ],
+            "melee": [
+                {
+                    "name": "Electrostatic gauntlets",
+                    "handle": "electrostatic-gauntlets",
+                    "range": "Melee",
+                    "attacks": "4+",
+                    "bs": 5,
+                    "strength": "1",
+                    "ap": "",
+                    "damage": null,
+                    "abilities": "SUSTAINED HITS 2",
+                    "sustained_hits": "2"
+                }
+            ]
+        }
+    ]
+}
