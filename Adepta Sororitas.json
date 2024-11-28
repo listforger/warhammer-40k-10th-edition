@@ -1225,7 +1225,10 @@
         "armour_save": "3",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healOneModel": true
+        },
         "tags": [
             "Infantry",
             "Character",

@@ -74,7 +74,8 @@
         "invunerable_save": null,
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 5
+            "feelNoPain": 5,
+            "halfDamage": true
         },
         "tags": [
             "Faction: Adeptus Astartes",
@@ -661,7 +662,10 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Faction: Adeptus Astartes",
             "Faction: Space Wolves",
@@ -742,7 +746,10 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Character",
             "Mounted",

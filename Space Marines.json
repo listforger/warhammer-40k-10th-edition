@@ -2589,7 +2589,9 @@
         "armour_save": "3",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "halfDamage": true
+        },
         "tags": [
             "Character",
             "Infantry",
@@ -10396,7 +10398,9 @@
         "armour_save": "2",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "minusOneDamage": true
+        },
         "tags": [
             "Vehicle",
             "Walker",
@@ -12534,7 +12538,9 @@
         "armour_save": "3",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "minusOneDamage": true
+        },
         "tags": [
             "Aircraft",
             "Vehicle",
@@ -13344,7 +13350,10 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Character",
             "Infantry",
@@ -13425,7 +13434,10 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Character",
             "Mounted",

@@ -1551,7 +1551,9 @@
         "armour_save": "3",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "minusOneDamage": true
+        },
         "tags": [
             "Vehicle",
             "Walker",
@@ -1606,7 +1608,10 @@
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Character",
             "Vehicle",

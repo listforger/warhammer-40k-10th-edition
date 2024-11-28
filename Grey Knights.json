@@ -372,7 +372,10 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Character",
             "Infantry",
@@ -2011,7 +2014,9 @@
         "armour_save": "3",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "minusOneDamage": true
+        },
         "tags": [
             "Grey Knights Stormraven Gunship",
             "Faction: Grey Knights",

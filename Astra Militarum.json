@@ -1128,7 +1128,8 @@
         "invunerable_save": null,
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 6
+            "feelNoPain": 6,
+            "minusOneDamage": true
         },
         "tags": [
             "Bullgryn Squad",
@@ -7613,7 +7614,9 @@
         "armour_save": "2",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "minusOneDamage": true
+        },
         "tags": [
             "Minotaur",
             "Vehicle",
@@ -8813,7 +8816,10 @@
         "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Regimental Enginseer",
             "Faction: Astra Militarum",
@@ -11765,7 +11771,10 @@
         "global_modifiers": {
             "rerollOnesHits": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Faction: Astra Militarum",
             "Vehicle",

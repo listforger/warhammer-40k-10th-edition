@@ -218,7 +218,10 @@
         "global_modifiers": {
             "rerollOnesHits": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Belisarius Cawl",
             "Epic Hero",
@@ -3086,7 +3089,10 @@
         "armour_save": "3",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
         "tags": [
             "Enginseer",
             "Imperium",
