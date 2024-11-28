@@ -158,7 +158,7 @@
         "leadership": "6",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -423,7 +423,9 @@
         "global_modifiers": {
             "rerollHits": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Infantry",
             "Imperium",

@@ -63,7 +63,9 @@
         "armour_save": "7",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Infantry",
             "Imperium",
@@ -215,7 +217,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "2",
         "global_modifiers": {
             "rerollOnesHits": true
         },
@@ -620,12 +622,14 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": {
             "rerollHits": true,
             "rerollWounds": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 6
+        },
         "tags": [
             "Epic Hero",
             "Infantry",
@@ -1256,7 +1260,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1558,7 +1562,9 @@
         "armour_save": "4",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Vehicle",
             "Walker",
@@ -2085,7 +2091,9 @@
         "armour_save": "4",
         "invunerable_save": null,
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Vehicle",
             "Walker",
@@ -2196,7 +2204,9 @@
             "rerollHits": true,
             "rerollWounds": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Infantry",
             "Grenades",
@@ -2492,7 +2502,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
