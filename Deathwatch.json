@@ -22,7 +22,7 @@
             "Imperium",
             "Transport",
             "Corvus Blackstar",
-            "Faction: Agents of the Imperium",
+            "Agents of the Imperium",
             "Ordo Xenos",
             "Deathwatch",
             "Retinue",
@@ -140,7 +140,7 @@
             "Ordo Xenos",
             "Retinue",
             "Deathwatch Kill Team",
-            "Faction: Agents of the Imperium",
+            "Agents of the Imperium",
             "Watch Sergeant loadout"
         ],
         "ranged_weapons": [
@@ -287,18 +287,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Xenophase blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -337,7 +325,64 @@
             "Deathwatch"
         ],
         "ranged_weapons": [],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin Lightning Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Thunder Hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Chainfist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            }
+        ]
     },
     {
         "status": "success",
@@ -360,8 +405,8 @@
             "Battleline",
             "Kill Team",
             "Deathwatch Veterans",
-            "Faction: Adeptus Astartes",
-            "Faction: Deathwatch",
+            "Adeptus Astartes",
+            "Deathwatch",
             "Grenades",
             "Imperium"
         ],
@@ -395,39 +440,50 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Frag Cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Missile Launcher - frag",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Missile Launcher - krak",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Xenophase blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Xenophase blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Xenophase blade",
                 "range": "",
@@ -466,18 +522,6 @@
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -533,30 +577,6 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
-            },
-            {
-                "name": "Bolt Rifle",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Bolt Rifle",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Heavy bolt pistol",
@@ -621,30 +641,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Long Vigil ranged weapon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -696,42 +692,6 @@
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -942,32 +902,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Power fists",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -992,7 +926,7 @@
             "Kill Team",
             "Kill Team Cassius",
             "Deathwatch",
-            "Faction: Agents of the Imperium",
+            "Agents of the Imperium",
             "Ordo Xenos",
             "Epic Hero",
             "Character",
@@ -1051,6 +985,48 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Long Vigil ranged weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -1064,30 +1040,6 @@
                 "armor_penetration": 1,
                 "attacks": "5",
                 "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1129,7 +1081,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Close combat weapon",
+                "name": "Long Vigil melee weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -1192,6 +1144,47 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Frag Cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Missile Launcher - frag",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Missile Launcher - krak",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1223,16 +1216,60 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Close combat weapon",
+                "name": "Power Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin Lightning Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Thunder Hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Chainfist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             }
         ]
     },
@@ -1345,18 +1382,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Bolt carbine",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Bolt pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -1397,30 +1422,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1446,6 +1447,32 @@
             "Deathwatch"
         ],
         "ranged_weapons": [
+            {
+                "name": "Twin boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Long Vigil ranged weapon",
                 "range": "24",
@@ -1518,7 +1545,7 @@
             "Grenades",
             "Imperium",
             "Watch Captain Artemis",
-            "Faction: Agents of the Imperium",
+            "Agents of the Imperium",
             "Deathwatch",
             "Ordo Xenos"
         ],
@@ -1578,7 +1605,7 @@
             "Grenades",
             "Imperium",
             "Watch Master",
-            "Faction: Agents of the Imperium",
+            "Agents of the Imperium",
             "Deathwatch",
             "Ordo Xenos"
         ],

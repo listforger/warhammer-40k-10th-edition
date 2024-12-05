@@ -18,7 +18,7 @@
             "Aestred Thurga and Agathae Dolan",
             "Character",
             "Imperium",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Grenades",
             "Infantry"
         ],
@@ -69,7 +69,7 @@
         "tags": [
             "Infantry",
             "Imperium",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Penitent"
         ],
         "ranged_weapons": [],
@@ -108,7 +108,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Imperium",
             "Towering",
             "Battle Sanctum"
@@ -135,10 +135,84 @@
             "Battleline",
             "Grenades",
             "Battle Sisters Squad",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Imperium"
         ],
         "ranged_weapons": [
+            {
+                "name": "Bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Condemnor boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Artificer-crafted storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
             {
                 "name": "Boltgun",
                 "range": "24",
@@ -204,7 +278,32 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
@@ -227,7 +326,7 @@
             "Infantry",
             "Grenades",
             "Canoness",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -372,7 +471,7 @@
             "Infantry",
             "Grenades",
             "Canoness",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -452,7 +551,7 @@
             "Smoke",
             "Imperium",
             "Castigator",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -637,7 +736,7 @@
             "Imperium",
             "Grenades",
             "Celestian Sacresant Aveline",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -689,9 +788,22 @@
             "Grenades",
             "Imperium",
             "Celestian Sacresants",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Spear of the Faithful",
@@ -756,7 +868,7 @@
             "Infantry",
             "Imperium",
             "Crusaders",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -795,7 +907,7 @@
             "Character",
             "Imperium",
             "Daemonifuge",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -848,7 +960,7 @@
             "Infantry",
             "Imperium",
             "Death Cult Assassins",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -885,7 +997,7 @@
             "Character",
             "Imperium",
             "Dialogus",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -923,7 +1035,7 @@
             "Grenades",
             "Imperium",
             "Dogmata",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -960,7 +1072,7 @@
             "Grenades",
             "Imperium",
             "Dominion Squad",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -1001,6 +1113,54 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
+                }
+            },
+            {
+                "name": "Bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Condemnor boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
                 }
             },
             {
@@ -1068,7 +1228,32 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
@@ -1089,7 +1274,7 @@
             "Smoke",
             "Imperium",
             "Exorcist",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -1234,7 +1419,7 @@
             "Character",
             "Imperium",
             "Hospitaller",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1272,7 +1457,7 @@
             "Grenades",
             "Imperium",
             "Imagifier",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -1290,20 +1475,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -1326,7 +1498,7 @@
             "Transport",
             "Imperium",
             "Immolator",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -1438,7 +1610,7 @@
             "Fly",
             "Imperium",
             "Junith Eruita",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Mounted"
         ],
         "ranged_weapons": [
@@ -1493,7 +1665,7 @@
             "Infantry",
             "Character",
             "Imperium",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Ministorum Priest",
             "Penitent"
         ],
@@ -1573,41 +1745,10 @@
             "Walker",
             "Imperium",
             "Mortifiers",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Penitent"
         ],
         "ranged_weapons": [
-            {
-                "name": "Heavy Bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Mortimer Heavy Flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Heavy Bolter",
                 "range": "36",
@@ -1733,7 +1874,7 @@
             "Epic Hero",
             "Imperium",
             "Morvenn Vahl",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -1832,7 +1973,7 @@
             "Grenades",
             "Imperium",
             "Palatine",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -1898,66 +2039,9 @@
             "Grenades",
             "Imperium",
             "Paragon Warsuits",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
-            {
-                "name": "Paragon Storm Bolters",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Paragon Grenade Launchers",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Heavy Bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Paragon Storm Bolters",
                 "range": "24",
@@ -2054,30 +2138,6 @@
                 "attacks": "3",
                 "damage": "3",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Paragon War Blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Paragon War Mace",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2102,7 +2162,7 @@
             "Walker",
             "Imperium",
             "Penitent Engines",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Penitent"
         ],
         "ranged_weapons": [
@@ -2216,7 +2276,7 @@
             "Imperium",
             "Repentia Squad",
             "Penitent",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2274,7 +2334,7 @@
             "Smoke",
             "Imperium",
             "Sororitas Rhino",
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Repressor"
         ],
         "ranged_weapons": [
@@ -2382,9 +2442,57 @@
             "Grenades",
             "Imperium",
             "Retributor Squad",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
+            {
+                "name": "Bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Condemnor boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Ministorum heavy flamer",
                 "range": "12",
@@ -2492,7 +2600,32 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
@@ -2509,7 +2642,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Adepta Sororitas",
+            "Adepta Sororitas",
             "Infantry",
             "Jump Pack",
             "Fly",
@@ -2598,7 +2731,7 @@
             "Grenades",
             "Imperium",
             "Seraphim Squad",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -2666,18 +2799,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2686,30 +2807,6 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -2800,7 +2897,7 @@
             "Grenades",
             "Imperium",
             "Sisters Novitiate Squad",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -2906,7 +3003,7 @@
             "Smoke",
             "Imperium",
             "Sororitas Rhino",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -2974,7 +3071,7 @@
             "Epic Hero",
             "Imperium",
             "Triumph of Saint Katherine",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -3026,7 +3123,7 @@
             "Grenades",
             "Imperium",
             "Zephyrim Squad",
-            "Faction: Adepta Sororitas"
+            "Adepta Sororitas"
         ],
         "ranged_weapons": [
             {
@@ -3055,18 +3152,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Power weapon",
                 "range": "",

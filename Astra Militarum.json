@@ -15,7 +15,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aegis Defence Line",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Fortification"
         ],
@@ -43,7 +43,7 @@
             "Aquila Lander",
             "Transport",
             "Imperium",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -120,7 +120,7 @@
             "Vehicle",
             "Titanic",
             "Imperium",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Arkurian Stormhammer"
         ],
         "ranged_weapons": [
@@ -256,7 +256,7 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -349,7 +349,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Armoured Sentinels",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Vehicle",
@@ -358,6 +358,18 @@
             "Squadron"
         ],
         "ranged_weapons": [
+            {
+                "name": "Hunter-killer Missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Militarum Multi-laser",
                 "range": "36",
@@ -475,18 +487,6 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -511,7 +511,7 @@
             "Imperium",
             "Transport",
             "Arvus Lighter",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -549,7 +549,7 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -612,12 +612,39 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Mounted",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Grenades",
             "Regiment"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lasgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Power Sabre",
@@ -630,20 +657,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Goad Lance",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true
-                }
             },
             {
                 "name": "Hunting Lance - Frag Tip",
@@ -672,6 +685,32 @@
                 "parsed_weapon_types": {
                     "plusOneToWound": true
                 }
+            },
+            {
+                "name": "Steed's Hooves",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Goad Lance",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true
+                }
             }
         ]
     },
@@ -690,7 +729,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Fly",
             "Aircraft",
@@ -772,7 +811,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Baneblade",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Titanic",
@@ -896,7 +935,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Banehammer",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Vehicle",
@@ -981,7 +1020,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Banesword",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Titanic",
             "Vehicle",
@@ -1064,7 +1103,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Artillery",
             "Vehicle",
@@ -1134,26 +1173,28 @@
         "tags": [
             "Bullgryn Squad",
             "Ogryn",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Grenades"
         ],
-        "ranged_weapons": [],
-        "melee_weapons": [
+        "ranged_weapons": [
             {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
+                "name": "Grenadier Gauntlet",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "4",
+                "attacks": "D6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             }
-        ]
+        ],
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -1171,7 +1212,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Cadian Castellan",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Character",
@@ -1279,18 +1320,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1309,7 +1338,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Command Squad",
             "Cadian",
@@ -1319,6 +1348,20 @@
             "Officer"
         ],
         "ranged_weapons": [
+            {
+                "name": "Lasgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Laspistol",
                 "range": "12",
@@ -1446,20 +1489,6 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
-            },
-            {
-                "name": "Lasgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
@@ -1517,7 +1546,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Cadian Shock Troops",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Battleline",
@@ -1559,7 +1588,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -1749,7 +1778,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Catachan Jungle Fighters",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Platoon",
             "Infantry",
@@ -1757,7 +1786,20 @@
             "Regiment",
             "Grenades"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Catachan Jungle Fighter",
+                "range": null,
+                "weapon_types": "Unit",
+                "ballistic_skill": 0,
+                "strength": 0,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": null,
+                "damage": null,
+                "parsed_weapon_types": null
+            }
+        ],
         "melee_weapons": []
     },
     {
@@ -1778,7 +1820,7 @@
             "Vehicle",
             "Transport",
             "Imperium",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Squadron",
             "Centaur Light Carrier",
             "Smoke"
@@ -1842,7 +1884,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Chimera",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Squadron",
@@ -1950,7 +1992,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -2046,7 +2088,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Commissar",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Character",
@@ -2107,7 +2149,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -2191,7 +2233,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Cyclops Demolition Vehicle",
             "Imperium"
@@ -2216,7 +2258,7 @@
         "tags": [
             "Infantry",
             "Imperium",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Grenades",
             "Regiment",
             "Platoon",
@@ -2238,17 +2280,17 @@
                 }
             },
             {
-                "name": "Heavy Stubber",
-                "range": "36",
+                "name": "Heavy Flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 3
+                    "autoHit": true
                 }
             },
             {
@@ -2372,30 +2414,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Sergeant's Close Combat Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2424,7 +2442,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Infantry",
             "Character",
             "Imperium",
@@ -2516,7 +2534,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Death Korps of Krieg",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Battleline",
@@ -2632,20 +2650,7 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -2686,7 +2691,7 @@
             "Grenades",
             "Officer",
             "Death Rider Commissar",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -2744,7 +2749,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Mounted",
             "Imperium",
             "Grenades",
@@ -2752,18 +2757,6 @@
             "Death Rider Squadron"
         ],
         "ranged_weapons": [
-            {
-                "name": "Laspistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Laspistol",
                 "range": "12",
@@ -2839,32 +2832,6 @@
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Death Rider hunting lance",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true
-                }
-            },
-            {
-                "name": "Savage claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2883,7 +2850,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Mounted",
             "Character",
             "Imperium",
@@ -2985,7 +2952,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Deathstrike",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Squadron",
@@ -3052,7 +3019,7 @@
         "tags": [
             "Vehicle",
             "Titanic",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Smoke",
             "Dominus Armoured Siege Bombard"
         ],
@@ -3169,7 +3136,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Doomhammer",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Vehicle",
@@ -3253,7 +3220,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Infantry",
             "Artillery",
             "Imperium",
@@ -3310,7 +3277,7 @@
             "Fortification",
             "Imperium",
             "Artillery",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Earthshaker Platform"
         ],
         "ranged_weapons": [
@@ -3365,7 +3332,7 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -3458,9 +3425,36 @@
             "Grenades",
             "Regiment",
             "Elysian Sniper Squad",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Lasgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Sniper Rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
         "melee_weapons": []
     },
     {
@@ -3478,7 +3472,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Artillery",
@@ -3525,6 +3519,32 @@
                 "attacks": "2",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Lasgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3560,7 +3580,7 @@
         },
         "tags": [
             "Gaunt\u2019s Ghosts",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Epic Hero",
             "Infantry",
@@ -3632,6 +3652,18 @@
                 "attacks": "4",
                 "damage": "3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3661,6 +3693,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Straight Silver Knife",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -3680,7 +3724,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Gorgon Heavy Transport",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Smoke",
             "Transport",
@@ -3854,7 +3898,7 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -3918,20 +3962,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -3964,20 +3995,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -3994,7 +4012,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Hades Breaching Drill"
@@ -4031,7 +4049,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Heavy Mortar Team",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Artillery",
             "Grenades",
             "Imperium",
@@ -4086,7 +4104,7 @@
         "tags": [
             "Heavy Quad Launcher Team",
             "Infantry",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Artillery",
             "Grenades",
             "Imperium",
@@ -4139,7 +4157,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Heavy Weapons Squad",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Grenades",
@@ -4350,20 +4368,7 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -4381,7 +4386,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Hellhammer",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Titanic",
@@ -4505,7 +4510,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Hellhound",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Squadron",
@@ -4644,7 +4649,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Hydra",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Squadron",
             "Smoke",
@@ -4716,7 +4721,7 @@
             "Fortification",
             "Imperium",
             "Artillery",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -4767,7 +4772,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Infantry Squad",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Battleline",
@@ -4809,20 +4814,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -4853,20 +4845,7 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -4884,7 +4863,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Kasrkin",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Regiment",
             "Grenades",
@@ -4980,20 +4959,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Hot-shot lasgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
-            },
-            {
                 "name": "Flamer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -5074,20 +5039,7 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -5107,7 +5059,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Leman Russ Battle Tank",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Squadron",
@@ -5217,7 +5169,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Leman Russ Demolisher",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Vehicle",
@@ -5327,7 +5279,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Leman Russ Eradicator",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Squadron",
@@ -5439,7 +5391,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Leman Russ Executioner",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Squadron",
             "Smoke",
@@ -5563,7 +5515,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Leman Russ Exterminator",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Squadron",
@@ -5674,7 +5626,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Leman Russ Punisher",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Smoke",
@@ -5784,7 +5736,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Leman Russ Vanquisher",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Squadron",
             "Smoke",
@@ -5895,7 +5847,7 @@
             "Mounted",
             "Epic Hero",
             "Imperium",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Character",
             "Officer"
         ],
@@ -5957,7 +5909,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Titanic",
             "Imperium",
@@ -6103,7 +6055,7 @@
             "Imperium",
             "Smoke",
             "Macharius Omega",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -6209,7 +6161,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Titanic",
             "Imperium",
@@ -6349,7 +6301,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Titanic",
             "Imperium",
@@ -6489,7 +6441,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -6622,7 +6574,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -6769,7 +6721,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -6902,7 +6854,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -7052,7 +7004,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Manticore",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Artillery",
@@ -7123,7 +7075,7 @@
             "Fortification",
             "Imperium",
             "Artillery",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -7171,7 +7123,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Titanic",
             "Fly",
@@ -7239,7 +7191,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Titanic",
             "Fly",
@@ -7339,7 +7291,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Infantry",
             "Artillery",
@@ -7395,7 +7347,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Militarum Tempestus",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Character",
@@ -7574,30 +7526,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -7624,7 +7552,7 @@
             "Squadron",
             "Transport",
             "Smoke",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -7675,7 +7603,7 @@
         "tags": [
             "Mounted",
             "Mukaali Riders",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Grenades",
             "Regiment"
@@ -7708,6 +7636,18 @@
                 "parsed_weapon_types": {
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Flamer",
@@ -7788,21 +7728,21 @@
                 "attacks": "1",
                 "damage": "D3",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Laspistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Stomping Feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Hunting Lance",
                 "range": "",
@@ -7859,7 +7799,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Munitorum Servitors",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry"
         ],
@@ -7954,7 +7894,7 @@
         },
         "tags": [
             "Nork Deddog",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Epic Hero",
             "Infantry",
@@ -8018,7 +7958,7 @@
         },
         "tags": [
             "Ogryn Bodyguard",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Grenades",
@@ -8083,18 +8023,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Bullgryn Maul",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -8126,14 +8054,42 @@
         },
         "tags": [
             "Ogryn Squad",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Grenades",
             "Ogryn"
         ],
-        "ranged_weapons": [],
-        "melee_weapons": []
+        "ranged_weapons": [
+            {
+                "name": "Ripper Gun",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Ripper Gun",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
@@ -8151,7 +8107,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Command Squad",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Grenades",
@@ -8409,18 +8365,6 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -8439,7 +8383,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Squadron",
@@ -8540,7 +8484,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Primaris Psyker",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Character",
             "Infantry",
@@ -8628,7 +8572,7 @@
             "Grenades",
             "Regiment",
             "Quartermaster Cadre Squad",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -8686,7 +8630,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Infantry",
             "Artillery",
             "Grenades",
@@ -8710,20 +8654,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -8743,26 +8674,26 @@
         },
         "tags": [
             "Ratling Snipers",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Ratling"
         ],
-        "ranged_weapons": [],
-        "melee_weapons": [
+        "ranged_weapons": [
             {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "name": "Sniper Rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
-        ]
+        ],
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -8782,12 +8713,25 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Regimental Attach\u00e9s",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Psyker"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Astropath's Stave",
@@ -8822,7 +8766,7 @@
         },
         "tags": [
             "Regimental Enginseer",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Character"
@@ -8887,7 +8831,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Regimental Preacher",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Character",
@@ -8984,7 +8928,7 @@
             "Imperium",
             "Character",
             "Rein and Raus",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -9000,15 +8944,13 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 2,
+                "name": "Stub Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
@@ -9016,18 +8958,19 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "name": "Sniper Rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
-        ]
+        ],
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -9045,7 +8988,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Rogal Dorn Battle Tank",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Squadron",
@@ -9207,7 +9150,7 @@
             "Fortification",
             "Imperium",
             "Artillery",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Sabre Weapons Battery"
         ],
         "ranged_weapons": [
@@ -9292,7 +9235,7 @@
             "Salamander Command Vehicle",
             "Vehicle",
             "Imperium",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Squadron",
             "Smoke"
         ],
@@ -9374,7 +9317,7 @@
             "Vehicle",
             "Smoke",
             "Imperium",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Squadron"
         ],
         "ranged_weapons": [
@@ -9452,7 +9395,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Scout Sentinels",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Walker",
@@ -9461,6 +9404,18 @@
             "Smoke"
         ],
         "ranged_weapons": [
+            {
+                "name": "Hunter-killer Missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Autocannon",
                 "range": "48",
@@ -9578,18 +9533,6 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -9615,7 +9558,7 @@
             "Squadron",
             "Smoke",
             "Sentinel Powerlifter",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -9669,7 +9612,7 @@
         },
         "tags": [
             "Sergeant Harker",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Grenades",
             "Officer",
@@ -9695,20 +9638,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -9726,7 +9656,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Shadowsword",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Vehicle",
@@ -9825,20 +9755,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -9905,18 +9822,6 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -9951,20 +9856,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -9984,7 +9876,7 @@
         },
         "tags": [
             "Sly Marbo",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Character",
@@ -10048,7 +9940,7 @@
             "Storm Chimera",
             "Transport",
             "Smoke",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle"
         ],
         "ranged_weapons": [
@@ -10139,7 +10031,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Titanic",
             "Imperium",
@@ -10291,7 +10183,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Stormlord",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Titanic",
             "Transport",
@@ -10392,7 +10284,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Stormsword",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Smoke",
             "Titanic",
@@ -10481,7 +10373,7 @@
             "Vehicle",
             "Smoke",
             "Squadron",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium"
         ],
         "ranged_weapons": [
@@ -10541,7 +10433,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Tank Commander",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Officer",
             "Vehicle",
@@ -10812,7 +10704,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Tarantula Battery"
@@ -10850,20 +10742,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -10885,7 +10764,7 @@
             "Regiment",
             "Imperium",
             "Tauros",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -10974,7 +10853,7 @@
             "Tauros",
             "Tauros Venator",
             "Mounted",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Regiment"
         ],
@@ -11051,7 +10930,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Taurox",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Vehicle",
             "Squadron",
@@ -11119,7 +10998,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Taurox Prime",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Squadron",
             "Vehicle",
@@ -11425,18 +11304,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -11458,7 +11325,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Tempestus Scions",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Infantry",
             "Grenades",
             "Regiment",
@@ -11659,18 +11526,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -11691,7 +11546,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Fly",
             "Aircraft",
@@ -11776,7 +11631,7 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Squadron",
             "Smoke",
@@ -11858,7 +11713,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Ursula Creed",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Officer",
             "Epic Hero",
             "Infantry",
@@ -11909,7 +11764,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Titanic",
             "Smoke",
@@ -12054,7 +11909,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Valkyrie",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Transport",
             "Vehicle",
             "Fly",
@@ -12154,7 +12009,7 @@
             "Imperium",
             "Transport",
             "Valkyrie Sky Talon",
-            "Faction: Astra Militarum"
+            "Astra Militarum"
         ],
         "ranged_weapons": [
             {
@@ -12257,6 +12112,22 @@
                 }
             },
             {
+                "name": "Heavy Bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
                 "name": "Vendetta Twin Lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -12301,7 +12172,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Fly",
             "Aircraft",
@@ -12367,7 +12238,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Fly",
             "Aircraft",
@@ -12468,7 +12339,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Wyvern",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Vehicle",
             "Imperium",
             "Artillery",
@@ -12538,7 +12409,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "\u2018Iron Hand\u2019 Straken",
-            "Faction: Astra Militarum",
+            "Astra Militarum",
             "Imperium",
             "Infantry",
             "Character",

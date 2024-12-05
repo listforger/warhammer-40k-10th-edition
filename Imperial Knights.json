@@ -19,7 +19,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Asterius",
             "Acastus"
         ],
@@ -108,7 +108,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Acastus",
             "Knight Porphyrion"
         ],
@@ -170,30 +170,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Acastus autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -240,7 +216,7 @@
             "Walker",
             "Battleline",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Helverin",
             "Armiger"
         ],
@@ -292,7 +268,7 @@
             "Vehicle",
             "Walker",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Armiger",
             "Moirax"
         ],
@@ -423,7 +399,7 @@
             "Walker",
             "Battleline",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Warglaive",
             "Armiger"
         ],
@@ -486,7 +462,7 @@
             "Epic Hero",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Vehicle",
             "Walker",
             "Titanic",
@@ -592,18 +568,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -628,7 +592,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Cerastus",
             "Knight Acheron"
         ],
@@ -718,7 +682,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Cerastus",
             "Knight Atrapos"
         ],
@@ -842,7 +806,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Cerastus",
             "Knight Castigator"
         ],
@@ -910,7 +874,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Lancer",
             "Cerastus"
         ],
@@ -982,7 +946,7 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Castellan",
             "Dominus"
         ],
@@ -1082,7 +1046,7 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Crusader",
             "Questoris"
         ],
@@ -1129,6 +1093,48 @@
                     "blast": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Stormspear rocket pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Avenger gatling cannon",
@@ -1195,11 +1201,53 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Errant",
             "Questoris"
         ],
         "ranged_weapons": [
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Stormspear rocket pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Thermal cannon",
                 "range": "24",
@@ -1240,11 +1288,54 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Gallant",
             "Questoris"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Stormspear rocket pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Reaper chainsword - sweep",
@@ -1317,7 +1408,7 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Paladin",
             "Questoris"
         ],
@@ -1335,6 +1426,48 @@
                 "parsed_weapon_types": {
                     "rapidFire": 3
                 }
+            },
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Stormspear rocket pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Rapid-fire battle cannon",
@@ -1377,7 +1510,7 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Preceptor",
             "Questoris"
         ],
@@ -1447,6 +1580,48 @@
                 "attacks": "1",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Stormspear rocket pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -1472,7 +1647,7 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Valiant",
             "Dominus"
         ],
@@ -1561,11 +1736,53 @@
             "Towering",
             "Character",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Knight Warden",
             "Questoris"
         ],
         "ranged_weapons": [
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Stormspear rocket pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Avenger gatling cannon",
                 "range": "36",
@@ -1619,7 +1836,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Questoris",
             "Knight Magaera"
         ],
@@ -1744,7 +1961,7 @@
             "Titanic",
             "Towering",
             "Imperium",
-            "Faction: Imperial Knights",
+            "Imperial Knights",
             "Questoris",
             "Knight Styrix"
         ],
