@@ -8129,6 +8129,20 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
                 "name": "Grenade Launcher - Frag",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -8211,6 +8225,18 @@
                 }
             },
             {
+                "name": "Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Meltagun",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -8260,6 +8286,34 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
+                }
+            },
+            {
+                "name": "Plasma Gun - Standard",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Plasma Gun - Supercharge",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
                 }
             },
             {
@@ -10504,6 +10558,18 @@
                 }
             },
             {
+                "name": "Hunter-killer Missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -10558,6 +10624,18 @@
                 }
             },
             {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Punisher Gatling Cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -10596,7 +10674,20 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Armoured Tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",

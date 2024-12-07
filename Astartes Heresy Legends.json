@@ -1603,6 +1603,18 @@
                 }
             },
             {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Kratos battlecannon - AP",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -2603,6 +2615,20 @@
                 }
             },
             {
+                "name": "Heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
                 "name": "Heavy plasma cannon - standard",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -2644,6 +2670,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Plasma blaster - standard",
@@ -2713,9 +2751,37 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Twin volkite culverin",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Armoured feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Dreadnought chainfist",
                 "range": "",
