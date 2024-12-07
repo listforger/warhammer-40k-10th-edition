@@ -14,14 +14,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
+            "Abaddon the Despoiler",
+            "Chaos",
+            "Chaos Undivided",
             "Character",
             "Epic Hero",
-            "Terminator",
-            "Chaos Undivided",
-            "Chaos",
-            "Abaddon the Despoiler"
+            "Heretic Astartes",
+            "Infantry",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -43,21 +43,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Talon of Horus",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "14",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
                 "name": "Drach'nyen",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -67,6 +52,21 @@
                 "armor_penetration": 4,
                 "attacks": "8",
                 "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Talon of Horus",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "14",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -91,26 +91,14 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
-            "Chaos",
             "Accursed Cultists",
-            "Damned"
+            "Chaos",
+            "Damned",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Hideous mutations",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Blasphemous appendages",
                 "range": "",
@@ -121,6 +109,18 @@
                 "armor_penetration": 0,
                 "attacks": "2",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Hideous mutations",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+2",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -140,13 +140,31 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Mounted",
-            "Grenades",
             "Chaos",
-            "Chaos Bikers"
+            "Chaos Bikers",
+            "Grenades",
+            "Heretic Astartes",
+            "Mounted"
         ],
         "ranged_weapons": [
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Flamer",
                 "range": "12",
@@ -172,24 +190,6 @@
                 "attacks": "1",
                 "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
@@ -224,13 +224,83 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Smoke",
             "Chaos",
-            "Deimos Predator"
+            "Deimos Predator",
+            "Heretic Astartes",
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Conversion beam cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHitsD3": true
+                }
+            },
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Infernus cannon",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Magna-melta cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Plasma destroyer - standard",
                 "range": "36",
@@ -258,76 +328,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Conversion beam cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true
-                }
-            },
-            {
-                "name": "Magna-melta cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Infernus cannon",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -347,26 +347,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Transport",
-            "Smoke",
             "Chaos",
-            "Land Raider"
+            "Heretic Astartes",
+            "Land Raider",
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Soulshatter lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -386,6 +374,32 @@
                 }
             },
             {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Soulshatter lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Twin heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -400,20 +414,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -447,12 +447,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
+            "Chaos",
+            "Chaos Lord",
             "Character",
             "Grenades",
-            "Chaos",
-            "Chaos Lord"
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -482,21 +482,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Daemon hammer",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
                 "name": "Accursed weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -519,6 +504,21 @@
                 "attacks": "7",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Daemon hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Power fist",
@@ -551,13 +551,13 @@
             "halfDamage": true
         },
         "tags": [
+            "Chaos",
+            "Chaos Lord",
+            "Chaos Lord in Terminator Armour",
+            "Character",
             "Heretic Astartes",
             "Infantry",
-            "Character",
-            "Chaos",
-            "Terminator",
-            "Chaos Lord in Terminator Armour",
-            "Chaos Lord"
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -595,18 +595,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Exalted weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Chainfist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -620,6 +608,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Exalted weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Paired accursed weapons",
@@ -664,12 +664,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Mounted",
+            "Chaos",
+            "Chaos Lord on Bike",
             "Character",
             "Grenades",
-            "Chaos",
-            "Chaos Lord on Bike"
+            "Heretic Astartes",
+            "Mounted"
         ],
         "ranged_weapons": [
             {
@@ -682,30 +682,6 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -739,21 +715,33 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -767,15 +755,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
+                "name": "Astartes chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -791,6 +779,18 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -809,15 +809,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
+            "Chaos",
+            "Chaos Lord",
             "Character",
+            "Disc of Tzeentch",
+            "Fly",
             "Grenades",
             "Heretic Astartes",
-            "Fly",
-            "Chaos",
-            "Tzeentch",
-            "Chaos Lord",
-            "Disc of Tzeentch"
+            "Infantry",
+            "Tzeentch"
         ],
         "ranged_weapons": [
             {
@@ -830,30 +830,6 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -887,21 +863,33 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -915,15 +903,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
+                "name": "Astartes chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -939,6 +927,18 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -957,14 +957,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Mounted",
+            "Chaos",
+            "Chaos Lord",
             "Character",
             "Grenades",
-            "Chaos",
+            "Heretic Astartes",
+            "Juggernaut",
             "Khorne",
-            "Chaos Lord",
-            "Juggernaut"
+            "Mounted"
         ],
         "ranged_weapons": [
             {
@@ -977,30 +977,6 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -1034,21 +1010,33 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -1062,16 +1050,30 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
+                "name": "Astartes chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Bladed horn",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true
+                }
             },
             {
                 "name": "Paired accursed weapons",
@@ -1088,18 +1090,16 @@
                 }
             },
             {
-                "name": "Bladed horn",
+                "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true
-                }
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -1121,40 +1121,16 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Infantry",
+            "Chaos",
+            "Chaos Lord",
             "Character",
             "Grenades",
-            "Chaos",
+            "Heretic Astartes",
+            "Infantry",
             "Nurgle",
-            "Chaos Lord",
-            "Palanquin of Nurgle",
-            "Heretic Astartes"
+            "Palanquin of Nurgle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -1198,21 +1174,33 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -1226,15 +1214,27 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
+                "name": "Astartes chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Nurgling's claws and teeth",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 5,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1252,15 +1252,15 @@
                 }
             },
             {
-                "name": "Nurgling's claws and teeth",
+                "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1280,13 +1280,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Mounted",
+            "Chaos",
+            "Chaos Lord",
             "Character",
             "Grenades",
-            "Chaos",
+            "Heretic Astartes",
+            "Mounted",
             "Slaanesh",
-            "Chaos Lord",
             "Steed of Slaanesh"
         ],
         "ranged_weapons": [
@@ -1300,30 +1300,6 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -1357,101 +1333,7 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
-            {
-                "name": "Accursed weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Power fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Paired accursed weapons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Lashing tongue",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Chaos Lord with Jump Pack",
-        "points": 90,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "12",
-        "wounds": "5",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": "4",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Heretic Astartes",
-            "Chaos Lord",
-            "Jump Pack",
-            "Character",
-            "Infantry",
-            "Fly",
-            "Grenades",
-            "Chaos"
-        ],
-        "ranged_weapons": [
             {
                 "name": "Plasma pistol - standard",
                 "range": "12",
@@ -1475,7 +1357,101 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Accursed weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
+            {
+                "name": "Astartes chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lashing tongue",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Paired accursed weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Chaos Lord with Jump Pack",
+        "points": 90,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "12",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Chaos Lord",
+            "Character",
+            "Fly",
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry",
+            "Jump Pack"
+        ],
+        "ranged_weapons": [
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -1486,6 +1462,30 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -1545,27 +1545,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Smoke",
             "Chaos",
-            "Predator Annihilator"
+            "Heretic Astartes",
+            "Predator Annihilator",
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Predator twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -1582,6 +1568,20 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -1613,17 +1613,17 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Havoc launcher",
+                "name": "Predator twin lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "twinLinked": true
                 }
             }
         ],
@@ -1657,27 +1657,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Smoke",
             "Chaos",
-            "Predator Destructor"
+            "Heretic Astartes",
+            "Predator Destructor",
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Predator autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -1694,6 +1680,20 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -1725,17 +1725,17 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Havoc launcher",
+                "name": "Predator autocannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "rapidFire": 2
                 }
             }
         ],
@@ -1769,13 +1769,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Transport",
-            "Dedicated Transport",
             "Chaos",
+            "Dedicated Transport",
+            "Heretic Astartes",
             "Rhino",
-            "Smoke"
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1843,10 +1843,10 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Heretic Astartes",
             "Beast",
             "Chaos",
-            "Chaos Spawn"
+            "Chaos Spawn",
+            "Heretic Astartes"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1881,13 +1881,31 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Chaos Terminator Squad",
             "Heretic Astartes",
             "Infantry",
-            "Chaos",
-            "Terminator",
-            "Chaos Terminator Squad"
+            "Terminator"
         ],
         "ranged_weapons": [
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Heavy flamer",
                 "range": "12",
@@ -1919,39 +1937,9 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Paired accursed weapons",
                 "range": "",
@@ -1965,6 +1953,18 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -1983,27 +1983,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Smoke",
             "Chaos",
+            "Heretic Astartes",
+            "Smoke",
+            "Vehicle",
             "Vindicator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Demolisher cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D6+3",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -2020,6 +2006,20 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Demolisher cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6+3",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -2067,11 +2067,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
-            "Grenades",
             "Chaos",
-            "Chosen"
+            "Chosen",
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2137,13 +2137,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Heretic Astartes",
-            "Infantry",
-            "Grenades",
             "Chaos",
+            "Character",
+            "Cultist Firebrand",
             "Damned",
-            "Cultist Firebrand"
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2178,21 +2178,21 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Battleline",
-            "Grenades",
             "Chaos",
             "Cultist Mob",
-            "Damned"
+            "Damned",
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
-                "name": "Bolt pistol",
+                "name": "Autopistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
+                "strength": 3,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
@@ -2200,11 +2200,11 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Autopistol",
+                "name": "Bolt pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 3,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
@@ -2229,27 +2229,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Battleline",
-            "Grenades",
             "Chaos",
+            "Cultist Mob with Firearms",
             "Damned",
-            "Cultist Mob with Firearms"
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
-            {
-                "name": "Bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Autopistol",
                 "range": "12",
@@ -2263,18 +2251,16 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Flamer",
+                "name": "Bolt pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
+                "ballistic_skill": 4,
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "D6",
+                "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
+                "parsed_weapon_types": null
             },
             {
                 "name": "Cultist grenade launcher - frag",
@@ -2301,6 +2287,20 @@
                 "attacks": "1",
                 "damage": "D3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
             },
             {
                 "name": "Heavy stubber",
@@ -2334,13 +2334,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
-            "Character",
-            "Epic Hero",
             "Chaos",
+            "Character",
             "Cypher",
-            "Fallen"
+            "Epic Hero",
+            "Fallen",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2424,12 +2424,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Heretic Astartes",
-            "Infantry",
-            "Grenades",
             "Chaos",
-            "Dark Apostle"
+            "Character",
+            "Dark Apostle",
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2465,12 +2465,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
             "Character",
             "Damned",
-            "Infantry",
-            "Grenades",
-            "Chaos",
             "Dark Commune",
+            "Grenades",
+            "Infantry",
             "Psyker"
         ],
         "ranged_weapons": [
@@ -2484,18 +2484,6 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Warp Curse - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -2513,9 +2501,33 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits2": true
                 }
+            },
+            {
+                "name": "Warp Curse - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Commune blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Commune stave",
                 "range": "",
@@ -2530,18 +2542,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Commune blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2560,15 +2560,33 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Walker",
-            "Smoke",
             "Chaos",
             "Daemon",
-            "Defiler"
+            "Defiler",
+            "Heretic Astartes",
+            "Smoke",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Defiler cannon",
                 "range": "48",
@@ -2579,6 +2597,20 @@
                 "armor_penetration": 1,
                 "attacks": "D6+3",
                 "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -2602,20 +2634,6 @@
                 }
             },
             {
-                "name": "Twin heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Twin heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -2633,6 +2651,20 @@
                 }
             },
             {
+                "name": "Twin heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
                 "name": "Twin lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -2644,38 +2676,6 @@
                 "damage": "D6+1",
                 "parsed_weapon_types": {
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
                 }
             }
         ],
@@ -2723,12 +2723,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
-            "Character",
-            "Grenades",
             "Chaos",
-            "Exalted Champion"
+            "Character",
+            "Exalted Champion",
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2782,12 +2782,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Epic Hero",
-            "Infantry",
-            "Character",
             "Chaos",
             "Chaos Undivided",
-            "Fabius Bile"
+            "Character",
+            "Epic Hero",
+            "Fabius Bile",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2807,18 +2807,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "The Chirurgeon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Rod of Torment",
                 "range": "",
@@ -2842,6 +2830,18 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "The Chirurgeon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -2860,14 +2860,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
-            "Grenades",
             "Chaos",
+            "Damned",
             "Fellgor Beastmen",
-            "Damned"
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
+            {
+                "name": "Autopistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -2879,6 +2891,21 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Corrupted stave",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Plasma pistol - standard",
@@ -2903,33 +2930,6 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Autopistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Corrupted stave",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
             }
         ],
         "melee_weapons": [
@@ -2946,18 +2946,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Great weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Corrupted stave",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2971,6 +2959,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Great weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 5,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -2989,12 +2989,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
-            "Forgefiend"
+            "Forgefiend",
+            "Heretic Astartes",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -3068,11 +3068,11 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Infantry",
             "Chaos",
-            "Nurgle",
             "Gellerpox Infected",
-            "Heretic Astartes"
+            "Heretic Astartes",
+            "Infantry",
+            "Nurgle"
         ],
         "ranged_weapons": [
             {
@@ -3132,15 +3132,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
+            "Chaos",
+            "Chaos Undivided",
             "Character",
             "Epic Hero",
             "Fly",
-            "Jump Pack",
-            "Chaos",
-            "Chaos Undivided",
-            "Haarken Worldclaimer"
+            "Haarken Worldclaimer",
+            "Heretic Astartes",
+            "Infantry",
+            "Jump Pack"
         ],
         "ranged_weapons": [
             {
@@ -3207,10 +3207,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Chaos",
-            "Havocs"
+            "Havocs",
+            "Heretic Astartes",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -3224,6 +3224,22 @@
                 "attacks": "2",
                 "damage": "3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Havoc heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Havoc lascannon",
@@ -3274,22 +3290,6 @@
                 "attacks": "8",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Havoc heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
             }
         ],
         "melee_weapons": [
@@ -3322,38 +3322,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Devoted to Destruction",
+            "Helbrute",
             "Heretic Astartes",
             "Vehicle",
-            "Walker",
-            "Chaos",
-            "Helbrute",
-            "Devoted to Destruction"
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Multi-melta",
-                "range": "18",
+                "name": "Heavy flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
+                "ballistic_skill": 0,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "autoHit": true
                 }
             },
             {
@@ -3397,6 +3385,32 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
                 "name": "Twin heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -3426,23 +3440,21 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Helbrute fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Helbrute hammer",
                 "range": "",
@@ -3466,18 +3478,6 @@
                 "attacks": "8",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Helbrute fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -3498,13 +3498,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Fly",
             "Aircraft",
             "Chaos",
             "Daemon",
-            "Heldrake"
+            "Fly",
+            "Heldrake",
+            "Heretic Astartes",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3569,12 +3569,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Chaos",
+            "Fly",
             "Hell Talon",
-            "Heretic Astartes"
+            "Heretic Astartes",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3650,12 +3650,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Chaos",
+            "Fly",
             "Hellblade",
-            "Heretic Astartes"
+            "Heretic Astartes",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3703,12 +3703,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Monster",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
-            "Daemon Prince"
+            "Daemon Prince",
+            "Heretic Astartes",
+            "Monster"
         ],
         "ranged_weapons": [
             {
@@ -3766,13 +3766,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Monster",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
             "Daemon Prince",
-            "Fly"
+            "Fly",
+            "Heretic Astartes",
+            "Monster"
         ],
         "ranged_weapons": [
             {
@@ -3830,13 +3830,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
-            "Character",
-            "Epic Hero",
             "Chaos",
             "Chaos Undivided",
-            "Huron Blackheart"
+            "Character",
+            "Epic Hero",
+            "Heretic Astartes",
+            "Huron Blackheart",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -3856,18 +3856,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Tyrant's Claw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "10",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Exalted weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -3877,6 +3865,18 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Tyrant's Claw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "10",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -3896,13 +3896,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Battleline",
+            "Berzerkers",
+            "Chaos",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
-            "Battleline",
-            "Grenades",
-            "Chaos",
-            "Khorne",
-            "Berzerkers"
+            "Khorne"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -3947,30 +3947,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Daemon",
             "Heretic Astartes",
-            "Vehicle",
+            "Khorne",
+            "Lord of Skulls",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Khorne",
-            "Daemon",
-            "Lord of Skulls"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Gorestorm cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Daemongore cannon",
                 "range": "18",
@@ -3986,15 +3972,15 @@
                 }
             },
             {
-                "name": "Ichor cannon",
-                "range": "48",
+                "name": "Gorestorm cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2D6",
-                "damage": "2",
+                "attacks": "D6+3",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -4013,6 +3999,20 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Ichor cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -4072,11 +4072,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Battleline",
             "Chaos",
             "Grenades",
+            "Heretic Astartes",
+            "Infantry",
             "Legionaries"
         ],
         "ranged_weapons": [
@@ -4229,14 +4229,28 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Mounted",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
-            "Lord Discordant"
+            "Heretic Astartes",
+            "Lord Discordant",
+            "Mounted"
         ],
         "ranged_weapons": [
+            {
+                "name": "Baleflamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -4260,20 +4274,6 @@
                 "attacks": "3",
                 "damage": "3",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Baleflamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             },
             {
                 "name": "Magma cutter",
@@ -4347,13 +4347,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Character",
-            "Epic Hero",
             "Chaos",
-            "Slaanesh",
+            "Character",
+            "Emperor's Children",
+            "Epic Hero",
+            "Infantry",
             "Lucius the Eternal",
-            "Emperor's Children"
+            "Slaanesh"
         ],
         "ranged_weapons": [
             {
@@ -4401,11 +4401,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
+            "Chaos",
             "Character",
             "Grenades",
-            "Chaos",
+            "Heretic Astartes",
+            "Infantry",
             "Master of Executions"
         ],
         "ranged_weapons": [],
@@ -4445,29 +4445,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Heretic Astartes",
             "Infantry",
-            "Character",
-            "Psyker",
-            "Chaos",
-            "Master of Possession"
+            "Master of Possession",
+            "Psyker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Rite of Possession - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true
-                }
-            },
             {
                 "name": "Rite of Possession - focused witchfire",
                 "range": "18",
@@ -4478,6 +4463,21 @@
                 "armor_penetration": 3,
                 "attacks": "2",
                 "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            },
+            {
+                "name": "Rite of Possession - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti2": true
@@ -4517,12 +4517,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
-            "Maulerfiend"
+            "Heretic Astartes",
+            "Maulerfiend",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -4540,18 +4540,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Maulerfiend fists",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Lasher tendrils",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -4561,6 +4549,18 @@
                 "armor_penetration": 1,
                 "attacks": "6",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Maulerfiend fists",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             }
         ]
@@ -4580,10 +4580,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Chaos",
             "Daemon",
+            "Heretic Astartes",
+            "Infantry",
             "Mutilators"
         ],
         "ranged_weapons": [],
@@ -4631,11 +4631,11 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Swarm",
             "Chaos",
-            "Nurgle",
+            "Heretic Astartes",
             "Mutoid Vermin",
-            "Heretic Astartes"
+            "Nurgle",
+            "Swarm"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -4673,9 +4673,9 @@
             "feelNoPain": 5
         },
         "tags": [
+            "Chaos",
             "Heretic Astartes",
             "Infantry",
-            "Chaos",
             "Negavolt Cultists"
         ],
         "ranged_weapons": [],
@@ -4713,9 +4713,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Fortification",
             "Chaos",
+            "Fortification",
+            "Heretic Astartes",
             "Noctilith Crown"
         ],
         "ranged_weapons": [
@@ -4749,28 +4749,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Cults of the Dark Gods",
+            "Emperor's Children",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
-            "Grenades",
-            "Chaos",
-            "Slaanesh",
             "Noise Marines",
-            "Cults of the Dark Gods",
-            "Emperor's Children"
+            "Slaanesh"
         ],
         "ranged_weapons": [
-            {
-                "name": "Blastmaster - varied frequency",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Blastmaster - single frequency",
                 "range": "48",
@@ -4781,6 +4769,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Blastmaster - varied frequency",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -4852,10 +4852,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Chaos",
             "Daemon",
+            "Heretic Astartes",
+            "Infantry",
             "Obliterators"
         ],
         "ranged_weapons": [
@@ -4932,30 +4932,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Battleline",
+            "Chaos",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
-            "Battleline",
-            "Grenades",
-            "Chaos",
             "Nurgle",
             "Plague Marines"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plague bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
             {
                 "name": "Blight launcher",
                 "range": "24",
@@ -4969,22 +4954,6 @@
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
-                }
-            },
-            {
-                "name": "Plague spewer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true,
-                    "autoHit": true
                 }
             },
             {
@@ -5016,6 +4985,21 @@
                 }
             },
             {
+                "name": "Plague bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
                 "name": "Plague boltgun",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -5029,24 +5013,25 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
+            },
+            {
+                "name": "Plague spewer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "autoHit": true
+                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Plague knives",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
             {
                 "name": "Bubotic weapons",
                 "range": "",
@@ -5076,6 +5061,21 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
+            },
+            {
+                "name": "Plague knives",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             }
         ]
     },
@@ -5094,10 +5094,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Chaos",
             "Daemon",
+            "Heretic Astartes",
+            "Infantry",
             "Possessed"
         ],
         "ranged_weapons": [],
@@ -5131,11 +5131,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Fly",
             "Heretic Astartes",
             "Infantry",
-            "Fly",
             "Jump Pack",
-            "Chaos",
             "Raptors"
         ],
         "ranged_weapons": [],
@@ -5169,26 +5169,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
+            "Chaos",
             "Character",
             "Grenades",
-            "Chaos",
+            "Heretic Astartes",
+            "Infantry",
             "Renegade Enforcer"
         ],
         "ranged_weapons": [
-            {
-                "name": "Enforcer pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Autogun",
                 "range": "24",
@@ -5202,6 +5190,18 @@
                 "parsed_weapon_types": {
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Enforcer pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Lasgun",
@@ -5244,18 +5244,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -5265,6 +5253,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -5284,40 +5284,24 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
-            "Grenades",
-            "Chaos",
             "Renegade Heavy Weapons Squad"
         ],
         "ranged_weapons": [
             {
-                "name": "Renegade firearm",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Heavy stubber",
-                "range": "36",
+                "name": "Autocannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
-                }
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Heavy bolter",
@@ -5336,16 +5320,18 @@
                 }
             },
             {
-                "name": "Autocannon",
-                "range": "48",
+                "name": "Heavy stubber",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": null
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
             },
             {
                 "name": "Lascannon",
@@ -5400,6 +5386,20 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Renegade firearm",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -5434,25 +5434,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
             "Beast",
             "Chaos",
+            "Heretic Astartes",
             "Renegade Ogryn Beast Handler"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Mauler goad and ripper claw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Befouled fangs and claws",
                 "range": "",
@@ -5463,6 +5451,18 @@
                 "armor_penetration": 0,
                 "attacks": "2",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Mauler goad and ripper claw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -5482,25 +5482,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
             "Heretic Astartes",
             "Infantry",
-            "Chaos",
             "Renegade Ogryn Brutes"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Ogryn weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Ogryn power drill",
                 "range": "",
@@ -5509,6 +5497,18 @@
                 "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Ogryn weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -5533,9 +5533,9 @@
             "minusOneDamage": true
         },
         "tags": [
+            "Chaos",
             "Heretic Astartes",
             "Infantry",
-            "Chaos",
             "Nurgle",
             "Renegade Plague Ogryns"
         ],
@@ -5573,11 +5573,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Heretic Astartes",
             "Infantry",
-            "Character",
             "Psyker",
-            "Chaos",
             "Rogue Psyker"
         ],
         "ranged_weapons": [
@@ -5658,32 +5658,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
             "Battleline",
             "Chaos",
-            "Tzeentch",
+            "Heretic Astartes",
+            "Infantry",
+            "Psyker",
             "Rubric Marines",
-            "Psyker"
+            "Tzeentch"
         ],
         "ranged_weapons": [
-            {
-                "name": "Warpsmite",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Inferno bolt pistol",
                 "range": "12",
@@ -5693,6 +5676,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Inferno boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -5721,6 +5716,21 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Soulreaper cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
                 "name": "Warpflame pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -5733,18 +5743,6 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
-            },
-            {
-                "name": "Inferno boltgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Warpflamer",
@@ -5761,16 +5759,18 @@
                 }
             },
             {
-                "name": "Soulreaper cannon",
-                "range": "24",
+                "name": "Warpsmite",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
+                "strength": 4,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
@@ -5806,27 +5806,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
-            "Character",
             "Psyker",
-            "Grenades",
-            "Chaos",
             "Sorcerer"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Gaze - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Infernal Gaze - focused witchfire",
                 "range": "24",
@@ -5841,6 +5829,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Infernal Gaze - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -5873,39 +5873,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Heretic Astartes",
             "Infantry",
-            "Character",
             "Psyker",
-            "Chaos",
-            "Terminator",
-            "Sorcerer in Terminator Armour"
+            "Sorcerer in Terminator Armour",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Gaze - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Infernal Gaze - focused witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Combi-bolter",
                 "range": "24",
@@ -5937,6 +5913,30 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Infernal Gaze - focused witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Infernal Gaze - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -5971,26 +5971,58 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Mounted",
+            "Chaos",
             "Character",
             "Grenades",
+            "Heretic Astartes",
+            "Mounted",
             "Psyker",
-            "Chaos",
             "Sorcerer on Bike"
         ],
         "ranged_weapons": [
             {
-                "name": "Infernal Gaze - witchfire",
+                "name": "Bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Combi-bolter",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
             },
             {
                 "name": "Infernal Gaze - focused witchfire",
@@ -6008,29 +6040,15 @@
                 }
             },
             {
-                "name": "Combi-bolter",
+                "name": "Infernal Gaze - witchfire",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
                 "parsed_weapon_types": null
             },
             {
@@ -6056,39 +6074,9 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Force weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -6102,18 +6090,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Astartes chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -6123,6 +6099,30 @@
                 "armor_penetration": 1,
                 "attacks": "5",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Force weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -6142,45 +6142,18 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Character",
-            "Grenades",
-            "Psyker",
-            "Fly",
             "Chaos",
-            "Tzeentch",
-            "Sorcerer",
+            "Character",
             "Disc of Tzeentch",
-            "Heretic Astartes"
+            "Fly",
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry",
+            "Psyker",
+            "Sorcerer",
+            "Tzeentch"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Gaze - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Infernal Gaze - focused witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -6208,6 +6181,51 @@
                 }
             },
             {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Infernal Gaze - focused witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Infernal Gaze - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Plasma pistol - standard",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -6230,39 +6248,9 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Force weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -6276,18 +6264,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Astartes chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -6297,6 +6273,30 @@
                 "armor_penetration": 1,
                 "attacks": "5",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Force weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -6316,44 +6316,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
+            "Chaos",
             "Character",
             "Grenades",
-            "Psyker",
-            "Chaos",
+            "Heretic Astartes",
+            "Infantry",
             "Nurgle",
-            "Sorcerer",
-            "Palanquin of Nurgle"
+            "Palanquin of Nurgle",
+            "Psyker",
+            "Sorcerer"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Gaze - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Infernal Gaze - focused witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -6381,6 +6354,51 @@
                 }
             },
             {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Infernal Gaze - focused witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Infernal Gaze - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Plasma pistol - standard",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -6403,27 +6421,33 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Accursed weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Astartes chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Force weapon",
                 "range": "",
@@ -6452,18 +6476,6 @@
                 }
             },
             {
-                "name": "Accursed weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -6473,18 +6485,6 @@
                 "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -6504,44 +6504,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Mounted",
+            "Chaos",
             "Character",
             "Grenades",
+            "Heretic Astartes",
+            "Mounted",
             "Psyker",
-            "Chaos",
             "Slaanesh",
             "Sorcerer",
             "Steed of Slaanesh"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Gaze - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Infernal Gaze - focused witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -6569,6 +6542,51 @@
                 }
             },
             {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Infernal Gaze - focused witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Infernal Gaze - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Plasma pistol - standard",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -6591,27 +6609,33 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Accursed weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Astartes chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Force weapon",
                 "range": "",
@@ -6640,18 +6664,6 @@
                 }
             },
             {
-                "name": "Accursed weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -6661,18 +6673,6 @@
                 "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -6692,28 +6692,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
             "Character",
             "Damned",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
-            "Grenades",
-            "Chaos",
             "Traitor Enforcer"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Power fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Ogryn weapons",
                 "range": "",
@@ -6723,6 +6711,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
             }
@@ -6743,14 +6743,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Damned",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
-            "Grenades",
-            "Chaos",
-            "Traitor Guardsmen Squad",
-            "Damned"
+            "Traitor Guardsmen Squad"
         ],
         "ranged_weapons": [
+            {
+                "name": "Boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Corrupted pistol",
                 "range": "12",
@@ -6764,17 +6778,55 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Boltgun",
+                "name": "Cultist grenade launcher - frag",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "1",
+                "attacks": "D3",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 1
+                    "blast": true
+                }
+            },
+            {
+                "name": "Cultist grenade launcher - krak",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Cultist sniper rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
                 }
             },
             {
@@ -6792,18 +6844,16 @@
                 }
             },
             {
-                "name": "Flamer",
+                "name": "Meltagun",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Plasma gun - standard",
@@ -6832,56 +6882,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 1
                 }
-            },
-            {
-                "name": "Meltagun",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Cultist sniper rifle",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Cultist grenade launcher - frag",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Cultist grenade launcher - krak",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -6926,13 +6926,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Monster",
+            "Chaos",
             "Character",
+            "Daemon",
             "Epic Hero",
             "Fly",
-            "Chaos",
-            "Daemon",
+            "Heretic Astartes",
+            "Monster",
             "Vashtorr the Arkifane"
         ],
         "ranged_weapons": [
@@ -7003,12 +7003,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
-            "Venomcrawler"
+            "Heretic Astartes",
+            "Vehicle",
+            "Venomcrawler",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -7054,12 +7054,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Infantry",
-            "Fly",
-            "Jump Pack",
             "Chaos",
             "Daemon",
+            "Fly",
+            "Heretic Astartes",
+            "Infantry",
+            "Jump Pack",
             "Warp Talons"
         ],
         "ranged_weapons": [],
@@ -7100,10 +7100,10 @@
             "healD3Wounds": true
         },
         "tags": [
+            "Chaos",
+            "Character",
             "Heretic Astartes",
             "Infantry",
-            "Character",
-            "Chaos",
             "Warpsmith"
         ],
         "ranged_weapons": [

@@ -14,14 +14,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Acastus",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
+            "Knight Asterius",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Acastus",
-            "Knight Asterius"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -103,31 +103,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Acastus",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
+            "Knight Porphyrion",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Acastus",
-            "Knight Porphyrion"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin magna lascannon",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 18,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D6",
-                "damage": "D6+6",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Acastus autocannon",
                 "range": "48",
@@ -138,18 +123,6 @@
                 "armor_penetration": 1,
                 "attacks": "2",
                 "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -179,6 +152,33 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti2": true
+                }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin magna lascannon",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 18,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D6",
+                "damage": "D6+6",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "twinLinked": true
                 }
             }
         ],
@@ -212,14 +212,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Character",
+            "Knight Acheron",
             "Titanic",
             "Towering",
-            "Cerastus",
-            "Knight Acheron"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -300,33 +300,17 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Character",
+            "Knight Atrapos",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Cerastus",
-            "Knight Atrapos"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Atrapos lascutter - low intensity",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
             {
                 "name": "Atrapos lascutter - high intensity",
                 "range": "24",
@@ -337,6 +321,22 @@
                 "armor_penetration": 3,
                 "attacks": "D6",
                 "damage": "4",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Atrapos lascutter - low intensity",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2D6",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -376,22 +376,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Atrapos lascutter - low intensity",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "12",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
                 "name": "Atrapos lascutter - high intensity",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -401,6 +385,22 @@
                 "armor_penetration": 3,
                 "attacks": "6",
                 "damage": "4",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Atrapos lascutter - low intensity",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -424,15 +424,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Character",
+            "Knight Castigator",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Cerastus",
-            "Knight Castigator"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -492,15 +492,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Character",
+            "Knight Lancer",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Cerastus",
-            "Knight Lancer"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -567,14 +567,14 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Abhorrent",
+            "Chaos",
             "Character",
+            "Knight Magaera",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Abhorrent",
-            "Knight Magaera"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -691,15 +691,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Abhorrent",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Character",
+            "Knight Styrix",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Abhorrent",
-            "Knight Styrix"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -719,21 +719,6 @@
                 }
             },
             {
-                "name": "Volkite chierovile",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "9",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
                 "name": "Twin rad cleanser",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -748,6 +733,21 @@
                     "anti2": true,
                     "autoHit": true,
                     "twinLinked": true
+                }
+            },
+            {
+                "name": "Volkite chierovile",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "9",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -817,18 +817,32 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Abhorrent",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Knight Abominant",
+            "Psyker",
             "Titanic",
             "Towering",
-            "Abhorrent",
-            "Character",
-            "Chaos",
-            "Knight Abominant",
-            "Psyker"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Diabolus heavy stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
+            },
             {
                 "name": "Volkite combustor",
                 "range": "30",
@@ -843,23 +857,21 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Diabolus heavy stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
-                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Balemace",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Electroscourge",
                 "range": "",
@@ -875,18 +887,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Balemace",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -907,15 +907,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Abhorrent",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Knight Desecrator",
             "Titanic",
             "Towering",
-            "Abhorrent",
-            "Character",
-            "Chaos",
-            "Knight Desecrator"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1011,31 +1011,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Abhorrent",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Knight Despoiler",
             "Titanic",
             "Towering",
-            "Abhorrent",
-            "Character",
-            "Chaos",
-            "Knight Despoiler"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Diabolus heavy stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
-                }
-            },
             {
                 "name": "Daemonbreath meltagun",
                 "range": "12",
@@ -1063,6 +1049,47 @@
                 }
             },
             {
+                "name": "Despoiler battle cannon",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Despoiler gatling cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "18",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Diabolus heavy stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
+            },
+            {
                 "name": "Havoc missile pod",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -1077,16 +1104,18 @@
                 }
             },
             {
-                "name": "Ruinspear rocket pod",
-                "range": "48",
+                "name": "Heavy darkflamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
             },
             {
                 "name": "Hellstorm autocannons",
@@ -1105,60 +1134,19 @@
                 }
             },
             {
-                "name": "Despoiler gatling cannon",
-                "range": "36",
+                "name": "Ruinspear rocket pod",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "18",
-                "damage": "2",
+                "attacks": "3",
+                "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy darkflamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Despoiler battle cannon",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Titanic feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Reaper chainsword - strike",
                 "range": "",
@@ -1180,6 +1168,18 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "12",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Titanic feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
@@ -1226,15 +1226,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Abhorrent",
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Knight Rampager",
             "Titanic",
             "Towering",
-            "Abhorrent",
-            "Character",
-            "Chaos",
-            "Knight Rampager"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1318,30 +1318,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
             "Chaos Knights",
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Knight Tyrant",
             "Titanic",
             "Towering",
-            "Character",
-            "Chaos",
-            "Knight Tyrant"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin daemonbreath meltagun",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Brimstone volcano lance",
                 "range": "60",
@@ -1354,6 +1340,20 @@
                 "damage": "D6+8",
                 "parsed_weapon_types": {
                     "blast": true
+                }
+            },
+            {
+                "name": "Darkflame cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
                 }
             },
             {
@@ -1385,37 +1385,6 @@
                 }
             },
             {
-                "name": "Darkflame cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Warpshock harpoon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 24,
-                "armour_penetration": 6,
-                "armor_penetration": 6,
-                "attacks": "1",
-                "damage": "12",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
                 "name": "Gheiststrike missile launcher",
                 "range": "72",
                 "weapon_types": "Ranged Weapons",
@@ -1433,6 +1402,20 @@
                 }
             },
             {
+                "name": "Twin daemonbreath meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
                 "name": "Twin desecrator cannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1445,6 +1428,23 @@
                 "parsed_weapon_types": {
                     "blast": true,
                     "twinLinked": true
+                }
+            },
+            {
+                "name": "Warpshock harpoon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 24,
+                "armour_penetration": 6,
+                "armor_penetration": 6,
+                "attacks": "1",
+                "damage": "12",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -1478,15 +1478,39 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Battleline",
+            "Brigand",
+            "Chaos",
             "Chaos Knights",
             "Vehicle",
             "Walker",
-            "Battleline",
-            "Chaos",
-            "War Dog",
-            "Brigand"
+            "War Dog"
         ],
         "ranged_weapons": [
+            {
+                "name": "Avenger chaincannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Daemonbreath spear",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Diabolus heavy stubber",
                 "range": "36",
@@ -1514,30 +1538,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Daemonbreath spear",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Avenger chaincannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "12",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1572,25 +1572,25 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Battleline",
             "Chaos",
-            "War Dog",
-            "Executioner"
+            "Chaos Knights",
+            "Executioner",
+            "Vehicle",
+            "Walker",
+            "War Dog"
         ],
         "ranged_weapons": [
             {
-                "name": "War Dog autocannon",
-                "range": "48",
+                "name": "Daemonbreath meltagun",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "3",
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -1608,15 +1608,15 @@
                 }
             },
             {
-                "name": "Daemonbreath meltagun",
-                "range": "12",
+                "name": "War Dog autocannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ],
@@ -1652,29 +1652,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Battleline",
             "Chaos",
-            "War Dog",
-            "Huntsman"
+            "Chaos Knights",
+            "Huntsman",
+            "Vehicle",
+            "Walker",
+            "War Dog"
         ],
         "ranged_weapons": [
-            {
-                "name": "Diabolus heavy stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
-                }
-            },
             {
                 "name": "Daemonbreath meltagun",
                 "range": "12",
@@ -1698,6 +1684,20 @@
                 "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Diabolus heavy stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
             }
         ],
         "melee_weapons": [
@@ -1742,13 +1742,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Battleline",
             "Chaos",
-            "War Dog",
-            "Karnivore"
+            "Chaos Knights",
+            "Karnivore",
+            "Vehicle",
+            "Walker",
+            "War Dog"
         ],
         "ranged_weapons": [
             {
@@ -1834,30 +1834,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Battleline",
             "Chaos",
-            "War Dog",
-            "Moirax"
+            "Chaos Knights",
+            "Moirax",
+            "Vehicle",
+            "Walker",
+            "War Dog"
         ],
         "ranged_weapons": [
-            {
-                "name": "Volkite veuglaire",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Conversion beam cannon",
                 "range": "24",
@@ -1921,21 +1906,24 @@
                     "anti2": true,
                     "autoHit": true
                 }
+            },
+            {
+                "name": "Volkite veuglaire",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Siege claw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "D6+2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Armoured feet",
                 "range": "",
@@ -1946,6 +1934,18 @@
                 "armor_penetration": 0,
                 "attacks": "4",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Siege claw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "D6+2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1967,16 +1967,40 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Chaos Knights",
-            "Vehicle",
-            "Walker",
             "Battleline",
             "Chaos",
-            "War Dog",
+            "Chaos Knights",
+            "Character",
             "Stalker",
-            "Character"
+            "Vehicle",
+            "Walker",
+            "War Dog"
         ],
         "ranged_weapons": [
+            {
+                "name": "Avenger chaincannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Daemonbreath spear",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Diabolus heavy stubber",
                 "range": "36",
@@ -2004,45 +2028,9 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Avenger chaincannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "12",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Daemonbreath spear",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Slaughterclaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "D6+2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Reaper chaintalon - strike",
                 "range": "",
@@ -2065,6 +2053,18 @@
                 "armor_penetration": 2,
                 "attacks": "8",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Slaughterclaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "D6+2",
                 "parsed_weapon_types": null
             }
         ]

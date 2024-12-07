@@ -16,17 +16,17 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Epic Hero",
-            "Infantry",
-            "Grenades",
-            "Imperium",
-            "Dark Angels",
             "Adeptus Astartes",
             "Asmodai",
             "Chaplain",
-            "Tacticus",
-            "Deathwing"
+            "Character",
+            "Dark Angels",
+            "Deathwing",
+            "Epic Hero",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Tacticus"
         ],
         "ranged_weapons": [
             {
@@ -84,17 +84,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Astartes",
+            "Azrael",
+            "Chapter Master",
             "Character",
+            "Dark Angels",
+            "Deathwing",
             "Epic Hero",
-            "Infantry",
             "Grenades",
             "Imperium",
-            "Tacticus",
-            "Azrael",
-            "Dark Angels",
-            "Adeptus Astartes",
-            "Chapter Master",
-            "Deathwing"
+            "Infantry",
+            "Tacticus"
         ],
         "ranged_weapons": [
             {
@@ -149,16 +149,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Epic Hero",
-            "Infantry",
-            "Captain",
-            "Dark Angels",
             "Adeptus Astartes",
-            "Imperium",
             "Belial",
-            "Terminator",
-            "Deathwing"
+            "Captain",
+            "Character",
+            "Dark Angels",
+            "Deathwing",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -206,29 +206,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Imperium",
+            "Adeptus Astartes",
+            "Dark Angels",
             "Deathwing",
             "Deathwing Command Squad",
-            "Terminator",
-            "Dark Angels",
-            "Adeptus Astartes"
+            "Imperium",
+            "Infantry",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Assault Cannon",
                 "range": "24",
@@ -243,6 +229,32 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Cyclone Missile Launcher - Frag",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Cyclone Missile Launcher - Krak",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Heavy Flamer",
@@ -287,45 +299,21 @@
                 }
             },
             {
-                "name": "Cyclone Missile Launcher - Frag",
-                "range": "36",
+                "name": "Storm Bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "2D6",
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "rapidFire": 2
                 }
-            },
-            {
-                "name": "Cyclone Missile Launcher - Krak",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power Fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Chainfist",
                 "range": "",
@@ -354,6 +342,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Power Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -364,20 +364,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin Lightning Claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
             },
             {
                 "name": "Thunder Hammer",
@@ -392,6 +378,20 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Twin Lightning Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ]
@@ -413,13 +413,13 @@
             "minusOneDamage": true
         },
         "tags": [
-            "Infantry",
-            "Imperium",
-            "Dark Angels",
             "Adeptus Astartes",
+            "Dark Angels",
+            "Deathwing",
             "Deathwing Knights",
-            "Terminator",
-            "Deathwing"
+            "Imperium",
+            "Infantry",
+            "Terminator"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -439,21 +439,6 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Relic Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -482,6 +467,21 @@
                 "attacks": "5",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Relic Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             }
         ]
     },
@@ -502,15 +502,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Infantry",
-            "Imperium",
-            "Dark Angels",
             "Adeptus Astartes",
+            "Character",
+            "Dark Angels",
             "Deathwing",
             "Deathwing Strikemaster",
-            "Terminator",
-            "Lieutenant"
+            "Imperium",
+            "Infantry",
+            "Lieutenant",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -529,18 +529,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Master-crafted Power Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Chainfist",
                 "range": "",
@@ -566,6 +554,18 @@
                 "armor_penetration": 1,
                 "attacks": "5",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -628,29 +628,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Imperium",
-            "Deathwing Terminator Squad",
-            "Dark Angels",
             "Adeptus Astartes",
-            "Terminator",
-            "Deathwing"
+            "Dark Angels",
+            "Deathwing",
+            "Deathwing Terminator Squad",
+            "Imperium",
+            "Infantry",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Assault Cannon",
                 "range": "24",
@@ -665,6 +651,32 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Cyclone Missile Launcher - Frag",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Cyclone Missile Launcher - Krak",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Heavy Flamer",
@@ -709,57 +721,21 @@
                 }
             },
             {
-                "name": "Cyclone Missile Launcher - Frag",
-                "range": "36",
+                "name": "Storm Bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "2D6",
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "rapidFire": 2
                 }
-            },
-            {
-                "name": "Cyclone Missile Launcher - Krak",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Power Fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Chainfist",
                 "range": "",
@@ -774,6 +750,30 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -792,30 +792,35 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Astartes",
             "Character",
+            "Dark Angels",
+            "Deathwing",
             "Epic Hero",
-            "Infantry",
+            "Ezekiel",
             "Grenades",
             "Imperium",
-            "Psyker",
-            "Ezekiel",
-            "Dark Angels",
-            "Adeptus Astartes",
+            "Infantry",
             "Librarian",
-            "Deathwing"
+            "Psyker"
         ],
         "ranged_weapons": [
             {
-                "name": "The Deliverer",
+                "name": "Mind Wipe - focussed witchfire",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Mind Wipe - witchfire",
@@ -833,21 +838,16 @@
                 }
             },
             {
-                "name": "Mind Wipe - focussed witchfire",
+                "name": "The Deliverer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -885,13 +885,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Imperium",
-            "Dark Angels",
-            "Tacticus",
-            "Inner Circle Companions",
             "Adeptus Astartes",
-            "Deathwing"
+            "Dark Angels",
+            "Deathwing",
+            "Imperium",
+            "Infantry",
+            "Inner Circle Companions",
+            "Tacticus"
         ],
         "ranged_weapons": [
             {
@@ -956,13 +956,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Fly",
-            "Imperium",
-            "Vehicle",
-            "Land Speeder Vengeance",
             "Adeptus Astartes",
             "Dark Angels",
-            "Ravenwing"
+            "Fly",
+            "Imperium",
+            "Land Speeder Vengeance",
+            "Ravenwing",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1044,14 +1044,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Epic Hero",
-            "Infantry",
+            "Adeptus Astartes",
             "Captain",
+            "Character",
+            "Dark Angels",
+            "Epic Hero",
             "Grenades",
             "Imperium",
-            "Dark Angels",
-            "Adeptus Astartes",
+            "Infantry",
             "Lazarus",
             "Tacticus"
         ],
@@ -1102,14 +1102,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Epic Hero",
-            "Monster",
-            "Imperium",
-            "Dark Angels",
             "Adeptus Astartes",
-            "Primarch",
-            "Lion El'Jonson"
+            "Character",
+            "Dark Angels",
+            "Epic Hero",
+            "Imperium",
+            "Lion El'Jonson",
+            "Monster",
+            "Primarch"
         ],
         "ranged_weapons": [
             {
@@ -1186,48 +1186,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
+            "Adeptus Astartes",
             "Aircraft",
+            "Dark Angels",
+            "Fly",
             "Imperium",
             "Nephilim Jetfighter",
-            "Adeptus Astartes",
-            "Dark Angels",
-            "Ravenwing"
+            "Ravenwing",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Blacksword missiles",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
-            },
-            {
-                "name": "Twin heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Avenger mega bolter",
                 "range": "36",
@@ -1245,6 +1213,21 @@
                 }
             },
             {
+                "name": "Blacksword missiles",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
+            {
                 "name": "Nephilim lascannons",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -1255,6 +1238,23 @@
                 "attacks": "2",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1287,15 +1287,41 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
+            "Adeptus Astartes",
+            "Dark Angels",
             "Grenades",
             "Imperium",
-            "Dark Angels",
-            "Adeptus Astartes",
-            "Ravenwing Black Knights",
-            "Ravenwing"
+            "Mounted",
+            "Ravenwing",
+            "Ravenwing Black Knights"
         ],
         "ranged_weapons": [
+            {
+                "name": "Astartes grenade launcher - frag",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Astartes grenade launcher - krak",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Bolt Pistol",
                 "range": "12",
@@ -1335,32 +1361,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 1
                 }
-            },
-            {
-                "name": "Astartes grenade launcher - frag",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Astartes grenade launcher - krak",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1393,16 +1393,42 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
+            "Adeptus Astartes",
+            "Character",
+            "Dark Angels",
             "Grenades",
             "Imperium",
-            "Ravenwing Command Squad",
-            "Dark Angels",
-            "Adeptus Astartes",
+            "Mounted",
             "Ravenwing",
-            "Character"
+            "Ravenwing Command Squad"
         ],
         "ranged_weapons": [
+            {
+                "name": "Astartes Grenade Launcher - Frag",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Astartes Grenade Launcher - Krak",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Bolt Pistol",
                 "range": "12",
@@ -1442,32 +1468,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 1
                 }
-            },
-            {
-                "name": "Astartes Grenade Launcher - Frag",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Astartes Grenade Launcher - Krak",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1512,14 +1512,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Imperium",
-            "Fly",
-            "Vehicle",
-            "Aircraft",
-            "Dark Talon",
             "Adeptus Astartes",
+            "Aircraft",
             "Dark Angels",
-            "Ravenwing"
+            "Dark Talon",
+            "Fly",
+            "Imperium",
+            "Ravenwing",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1584,13 +1584,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Darkshroud",
-            "Imperium",
-            "Fly",
-            "Vehicle",
-            "Dark Angels",
             "Adeptus Astartes",
-            "Ravenwing"
+            "Dark Angels",
+            "Darkshroud",
+            "Fly",
+            "Imperium",
+            "Ravenwing",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1642,14 +1642,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Adeptus Astartes",
             "Character",
+            "Dark Angels",
             "Fly",
+            "Imperium",
             "Ravenwing",
             "Ravenwing Talonmaster",
-            "Adeptus Astartes",
-            "Dark Angels",
-            "Imperium"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1716,17 +1716,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Epic Hero",
-            "Mounted",
+            "Adeptus Astartes",
             "Captain",
-            "Imperium",
+            "Character",
+            "Dark Angels",
+            "Epic Hero",
             "Fly",
             "Grenades",
-            "Sammael",
-            "Dark Angels",
-            "Adeptus Astartes",
-            "Ravenwing"
+            "Imperium",
+            "Mounted",
+            "Ravenwing",
+            "Sammael"
         ],
         "ranged_weapons": [
             {

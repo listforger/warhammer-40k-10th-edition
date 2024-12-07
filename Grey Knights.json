@@ -17,26 +17,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Brother-Captain",
-            "Terminator",
+            "Character",
             "Grey Knights",
-            "Psyker",
-            "Infantry",
             "Imperium",
-            "Character"
+            "Infantry",
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -66,6 +54,18 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
+            },
+            {
+                "name": "Psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Storm Bolter",
@@ -112,14 +112,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
+            "Brother-Captain Stern",
             "Character",
-            "Infantry",
-            "Imperium",
-            "Psyker",
+            "Epic Hero",
             "Grey Knights",
-            "Terminator",
-            "Brother-Captain Stern"
+            "Imperium",
+            "Infantry",
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -169,12 +169,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Brotherhood Champion",
             "Character",
-            "Infantry",
-            "Psyker",
-            "Imperium",
             "Grey Knights",
-            "Brotherhood Champion"
+            "Imperium",
+            "Infantry",
+            "Psyker"
         ],
         "ranged_weapons": [
             {
@@ -223,12 +223,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Brotherhood Chaplain",
+            "Character",
             "Grey Knights",
-            "Terminator",
-            "Psyker",
             "Imperium",
             "Infantry",
-            "Character"
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -277,16 +277,34 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Brotherhood Librarian",
+            "Character",
             "Grey Knights",
             "Imperium",
-            "Terminator",
             "Infantry",
-            "Character",
-            "Psyker"
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
-                "name": "Purge Soul - Witchfire",
+                "name": "Combi-Weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Purge Soul - Focused Witchfire",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -298,7 +316,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Purge Soul - Focused Witchfire",
+                "name": "Purge Soul - Witchfire",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -321,24 +339,6 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 2
-                }
-            },
-            {
-                "name": "Combi-Weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
                 }
             }
         ],
@@ -377,26 +377,14 @@
             "healD3Wounds": true
         },
         "tags": [
+            "Brotherhood Techmarine",
             "Character",
-            "Infantry",
-            "Psyker",
-            "Imperium",
             "Grey Knights",
-            "Brotherhood Techmarine"
+            "Imperium",
+            "Infantry",
+            "Psyker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Boltgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Bolt Pistol",
                 "range": "12",
@@ -406,6 +394,18 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -491,29 +491,15 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Battleline",
-            "Infantry",
+            "Brotherhood Terminator Squad",
             "Grenades",
-            "Psyker",
-            "Imperium",
             "Grey Knights",
-            "Terminator",
-            "Brotherhood Terminator Squad"
+            "Imperium",
+            "Infantry",
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -529,18 +515,6 @@
                 }
             },
             {
-                "name": "Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Psilencer",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -554,6 +528,32 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
                 }
             }
         ],
@@ -588,12 +588,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Castellan Crowe",
-            "Grey Knights",
-            "Psyker",
-            "Imperium",
+            "Character",
             "Epic Hero",
+            "Grey Knights",
+            "Imperium",
             "Infantry",
-            "Character"
+            "Psyker"
         ],
         "ranged_weapons": [
             {
@@ -659,28 +659,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Character",
-            "Grenades",
-            "Psyker",
-            "Grey Knights",
-            "Terminator",
             "Grand Master",
-            "Imperium"
+            "Grenades",
+            "Grey Knights",
+            "Imperium",
+            "Infantry",
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -710,6 +698,18 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
+            },
+            {
+                "name": "Psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Storm Bolter",
@@ -759,11 +759,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
-            "Vehicle",
-            "Walker",
-            "Psyker",
+            "Grand Master in Nemesis Dreadknight",
             "Imperium",
-            "Grand Master in Nemesis Dreadknight"
+            "Psyker",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -875,14 +875,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
             "Character",
+            "Epic Hero",
+            "Grand Master Voldus",
+            "Grey Knights",
+            "Imperium",
             "Infantry",
             "Psyker",
-            "Imperium",
-            "Grey Knights",
-            "Terminator",
-            "Grand Master Voldus"
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -933,83 +933,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Dreadnought [Legends]",
             "Grey Knights",
-            "Walker",
-            "Vehicle",
+            "Grey Knights Dreadnought [Legends]",
+            "Imperium",
             "Psyker",
             "Smoke",
-            "Imperium"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Storm bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Missile launcher - Frag",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Missile launcher - Krak",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Incinerator",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
             {
                 "name": "Assault cannon",
                 "range": "24",
@@ -1023,6 +955,20 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
                 }
             },
             {
@@ -1054,6 +1000,58 @@
                 }
             },
             {
+                "name": "Heavy psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Incinerator",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Missile launcher - Frag",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Missile launcher - Krak",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Multi-melta",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -1064,6 +1062,20 @@
                 "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             },
             {
                 "name": "Twin lascannon",
@@ -1078,33 +1090,9 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Heavy psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Dreadnought combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Armoured feet",
                 "range": "",
@@ -1115,6 +1103,18 @@
                 "armor_penetration": 0,
                 "attacks": "5",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Dreadnought combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -1146,11 +1146,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Grey Knights Land Raider",
+            "Imperium",
             "Smoke",
             "Transport",
-            "Imperium",
-            "Grey Knights Land Raider"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1190,6 +1190,20 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
                 "name": "Twin Heavy Bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1204,20 +1218,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
                 }
             }
         ],
@@ -1251,40 +1251,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
-            "Smoke",
-            "Imperium",
             "Grenades",
-            "Grey Knights Land Raider Crusader"
+            "Grey Knights Land Raider Crusader",
+            "Imperium",
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Hunter-killer Missile",
                 "range": "48",
@@ -1310,6 +1284,32 @@
                 "parsed_weapon_types": {
                     "rapidFire": 6,
                     "twinLinked": true
+                }
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
                 }
             },
             {
@@ -1359,30 +1359,52 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Land Raider Redeemer",
-            "Grey Knights",
             "Grenades",
+            "Grey Knights",
+            "Grey Knights Land Raider Redeemer",
             "Imperium",
-            "Vehicle",
+            "Smoke",
             "Transport",
-            "Smoke"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin Assault Cannon",
-                "range": "24",
+                "name": "Flamestorm Cannon",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Hunter-killer Missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true
-                }
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Storm Bolter",
@@ -1399,41 +1421,19 @@
                 }
             },
             {
-                "name": "Multi-melta",
-                "range": "18",
+                "name": "Twin Assault Cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Hunter-killer Missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Flamestorm Cannon",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
                 "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "2",
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "twinLinked": true
                 }
             }
         ],
@@ -1467,13 +1467,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Razorback",
-            "Grey Knights",
             "Dedicated Transport",
-            "Vehicle",
-            "Transport",
+            "Grey Knights",
+            "Grey Knights Razorback",
+            "Imperium",
             "Smoke",
-            "Imperium"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1503,6 +1503,22 @@
                 }
             },
             {
+                "name": "Twin Assault Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "twinLinked": true
+                }
+            },
+            {
                 "name": "Twin Heavy Bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1516,22 +1532,6 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin Assault Cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
                     "twinLinked": true
                 }
             },
@@ -1580,15 +1580,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights",
             "Dedicated Transport",
-            "Vehicle",
-            "Transport",
-            "Smoke",
+            "Grey Knights",
+            "Grey Knights Relic Razorback [Legends]",
             "Imperium",
-            "Grey Knights Relic Razorback [Legends]"
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Hunter-killer Missile",
                 "range": "48",
@@ -1613,6 +1625,22 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 2
+                }
+            },
+            {
+                "name": "Twin Assault Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "twinLinked": true
                 }
             },
             {
@@ -1633,22 +1661,6 @@
                 }
             },
             {
-                "name": "Twin Assault Cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Twin lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -1661,18 +1673,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Heavy psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -1692,16 +1692,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Rhino",
-            "Grey Knights",
-            "Transport",
-            "Vehicle",
             "Dedicated Transport",
+            "Grey Knights",
+            "Grey Knights Rhino",
             "Imperium",
+            "Rhino",
             "Smoke",
-            "Rhino"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Hunter-killer Missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Storm Bolter",
                 "range": "24",
@@ -1715,18 +1727,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 2
                 }
-            },
-            {
-                "name": "Hunter-killer Missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1761,27 +1761,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Stormhawk Interceptor",
-            "Grey Knights",
-            "Vehicle",
             "Aircraft",
             "Fly",
+            "Grey Knights",
+            "Grey Knights Stormhawk Interceptor",
+            "Imperium",
             "Smoke",
-            "Imperium"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Las-Talon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Icarus Stormcannon",
                 "range": "48",
@@ -1798,6 +1786,18 @@
                 }
             },
             {
+                "name": "Las-Talon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Skyhammer Missile Launcher",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -1810,6 +1810,39 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true
+                }
+            },
+            {
+                "name": "Twin Assault Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin Heavy Bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
                 }
             },
             {
@@ -1837,39 +1870,6 @@
                 "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin Heavy Bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin Assault Cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true
-                }
             }
         ],
         "melee_weapons": [
@@ -1904,27 +1904,15 @@
             "minusOneDamage": true
         },
         "tags": [
-            "Grey Knights Stormraven Gunship",
-            "Grey Knights",
             "Aircraft",
-            "Vehicle",
-            "Transport",
             "Fly",
-            "Imperium"
+            "Grey Knights",
+            "Grey Knights Stormraven Gunship",
+            "Imperium",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Stormstrike missile launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Hurricane bolter",
                 "range": "24",
@@ -1939,6 +1927,18 @@
                     "rapidFire": 6,
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Stormstrike missile launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Twin assault cannon",
@@ -1957,16 +1957,19 @@
                 }
             },
             {
-                "name": "Twin lascannon",
-                "range": "48",
+                "name": "Twin heavy bolter",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "twinLinked": true
                 }
             },
@@ -2001,19 +2004,30 @@
                 }
             },
             {
-                "name": "Twin heavy bolter",
-                "range": "36",
+                "name": "Twin lascannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": {
                     "twinLinked": true
                 }
             },
@@ -2042,20 +2056,6 @@
                 "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
             }
         ],
         "melee_weapons": []
@@ -2077,12 +2077,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Stormtalon Gunship",
-            "Grey Knights",
             "Aircraft",
-            "Vehicle",
             "Fly",
-            "Imperium"
+            "Grey Knights",
+            "Grey Knights Stormtalon Gunship",
+            "Imperium",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2101,30 +2101,20 @@
                 }
             },
             {
-                "name": "Typhoon Missile launcher - Frag",
-                "range": "48",
+                "name": "Twin Assault Cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 6,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "2D6",
+                "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "twinLinked": true
                 }
-            },
-            {
-                "name": "Typhoon Missile launcher - Krak",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Twin Heavy Bolter",
@@ -2158,20 +2148,30 @@
                 }
             },
             {
-                "name": "Twin Assault Cannon",
-                "range": "24",
+                "name": "Typhoon Missile launcher - Frag",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "6",
+                "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true
+                    "blast": true
                 }
+            },
+            {
+                "name": "Typhoon Missile launcher - Krak",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2204,14 +2204,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Thunderhawk Gunship",
-            "Grey Knights",
-            "Titanic",
-            "Vehicle",
-            "Fly",
-            "Transport",
             "Aircraft",
-            "Imperium"
+            "Fly",
+            "Grey Knights",
+            "Grey Knights Thunderhawk Gunship",
+            "Imperium",
+            "Titanic",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2228,6 +2228,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Thunderhawk Heavy Cannon",
@@ -2256,18 +2268,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Twin Heavy Bolter",
@@ -2307,69 +2307,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Grey Knights Venerable Dreadnought",
             "Grey Knights",
-            "Walker",
-            "Vehicle",
+            "Grey Knights Venerable Dreadnought",
+            "Imperium",
             "Psyker",
             "Smoke",
-            "Imperium"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Heavy plasma cannon - Standard",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Heavy plasma cannon - Supercharge",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Assault cannon",
                 "range": "24",
@@ -2400,17 +2346,31 @@
                 }
             },
             {
-                "name": "Storm bolter",
-                "range": "24",
+                "name": "Heavy plasma cannon - Standard",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "rapidFire": 2
+                    "blast": true
+                }
+            },
+            {
+                "name": "Heavy plasma cannon - Supercharge",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -2438,21 +2398,49 @@
                 "attacks": "1",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Dreadnought combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Armoured feet",
                 "range": "",
@@ -2463,6 +2451,18 @@
                 "armor_penetration": 0,
                 "attacks": "5",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Dreadnought combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
@@ -2482,29 +2482,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Grenades",
-            "Imperium",
             "Fly",
-            "Psyker",
+            "Grenades",
             "Grey Knights",
-            "Interceptor Squad"
+            "Imperium",
+            "Infantry",
+            "Interceptor Squad",
+            "Psyker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -2546,6 +2532,20 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             }
         ],
         "melee_weapons": [
@@ -2578,31 +2578,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
-            "Infantry",
             "Character",
+            "Epic Hero",
             "Grenades",
-            "Psyker",
-            "Terminator",
+            "Grey Knights",
             "Imperium",
+            "Infantry",
             "Kaldor Draigo",
-            "Grey Knights"
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Scourging",
                 "range": "18",
@@ -2616,6 +2602,20 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti2": true
+                }
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
                 }
             }
         ],
@@ -2652,12 +2652,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Transport",
-            "Vehicle",
-            "Smoke",
+            "Grey Knights",
             "Imperium",
             "Land Raider Banisher",
-            "Grey Knights"
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2675,23 +2675,6 @@
                 }
             },
             {
-                "name": "Twin Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Hunter-killer Missile",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -2700,6 +2683,18 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-Melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
             },
@@ -2718,16 +2713,21 @@
                 }
             },
             {
-                "name": "Multi-Melta",
-                "range": "18",
+                "name": "Twin Psycannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": []
@@ -2747,11 +2747,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Imperium",
             "Nemesis Dreadknight",
-            "Vehicle",
-            "Walker",
             "Psyker",
-            "Imperium"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -2771,18 +2771,6 @@
                 }
             },
             {
-                "name": "Heavy Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Heavy Incinerator",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -2795,9 +2783,45 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
+            },
+            {
+                "name": "Heavy Psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Dreadfists",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Nemesis Daemon Greathammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Nemesis Greatsword - Strike",
                 "range": "",
@@ -2821,30 +2845,6 @@
                 "attacks": "10",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Nemesis Daemon Greathammer",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Dreadfists",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2863,41 +2863,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Grenades",
-            "Imperium",
-            "Psyker",
             "Grey Knights",
-            "Terminator",
-            "Paladin Squad"
+            "Imperium",
+            "Infantry",
+            "Paladin Squad",
+            "Psyker",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -2926,6 +2900,32 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
                 }
             }
         ],
@@ -2959,28 +2959,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Purgation Squad",
-            "Psyker",
-            "Imperium",
             "Grenades",
+            "Grey Knights",
+            "Imperium",
             "Infantry",
-            "Grey Knights"
+            "Psyker",
+            "Purgation Squad"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -3022,6 +3008,20 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             }
         ],
         "melee_weapons": [
@@ -3057,43 +3057,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Purifier Squad",
-            "Grey Knights",
-            "Psyker",
-            "Imperium",
             "Grenades",
-            "Infantry"
+            "Grey Knights",
+            "Imperium",
+            "Infantry",
+            "Psyker",
+            "Purifier Squad"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Purifying Flame",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true
-                }
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -3135,6 +3106,35 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Purifying Flame",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             }
         ],
         "melee_weapons": [
@@ -3167,8 +3167,8 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Imperium",
+            "Infantry",
             "Servitors"
         ],
         "ranged_weapons": [
@@ -3231,18 +3231,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Servo Arm",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Servitor's tools",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -3252,6 +3240,18 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Servo Arm",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 5,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
@@ -3271,41 +3271,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Strike Squad",
-            "Grey Knights",
-            "Psyker",
-            "Imperium",
-            "Grenades",
             "Battleline",
-            "Infantry"
+            "Grenades",
+            "Grey Knights",
+            "Imperium",
+            "Infantry",
+            "Psyker",
+            "Strike Squad"
         ],
         "ranged_weapons": [
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Incinerator",
                 "range": "12",
@@ -3334,6 +3308,32 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Psycannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
                 }
             }
         ],

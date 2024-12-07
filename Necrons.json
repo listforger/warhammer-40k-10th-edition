@@ -16,29 +16,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
+            "Annihilation Barge",
             "Fly",
-            "Annihilation Barge"
+            "Necrons",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin tesla destructor",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits2": true,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Gauss cannon",
                 "range": "24",
@@ -68,6 +51,23 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits2": true
+                }
+            },
+            {
+                "name": "Twin tesla destructor",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true,
+                    "twinLinked": true
                 }
             }
         ],
@@ -103,12 +103,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
+            "Anrakyr the Traveller",
             "Character",
             "Epic Hero",
-            "Noble",
-            "Anrakyr the Traveller"
+            "Infantry",
+            "Necrons",
+            "Noble"
         ],
         "ranged_weapons": [
             {
@@ -162,12 +162,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Necrons",
-            "Monster",
+            "C'tan Shard of the Deceiver",
             "Character",
             "Epic Hero",
             "Fly",
-            "C'tan Shard of the Deceiver"
+            "Monster",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -222,12 +222,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Necrons",
-            "Monster",
+            "C'tan Shard of the Nightbringer",
             "Character",
             "Epic Hero",
             "Fly",
-            "C'tan Shard of the Nightbringer"
+            "Monster",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -292,12 +292,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Necrons",
-            "Monster",
+            "C'tan Shard of the Void Dragon",
             "Character",
             "Epic Hero",
             "Fly",
-            "C'tan Shard of the Void Dragon"
+            "Monster",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -335,6 +335,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Canoptek tail blades",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Spear of the Void Dragon - strike",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -360,18 +372,6 @@
                 "attacks": "10",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Canoptek tail blades",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -392,11 +392,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
+            "Acanthrites",
             "Beast",
-            "Fly",
             "Canoptek",
-            "Acanthrites"
+            "Fly",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -444,11 +444,11 @@
             "reanimationProtocols": true
         },
         "tags": [
+            "Canoptek",
+            "Doomstalker",
             "Necrons",
             "Vehicle",
-            "Walker",
-            "Canoptek",
-            "Doomstalker"
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -516,11 +516,11 @@
             "feelNoPain": 4
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
-            "Walker",
             "Canoptek",
-            "Reanimator"
+            "Necrons",
+            "Reanimator",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -568,11 +568,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Swarm",
-            "Fly",
             "Canoptek",
+            "Fly",
+            "Necrons",
             "Scarab Swarms",
-            "Necrons"
+            "Swarm"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -610,11 +610,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
-            "Fly",
             "Canoptek",
-            "Spyders"
+            "Fly",
+            "Necrons",
+            "Spyders",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -666,9 +666,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Monster",
             "Canoptek",
+            "Monster",
+            "Necrons",
             "Tomb Sentinel"
         ],
         "ranged_weapons": [
@@ -719,9 +719,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Monster",
             "Canoptek",
+            "Monster",
+            "Necrons",
             "Tomb Stalker"
         ],
         "ranged_weapons": [
@@ -777,25 +777,13 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
             "Beast",
-            "Fly",
             "Canoptek",
+            "Fly",
+            "Necrons",
             "Wraiths"
         ],
         "ranged_weapons": [
-            {
-                "name": "Transdimensional beamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Particle caster",
                 "range": "12",
@@ -810,6 +798,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Transdimensional beamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -856,25 +856,13 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
+            "Catacomb Command Barge",
             "Character",
             "Fly",
-            "Catacomb Command Barge"
+            "Necrons",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Staff of light",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Gauss cannon",
                 "range": "24",
@@ -889,6 +877,18 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
+            },
+            {
+                "name": "Staff of light",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Tesla cannon",
@@ -909,18 +909,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Staff of light",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Overlord's blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -934,6 +922,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Staff of light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -954,11 +954,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
+            "Chronomancer",
             "Cryptek",
-            "Chronomancer"
+            "Infantry",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1008,10 +1008,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
+            "Convergence of Dominion",
             "Fortification",
-            "Vehicle",
-            "Convergence of Dominion"
+            "Necrons",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1046,9 +1046,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
+            "Cryptothralls",
             "Infantry",
-            "Cryptothralls"
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1096,9 +1096,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
+            "Deathmarks",
             "Infantry",
-            "Deathmarks"
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1133,11 +1133,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
             "Aircraft",
+            "Doom Scythe",
             "Fly",
-            "Doom Scythe"
+            "Necrons",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1206,10 +1206,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
+            "Doomsday Ark",
             "Fly",
-            "Doomsday Ark"
+            "Necrons",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1276,9 +1276,9 @@
             "stealth": true
         },
         "tags": [
-            "Necrons",
+            "Flayed Ones",
             "Infantry",
-            "Flayed Ones"
+            "Necrons"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1318,12 +1318,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
             "Fortification",
-            "Vehicle",
-            "Towering",
+            "Gauss Pylon",
+            "Necrons",
             "Titanic",
-            "Gauss Pylon"
+            "Towering",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1379,12 +1379,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
-            "Fly",
-            "Transport",
             "Dedicated Transport",
-            "Ghost Ark"
+            "Fly",
+            "Ghost Ark",
+            "Necrons",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1436,11 +1436,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Destroyer Cult",
-            "Hexmark Destroyer"
+            "Hexmark Destroyer",
+            "Infantry",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1476,12 +1476,12 @@
             "feelNoPain": 4
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
-            "Epic Hero",
             "Cryptek",
-            "Illuminor Szeras"
+            "Epic Hero",
+            "Illuminor Szeras",
+            "Infantry",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1543,10 +1543,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Battleline",
-            "Immortals"
+            "Immortals",
+            "Infantry",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1600,12 +1600,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Epic Hero",
-            "Noble",
-            "Imotekh the Stormlord"
+            "Imotekh the Stormlord",
+            "Infantry",
+            "Necrons",
+            "Noble"
         ],
         "ranged_weapons": [
             {
@@ -1672,11 +1672,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Mounted",
-            "Fly",
             "Destroyer Cult",
-            "Lokhust Destroyers"
+            "Fly",
+            "Lokhust Destroyers",
+            "Mounted",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1716,11 +1716,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Mounted",
-            "Fly",
             "Destroyer Cult",
-            "Lokhust Heavy Destroyers"
+            "Fly",
+            "Lokhust Heavy Destroyers",
+            "Mounted",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1778,12 +1778,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Necrons",
-            "Mounted",
             "Character",
-            "Fly",
             "Destroyer Cult",
-            "Lokhust Lord"
+            "Fly",
+            "Lokhust Lord",
+            "Mounted",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -1846,11 +1846,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
-            "Noble",
-            "Lord"
+            "Infantry",
+            "Lord",
+            "Necrons",
+            "Noble"
         ],
         "ranged_weapons": [
             {
@@ -1913,12 +1913,24 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
             "Infantry",
-            "Lychguard"
+            "Lychguard",
+            "Necrons"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
+            {
+                "name": "Hyperphase sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Warscythe",
                 "range": "",
@@ -1933,18 +1945,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Hyperphase sword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1965,30 +1965,14 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
-            "Titanic",
             "Fly",
+            "Monolith",
+            "Necrons",
+            "Titanic",
             "Towering",
-            "Monolith"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Particle whip",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Death ray",
                 "range": "24",
@@ -2019,6 +2003,22 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true,
                     "rapidFire": 3
+                }
+            },
+            {
+                "name": "Particle whip",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -2054,10 +2054,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Battleline",
-            "Necron Warriors"
+            "Infantry",
+            "Necron Warriors",
+            "Necrons"
         ],
         "ranged_weapons": [
             {
@@ -2111,12 +2111,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Epic Hero",
-            "Noble",
-            "Nemesor Zahndrekh"
+            "Infantry",
+            "Necrons",
+            "Nemesor Zahndrekh",
+            "Noble"
         ],
         "ranged_weapons": [
             {
@@ -2164,12 +2164,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
             "Aircraft",
             "Fly",
+            "Necrons",
+            "Night Scythe",
             "Transport",
-            "Night Scythe"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2222,11 +2222,11 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
             "Aircraft",
             "Fly",
-            "Night Shroud"
+            "Necrons",
+            "Night Shroud",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2279,12 +2279,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
-            "Titanic",
             "Fly",
+            "Necrons",
+            "Obelisk",
+            "Titanic",
             "Towering",
-            "Obelisk"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2338,9 +2338,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Destroyer Cult",
+            "Infantry",
+            "Necrons",
             "Ophydian Destroyers"
         ],
         "ranged_weapons": [],
@@ -2376,12 +2376,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
-            "Epic Hero",
-            "Cryptek",
             "Chronomancer",
+            "Cryptek",
+            "Epic Hero",
+            "Infantry",
+            "Necrons",
             "Orikan the Diviner"
         ],
         "ranged_weapons": [],
@@ -2420,9 +2420,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
+            "Infantry",
+            "Necrons",
             "Noble",
             "Overlord"
         ],
@@ -2454,15 +2454,15 @@
         ],
         "melee_weapons": [
             {
-                "name": "Voidscythe",
+                "name": "Overlord's blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
+                "ballistic_skill": 2,
+                "strength": 8,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "3",
-                "damage": "3",
+                "attacks": "4",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2481,15 +2481,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Overlord's blade",
+                "name": "Voidscythe",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
+                "ballistic_skill": 3,
+                "strength": 12,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "2",
+                "attacks": "3",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2514,9 +2514,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
+            "Infantry",
+            "Necrons",
             "Noble",
             "Overlord",
             "Overlord with Translocation Shroud"
@@ -2557,10 +2557,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Cryptek",
+            "Infantry",
+            "Necrons",
             "Plasmancer"
         ],
         "ranged_weapons": [
@@ -2609,10 +2609,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Cryptek",
+            "Infantry",
+            "Necrons",
             "Psychomancer"
         ],
         "ranged_weapons": [
@@ -2661,9 +2661,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
+            "Infantry",
+            "Necrons",
             "Royal Warden"
         ],
         "ranged_weapons": [
@@ -2703,10 +2703,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
             "Fortification",
-            "Vehicle",
-            "Sentry Pylon"
+            "Necrons",
+            "Sentry Pylon",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2773,11 +2773,11 @@
         },
         "tags": [
             "Necrons",
-            "Vehicle",
-            "Walker",
+            "Seraptek Heavy Construct",
             "Titanic",
             "Towering",
-            "Seraptek Heavy Construct"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -2871,9 +2871,9 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Destroyer Cult",
+            "Infantry",
+            "Necrons",
             "Skorpekh Destroyers"
         ],
         "ranged_weapons": [],
@@ -2909,10 +2909,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Destroyer Cult",
+            "Infantry",
+            "Necrons",
             "Skorpekh Lord"
         ],
         "ranged_weapons": [
@@ -2977,11 +2977,11 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
-            "Fly",
             "Cryptek",
+            "Fly",
+            "Infantry",
+            "Necrons",
             "Technomancer"
         ],
         "ranged_weapons": [
@@ -3030,40 +3030,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
             "Fly",
-            "Tesseract Ark"
+            "Necrons",
+            "Tesseract Ark",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Tesseract singularity chamber - particle",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Tesseract singularity chamber - seismic lash",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Gauss cannon",
                 "range": "24",
@@ -3110,6 +3082,34 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits2": true
                 }
+            },
+            {
+                "name": "Tesseract singularity chamber - particle",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Tesseract singularity chamber - seismic lash",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             }
         ],
         "melee_weapons": [
@@ -3144,12 +3144,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
-            "Titanic",
             "Fly",
+            "Necrons",
+            "Tesseract Vault",
+            "Titanic",
             "Towering",
-            "Tesseract Vault"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3201,14 +3201,26 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Vehicle",
-            "Epic Hero",
-            "Triarch",
             "Character",
-            "The Silent King"
+            "Epic Hero",
+            "Necrons",
+            "The Silent King",
+            "Triarch",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Annihilator beam",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Sceptre of Eternal Glory",
                 "range": "24",
@@ -3235,21 +3247,21 @@
                 "attacks": "12",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Annihilator beam",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Armoured bulk",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Weapons of the Final Triarch",
                 "range": "",
@@ -3264,18 +3276,6 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
-            },
-            {
-                "name": "Armoured bulk",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -3297,28 +3297,12 @@
             "stealth": true
         },
         "tags": [
-            "Necrons",
-            "Mounted",
             "Fly",
+            "Mounted",
+            "Necrons",
             "Tomb Blades"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin gauss blaster",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Particle beamer",
                 "range": "18",
@@ -3333,6 +3317,22 @@
                     "blast": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Twin gauss blaster",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "twinLinked": true
                 }
             },
             {
@@ -3374,10 +3374,10 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Necrons",
-            "Monster",
             "Character",
             "Fly",
+            "Monster",
+            "Necrons",
             "Transcendant C'tan"
         ],
         "ranged_weapons": [
@@ -3434,10 +3434,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Epic Hero",
+            "Infantry",
+            "Necrons",
             "Noble",
             "Trazyn the Infinite"
         ],
@@ -3478,24 +3478,12 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Fly",
+            "Infantry",
+            "Necrons",
             "Triarch Praetorians"
         ],
         "ranged_weapons": [
-            {
-                "name": "Rod of covenant",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Particle caster",
                 "range": "12",
@@ -3510,6 +3498,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Rod of covenant",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3557,9 +3557,9 @@
         },
         "tags": [
             "Necrons",
+            "Triarch Stalker",
             "Vehicle",
-            "Walker",
-            "Triarch Stalker"
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -3589,6 +3589,21 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Heavy gauss cannon array",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
                 "name": "Particle shredder",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -3602,21 +3617,6 @@
                     "blast": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Heavy gauss cannon array",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
                 }
             }
         ],
@@ -3652,10 +3652,10 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Necrons",
-            "Infantry",
             "Character",
             "Epic Hero",
+            "Infantry",
+            "Necrons",
             "Varguard Obyron"
         ],
         "ranged_weapons": [],

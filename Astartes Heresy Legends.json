@@ -14,12 +14,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Blood Slaughterer",
             "Chaos",
-            "Khorne",
             "Daemon",
-            "Blood Slaughterer"
+            "Khorne",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -82,9 +82,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Cerberus",
             "Smoke",
-            "Cerberus"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -132,6 +132,18 @@
                 }
             },
             {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Multi-melta",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -156,18 +168,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 2
                 }
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -200,13 +200,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
-            "Fly",
             "Aircraft",
-            "Transport",
             "Chaos",
-            "Thunderhawk"
+            "Fly",
+            "Thunderhawk",
+            "Titanic",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -223,6 +223,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Thunderhawk heavy cannon",
@@ -251,18 +263,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Twin heavy bolter",
@@ -313,9 +313,9 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Vehicle",
+            "Deathstorm Drop Pod",
             "Imperium",
-            "Deathstorm Drop Pod"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -366,12 +366,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
-            "Decimator"
+            "Decimator",
+            "Heretic Astartes",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -480,13 +480,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Smoke",
+            "Deredeo Dreadnought",
             "Dreadnought",
-            "Deredeo Dreadnought"
+            "Smoke",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Aiolos missile launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
             {
                 "name": "Anvilus autocannon battery",
                 "range": "48",
@@ -514,18 +528,18 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Volkite falconet battery",
-                "range": "30",
+                "name": "Boreas air defence missiles",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "2",
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "anti": true,
+                    "anti4": true
                 }
             },
             {
@@ -551,35 +565,6 @@
                 "attacks": "6",
                 "damage": "3",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Aiolos missile launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Boreas air defence missiles",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
             },
             {
                 "name": "Twin heavy bolter",
@@ -611,6 +596,21 @@
                 "parsed_weapon_types": {
                     "autoHit": true,
                     "twinLinked": true
+                }
+            },
+            {
+                "name": "Volkite falconet battery",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -644,12 +644,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
             "Chaos",
-            "Transport",
+            "Dreadclaw Drop Pod",
             "Fly",
-            "Dreadclaw Drop Pod"
+            "Heretic Astartes",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -683,10 +683,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Vehicle",
+            "Dreadnought Drop Pod",
             "Imperium",
             "Transport",
-            "Dreadnought Drop Pod"
+            "Vehicle"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -706,51 +706,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
+            "Falchion",
             "Smoke",
-            "Falchion"
+            "Titanic",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Quad lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Laser destroyer",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "3",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin Falchion volcano cannon",
-                "range": "120",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 24,
-                "armour_penetration": 5,
-                "armor_penetration": 5,
-                "attacks": "D3+1",
-                "damage": "12",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Heavy bolter",
                 "range": "36",
@@ -782,6 +743,18 @@
                 }
             },
             {
+                "name": "Laser destroyer",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "3",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Multi-melta",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -791,6 +764,18 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Quad lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -805,6 +790,21 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 2
+                }
+            },
+            {
+                "name": "Twin Falchion volcano cannon",
+                "range": "120",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 24,
+                "armour_penetration": 5,
+                "armor_penetration": 5,
+                "attacks": "D3+1",
+                "damage": "12",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "twinLinked": true
                 }
             },
             {
@@ -870,35 +870,25 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
+            "Fellblade",
             "Smoke",
-            "Fellblade"
+            "Titanic",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Quad lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Laser destroyer",
-                "range": "36",
+                "name": "Demolisher cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "3",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6+3",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Fellblade accelerator cannon - AP shells",
@@ -922,20 +912,6 @@
                 "armor_penetration": 1,
                 "attacks": "2D6",
                 "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Demolisher cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D6+3",
-                "damage": "D6",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -971,6 +947,18 @@
                 }
             },
             {
+                "name": "Laser destroyer",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "3",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Multi-melta",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -980,6 +968,18 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Quad lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -1061,13 +1061,44 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
+            "Fly",
+            "Storm Eagle Gunship",
             "Transport",
-            "Storm Eagle Gunship"
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Quad heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
             {
                 "name": "Twin avenger bolt cannon",
                 "range": "36",
@@ -1099,23 +1130,6 @@
                 }
             },
             {
-                "name": "Quad heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
                 "name": "Twin lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -1125,20 +1139,6 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
@@ -1174,12 +1174,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Chaos",
-            "Nurgle",
             "Daemon",
-            "Greater Blight Drone"
+            "Fly",
+            "Greater Blight Drone",
+            "Nurgle",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1246,13 +1246,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
-            "Walker",
             "Chaos",
-            "Khorne",
             "Daemon",
-            "Greater Brass Scorpion"
+            "Greater Brass Scorpion",
+            "Khorne",
+            "Titanic",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1343,12 +1343,40 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Vehicle",
             "Fly",
             "Imperium",
-            "Javelin Attack Speeder"
+            "Javelin Attack Speeder",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Javelin missile launcher - frag",
                 "range": "36",
@@ -1376,34 +1404,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
                 "name": "Lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -1416,14 +1416,14 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Hunter-killer missile",
-                "range": "48",
+                "name": "Multi-melta",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
             }
@@ -1445,13 +1445,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Heretic Astartes",
-            "Vehicle",
-            "Titanic",
             "Chaos",
-            "Transport",
             "Fly",
-            "Kharybdis Assault Claw"
+            "Heretic Astartes",
+            "Kharybdis Assault Claw",
+            "Titanic",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1523,121 +1523,22 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Kratos",
             "Smoke",
-            "Kratos"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Kratos battlecannon - AP",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 18,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6+3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Kratos battlecannon - HE",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Melta blast-gun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "4",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Volkite cardanelle",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "9",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Volkite caliver",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Volkite culverin",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
+                "name": "Autocannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Twin boltgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
+                "damage": "3",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Combi-weapon",
@@ -1655,6 +1556,20 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -1688,16 +1603,30 @@
                 }
             },
             {
-                "name": "Multi-melta",
-                "range": "18",
+                "name": "Kratos battlecannon - AP",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
+                "strength": 18,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
+                "attacks": "1",
+                "damage": "D6+3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Kratos battlecannon - HE",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Lascannon",
@@ -1712,28 +1641,87 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Autocannon",
-                "range": "48",
+                "name": "Melta blast-gun",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
+                "strength": 12,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "4",
+                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
-                "name": "Hunter-killer missile",
-                "range": "48",
+                "name": "Multi-melta",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Volkite caliver",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Volkite cardanelle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "9",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Volkite culverin",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1766,13 +1754,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
-            "Walker",
             "Chaos",
-            "Khorne",
             "Daemon",
-            "Kytan Ravager"
+            "Khorne",
+            "Kytan Ravager",
+            "Titanic",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1830,12 +1818,52 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
+            "Land Raider Achilles",
             "Smoke",
-            "Land Raider Achilles"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Quad launcher - shatter shells",
                 "range": "24",
@@ -1863,33 +1891,17 @@
                 }
             },
             {
-                "name": "Twin multi-melta",
-                "range": "18",
+                "name": "Storm bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "2",
-                "damage": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "rapidFire": 2
                 }
             },
             {
@@ -1910,18 +1922,6 @@
                 }
             },
             {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Twin heavy flamer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -1933,6 +1933,20 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": {
                     "twinLinked": true
                 }
             },
@@ -1951,32 +1965,6 @@
                     "devWoundsOn6s": true,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Storm bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2009,10 +1997,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
+            "Land Raider Proteus",
             "Smoke",
-            "Land Raider Proteus"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2032,6 +2020,44 @@
                 }
             },
             {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
                 "name": "Twin heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -2047,18 +2073,6 @@
                     "sustainedHits1": true,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Twin heavy flamer",
@@ -2087,32 +2101,6 @@
                 "damage": "D6+1",
                 "parsed_weapon_types": {
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Storm bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
                 }
             }
         ],
@@ -2148,13 +2136,25 @@
             "minusOneDamage": true
         },
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Smoke",
             "Dreadnought",
-            "Leviathan Dreadnought"
+            "Leviathan Dreadnought",
+            "Smoke",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Cyclonic melta-lance",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D6",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Grav-flux bombard",
                 "range": "24",
@@ -2172,14 +2172,40 @@
                 }
             },
             {
-                "name": "Cyclonic melta-lance",
-                "range": "18",
+                "name": "Heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 9,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
-                "attacks": "D6",
+                "attacks": "1",
                 "damage": "D6",
                 "parsed_weapon_types": null
             },
@@ -2212,47 +2238,21 @@
                     "devWoundsOn6s": true,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Meltagun",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Armoured feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Leviathan siege claw",
                 "range": "",
@@ -2279,18 +2279,6 @@
                     "anti": true,
                     "anti4": true
                 }
-            },
-            {
-                "name": "Armoured feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2309,38 +2297,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Mastodon",
+            "Smoke",
             "Titanic",
             "Transport",
-            "Smoke",
-            "Mastodon"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Siege melta array",
-                "range": "24",
+                "name": "Heavy bolter",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "6",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Skyreaper battery",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "8",
+                "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
                 }
             },
             {
@@ -2370,19 +2347,30 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Heavy bolter",
-                "range": "36",
+                "name": "Siege melta array",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "6",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Skyreaper battery",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "3",
+                "attacks": "8",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "anti": true,
+                    "anti4": true
                 }
             },
             {
@@ -2432,8 +2420,8 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Artillery",
-            "Vehicle",
-            "Rapier Carrier"
+            "Rapier Carrier",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2537,12 +2525,42 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
             "Dreadnought",
-            "Relic Contemptor Dreadnought"
+            "Relic Contemptor Dreadnought",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Conversion beam cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHitsD3": true
+                }
+            },
             {
                 "name": "Cyclone missile launcher - frag",
                 "range": "36",
@@ -2568,6 +2586,21 @@
                 "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Graviton blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             },
             {
                 "name": "Heavy plasma cannon - standard",
@@ -2598,22 +2631,6 @@
                 }
             },
             {
-                "name": "Conversion beam cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true
-                }
-            },
-            {
                 "name": "Kheres assault cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -2626,20 +2643,6 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
                 }
             },
             {
@@ -2665,21 +2668,6 @@
                 "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Graviton blaster",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
             },
             {
                 "name": "Twin autocannon",
@@ -2725,48 +2713,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin volkite culverin",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             }
         ],
         "melee_weapons": [
@@ -2796,18 +2742,6 @@
                 "attacks": "5",
                 "damage": "3",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Armoured feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2827,10 +2761,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Vehicle",
             "Imperium",
+            "Sicaran Arcus",
             "Smoke",
-            "Sicaran Arcus"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2862,18 +2796,6 @@
                 }
             },
             {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Hunter-killer missile",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -2883,6 +2805,18 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -2932,25 +2866,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Sicaran Battle Tank",
             "Smoke",
-            "Sicaran Battle Tank"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Herakles-pattern autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Heavy bolter",
                 "range": "36",
@@ -2968,16 +2888,18 @@
                 }
             },
             {
-                "name": "Lascannon",
+                "name": "Herakles-pattern autocannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             },
             {
                 "name": "Hunter-killer missile",
@@ -2989,6 +2911,18 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -3040,12 +2974,52 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Vehicle",
-            "Smoke",
             "Imperium",
-            "Sicaran Omega"
+            "Sicaran Omega",
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Omega plasma array - standard",
                 "range": "36",
@@ -3068,46 +3042,6 @@
                 "armor_penetration": 3,
                 "attacks": "6",
                 "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -3155,26 +3089,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Sicaran Punisher",
             "Smoke",
-            "Sicaran Punisher"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Punisher rotary cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "18",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Heavy bolter",
                 "range": "36",
@@ -3192,6 +3111,18 @@
                 }
             },
             {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -3204,16 +3135,19 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Hunter-killer missile",
-                "range": "48",
+                "name": "Punisher rotary cannon",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "18",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Storm bolter",
@@ -3262,23 +3196,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Sicaran Venator",
             "Smoke",
-            "Sicaran Venator"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Venator neutron laser",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 16,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "3",
-                "damage": "D3+3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Heavy bolter",
                 "range": "36",
@@ -3296,18 +3218,6 @@
                 }
             },
             {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Hunter-killer missile",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -3317,6 +3227,18 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -3332,6 +3254,18 @@
                 "parsed_weapon_types": {
                     "rapidFire": 2
                 }
+            },
+            {
+                "name": "Venator neutron laser",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 16,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "3",
+                "damage": "D3+3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3364,11 +3298,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
             "Fly",
+            "Sokar-pattern Stormbird",
+            "Titanic",
             "Transport",
-            "Sokar-pattern Stormbird"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3448,36 +3382,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
             "Smoke",
-            "Spartan"
+            "Spartan",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Quad lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Laser destroyer",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "3",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Heavy bolter",
                 "range": "36",
@@ -3509,6 +3419,18 @@
                 }
             },
             {
+                "name": "Laser destroyer",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "3",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Multi-melta",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -3518,6 +3440,18 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Quad lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -3599,25 +3533,58 @@
             "minusOneDamage": true
         },
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
+            "Fly",
+            "Storm Eagle Gunship",
             "Transport",
-            "Storm Eagle Gunship"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Vengeance launcher",
+                "name": "Twin heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin hellstrike launcher",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2D6",
-                "damage": "1",
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "twinLinked": true
                 }
             },
             {
@@ -3661,50 +3628,17 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Twin hellstrike launcher",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin lascannon",
+                "name": "Vengeance launcher",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "blast": true
                 }
             }
         ],
@@ -3739,10 +3673,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Vehicle",
             "Artillery",
             "Imperium",
-            "Tarantula Sentry Battery"
+            "Tarantula Sentry Battery",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3794,12 +3728,40 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
             "Dedicated Transport",
-            "Terrax-pattern Termite"
+            "Terrax-pattern Termite",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
             {
                 "name": "Terrax melta cutter",
                 "range": "12",
@@ -3826,34 +3788,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Storm bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
                 }
             }
         ],
@@ -3890,9 +3824,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Smoke",
-            "Typhon"
+            "Typhon",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3940,6 +3874,18 @@
                 }
             },
             {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Multi-melta",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -3964,18 +3910,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 2
                 }
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -4009,12 +3943,24 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Vehicle",
-            "Smoke",
             "Imperium",
+            "Smoke",
+            "Vehicle",
             "Vindicator Laser Destroyer"
         ],
         "ranged_weapons": [
+            {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Laservolley cannon - overcharge fire",
                 "range": "36",
@@ -4037,18 +3983,6 @@
                 "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "D3+3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -4096,11 +4030,23 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Smoke",
+            "Vehicle",
             "Whirlwind Scorpius"
         ],
         "ranged_weapons": [
+            {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Scorpius multi-launcher",
                 "range": "48",
@@ -4114,18 +4060,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Storm bolter",
@@ -4174,12 +4108,26 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
+            "Fly",
+            "Vehicle",
             "Xiphon Interceptor"
         ],
         "ranged_weapons": [
+            {
+                "name": "Twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
             {
                 "name": "Xiphon missile battery",
                 "range": "60",
@@ -4193,20 +4141,6 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true
-                }
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
                 }
             }
         ],

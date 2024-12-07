@@ -14,12 +14,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Infantry",
-            "Ethereal",
-            "T'au Empire",
             "Aun'shi",
-            "Epic Hero"
+            "Character",
+            "Epic Hero",
+            "Ethereal",
+            "Infantry",
+            "T'au Empire"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -56,12 +56,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "T'au Empire",
-            "Epic Hero",
-            "Character",
             "Aun'va",
+            "Character",
+            "Epic Hero",
             "Ethereal",
-            "Infantry"
+            "Infantry",
+            "T'au Empire"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -94,41 +94,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
+            "AX-1-0 Tiger Shark",
             "Fly",
             "T'au Empire",
-            "AX-1-0 Tiger Shark"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Missile pod",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin heavy rail cannon",
-                "range": "120",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 26,
-                "armour_penetration": 5,
-                "armor_penetration": 5,
-                "attacks": "1",
-                "damage": "12",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Burst cannon",
                 "range": "18",
@@ -166,6 +138,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Missile pod",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Seeker missile",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -176,6 +160,22 @@
                 "attacks": "1",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin heavy rail cannon",
+                "range": "120",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 26,
+                "armour_penetration": 5,
+                "armor_penetration": 5,
+                "attacks": "1",
+                "damage": "12",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -208,13 +208,101 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Barracuda",
-            "T'au Empire"
+            "Fly",
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Cyclic ion blaster - overcharge",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Cyclic ion blaster - standard",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Ion cannon - overcharge",
+                "range": "60",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Ion cannon - standard",
+                "range": "60",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Long-barrelled burst cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "8",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Missile pod",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Seeker missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Swiftstrike burst cannon",
                 "range": "36",
@@ -241,94 +329,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Ion cannon - standard",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Ion cannon - overcharge",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Long-barrelled burst cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "8",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Cyclic ion blaster - standard",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Cyclic ion blaster - overcharge",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Missile pod",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Seeker missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -363,13 +363,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Battleline",
-            "Grenades",
-            "Markerlight",
+            "Breacher Team",
             "Fire Warrior",
-            "T'au Empire",
-            "Breacher Team"
+            "Grenades",
+            "Infantry",
+            "Markerlight",
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -442,11 +442,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
             "Battlesuit",
+            "Broadside",
             "T'au Empire",
-            "Broadside"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -479,18 +479,28 @@
                 }
             },
             {
-                "name": "Twin smart missile system",
+                "name": "Missile pod",
                 "range": "30",
                 "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Seeker missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Twin plasma rifle",
@@ -507,18 +517,6 @@
                 }
             },
             {
-                "name": "Missile pod",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Twin pulse carbine",
                 "range": "20",
                 "weapon_types": "Ranged Weapons",
@@ -533,16 +531,18 @@
                 }
             },
             {
-                "name": "Seeker missile",
-                "range": "48",
+                "name": "Twin smart missile system",
+                "range": "30",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -575,11 +575,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cadre Fireblade",
             "Character",
-            "Infantry",
             "Grenades",
-            "T'au Empire",
-            "Cadre Fireblade"
+            "Infantry",
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -630,14 +630,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
-            "Vehicle",
-            "Walker",
-            "Fly",
-            "Character",
             "Battlesuit",
+            "Character",
             "Commander Farsight",
-            "T'au Empire"
+            "Epic Hero",
+            "Fly",
+            "T'au Empire",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -695,27 +695,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
+            "Character",
+            "Commander in Enforcer Battlesuit",
+            "Fly",
             "T'au Empire",
-            "Commander in Enforcer Battlesuit"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "High-output burst cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "8",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Airbursting fragmentation projector",
                 "range": "24",
@@ -743,18 +731,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Cyclic ion blaster - standard",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Cyclic ion blaster - overcharge",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -767,6 +743,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Cyclic ion blaster - standard",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Fusion blaster",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -776,6 +764,18 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "High-output burst cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "8",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -863,13 +863,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
+            "Character",
             "Commander in Crisis Battlesuit",
-            "T'au Empire"
+            "Fly",
+            "T'au Empire",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -899,18 +899,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Cyclic ion blaster - standard",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Cyclic ion blaster - overcharge",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -920,6 +908,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Cyclic ion blaster - standard",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1017,13 +1017,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
+            "Character",
+            "Commander in Enforcer Battlesuit",
+            "Fly",
             "T'au Empire",
-            "Commander in Enforcer Battlesuit"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1053,18 +1053,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Cyclic ion blaster - standard",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Cyclic ion blaster - overcharge",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -1074,6 +1062,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Cyclic ion blaster - standard",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1175,25 +1175,25 @@
             "stealth": true
         },
         "tags": [
-            "Epic Hero",
-            "Infantry",
-            "Fly",
-            "Character",
             "Battlesuit",
+            "Character",
             "Commander Shadowsun",
+            "Epic Hero",
+            "Fly",
+            "Infantry",
             "T'au Empire"
         ],
         "ranged_weapons": [
             {
-                "name": "Light missile pod",
-                "range": "24",
+                "name": "Flechette launcher",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
+                "strength": 3,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "2",
+                "attacks": "5",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1209,15 +1209,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Flechette launcher",
-                "range": "18",
+                "name": "Light missile pod",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 3,
+                "strength": 7,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "5",
-                "damage": "1",
+                "attacks": "2",
+                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -1263,12 +1263,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
             "Crisis",
-            "T'au Empire"
+            "Fly",
+            "T'au Empire",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1284,6 +1284,18 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Burst cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Cyclic ion blaster - overcharge",
@@ -1319,18 +1331,6 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Burst cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1418,13 +1418,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
             "Crisis",
+            "Fireknife",
+            "Fly",
             "T'au Empire",
-            "Fireknife"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1496,13 +1496,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
             "Crisis",
+            "Fly",
+            "Starscythe",
             "T'au Empire",
-            "Starscythe"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1578,13 +1578,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
             "Crisis",
+            "Fly",
+            "Sunforge",
             "T'au Empire",
-            "Sunforge"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1647,11 +1647,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
-            "Epic Hero",
             "Darkstrider",
-            "T'au Empire",
+            "Epic Hero",
+            "Infantry",
             "Markerlight",
-            "Infantry"
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -1684,40 +1684,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
-            "Transport",
             "Dedicated Transport",
             "Devilfish",
-            "T'au Empire"
+            "Fly",
+            "T'au Empire",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin pulse carbine",
-                "range": "20",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Smart missile system",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Accelerator burst cannon",
                 "range": "18",
@@ -1741,6 +1715,32 @@
                 "attacks": "1",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Smart missile system",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin pulse carbine",
+                "range": "20",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1773,26 +1773,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Fortification",
-            "Vehicle",
             "Drone Sentry Turret",
-            "T'au Empire"
+            "Fortification",
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin plasma rifle",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Twin burst cannon",
                 "range": "18",
@@ -1834,6 +1820,20 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Twin plasma rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": []
@@ -1854,10 +1854,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
-            "Infantry",
             "Ethereal",
-            "T'au Empire",
-            "Fly"
+            "Fly",
+            "Infantry",
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -1910,10 +1910,10 @@
         },
         "tags": [
             "Character",
+            "Firesight Team",
             "Infantry",
             "Markerlight",
-            "T'au Empire",
-            "Firesight Team"
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -1973,28 +1973,49 @@
             "stealth": true
         },
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Fly",
-            "Smoke",
             "Battlesuit",
-            "Ghostkeel"
+            "Fly",
+            "Ghostkeel",
+            "Smoke",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin T'au flamer",
-                "range": "12",
+                "name": "Cyclic ion raker - overcharge",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true,
-                    "twinLinked": true
-                }
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Cyclic ion raker - standard",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Fusion collider",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Twin burst cannon",
@@ -2025,40 +2046,19 @@
                 }
             },
             {
-                "name": "Fusion collider",
-                "range": "18",
+                "name": "Twin T'au flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Cyclic ion raker - standard",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Cyclic ion raker - overcharge",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "3",
-                "parsed_weapon_types": null
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -2091,9 +2091,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Monster",
-            "Kroot",
             "Great Knarloc",
+            "Kroot",
+            "Monster",
             "T'au Empire"
         ],
         "ranged_weapons": [
@@ -2182,25 +2182,36 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Fly",
             "Hammerhead Gunship",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Railgun",
-                "range": "72",
+                "name": "Accelerator burst cannon",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 20,
-                "armour_penetration": 5,
-                "armor_penetration": 5,
-                "attacks": "1",
-                "damage": "D6+6",
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Ion cannon - overcharge",
+                "range": "60",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "blast": true
                 }
             },
             {
@@ -2218,28 +2229,41 @@
                 }
             },
             {
-                "name": "Ion cannon - overcharge",
-                "range": "60",
+                "name": "Railgun",
+                "range": "72",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "3",
+                "strength": 20,
+                "armour_penetration": 5,
+                "armor_penetration": 5,
+                "attacks": "1",
+                "damage": "D6+6",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             },
             {
-                "name": "Accelerator burst cannon",
-                "range": "18",
+                "name": "Seeker missile",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Smart missile system",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -2256,30 +2280,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Smart missile system",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Seeker missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2312,11 +2312,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Markerlight",
-            "Vehicle",
             "Fly",
             "Heavy Gun Drones",
-            "T'au Empire"
+            "Markerlight",
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2365,9 +2365,9 @@
             "stealth": true
         },
         "tags": [
-            "Mounted",
-            "Kroot",
             "Knarloc Riders",
+            "Kroot",
+            "Mounted",
             "T'au Empire"
         ],
         "ranged_weapons": [
@@ -2430,13 +2430,37 @@
             "stealth": true
         },
         "tags": [
-            "Infantry",
-            "Grenades",
-            "Kroot",
             "Carnivores",
+            "Grenades",
+            "Infantry",
+            "Kroot",
             "T'au Empire"
         ],
         "ranged_weapons": [
+            {
+                "name": "Kroot carbine",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Kroot pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Kroot rifle",
                 "range": "24",
@@ -2464,30 +2488,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Kroot carbine",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Kroot pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -2509,10 +2509,10 @@
             "stealth": true
         },
         "tags": [
-            "Infantry",
-            "Grenades",
-            "Kroot",
             "Farstalkers",
+            "Grenades",
+            "Infantry",
+            "Kroot",
             "T'au Empire"
         ],
         "ranged_weapons": [
@@ -2531,20 +2531,17 @@
                 }
             },
             {
-                "name": "Londaxi tribalest",
-                "range": "18",
+                "name": "Farstalker firearm",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "rapidFire": 1
                 }
             },
             {
@@ -2560,17 +2557,20 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Farstalker firearm",
-                "range": "24",
+                "name": "Londaxi tribalest",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
+                "ballistic_skill": 5,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 1
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             },
             {
@@ -2632,12 +2632,12 @@
             "stealth": true
         },
         "tags": [
-            "Infantry",
             "Character",
+            "Flesh Shaper",
+            "Infantry",
             "Kroot",
             "Shaper",
-            "T'au Empire",
-            "Flesh Shaper"
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -2688,9 +2688,9 @@
         },
         "tags": [
             "Beast",
+            "Hounds",
             "Kroot",
-            "T'au Empire",
-            "Hounds"
+            "T'au Empire"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2728,24 +2728,12 @@
         },
         "tags": [
             "Character",
-            "Mounted",
             "Kroot",
-            "T'au Empire",
-            "Lone-spear"
+            "Lone-spear",
+            "Mounted",
+            "T'au Empire"
         ],
         "ranged_weapons": [
-            {
-                "name": "Kroot long gun",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Blast javelin",
                 "range": "18",
@@ -2759,6 +2747,18 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Kroot long gun",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2807,8 +2807,8 @@
             "stealth": true
         },
         "tags": [
-            "Infantry",
             "Character",
+            "Infantry",
             "Kroot",
             "Shaper",
             "T'au Empire",
@@ -2862,8 +2862,8 @@
             "stealth": true
         },
         "tags": [
-            "Infantry",
             "Character",
+            "Infantry",
             "Kroot",
             "Shaper",
             "T'au Empire",
@@ -2943,11 +2943,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
             "Grenades",
             "Kroot",
-            "T'au Empire",
-            "Krootox Rampagers"
+            "Krootox Rampagers",
+            "Mounted",
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -3011,11 +3011,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
+            "Grenades",
             "Kroot",
             "Krootox Riders",
-            "T'au Empire",
-            "Grenades"
+            "Mounted",
+            "T'au Empire"
         ],
         "ranged_weapons": [
             {
@@ -3079,39 +3079,38 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
             "Character",
+            "Epic Hero",
             "Fly",
-            "Vehicle",
             "Longstrike",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Seeker missile",
-                "range": "48",
+                "name": "Accelerator burst cannon",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
-                "name": "Railgun",
-                "range": "72",
+                "name": "Ion cannon - overcharge",
+                "range": "60",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 20,
-                "armour_penetration": 5,
-                "armor_penetration": 5,
-                "attacks": "1",
-                "damage": "D6+6",
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "blast": true
                 }
             },
             {
@@ -3129,29 +3128,30 @@
                 }
             },
             {
-                "name": "Ion cannon - overcharge",
-                "range": "60",
+                "name": "Railgun",
+                "range": "72",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "3",
+                "strength": 20,
+                "armour_penetration": 5,
+                "armor_penetration": 5,
+                "attacks": "1",
+                "damage": "D6+6",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             },
             {
-                "name": "Accelerator burst cannon",
-                "range": "18",
+                "name": "Seeker missile",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -3215,14 +3215,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
             "Fly",
+            "Manta",
+            "Markerlight",
+            "T'au Empire",
             "Titanic",
             "Transport",
-            "Markerlight",
-            "Manta",
-            "T'au Empire"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3241,16 +3241,18 @@
                 }
             },
             {
-                "name": "Long-barrelled burst cannon array",
-                "range": "24",
+                "name": "Ion cannon - overcharge",
+                "range": "60",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "32",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Ion cannon - standard",
@@ -3267,18 +3269,16 @@
                 }
             },
             {
-                "name": "Ion cannon - overcharge",
-                "range": "60",
+                "name": "Long-barrelled burst cannon array",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "32",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Missile pod",
@@ -3335,13 +3335,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
             "Fly",
+            "Orca Dropship",
+            "T'au Empire",
             "Titanic",
             "Transport",
-            "Orca Dropship",
-            "T'au Empire"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3399,34 +3399,22 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Grenades",
+            "Infantry",
             "Markerlight",
             "Pathfinder Team",
             "T'au Empire"
         ],
         "ranged_weapons": [
             {
-                "name": "Pulse carbine",
-                "range": "20",
+                "name": "Drone burst cannon",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 5,
                 "strength": 5,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Ion rifle - standard",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -3443,6 +3431,42 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Ion rifle - standard",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Pulse carbine",
+                "range": "20",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Pulse pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Rail rifle",
                 "range": "30",
                 "weapon_types": "Ranged Weapons",
@@ -3456,18 +3480,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Drone burst cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Semi-automatic grenade launcher - EMP",
@@ -3496,18 +3508,6 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Pulse pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -3542,10 +3542,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Fly",
+            "Piranha",
             "T'au Empire",
-            "Piranha"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3573,6 +3573,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Seeker missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Twin pulse carbine",
                 "range": "20",
                 "weapon_types": "Ranged Weapons",
@@ -3585,18 +3597,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Seeker missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3629,14 +3629,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Battlesuit",
             "Fly",
             "R'varna",
-            "Battlesuit",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Missile pod",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Pulse submunitions cannon",
                 "range": "60",
@@ -3650,18 +3662,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Missile pod",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3696,11 +3696,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
             "Fly",
             "Razorshark Strike Fighter",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3728,20 +3728,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Quad ion turret - standard",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Quad ion turret - overcharge",
                 "range": "30",
                 "weapon_types": "Ranged Weapons",
@@ -3751,6 +3737,20 @@
                 "armor_penetration": 2,
                 "attacks": "8",
                 "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Quad ion turret - standard",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
@@ -3800,11 +3800,11 @@
             "stealth": true
         },
         "tags": [
-            "Vehicle",
             "Fly",
             "Markerlight",
             "Remora Stealth Drones",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3873,12 +3873,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
-            "Fly",
             "Battlesuit",
+            "Fly",
+            "Riptide",
             "T'au Empire",
-            "Riptide"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -3894,18 +3894,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Ion accelerator - standard",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Ion accelerator - overcharge",
                 "range": "72",
                 "weapon_types": "Ranged Weapons",
@@ -3915,6 +3903,18 @@
                 "armor_penetration": 3,
                 "attacks": "6",
                 "damage": "4",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Ion accelerator - standard",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -3930,15 +3930,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Twin smart missile system",
-                "range": "30",
+                "name": "Twin fusion blaster",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
@@ -3958,15 +3958,15 @@
                 }
             },
             {
-                "name": "Twin fusion blaster",
-                "range": "12",
+                "name": "Twin smart missile system",
+                "range": "30",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
@@ -4005,15 +4005,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
+            "Battlesuit",
             "Character",
-            "Vehicle",
-            "Walker",
+            "Epic Hero",
             "Fly",
             "Markerlight",
             "Shas'o R'alai",
-            "Battlesuit",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -4080,13 +4080,25 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Fly",
             "Markerlight",
             "Sky Ray Gunship",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Accelerator burst cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Seeker missile rack",
                 "range": "48",
@@ -4102,14 +4114,14 @@
                 }
             },
             {
-                "name": "Accelerator burst cannon",
-                "range": "18",
+                "name": "Smart missile system",
+                "range": "30",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -4126,18 +4138,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Smart missile system",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -4175,9 +4175,9 @@
             "stealth": true
         },
         "tags": [
-            "Infantry",
-            "Fly",
             "Battlesuit",
+            "Fly",
+            "Infantry",
             "Stealth",
             "T'au Empire"
         ],
@@ -4253,12 +4253,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Stormsurge",
+            "T'au Empire",
             "Titanic",
             "Towering",
-            "Stormsurge",
-            "T'au Empire"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -4288,32 +4288,16 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Twin smart missile system",
-                "range": "30",
+                "name": "Pulse blast cannon - dispersed",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Pulse Driver Cannon",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "4",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Pulse blast cannon - focused",
@@ -4328,16 +4312,18 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Pulse blast cannon - dispersed",
-                "range": "48",
+                "name": "Pulse Driver Cannon",
+                "range": "72",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "4",
-                "parsed_weapon_types": null
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Twin airbursting fragmentation projector",
@@ -4363,6 +4349,20 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin smart missile system",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "twinLinked": true
@@ -4414,11 +4414,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Battleline",
-            "Grenades",
-            "Markerlight",
             "Fire Warrior",
+            "Grenades",
+            "Infantry",
+            "Markerlight",
             "Strike Team",
             "T'au Empire"
         ],
@@ -4436,6 +4436,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Pulse pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Pulse rifle",
                 "range": "30",
                 "weapon_types": "Ranged Weapons",
@@ -4448,18 +4460,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 1
                 }
-            },
-            {
-                "name": "Pulse pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Support turret",
@@ -4507,55 +4507,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
             "Fly",
             "Sun Shark Bomber",
-            "T'au Empire"
+            "T'au Empire",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin ion rifle - standard",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin ion rifle - overcharged",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin missile pod",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Missile pod",
                 "range": "30",
@@ -4579,6 +4537,48 @@
                 "attacks": "1",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin ion rifle - overcharged",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin ion rifle - standard",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin missile pod",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -4613,26 +4613,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
-            "Walker",
-            "Towering",
             "T'au Empire",
-            "Ta'unar Supremacy Armour"
+            "Ta'unar Supremacy Armour",
+            "Titanic",
+            "Towering",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Smart missile system",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Burst cannon",
                 "range": "18",
@@ -4642,6 +4630,86 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Fragmentation cluster shell launcher",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2D6+6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Fusion eradicator",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 10,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "5",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Heavy rail cannon array",
+                "range": "120",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 26,
+                "armour_penetration": 5,
+                "armor_penetration": 5,
+                "attacks": "2",
+                "damage": "16",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Nexus missile launcher",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "8",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Pulse ordnance driver",
+                "range": "60",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
+            {
+                "name": "Smart missile system",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -4669,74 +4737,6 @@
                 "armor_penetration": 3,
                 "attacks": "D6+3",
                 "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Fusion eradicator",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 10,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "5",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Pulse ordnance driver",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
-            },
-            {
-                "name": "Nexus missile launcher",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "8",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy rail cannon array",
-                "range": "120",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 26,
-                "armour_penetration": 5,
-                "armor_penetration": 5,
-                "attacks": "2",
-                "damage": "16",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Fragmentation cluster shell launcher",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2D6+6",
-                "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -4774,8 +4774,8 @@
         "tags": [
             "Drone",
             "Fly",
-            "Tactical Drones",
-            "T'au Empire"
+            "T'au Empire",
+            "Tactical Drones"
         ],
         "ranged_weapons": [
             {
@@ -4812,11 +4812,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Fly",
             "Markerlight",
+            "T'au Empire",
             "Tetras",
-            "T'au Empire"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -4864,12 +4864,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Fortification",
-            "Vehicle",
-            "Transport",
             "Fly",
+            "Fortification",
             "T'au Empire",
-            "Tidewall Droneport"
+            "Tidewall Droneport",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -4904,12 +4904,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Fortification",
-            "Vehicle",
-            "Transport",
             "Fly",
+            "Fortification",
+            "T'au Empire",
             "Tidewall Gunrig",
-            "T'au Empire"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -4946,12 +4946,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Fortification",
-            "Vehicle",
-            "Transport",
             "Fly",
+            "Fortification",
+            "T'au Empire",
             "Tidewall Shieldline",
-            "T'au Empire"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -4971,23 +4971,23 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
             "Fly",
+            "T'au Empire",
             "Tiger Shark",
-            "T'au Empire"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Missile pod",
-                "range": "30",
+                "name": "Burst cannon",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -5015,16 +5015,18 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Burst cannon",
-                "range": "18",
+                "name": "Ion cannon - overcharge",
+                "range": "60",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Ion cannon - standard",
@@ -5041,16 +5043,42 @@
                 }
             },
             {
-                "name": "Ion cannon - overcharge",
-                "range": "60",
+                "name": "Missile pod",
+                "range": "30",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "3",
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Seeker missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Skyspear missile rack",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+1",
+                "damage": "1",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
                     "blast": true
                 }
             },
@@ -5080,34 +5108,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Skyspear missile rack",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true,
-                    "blast": true
-                }
-            },
-            {
-                "name": "Seeker missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -5140,24 +5140,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Fly",
             "T'au Empire",
-            "TX42 Piranha"
+            "TX42 Piranha",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma rifle",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Fusion blaster",
                 "range": "12",
@@ -5180,6 +5168,18 @@
                 "armor_penetration": 1,
                 "attacks": "2",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma rifle",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -5228,8 +5228,8 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Fly",
+            "Infantry",
             "T'au Empire",
             "Vespid Stingwings"
         ],
@@ -5245,20 +5245,6 @@
                 "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "T'au flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             },
             {
                 "name": "Neutron grenade launcher",
@@ -5289,6 +5275,20 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "T'au flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
                 }
             }
         ],
@@ -5322,12 +5322,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Battlesuit",
+            "Fly",
+            "T'au Empire",
             "Vehicle",
             "Walker",
-            "Fly",
-            "XV9 Hazard",
-            "Battlesuit",
-            "T'au Empire"
+            "XV9 Hazard"
         ],
         "ranged_weapons": [
             {
@@ -5413,26 +5413,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Battlesuit",
+            "Fly",
+            "T'au Empire",
             "Vehicle",
             "Walker",
-            "Fly",
-            "Battlesuit",
-            "Y'vahra",
-            "T'au Empire"
+            "Y'vahra"
         ],
         "ranged_weapons": [
-            {
-                "name": "Missile pod",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Flechette pod",
                 "range": "12",
@@ -5444,6 +5432,20 @@
                 "attacks": "5",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Ionic discharge cannon - overcharge",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Ionic discharge cannon - standard",
@@ -5460,18 +5462,16 @@
                 }
             },
             {
-                "name": "Ionic discharge cannon - overcharge",
-                "range": "18",
+                "name": "Missile pod",
+                "range": "30",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
+                "ballistic_skill": 5,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Phased plasma-flamer",

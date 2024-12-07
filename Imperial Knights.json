@@ -14,14 +14,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Acastus",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Asterius",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Asterius",
-            "Acastus"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -103,30 +103,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Acastus",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Porphyrion",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Acastus",
-            "Knight Porphyrion"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin magna lascannon",
-                "range": "72",
+                "name": "Acastus autocannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 18,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D6",
-                "damage": "D6+6",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "twinLinked": true
-                }
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Acastus ironstorm missile pod",
@@ -158,18 +155,6 @@
                 }
             },
             {
-                "name": "Acastus autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -180,6 +165,21 @@
                 "attacks": "1",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin magna lascannon",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 18,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D6",
+                "damage": "D6+6",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -212,13 +212,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Armiger",
             "Battleline",
-            "Imperium",
-            "Imperial Knights",
             "Helverin",
-            "Armiger"
+            "Imperial Knights",
+            "Imperium",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -264,28 +264,29 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
-            "Vehicle",
-            "Walker",
-            "Imperium",
-            "Imperial Knights",
             "Armiger",
-            "Moirax"
+            "Battleline",
+            "Imperial Knights",
+            "Imperium",
+            "Moirax",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Volkite veuglaire",
-                "range": "36",
+                "name": "Conversion beam cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "2",
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHitsD3": true
                 }
             },
             {
@@ -321,22 +322,6 @@
                 }
             },
             {
-                "name": "Conversion beam cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true
-                }
-            },
-            {
                 "name": "Rad cleanser",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -350,6 +335,21 @@
                     "anti": true,
                     "anti2": true,
                     "autoHit": true
+                }
+            },
+            {
+                "name": "Volkite veuglaire",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -395,13 +395,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Armiger",
+            "Battleline",
+            "Imperial Knights",
+            "Imperium",
             "Vehicle",
             "Walker",
-            "Battleline",
-            "Imperium",
-            "Imperial Knights",
-            "Warglaive",
-            "Armiger"
+            "Warglaive"
         ],
         "ranged_weapons": [
             {
@@ -459,18 +459,18 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
+            "Canis Rex",
             "Character",
-            "Imperium",
+            "Epic Hero",
             "Imperial Knights",
-            "Vehicle",
-            "Walker",
+            "Imperium",
+            "Infantry",
+            "Questoris",
+            "Sir Hekhtur",
             "Titanic",
             "Towering",
-            "Canis Rex",
-            "Questoris",
-            "Infantry",
-            "Sir Hekhtur"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -586,15 +586,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
             "Character",
-            "Vehicle",
-            "Walker",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Acheron",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Cerastus",
-            "Knight Acheron"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -676,15 +676,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
             "Character",
-            "Vehicle",
-            "Walker",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Atrapos",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Cerastus",
-            "Knight Atrapos"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -720,6 +720,20 @@
                 }
             },
             {
+                "name": "Graviton singularity cannon - contained",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 16,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D3",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
                 "name": "Graviton singularity cannon - singularity",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -733,20 +747,6 @@
                     "blast": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Graviton singularity cannon - contained",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 16,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D3",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -800,15 +800,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
             "Character",
-            "Vehicle",
-            "Walker",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Castigator",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Cerastus",
-            "Knight Castigator"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -868,15 +868,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Cerastus",
             "Character",
-            "Vehicle",
-            "Walker",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Lancer",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Lancer",
-            "Cerastus"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -940,15 +940,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Dominus",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Castellan",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Castellan",
-            "Dominus"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -980,20 +980,6 @@
                 }
             },
             {
-                "name": "Volcano lance",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 18,
-                "armour_penetration": 5,
-                "armor_penetration": 5,
-                "attacks": "D3",
-                "damage": "D6+8",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
                 "name": "Twin meltagun",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -1005,6 +991,20 @@
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "twinLinked": true
+                }
+            },
+            {
+                "name": "Volcano lance",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 18,
+                "armour_penetration": 5,
+                "armor_penetration": 5,
+                "attacks": "D3",
+                "damage": "D6+8",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             }
         ],
@@ -1040,27 +1040,69 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Crusader",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Crusader",
-            "Questoris"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Thermal cannon",
-                "range": "24",
+                "name": "Avenger gatling cannon",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2D3",
-                "damage": "D6",
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "18",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -1095,36 +1137,6 @@
                 }
             },
             {
-                "name": "Icarus autocannons",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Ironstorm missile pod",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
                 "name": "Stormspear rocket pod",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -1137,29 +1149,17 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Avenger gatling cannon",
-                "range": "36",
+                "name": "Thermal cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "18",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
+                "strength": 12,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2D3",
+                "damage": "D6",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "blast": true
                 }
             }
         ],
@@ -1195,15 +1195,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Errant",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Errant",
-            "Questoris"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1282,15 +1282,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Gallant",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Gallant",
-            "Questoris"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1338,18 +1338,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Reaper chainsword - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "18",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Reaper chainsword - strike",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1359,6 +1347,18 @@
                 "armor_penetration": 4,
                 "attacks": "6",
                 "damage": "6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper chainsword - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "18",
+                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -1402,31 +1402,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Paladin",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Paladin",
-            "Questoris"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Questoris heavy stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
-                }
-            },
             {
                 "name": "Icarus autocannons",
                 "range": "48",
@@ -1458,16 +1444,18 @@
                 }
             },
             {
-                "name": "Stormspear rocket pod",
-                "range": "48",
+                "name": "Questoris heavy stubber",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
             },
             {
                 "name": "Rapid-fire battle cannon",
@@ -1483,6 +1471,18 @@
                     "blast": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Stormspear rocket pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -1504,17 +1504,47 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Preceptor",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Preceptor",
-            "Questoris"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Icarus autocannons",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ironstorm missile pod",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
             {
                 "name": "Las-impulsor - high intensity",
                 "range": "24",
@@ -1544,6 +1574,18 @@
                 }
             },
             {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Preceptor multi-laser",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1567,48 +1609,6 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 3
-                }
-            },
-            {
-                "name": "Meltagun",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Icarus autocannons",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Ironstorm missile pod",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             },
             {
@@ -1641,17 +1641,31 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Dominus",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Valiant",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Valiant",
-            "Dominus"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Conflagration cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
             {
                 "name": "Thundercoil Harpoon",
                 "range": "18",
@@ -1667,20 +1681,6 @@
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Conflagration cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
                 }
             },
             {
@@ -1730,17 +1730,43 @@
             "minusOneDamage": true
         },
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Warden",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Character",
-            "Imperium",
-            "Imperial Knights",
-            "Knight Warden",
-            "Questoris"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Avenger gatling cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "18",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
             {
                 "name": "Icarus autocannons",
                 "range": "48",
@@ -1782,32 +1808,6 @@
                 "attacks": "3",
                 "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Avenger gatling cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "18",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             }
         ],
         "melee_weapons": []
@@ -1831,14 +1831,14 @@
         },
         "tags": [
             "Character",
-            "Vehicle",
-            "Walker",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Magaera",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Questoris",
-            "Knight Magaera"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1891,30 +1891,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Reaper chainsword - strike",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "4",
-                "damage": "6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Reaper chainsword - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "12",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Hekaton siege claw - strike",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1936,6 +1912,30 @@
                 "armor_penetration": 2,
                 "attacks": "8",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper chainsword - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "4",
+                "damage": "6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper chainsword - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "12",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1956,14 +1956,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
-            "Vehicle",
-            "Walker",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Styrix",
+            "Questoris",
             "Titanic",
             "Towering",
-            "Imperium",
-            "Imperial Knights",
-            "Questoris",
-            "Knight Styrix"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1983,21 +1983,6 @@
                 }
             },
             {
-                "name": "Volkite chierovile",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "9",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
                 "name": "Twin rad cleanser",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -2013,33 +1998,24 @@
                     "anti2": true,
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Volkite chierovile",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "9",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Reaper chainsword - strike",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "4",
-                "damage": "6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Reaper chainsword - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "12",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Hekaton siege claw - strike",
                 "range": "",
@@ -2062,6 +2038,30 @@
                 "armor_penetration": 2,
                 "attacks": "8",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper chainsword - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "4",
+                "damage": "6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper chainsword - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "12",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]

@@ -17,9 +17,9 @@
         },
         "tags": [
             "Aberrants",
-            "Infantry",
+            "Genestealer Cults",
             "Great Devourer",
-            "Genestealer Cults"
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -55,10 +55,10 @@
         },
         "tags": [
             "Abominant",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
-            "Great Devourer"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -93,9 +93,9 @@
         "tags": [
             "Achilles Ridgerunners",
             "Genestealer Cults",
-            "Vehicle",
             "Great Devourer",
-            "Smoke"
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -109,6 +109,20 @@
                 "attacks": "3",
                 "damage": "3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Heavy Mining Laser",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Heavy Mortar",
@@ -137,20 +151,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true,
                     "rapidFire": 3
-                }
-            },
-            {
-                "name": "Heavy Mining Laser",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -185,12 +185,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Acolyte Hybrids",
-            "Genestealer Cults",
-            "Infantry",
-            "Grenades",
-            "Great Devourer",
+            "Acolyte Hybrids with Autopistols",
             "Battleline",
-            "Acolyte Hybrids with Autopistols"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Grenades",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -207,18 +207,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Leader's Cult Weapons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Cult Claws and Knife",
                 "range": "",
@@ -245,6 +233,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Leader's Cult Weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -266,14 +266,26 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Acolyte Hybrids",
-            "Genestealer Cults",
-            "Infantry",
-            "Grenades",
-            "Great Devourer",
+            "Acolyte Hybrids with Hand Flamers",
             "Battleline",
-            "Acolyte Hybrids with Hand Flamers"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Grenades",
+            "Infantry"
         ],
         "ranged_weapons": [
+            {
+                "name": "Autopistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Demolition Charge",
                 "range": "6",
@@ -287,18 +299,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Autopistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Hand Flamer",
@@ -317,18 +317,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Leader's Cult Weapons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Cult Claws and Knife",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -337,6 +325,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Leader's Cult Weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -358,11 +358,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Acolyte Iconward",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
+            "Genestealer Cults",
+            "Great Devourer",
             "Grenades",
-            "Great Devourer"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -412,37 +412,11 @@
         "tags": [
             "Atalan Jackals",
             "Genestealer Cults",
-            "Mounted",
+            "Great Devourer",
             "Grenades",
-            "Great Devourer"
+            "Mounted"
         ],
         "ranged_weapons": [
-            {
-                "name": "Heavy Stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
-                }
-            },
-            {
-                "name": "Mining Laser",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Atalan Incinerator",
                 "range": "12",
@@ -494,6 +468,32 @@
                 "attacks": "1",
                 "damage": "D3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Heavy Stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
+            },
+            {
+                "name": "Mining Laser",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -526,26 +526,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Benefictus",
             "Character",
-            "Infantry",
-            "Psyker",
-            "Great Devourer",
             "Genestealer Cults",
-            "Benefictus"
+            "Great Devourer",
+            "Infantry",
+            "Psyker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Psionic Cascade - Witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Psionic Cascade - Focused Witchfire",
                 "range": "18",
@@ -555,6 +543,18 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Psionic Cascade - Witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
             }
@@ -579,11 +579,23 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Biophagus",
+            "Character",
             "Genestealer Cults",
-            "Infantry",
-            "Character"
+            "Infantry"
         ],
         "ranged_weapons": [
+            {
+                "name": "Autopistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Chemical Vials",
                 "range": "6",
@@ -598,18 +610,6 @@
                     "anti": true,
                     "anti4": true
                 }
-            },
-            {
-                "name": "Autopistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -645,10 +645,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Character",
             "Clamavus",
             "Genestealer Cults",
-            "Infantry",
-            "Character"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -681,11 +681,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Goliath Rockgrinder",
             "Genestealer Cults",
-            "Vehicle",
+            "Goliath Rockgrinder",
             "Great Devourer",
-            "Transport"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -703,17 +703,17 @@
                 }
             },
             {
-                "name": "Heavy Seismic Cannon",
-                "range": "24",
+                "name": "Demolition Charge Cache",
+                "range": "6",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
+                "ballistic_skill": 5,
+                "strength": 9,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "D3",
+                "attacks": "D6",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "rapidFire": 2
+                    "blast": true
                 }
             },
             {
@@ -731,17 +731,17 @@
                 }
             },
             {
-                "name": "Demolition Charge Cache",
-                "range": "6",
+                "name": "Heavy Seismic Cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
+                "ballistic_skill": 4,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "2",
+                "attacks": "4",
+                "damage": "D3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "rapidFire": 2
                 }
             },
             {
@@ -791,28 +791,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Goliath Truck",
-            "Genestealer Cults",
-            "Vehicle",
             "Dedicated Transport",
+            "Genestealer Cults",
+            "Goliath Truck",
+            "Great Devourer",
             "Transport",
-            "Great Devourer"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin Autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Demolition Charge Cache",
                 "range": "6",
@@ -839,6 +825,20 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 3
+                }
+            },
+            {
+                "name": "Twin Autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ],
@@ -874,11 +874,11 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Hybrid Metamorphs",
             "Genestealer Cults",
-            "Infantry",
+            "Great Devourer",
             "Grenades",
-            "Great Devourer"
+            "Hybrid Metamorphs",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -966,26 +966,14 @@
             "stealth": true
         },
         "tags": [
-            "Jackal Alphus",
-            "Genestealer Cults",
             "Character",
-            "Grenades",
+            "Genestealer Cults",
             "Great Devourer",
+            "Grenades",
+            "Jackal Alphus",
             "Mounted"
         ],
         "ranged_weapons": [
-            {
-                "name": "Cult Sniper Rifle",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Autopistol",
                 "range": "12",
@@ -996,6 +984,18 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Cult Sniper Rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ],
@@ -1016,11 +1016,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Kelermorph",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
-            "Great Devourer"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Infantry",
+            "Kelermorph"
         ],
         "ranged_weapons": [
             {
@@ -1056,11 +1056,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Locus",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
-            "Great Devourer"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Infantry",
+            "Locus"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1093,10 +1093,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Magus",
+            "Character",
             "Genestealer Cults",
             "Infantry",
-            "Character"
+            "Magus"
         ],
         "ranged_weapons": [
             {
@@ -1142,39 +1142,37 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Neophyte Hybrids",
+            "Battleline",
             "Genestealer Cults",
-            "Infantry",
-            "Grenades",
             "Great Devourer",
-            "Battleline"
+            "Grenades",
+            "Infantry",
+            "Neophyte Hybrids"
         ],
         "ranged_weapons": [
             {
-                "name": "Mining Laser",
-                "range": "24",
+                "name": "Anointed Pistol",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "1",
-                "damage": "D6+1",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
-                "name": "Seismic Cannon",
-                "range": "24",
+                "name": "Autopistol",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Flamer",
@@ -1188,36 +1186,6 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
-                }
-            },
-            {
-                "name": "Webber",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Heavy Stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
                 }
             },
             {
@@ -1247,6 +1215,20 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Heavy Stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
+            },
+            {
                 "name": "Hybrid Firearm",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -1261,43 +1243,49 @@
                 }
             },
             {
-                "name": "Autopistol",
-                "range": "12",
+                "name": "Mining Laser",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "ballistic_skill": 5,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "1",
-                "damage": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
-                "name": "Anointed Pistol",
+                "name": "Seismic Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Webber",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
+                "ballistic_skill": 0,
+                "strength": 2,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "1",
+                "attacks": "D6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "autoHit": true
+                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Chainsword",
                 "range": "",
@@ -1307,6 +1295,18 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -1327,11 +1327,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Nexos",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
-            "Great Devourer"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Infantry",
+            "Nexos"
         ],
         "ranged_weapons": [
             {
@@ -1364,12 +1364,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Patriarch",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
-            "Psyker",
-            "Great Devourer"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Infantry",
+            "Patriarch",
+            "Psyker"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1408,11 +1408,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Primus",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
-            "Great Devourer"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Infantry",
+            "Primus"
         ],
         "ranged_weapons": [
             {
@@ -1476,10 +1476,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Purestrain Genestealers",
             "Genestealer Cults",
+            "Great Devourer",
             "Infantry",
-            "Great Devourer"
+            "Purestrain Genestealers"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1514,14 +1514,26 @@
             "stealth": true
         },
         "tags": [
-            "Reductus Saboteur",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
+            "Genestealer Cults",
+            "Great Devourer",
             "Grenades",
-            "Great Devourer"
+            "Infantry",
+            "Reductus Saboteur"
         ],
         "ranged_weapons": [
+            {
+                "name": "Autopistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Demolition Charge",
                 "range": "6",
@@ -1549,18 +1561,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Autopistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -1585,11 +1585,11 @@
             "stealth": true
         },
         "tags": [
-            "Sanctus",
-            "Genestealer Cults",
-            "Infantry",
             "Character",
-            "Great Devourer"
+            "Genestealer Cults",
+            "Great Devourer",
+            "Infantry",
+            "Sanctus"
         ],
         "ranged_weapons": [
             {
@@ -1642,9 +1642,9 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Vehicle",
+            "Genestealer Cults",
             "Tectonic Fragdrill",
-            "Genestealer Cults"
+            "Vehicle"
         ],
         "ranged_weapons": [],
         "melee_weapons": [

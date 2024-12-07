@@ -17,13 +17,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
+            "Arjac Rockfist",
             "Character",
             "Epic Hero",
             "Imperium",
-            "Terminator",
-            "Arjac Rockfist"
+            "Infantry",
+            "Space Wolves",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -79,15 +79,15 @@
         },
         "tags": [
             "Adeptus Astartes",
+            "Bjorn the Fell-Handed",
+            "Character",
+            "Dreadnought",
+            "Epic Hero",
+            "Imperium",
+            "Smoke",
             "Space Wolves",
             "Vehicle",
-            "Walker",
-            "Character",
-            "Epic Hero",
-            "Smoke",
-            "Imperium",
-            "Dreadnought",
-            "Bjorn the Fell-Handed"
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -134,32 +134,6 @@
                 }
             },
             {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Helfrost cannon - dispersed",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -184,6 +158,32 @@
                 "attacks": "1",
                 "damage": "5",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -220,12 +220,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Battleline",
+            "Blood Claws",
             "Grenades",
             "Imperium",
-            "Blood Claws"
+            "Infantry",
+            "Space Wolves"
         ],
         "ranged_weapons": [
             {
@@ -241,6 +241,33 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
+            },
+            {
+                "name": "Grav-gun",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Plasma gun - standard",
@@ -268,33 +295,6 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "rapidFire": 1
-                }
-            },
-            {
-                "name": "Meltagun",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Grav-gun",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
                 }
             }
         ],
@@ -329,12 +329,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Mounted",
+            "Canis Wolfborn",
             "Character",
             "Epic Hero",
             "Imperium",
-            "Canis Wolfborn"
+            "Mounted",
+            "Space Wolves"
         ],
         "ranged_weapons": [
             {
@@ -352,6 +352,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Crushing teeth and claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Wolf claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -364,18 +376,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Crushing teeth and claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -397,11 +397,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
             "Beast",
             "Character",
+            "Cyberwolf",
             "Imperium",
-            "Cyberwolf"
+            "Space Wolves"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -435,10 +435,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
             "Beast",
+            "Fenrisian Wolves",
             "Imperium",
-            "Fenrisian Wolves"
+            "Space Wolves"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -472,12 +472,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Battleline",
             "Grenades",
+            "Grey Hunters",
             "Imperium",
-            "Grey Hunters"
+            "Infantry",
+            "Space Wolves"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -511,29 +511,17 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Mounted",
+            "Captain",
             "Character",
             "Epic Hero",
             "Grenades",
+            "Harald Deathwolf",
             "Imperium",
-            "Captain",
-            "Harald Deathwolf"
+            "Mounted",
+            "Space Wolves"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Glacius",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Crushing teeth and claws",
                 "range": "",
@@ -544,6 +532,18 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Glacius",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -564,13 +564,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Grenades",
-            "Smoke",
+            "Hounds of Morkai",
             "Imperium",
+            "Infantry",
             "Phobos",
-            "Hounds of Morkai"
+            "Smoke",
+            "Space Wolves"
         ],
         "ranged_weapons": [
             {
@@ -632,13 +632,13 @@
         },
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
             "Grenades",
             "Imperium",
-            "Techmarine",
-            "Iron Priest"
+            "Infantry",
+            "Iron Priest",
+            "Space Wolves",
+            "Techmarine"
         ],
         "ranged_weapons": [
             {
@@ -715,12 +715,12 @@
             "healD3Wounds": true
         },
         "tags": [
+            "Adeptus Astartes",
             "Character",
-            "Mounted",
             "Grenades",
             "Imperium",
             "Iron Priest",
-            "Adeptus Astartes",
+            "Mounted",
             "Space Wolves"
         ],
         "ranged_weapons": [
@@ -753,15 +753,15 @@
         ],
         "melee_weapons": [
             {
-                "name": "Servo-arm",
+                "name": "Crushing teeth and claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -777,15 +777,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Crushing teeth and claws",
+                "name": "Servo-arm",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
@@ -806,14 +806,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
+            "Captain",
             "Character",
             "Epic Hero",
             "Grenades",
             "Imperium",
-            "Captain",
-            "Krom Dragongaze"
+            "Infantry",
+            "Krom Dragongaze",
+            "Space Wolves"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -850,14 +850,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
+            "Chapter Master",
             "Character",
             "Epic Hero",
             "Imperium",
-            "Terminator",
-            "Chapter Master",
-            "Logan Grimnar"
+            "Infantry",
+            "Logan Grimnar",
+            "Space Wolves",
+            "Terminator"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -903,13 +903,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Mounted",
+            "Chapter Master",
             "Character",
             "Epic Hero",
             "Imperium",
-            "Chapter Master",
-            "Logan Grimnar on Stormrider"
+            "Logan Grimnar on Stormrider",
+            "Mounted",
+            "Space Wolves"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -969,24 +969,27 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Grenades",
             "Imperium",
-            "Long Fangs"
+            "Infantry",
+            "Long Fangs",
+            "Space Wolves"
         ],
         "ranged_weapons": [
             {
-                "name": "Lascannon",
-                "range": "48",
+                "name": "Grav-cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
             },
             {
                 "name": "Heavy bolter",
@@ -1005,19 +1008,30 @@
                 }
             },
             {
-                "name": "Grav-cannon",
-                "range": "24",
+                "name": "Heavy flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
+                "ballistic_skill": 0,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "3",
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true
+                    "autoHit": true
                 }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Missile launcher - frag",
@@ -1042,6 +1056,18 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
             },
@@ -1074,30 +1100,16 @@
                 }
             },
             {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy flamer",
+                "name": "Plasma pistol - standard",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
+                "parsed_weapon_types": null
             },
             {
                 "name": "Plasma pistol - supercharge",
@@ -1110,33 +1122,9 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Astartes chainsword",
                 "range": "",
@@ -1146,6 +1134,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -1167,27 +1167,15 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
             "Epic Hero",
             "Grenades",
             "Imperium",
-            "Lukas the Trickster"
+            "Infantry",
+            "Lukas the Trickster",
+            "Space Wolves"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Plasma pistol - standard",
                 "range": "12",
@@ -1198,6 +1186,18 @@
                 "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -1234,14 +1234,14 @@
         },
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Vehicle",
-            "Walker",
             "Character",
+            "Dreadnought",
             "Epic Hero",
             "Imperium",
-            "Dreadnought",
-            "Murderfang"
+            "Murderfang",
+            "Space Wolves",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -1292,32 +1292,16 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
             "Epic Hero",
-            "Psyker",
             "Imperium",
-            "Terminator",
-            "Njal Stormcaller"
+            "Infantry",
+            "Njal Stormcaller",
+            "Psyker",
+            "Space Wolves",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Living Lightning - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits2": true
-                }
-            },
             {
                 "name": "Living Lightning - focused witchfire",
                 "range": "24",
@@ -1327,6 +1311,22 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true
+                }
+            },
+            {
+                "name": "Living Lightning - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
@@ -1370,15 +1370,15 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
+            "Captain",
             "Character",
             "Epic Hero",
-            "Imperium",
             "Grenades",
-            "Tacticus",
-            "Captain",
-            "Ragnar Blackmane"
+            "Imperium",
+            "Infantry",
+            "Ragnar Blackmane",
+            "Space Wolves",
+            "Tacticus"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1416,39 +1416,15 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
-            "Jump Pack",
             "Fly",
             "Grenades",
             "Imperium",
-            "Skyclaws"
+            "Infantry",
+            "Jump Pack",
+            "Skyclaws",
+            "Space Wolves"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Flamer",
                 "range": "12",
@@ -1479,6 +1455,18 @@
                 }
             },
             {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Plasma gun - standard",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -1507,15 +1495,27 @@
                 }
             },
             {
-                "name": "Meltagun",
+                "name": "Plasma pistol - standard",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "D6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -1553,15 +1553,41 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
+            "Dreadnought",
+            "Imperium",
+            "Smoke",
             "Space Wolves",
             "Vehicle",
-            "Walker",
-            "Smoke",
-            "Imperium",
-            "Dreadnought",
-            "Venerable Dreadnought"
+            "Venerable Dreadnought",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Helfrost cannon - dispersed",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Helfrost cannon - focused",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "5",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Plasma cannon - standard",
                 "range": "36",
@@ -1589,32 +1615,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Helfrost cannon - dispersed",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Helfrost cannon - focused",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "5",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Storm Bolter",
@@ -1674,13 +1674,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Vehicle",
             "Aircraft",
             "Fly",
-            "Transport",
+            "Imperium",
+            "Space Wolves",
             "Stormfang Gunship",
-            "Imperium"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1746,13 +1746,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Vehicle",
             "Aircraft",
             "Fly",
-            "Transport",
+            "Imperium",
+            "Space Wolves",
             "Stormwolf",
-            "Imperium"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1803,25 +1803,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Mounted",
             "Grenades",
             "Imperium",
+            "Mounted",
+            "Space Wolves",
             "Thunderwolf Cavalry"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Plasma pistol - standard",
                 "range": "12",
@@ -1833,21 +1821,21 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Heirloom weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Crushing teeth and claws",
                 "range": "",
@@ -1857,6 +1845,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Heirloom weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -1882,12 +1882,12 @@
         },
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
             "Epic Hero",
             "Grenades",
             "Imperium",
+            "Infantry",
+            "Space Wolves",
             "Ulrik the Slayer"
         ],
         "ranged_weapons": [
@@ -1947,10 +1947,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Grenades",
             "Imperium",
+            "Infantry",
+            "Space Wolves",
             "Wolf Guard"
         ],
         "ranged_weapons": [
@@ -1973,18 +1973,6 @@
                 }
             },
             {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Plasma pistol - standard",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -1994,6 +1982,18 @@
                 "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -2028,10 +2028,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
             "Imperium",
+            "Infantry",
+            "Space Wolves",
             "Terminator",
             "Wolf Guard Battle Leader in Terminator Armour"
         ],
@@ -2086,18 +2086,16 @@
                 }
             },
             {
-                "name": "Twin lightning claws",
+                "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Power weapon",
@@ -2127,16 +2125,18 @@
                 }
             },
             {
-                "name": "Power fist",
+                "name": "Twin lightning claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ]
     },
@@ -2156,38 +2156,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Mounted",
             "Character",
             "Grenades",
             "Imperium",
+            "Mounted",
+            "Space Wolves",
             "Wolf Guard Battle Leader on Thunderwolf"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -2207,6 +2183,30 @@
                 }
             },
             {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Storm bolter",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -2223,29 +2223,15 @@
         ],
         "melee_weapons": [
             {
-                "name": "Twin lightning claws",
+                "name": "Crushing teeth and claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 4,
                 "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Relic weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -2257,6 +2243,18 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Relic weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
@@ -2276,16 +2274,18 @@
                 }
             },
             {
-                "name": "Crushing teeth and claws",
+                "name": "Twin lightning claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 2,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ]
     },
@@ -2305,39 +2305,15 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
             "Grenades",
             "Imperium",
+            "Infantry",
             "Pack Leader",
+            "Space Wolves",
             "Wolf Guard Pack Leader"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -2355,6 +2331,30 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Storm Bolter",
@@ -2404,16 +2404,34 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
             "Grenades",
             "Imperium",
-            "Terminator",
+            "Infantry",
             "Pack Leader",
+            "Space Wolves",
+            "Terminator",
             "Wolf Guard Pack Leader in Terminator Armour"
         ],
         "ranged_weapons": [
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Cyclone missile launcher - frag",
                 "range": "36",
@@ -2441,24 +2459,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
                 "name": "Storm Bolter",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -2475,6 +2475,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Twin lightning claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2487,18 +2499,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Power fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2518,41 +2518,17 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Character",
-            "Jump Pack",
             "Fly",
             "Grenades",
             "Imperium",
+            "Infantry",
+            "Jump Pack",
             "Pack Leader",
+            "Space Wolves",
             "Wolf Guard Pack Leader with Jump Pack"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -2570,6 +2546,30 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Storm Bolter",
@@ -2621,10 +2621,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Grenades",
             "Imperium",
+            "Infantry",
+            "Space Wolves",
             "Terminator",
             "Wolf Guard Terminators"
         ],
@@ -2760,16 +2760,28 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Mounted",
+            "Captain",
             "Character",
             "Grenades",
             "Imperium",
-            "Captain",
+            "Mounted",
+            "Space Wolves",
             "Wolf Lord on Thunderwolf"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
+            {
+                "name": "Crushing teeth and claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Twin lightning claws",
                 "range": "",
@@ -2783,18 +2795,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Crushing teeth and claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -2814,15 +2814,45 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Grenades",
-            "Smoke",
             "Imperium",
+            "Infantry",
             "Scout Squad",
+            "Smoke",
+            "Space Wolves",
             "Wolf Scouts"
         ],
         "ranged_weapons": [
+            {
+                "name": "Astartes shotgun",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Grav-pistol",
                 "range": "18",
@@ -2865,48 +2895,16 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Astartes shotgun",
-                "range": "18",
+                "name": "Plasma pistol - standard",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
+                "parsed_weapon_types": null
             },
             {
                 "name": "Plasma pistol - supercharge",
@@ -2921,16 +2919,18 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Plasma pistol - standard",
-                "range": "12",
+                "name": "Storm Bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             }
         ],
         "melee_weapons": [
@@ -2966,9 +2966,9 @@
         },
         "tags": [
             "Adeptus Astartes",
-            "Space Wolves",
-            "Infantry",
             "Imperium",
+            "Infantry",
+            "Space Wolves",
             "Wulfen"
         ],
         "ranged_weapons": [
@@ -3032,11 +3032,11 @@
         },
         "tags": [
             "Adeptus Astartes",
+            "Dreadnought",
+            "Imperium",
             "Space Wolves",
             "Vehicle",
             "Walker",
-            "Imperium",
-            "Dreadnought",
             "Wulfen Dreadnought"
         ],
         "ranged_weapons": [
@@ -3056,18 +3056,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Great wolf claw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Fenrisian great axe - strike",
                 "range": "",
@@ -3090,6 +3078,18 @@
                 "armor_penetration": 2,
                 "attacks": "10",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Great wolf claw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]

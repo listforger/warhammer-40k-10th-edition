@@ -14,33 +14,21 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aetaos'rau'keres",
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
+            "Fly",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
+            "Psyker",
             "Titanic",
             "Towering",
-            "Fly",
-            "Psyker",
-            "Chaos",
-            "Daemon",
             "Tzeentch",
-            "Aetaos'rau'keres",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
-            {
-                "name": "Bolt of Tzeentch - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "9",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Bolt of Tzeentch - focused witchfire",
                 "range": "24",
@@ -51,6 +39,18 @@
                 "armor_penetration": 2,
                 "attacks": "9",
                 "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Bolt of Tzeentch - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "9",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ],
@@ -96,17 +96,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "An'ggrath the Unbound",
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
+            "Khorne",
+            "Khorne non-Battleline",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
             "Titanic",
-            "Towering",
-            "Chaos",
-            "Daemon",
-            "Khorne",
-            "An'ggrath the Unbound",
-            "Khorne non-Battleline"
+            "Towering"
         ],
         "ranged_weapons": [
             {
@@ -166,32 +166,17 @@
             "stealth": true
         },
         "tags": [
+            "Be'lakor",
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
+            "Fly",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Fly",
-            "Epic Hero",
-            "Psyker",
-            "Chaos",
-            "Daemon",
-            "Be'lakor"
+            "Psyker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Betraying Shades - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "9",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Betraying Shades - focused witchfire",
                 "range": "18",
@@ -206,21 +191,24 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Betraying Shades - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "9",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "The Blade of Shadows - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "14",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "The Blade of Shadows - strike",
                 "range": "",
@@ -235,6 +223,18 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
+            },
+            {
+                "name": "The Blade of Shadows - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "14",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -253,12 +253,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
             "Beast",
+            "Beasts of Nurgle",
             "Chaos",
             "Daemon",
+            "Legiones Daemonica",
             "Nurgle",
-            "Beasts of Nurgle",
             "Nurgle non-Battleline"
         ],
         "ranged_weapons": [],
@@ -295,13 +295,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
+            "Bloodcrushers",
             "Chaos",
             "Daemon",
             "Khorne",
-            "Bloodcrushers",
-            "Khorne non-Battleline"
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Mounted"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -350,14 +350,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
             "Battleline",
+            "Bloodletters",
             "Chaos",
             "Daemon",
+            "Infantry",
             "Khorne",
-            "Bloodletters",
-            "Khorne Battleline"
+            "Khorne Battleline",
+            "Legiones Daemonica"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -392,14 +392,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Chaos",
-            "Daemon",
-            "Khorne",
             "Bloodmaster",
-            "Khorne non-Battleline"
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Infantry",
+            "Khorne",
+            "Khorne non-Battleline",
+            "Legiones Daemonica"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -434,31 +434,17 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Monster",
-            "Character",
-            "Fly",
-            "Chaos",
-            "Daemon",
-            "Khorne",
             "Bloodthirster",
-            "Khorne non-Battleline"
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Fly",
+            "Khorne",
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Monster"
         ],
         "ranged_weapons": [
-            {
-                "name": "Hellfire breath",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
             {
                 "name": "Bloodflail",
                 "range": "12",
@@ -472,6 +458,20 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Hellfire breath",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
                 }
             },
             {
@@ -529,14 +529,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
             "Battleline",
+            "Blue",
             "Chaos",
             "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
             "Tzeentch",
-            "Tzeentch Battleline",
-            "Blue"
+            "Tzeentch Battleline"
         ],
         "ranged_weapons": [
             {
@@ -582,13 +582,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
+            "Burning Chariot",
             "Chaos",
             "Daemon",
-            "Tzeentch",
-            "Burning Chariot",
             "Fly",
+            "Legiones Daemonica",
+            "Mounted",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
@@ -661,29 +661,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Psyker",
-            "Chaos",
-            "Daemon",
-            "Tzeentch",
             "Changecaster",
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
+            "Psyker",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
-            {
-                "name": "Arcane Fireball - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Arcane Fireball - focused witchfire",
                 "range": "18",
@@ -698,6 +686,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Arcane Fireball - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "D3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -730,13 +730,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Psyker",
             "Chaos",
-            "Slaanesh",
+            "Character",
             "Contorted Epitome",
+            "Infantry",
+            "Legiones Daemonica",
+            "Psyker",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [],
@@ -785,14 +785,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Monster",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
             "Daemon Prince of Chaos",
             "Khorne",
             "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Monster",
             "Nurgle",
             "Nurgle non-Battleline",
             "Slaanesh",
@@ -856,15 +856,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Monster",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
             "Daemon Prince of Chaos with wings",
             "Fly",
             "Khorne",
             "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Monster",
             "Nurgle",
             "Nurgle non-Battleline",
             "Slaanesh",
@@ -930,13 +930,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
             "Battleline",
             "Chaos",
             "Daemon",
-            "Slaanesh",
             "Daemonettes",
+            "Infantry",
+            "Legiones Daemonica",
+            "Slaanesh",
             "Slaanesh Battleline"
         ],
         "ranged_weapons": [],
@@ -973,14 +973,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Epic Hero",
             "Chaos",
+            "Character",
             "Daemon",
-            "Nurgle",
+            "Epic Hero",
             "Epidemius",
+            "Infantry",
+            "Legiones Daemonica",
+            "Nurgle",
             "Nurgle non-Battleline"
         ],
         "ranged_weapons": [],
@@ -1017,14 +1017,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Fly",
             "Chaos",
+            "Character",
             "Daemon",
-            "Tzeentch",
             "Exalted Flamer",
+            "Fly",
+            "Infantry",
+            "Legiones Daemonica",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
@@ -1085,12 +1085,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
             "Chaos",
             "Daemon",
-            "Slaanesh",
             "Exalted Seeker Chariot",
+            "Legiones Daemonica",
+            "Mounted",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [
@@ -1158,30 +1158,18 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Fateskimmer",
+            "Fly",
             "Legiones Daemonica",
             "Mounted",
-            "Character",
-            "Fly",
             "Psyker",
-            "Chaos",
-            "Daemon",
             "Tzeentch",
-            "Fateskimmer",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
-            {
-                "name": "Arcane Fireball - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Arcane Fireball - focused witchfire",
                 "range": "18",
@@ -1196,21 +1184,21 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Arcane Fireball - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "D3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Screamer bites",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Herald combat weapon",
                 "range": "",
@@ -1221,6 +1209,18 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Screamer bites",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1240,12 +1240,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Fortification",
             "Chaos",
             "Daemon",
-            "Nurgle",
             "Feculent Gnarlmaw",
+            "Fortification",
+            "Legiones Daemonica",
+            "Nurgle",
             "Nurgle non-Battleline"
         ],
         "ranged_weapons": [],
@@ -1266,12 +1266,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
             "Beast",
             "Chaos",
             "Daemon",
-            "Slaanesh",
             "Fiends",
+            "Legiones Daemonica",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [],
@@ -1308,12 +1308,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Fly",
             "Chaos",
             "Daemon",
-            "Tzeentch",
             "Flamers",
+            "Fly",
+            "Infantry",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
@@ -1362,13 +1362,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
             "Beast",
             "Chaos",
             "Daemon",
-            "Khorne",
             "Flesh Hounds",
-            "Khorne non-Battleline"
+            "Khorne",
+            "Khorne non-Battleline",
+            "Legiones Daemonica"
         ],
         "ranged_weapons": [
             {
@@ -1416,30 +1416,18 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Fluxmaster",
+            "Fly",
             "Legiones Daemonica",
             "Mounted",
-            "Character",
-            "Fly",
             "Psyker",
-            "Chaos",
-            "Daemon",
             "Tzeentch",
-            "Fluxmaster",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
-            {
-                "name": "Arcane Fireball - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Arcane Fireball - focused witchfire",
                 "range": "18",
@@ -1454,6 +1442,18 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Arcane Fireball - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "D3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1486,14 +1486,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
             "Chaos",
             "Daemon",
             "Fly",
             "Furies",
+            "Infantry",
             "Khorne",
             "Khorne non-Battleline",
+            "Legiones Daemonica",
             "Nurgle",
             "Nurgle non-Battleline",
             "Slaanesh",
@@ -1536,18 +1536,18 @@
             "healD3Wounds": true
         },
         "tags": [
+            "Chaos",
+            "Giant Chaos Spawn",
             "Khorne",
             "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Monster",
             "Nurgle",
             "Nurgle non-Battleline",
             "Slaanesh",
             "Slaanesh non-Battleline",
             "Tzeentch",
-            "Tzeentch non-Battleline",
-            "Legiones Daemonica",
-            "Monster",
-            "Chaos",
-            "Giant Chaos Spawn"
+            "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1580,17 +1580,29 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Great Unclean One",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Psyker",
-            "Chaos",
-            "Daemon",
             "Nurgle",
-            "Great Unclean One",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Psyker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Plague flail",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Putrid vomit",
                 "range": "12",
@@ -1604,18 +1616,6 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
-            },
-            {
-                "name": "Plague flail",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+1",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1696,12 +1696,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
             "Chaos",
             "Daemon",
-            "Slaanesh",
             "Hellflayer",
+            "Legiones Daemonica",
+            "Mounted",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [
@@ -1783,14 +1783,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Herald of Slaanesh",
             "Legiones Daemonica",
             "Mounted",
-            "Character",
             "Psyker",
-            "Chaos",
-            "Daemon",
             "Slaanesh",
-            "Herald of Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [],
@@ -1842,14 +1842,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
+            "Horticulous Slimux",
             "Legiones Daemonica",
             "Mounted",
-            "Character",
-            "Epic Hero",
-            "Chaos",
-            "Daemon",
             "Nurgle",
-            "Horticulous Slimux",
             "Nurgle non-Battleline"
         ],
         "ranged_weapons": [],
@@ -1901,13 +1901,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
-            "Slaanesh",
+            "Infantry",
             "Infernal Enrapturess",
+            "Legiones Daemonica",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [
@@ -1969,33 +1969,19 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Monster",
+            "Chaos",
             "Character",
+            "Daemon",
             "Epic Hero",
             "Fly",
-            "Psyker",
-            "Chaos",
-            "Daemon",
-            "Tzeentch",
             "Kairos Fateweaver",
+            "Legiones Daemonica",
+            "Monster",
+            "Psyker",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Gateway - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Infernal Gateway - focused witchfire",
                 "range": "24",
@@ -2005,6 +1991,20 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "D3+6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Infernal Gateway - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "blast": true
@@ -2042,12 +2042,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Beast",
-            "Character",
-            "Epic Hero",
             "Chaos",
+            "Character",
             "Daemon",
-            "Khorne",
+            "Epic Hero",
             "Karanak",
+            "Khorne",
             "Khorne non-Battleline"
         ],
         "ranged_weapons": [],
@@ -2083,31 +2083,28 @@
             "feelNoPain": 5
         },
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Keeper of Secrets",
             "Legiones Daemonica",
             "Monster",
-            "Character",
             "Psyker",
-            "Chaos",
-            "Daemon",
             "Slaanesh",
-            "Keeper of Secrets",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [
             {
-                "name": "Phantasmagoria - witchfire",
-                "range": "18",
+                "name": "Living whip",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Phantasmagoria - focused witchfire",
@@ -2125,29 +2122,32 @@
                 }
             },
             {
-                "name": "Living whip",
-                "range": "12",
+                "name": "Phantasmagoria - witchfire",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Witstealer sword",
+                "name": "Ritual knife",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "3",
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -2166,15 +2166,15 @@
                 }
             },
             {
-                "name": "Ritual knife",
+                "name": "Witstealer sword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 6,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
+                "attacks": "6",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
@@ -2194,16 +2194,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
             "Khorne",
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
             "Soul Grinder",
-            "Khorne non-Battleline"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Harvester cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Torrent of burning blood",
                 "range": "12",
@@ -2217,18 +2229,6 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
-            },
-            {
-                "name": "Harvester cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2285,30 +2285,18 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Monster",
-            "Character",
-            "Fly",
-            "Psyker",
             "Chaos",
+            "Character",
             "Daemon",
-            "Tzeentch",
+            "Fly",
+            "Legiones Daemonica",
             "Lord of Change",
+            "Monster",
+            "Psyker",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
-            {
-                "name": "Bolt of Change - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "9",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Bolt of Change - focused witchfire",
                 "range": "18",
@@ -2319,6 +2307,18 @@
                 "armor_penetration": 2,
                 "attacks": "9",
                 "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Bolt of Change - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "9",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -2336,18 +2336,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Staff of Tzeentch",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Baleful sword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2356,6 +2344,18 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Staff of Tzeentch",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
                 "damage": "3",
                 "parsed_weapon_types": null
             }
@@ -2376,16 +2376,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
+            "Legiones Daemonica",
             "Nurgle",
+            "Nurgle non-Battleline",
             "Soul Grinder",
-            "Nurgle non-Battleline"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Harvester cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Phlegm bombardment",
                 "range": "36",
@@ -2401,18 +2413,6 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
-            },
-            {
-                "name": "Harvester cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2469,14 +2469,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Swarm",
             "Battleline",
             "Chaos",
             "Daemon",
+            "Legiones Daemonica",
             "Nurgle",
+            "Nurgle Battleline",
             "Nurglings",
-            "Nurgle Battleline"
+            "Swarm"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2512,15 +2512,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
             "Battleline",
+            "Blue",
             "Chaos",
             "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
+            "Pink",
             "Tzeentch",
-            "Tzeentch Battleline",
-            "Blue",
-            "Pink"
+            "Tzeentch Battleline"
         ],
         "ranged_weapons": [
             {
@@ -2568,14 +2568,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
-            "Fly",
             "Chaos",
             "Daemon",
+            "Fly",
+            "Legiones Daemonica",
+            "Mounted",
             "Nurgle",
-            "Plague Drones",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Plague Drones"
         ],
         "ranged_weapons": [
             {
@@ -2643,13 +2643,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
             "Beast",
             "Chaos",
             "Daemon",
+            "Legiones Daemonica",
             "Nurgle",
-            "Plague Toads",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Plague Toads"
         ],
         "ranged_weapons": [
             {
@@ -2701,14 +2701,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
             "Battleline",
             "Chaos",
             "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
             "Nurgle",
-            "Plaguebearers",
-            "Nurgle Battleline"
+            "Nurgle Battleline",
+            "Plaguebearers"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2744,13 +2744,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
             "Chaos",
             "Daemon",
+            "Legiones Daemonica",
+            "Mounted",
             "Nurgle",
-            "Pox Riders",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Pox Riders"
         ],
         "ranged_weapons": [
             {
@@ -2817,15 +2817,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Psyker",
             "Chaos",
+            "Character",
             "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
             "Nurgle",
+            "Nurgle non-Battleline",
             "Poxbringer",
-            "Nurgle non-Battleline"
+            "Psyker"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2863,14 +2863,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
             "Khorne",
-            "Rendmaster on Blood Throne",
-            "Khorne non-Battleline"
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Mounted",
+            "Rendmaster on Blood Throne"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2915,16 +2915,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
-            "Psyker",
-            "Chaos",
-            "Daemon",
             "Nurgle",
-            "Rotigus",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Psyker",
+            "Rotigus"
         ],
         "ranged_weapons": [
             {
@@ -2994,16 +2994,16 @@
             "feelNoPain": 6
         },
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
-            "Psyker",
-            "Chaos",
-            "Daemon",
             "Nurgle",
-            "Scabeiathrax the Bloated",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Psyker",
+            "Scabeiathrax the Bloated"
         ],
         "ranged_weapons": [
             {
@@ -3069,13 +3069,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
             "Beast",
-            "Fly",
             "Chaos",
             "Daemon",
-            "Tzeentch",
+            "Fly",
+            "Legiones Daemonica",
             "Screamers",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [],
@@ -3109,12 +3109,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
             "Chaos",
             "Daemon",
-            "Slaanesh",
+            "Legiones Daemonica",
+            "Mounted",
             "Seeker Chariot",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [
@@ -3182,12 +3182,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
             "Chaos",
             "Daemon",
-            "Slaanesh",
+            "Legiones Daemonica",
+            "Mounted",
             "Seekers",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [],
@@ -3243,15 +3243,15 @@
             "feelNoPain": 5
         },
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
             "Psyker",
-            "Chaos",
-            "Daemon",
-            "Slaanesh",
             "Shalaxi Helbane",
+            "Slaanesh",
             "Slaanesh non-Battleline"
         ],
         "ranged_weapons": [
@@ -3266,21 +3266,6 @@
                 "attacks": "6",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Pavane of Slaanesh - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
             },
             {
                 "name": "Pavane of Slaanesh - focused witchfire",
@@ -3298,6 +3283,21 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits3": true
+                }
+            },
+            {
+                "name": "Pavane of Slaanesh - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -3346,15 +3346,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
+            "Khorne",
+            "Khorne non-Battleline",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
-            "Chaos",
-            "Daemon",
-            "Khorne",
-            "Skarbrand",
-            "Khorne non-Battleline"
+            "Skarbrand"
         ],
         "ranged_weapons": [
             {
@@ -3414,13 +3414,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Fortification",
             "Chaos",
             "Daemon",
+            "Fortification",
             "Khorne",
-            "Skull Altar",
-            "Khorne non-Battleline"
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Skull Altar"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -3440,13 +3440,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
             "Chaos",
             "Daemon",
             "Khorne",
-            "Skull Cannon",
-            "Khorne non-Battleline"
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Mounted",
+            "Skull Cannon"
         ],
         "ranged_weapons": [
             {
@@ -3506,14 +3506,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
             "Khorne",
-            "Skullmaster",
-            "Khorne non-Battleline"
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Mounted",
+            "Skullmaster"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -3563,15 +3563,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Epic Hero",
             "Chaos",
+            "Character",
             "Daemon",
+            "Epic Hero",
+            "Infantry",
             "Khorne",
-            "Skulltaker",
-            "Khorne non-Battleline"
+            "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Skulltaker"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -3607,16 +3607,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
+            "Legiones Daemonica",
             "Slaanesh",
+            "Slaanesh non-Battleline",
             "Soul Grinder",
-            "Slaanesh non-Battleline"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Harvester cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Scream of despair",
                 "range": "24",
@@ -3634,21 +3646,21 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Harvester cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Iron claw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 16,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Warpclaw",
                 "range": "",
@@ -3672,18 +3684,6 @@
                 "attacks": "3",
                 "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Iron claw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 16,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "D6+2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -3702,14 +3702,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
             "Nurgle",
-            "Sloppity Bilepiper",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Sloppity Bilepiper"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -3745,16 +3745,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Monster",
             "Chaos",
-            "Spined Chaos Beast",
             "Khorne",
             "Khorne non-Battleline",
+            "Legiones Daemonica",
+            "Monster",
             "Nurgle",
             "Nurgle non-Battleline",
             "Slaanesh",
             "Slaanesh non-Battleline",
+            "Spined Chaos Beast",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -3789,14 +3789,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
             "Chaos",
+            "Character",
             "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
             "Nurgle",
-            "Spoilpox Scrivener",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Spoilpox Scrivener"
         ],
         "ranged_weapons": [
             {
@@ -3847,29 +3847,33 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
             "Psyker",
-            "Chaos",
-            "Daemon",
             "Slaanesh",
-            "Syll'esske",
-            "Slaanesh non-Battleline"
+            "Slaanesh non-Battleline",
+            "Syll'esske"
         ],
         "ranged_weapons": [
             {
-                "name": "Scourging whip",
-                "range": "9",
+                "name": "Cacophonic choir - focused witchfire",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
+                "ballistic_skill": 0,
+                "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "6",
+                "attacks": "2D6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "autoHit": true
+                }
             },
             {
                 "name": "Cacophonic choir - witchfire",
@@ -3888,20 +3892,16 @@
                 }
             },
             {
-                "name": "Cacophonic choir - focused witchfire",
-                "range": "12",
+                "name": "Scourging whip",
+                "range": "9",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
+                "ballistic_skill": 3,
+                "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2D6",
+                "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "autoHit": true
-                }
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3946,15 +3946,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Mounted",
+            "Chaos",
             "Character",
+            "Daemon",
             "Epic Hero",
             "Fly",
-            "Chaos",
-            "Daemon",
-            "Tzeentch",
+            "Legiones Daemonica",
+            "Mounted",
             "The Blue Scribes",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [],
@@ -3993,32 +3993,18 @@
             "stealth": true
         },
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Epic Hero",
-            "Psyker",
             "Chaos",
+            "Character",
             "Daemon",
-            "Tzeentch",
+            "Epic Hero",
+            "Infantry",
+            "Legiones Daemonica",
+            "Psyker",
             "The Changeling",
+            "Tzeentch",
             "Tzeentch non-Battleline"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Flames - witchfire",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
             {
                 "name": "Infernal Flames - focused witchfire",
                 "range": "12",
@@ -4029,6 +4015,20 @@
                 "armor_penetration": 1,
                 "attacks": "D6+3",
                 "damage": "D3",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Infernal Flames - witchfire",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
@@ -4066,16 +4066,16 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
+            "Chaos",
             "Character",
+            "Daemon",
             "Epic Hero",
             "Fly",
-            "Chaos",
-            "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
             "Slaanesh",
-            "The Masque of Slaanesh",
-            "Slaanesh non-Battleline"
+            "Slaanesh non-Battleline",
+            "The Masque of Slaanesh"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -4111,15 +4111,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
             "Legiones Daemonica",
             "Mounted",
-            "Character",
             "Psyker",
-            "Chaos",
-            "Daemon",
             "Slaanesh",
-            "Tormentbringer on Exalted Seeker Chariot",
-            "Slaanesh non-Battleline"
+            "Slaanesh non-Battleline",
+            "Tormentbringer on Exalted Seeker Chariot"
         ],
         "ranged_weapons": [
             {
@@ -4189,15 +4189,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Infantry",
-            "Character",
-            "Psyker",
             "Chaos",
+            "Character",
             "Daemon",
+            "Infantry",
+            "Legiones Daemonica",
+            "Psyker",
             "Slaanesh",
-            "Tranceweaver",
-            "Slaanesh non-Battleline"
+            "Slaanesh non-Battleline",
+            "Tranceweaver"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -4233,16 +4233,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Legiones Daemonica",
-            "Vehicle",
-            "Walker",
             "Chaos",
             "Daemon",
-            "Tzeentch",
+            "Legiones Daemonica",
             "Soul Grinder",
-            "Tzeentch non-Battleline"
+            "Tzeentch",
+            "Tzeentch non-Battleline",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Harvester cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Warp gaze",
                 "range": "48",
@@ -4256,18 +4268,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Harvester cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -4324,33 +4324,18 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
             "Legiones Daemonica",
             "Monster",
-            "Character",
-            "Epic Hero",
             "Psyker",
-            "Chaos",
-            "Daemon",
             "Slaanesh",
-            "Zarakynel",
-            "Slaanesh non-Battleline"
+            "Slaanesh non-Battleline",
+            "Zarakynel"
         ],
         "ranged_weapons": [
-            {
-                "name": "Phantasmagoria - witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Phantasmagoria - focused witchfire",
                 "range": "18",
@@ -4360,6 +4345,21 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "9",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Phantasmagoria - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,

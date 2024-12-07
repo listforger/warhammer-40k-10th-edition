@@ -14,11 +14,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
-            "Infantry",
+            "Aeldari",
             "Character",
+            "Epic Hero",
             "Grenades",
-            "Aeldari"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -66,14 +66,26 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Infantry",
-            "Kabal",
             "Aeldari",
             "Archon",
-            "Drukhari"
+            "Character",
+            "Drukhari",
+            "Infantry",
+            "Kabal"
         ],
         "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Splinter Pistol",
                 "range": "12",
@@ -88,18 +100,6 @@
                     "anti": true,
                     "anti3": true
                 }
-            },
-            {
-                "name": "Blast Pistol",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -135,49 +135,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Autarch",
             "Character",
-            "Infantry",
             "Grenades",
-            "Aeldari"
+            "Infantry"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Reaper Launcher - Starshot",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Reaper Launcher - Starswarm",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Death Spinner",
                 "range": "12",
@@ -217,9 +181,57 @@
                 "attacks": "1",
                 "damage": "D3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper Launcher - Starshot",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper Launcher - Starswarm",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Banshee Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Scorpion Chainsword",
                 "range": "",
@@ -235,18 +247,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Banshee Blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Star Glaive",
@@ -277,27 +277,25 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Autarch",
             "Autarch Skyrunner",
             "Character",
-            "Mounted",
             "Fly",
-            "Aeldari"
+            "Mounted"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
+                "name": "Dragon Fusion Gun",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Laser Lance",
@@ -312,19 +310,33 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Dragon Fusion Gun",
-                "range": "12",
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Banshee Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Laser Lance",
                 "range": "",
@@ -338,18 +350,6 @@
                 "parsed_weapon_types": {
                     "plusOneToWound": true
                 }
-            },
-            {
-                "name": "Banshee Blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -368,51 +368,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Infantry",
-            "Grenades",
-            "Fly",
+            "Aeldari",
             "Autarch",
             "Autarch Wayleaper",
-            "Aeldari"
+            "Character",
+            "Fly",
+            "Grenades",
+            "Infantry"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Reaper Launcher - Starshot",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Reaper Launcher - Starswarm",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Death Spinner",
                 "range": "12",
@@ -452,9 +416,57 @@
                 "attacks": "1",
                 "damage": "D3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper Launcher - Starshot",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Reaper Launcher - Starswarm",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Banshee Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Scorpion Chainsword",
                 "range": "",
@@ -470,18 +482,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Banshee Blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Star Glaive",
@@ -515,12 +515,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Drukhari",
             "Beast",
+            "Beastmaster",
             "Character",
-            "Mounted",
+            "Drukhari",
             "Fly",
-            "Beastmaster"
+            "Mounted"
         ],
         "ranged_weapons": [
             {
@@ -556,21 +556,6 @@
                 }
             },
             {
-                "name": "Khymerae talons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
-            {
                 "name": "Clawed Fiend fists",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -583,6 +568,21 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Khymerae talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -653,11 +653,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Titanic",
-            "Fly",
             "Aeldari",
-            "Cobra"
+            "Cobra",
+            "Fly",
+            "Titanic",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -709,87 +709,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Battleline",
-            "Grenades",
-            "Anrathe",
-            "Corsair Voidreavers",
             "Aeldari",
-            "Corsairs and Travelling players"
+            "Anrathe",
+            "Battleline",
+            "Corsair Voidreavers",
+            "Corsairs and Travelling players",
+            "Grenades",
+            "Infantry"
         ],
         "ranged_weapons": [
-            {
-                "name": "Neuro disruptor",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true
-                }
-            },
-            {
-                "name": "Shuriken rifle",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Shuriken pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Shuriken cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Wraithcannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Corsair blaster",
                 "range": "18",
@@ -814,6 +742,78 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
+                }
+            },
+            {
+                "name": "Neuro disruptor",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            },
+            {
+                "name": "Shuriken cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Shuriken pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Wraithcannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -847,54 +847,39 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
+            "Aeldari",
             "Anrathe",
             "Corsair Voidscarred",
-            "Aeldari",
             "Corsairs and Travelling players",
             "Grenades",
+            "Infantry",
             "Psyker"
         ],
         "ranged_weapons": [
             {
-                "name": "Neuro disruptor",
-                "range": "12",
+                "name": "Corsair blaster",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
                 "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true
-                }
-            },
-            {
-                "name": "Shuriken pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
-                "name": "Shuriken rifle",
-                "range": "24",
+                "name": "Corsair shredder",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 1
+                    "autoHit": true
                 }
             },
             {
@@ -925,6 +910,33 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Neuro disruptor",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            },
+            {
+                "name": "Ranger long rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Shuriken cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -941,6 +953,32 @@
                 }
             },
             {
+                "name": "Shuriken pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
                 "name": "Wraithcannon",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -954,44 +992,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Ranger long rifle",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Corsair shredder",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Corsair blaster",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1053,13 +1053,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Court of the Archon",
             "Aeldari",
-            "Kabal",
+            "Court of the Archon",
             "Drukhari",
-            "Infantry"
+            "Infantry",
+            "Kabal"
         ],
         "ranged_weapons": [
+            {
+                "name": "Eyeburst",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
             {
                 "name": "Shardcarbine",
                 "range": "18",
@@ -1088,20 +1102,6 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti3": true
-                }
-            },
-            {
-                "name": "Eyeburst",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
                 }
             }
         ],
@@ -1168,13 +1168,25 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Aeldari",
             "Aircraft",
-            "Fly",
             "Crimson Hunter",
-            "Aeldari"
+            "Fly",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Bright Lance",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Pulse Laser",
                 "range": "48",
@@ -1198,18 +1210,6 @@
                 "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Bright Lance",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -1229,41 +1229,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Dark Reapers",
-            "Infantry",
-            "Aeldari"
+            "Infantry"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Tempest Launcher",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Aeldari Missile Launcher - Starshot",
                 "range": "48",
@@ -1313,6 +1283,36 @@
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Tempest Launcher",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             }
         ],
         "melee_weapons": []
@@ -1332,11 +1332,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Character",
-            "Infantry",
-            "Harlequins",
             "Death Jester",
-            "Aeldari"
+            "Harlequins",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -1385,10 +1385,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Dire Avengers",
             "Grenades",
-            "Infantry",
-            "Aeldari"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -1464,12 +1464,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
-            "Drazhar",
             "Aeldari",
+            "Character",
+            "Drazhar",
             "Drukhari",
-            "Infantry",
-            "Character"
+            "Epic Hero",
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -1521,27 +1521,15 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
+            "Aeldari",
             "Character",
-            "Infantry",
-            "Psyker",
-            "Farseer",
             "Eldrad Ultran",
-            "Aeldari"
+            "Epic Hero",
+            "Farseer",
+            "Infantry",
+            "Psyker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Mind War",
                 "range": "18",
@@ -1556,6 +1544,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1591,11 +1591,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Falcon",
             "Fly",
             "Transport",
-            "Vehicle",
-            "Aeldari"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1611,20 +1611,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Shuriken Cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -1638,6 +1624,20 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ],
@@ -1671,25 +1671,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Character",
-            "Infantry",
-            "Psyker",
             "Farseer",
-            "Aeldari"
+            "Infantry",
+            "Psyker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Eldritch Storm",
                 "range": "24",
@@ -1703,6 +1691,18 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Singing Spear",
@@ -1719,6 +1719,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Singing Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Witchblade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1732,18 +1744,6 @@
                     "anti": true,
                     "anti2": true
                 }
-            },
-            {
-                "name": "Singing Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1762,26 +1762,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Farseer Skyrunner",
-            "Farseer",
+            "Aeldari",
             "Character",
+            "Farseer",
+            "Farseer Skyrunner",
             "Fly",
             "Mounted",
-            "Psyker",
-            "Aeldari"
+            "Psyker"
         ],
         "ranged_weapons": [
             {
-                "name": "Singing Spear",
-                "range": "12",
+                "name": "Eldritch Storm",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Shuriken Pistol",
@@ -1793,6 +1795,18 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Singing Spear",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -1808,23 +1822,21 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Eldritch Storm",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Singing Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Witchblade",
                 "range": "",
@@ -1839,18 +1851,6 @@
                     "anti": true,
                     "anti2": true
                 }
-            },
-            {
-                "name": "Singing Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1869,10 +1869,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Grenades",
+            "Aeldari",
             "Fire Dragons",
-            "Aeldari"
+            "Grenades",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -1931,42 +1931,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Fire Prism",
             "Fly",
-            "Vehicle",
-            "Aeldari"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Shuriken Cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
             {
                 "name": "Prism Cannon - dispersed pulse",
                 "range": "60",
@@ -1992,6 +1962,36 @@
                 "attacks": "2",
                 "damage": "6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -2024,23 +2024,24 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Firestorm",
             "Fly",
-            "Firestorm"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
+                "name": "Firestorm Scatter Laser",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "16",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "anti": true,
+                    "anti4": true
                 }
             },
             {
@@ -2060,18 +2061,17 @@
                 }
             },
             {
-                "name": "Firestorm Scatter Laser",
-                "range": "36",
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "16",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
+                    "twinLinked": true
                 }
             }
         ],
@@ -2105,12 +2105,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Guardian Defenders",
+            "Aeldari",
             "Battleline",
-            "Infantry",
             "Grenades",
+            "Guardian Defenders",
             "Guardians",
-            "Aeldari"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2143,13 +2143,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Hellions",
             "Aeldari",
-            "Wych Cult",
             "Drukhari",
-            "Mounted",
             "Fly",
-            "Grenades"
+            "Grenades",
+            "Hellions",
+            "Mounted",
+            "Wych Cult"
         ],
         "ranged_weapons": [
             {
@@ -2186,22 +2186,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Hellglaive",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
                 "name": "Heliarch Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2214,6 +2198,22 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti3": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Hellglaive",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
@@ -2236,13 +2236,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Hemlock Wraithfighter",
-            "Vehicle",
-            "Fly",
+            "Aeldari",
             "Aircraft",
+            "Fly",
+            "Hemlock Wraithfighter",
             "Psyker",
-            "Wraith Construct",
-            "Aeldari"
+            "Vehicle",
+            "Wraith Construct"
         ],
         "ranged_weapons": [
             {
@@ -2277,10 +2277,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aeldari",
-            "Hornet"
+            "Fly",
+            "Hornet",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2322,6 +2322,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Hornet Pulse Laser",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Scatter Laser",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -2360,18 +2372,6 @@
                 "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Hornet Pulse Laser",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "D3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -2391,9 +2391,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Howling Banshees",
-            "Infantry",
-            "Aeldari"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2447,18 +2447,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Triskele",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Mirrorswords",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2467,6 +2455,18 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Triskele",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -2487,11 +2487,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
+            "Aeldari",
             "Character",
             "Epic Hero",
             "Illic Nightspear",
-            "Aeldari"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -2552,9 +2552,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Incubi",
             "Aeldari",
             "Drukhari",
+            "Incubi",
             "Infantry"
         ],
         "ranged_weapons": [],
@@ -2614,13 +2614,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Kabalite Warriors",
             "Aeldari",
-            "Kabal",
-            "Drukhari",
             "Battleline",
+            "Drukhari",
+            "Grenades",
             "Infantry",
-            "Grenades"
+            "Kabal",
+            "Kabalite Warriors"
         ],
         "ranged_weapons": [
             {
@@ -2634,6 +2634,62 @@
                 "attacks": "1",
                 "damage": "D3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Dark Lance",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shredder",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Splinter Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Splinter Pistol",
@@ -2664,62 +2720,6 @@
                     "anti": true,
                     "anti3": true
                 }
-            },
-            {
-                "name": "Shredder",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Blaster",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Splinter Cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Dark Lance",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2755,14 +2755,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Lelith Hesperax",
             "Aeldari",
-            "Wych Cult",
-            "Succubus",
+            "Character",
             "Drukhari",
             "Epic Hero",
-            "Character",
-            "Infantry"
+            "Infantry",
+            "Lelith Hesperax",
+            "Succubus",
+            "Wych Cult"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2801,10 +2801,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aeldari",
-            "Lynx"
+            "Fly",
+            "Lynx",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2850,10 +2850,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mandrakes",
             "Aeldari",
             "Drukhari",
-            "Infantry"
+            "Infantry",
+            "Mandrakes"
         ],
         "ranged_weapons": [
             {
@@ -2902,23 +2902,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Fly",
-            "Vehicle",
             "Night Spinner",
-            "Aeldari"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
+                "name": "Doomweaver",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
+                "strength": 7,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+3",
+                "damage": "2",
                 "parsed_weapon_types": {
+                    "blast": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
                     "twinLinked": true
                 }
             },
@@ -2939,19 +2942,16 @@
                 }
             },
             {
-                "name": "Doomweaver",
-                "range": "48",
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+3",
-                "damage": "2",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
                     "twinLinked": true
                 }
             }
@@ -2988,11 +2988,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
-            "Aircraft",
             "Aeldari",
-            "Nightwing"
+            "Aircraft",
+            "Fly",
+            "Nightwing",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3057,26 +3057,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Phantom Titan",
             "Aeldari",
+            "Monster",
+            "Phantom Titan",
             "Titanic",
             "Towering",
-            "Walker",
-            "Monster"
+            "Walker"
         ],
         "ranged_weapons": [
-            {
-                "name": "Voidstorm missile launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2D6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "D-bombard",
                 "range": "72",
@@ -3103,6 +3091,18 @@
                 "armor_penetration": 4,
                 "attacks": "8",
                 "damage": "6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Voidstorm missile launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2D6",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -3213,11 +3213,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Prince Yriel",
-            "Infantry",
+            "Aeldari",
             "Character",
             "Epic Hero",
-            "Aeldari"
+            "Infantry",
+            "Prince Yriel"
         ],
         "ranged_weapons": [
             {
@@ -3263,27 +3263,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Raider",
             "Aeldari",
-            "Drukhari",
             "Dedicated Transport",
+            "Drukhari",
             "Fly",
-            "Vehicle",
-            "Transport"
+            "Raider",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Disintegrator Cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Dark Lance",
                 "range": "36",
@@ -3294,6 +3282,18 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Disintegrator Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -3327,9 +3327,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Rangers",
+            "Aeldari",
             "Infantry",
-            "Aeldari"
+            "Rangers"
         ],
         "ranged_weapons": [
             {
@@ -3374,26 +3374,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Ravager",
             "Aeldari",
-            "Kabal",
             "Drukhari",
             "Fly",
+            "Kabal",
+            "Ravager",
             "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Disintegrator Cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Dark Lance",
                 "range": "36",
@@ -3404,6 +3392,18 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Disintegrator Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -3439,12 +3439,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Drukhari",
-            "Vehicle",
-            "Fly",
-            "Aircraft",
             "Aeldari",
-            "Raven Strike Fighter"
+            "Aircraft",
+            "Drukhari",
+            "Fly",
+            "Raven Strike Fighter",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3510,49 +3510,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Razorwing Jetfighter",
             "Aeldari",
-            "Drukhari",
             "Aircraft",
-            "Vehicle",
-            "Fly"
+            "Drukhari",
+            "Fly",
+            "Razorwing Jetfighter",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Splinter Cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Twin Splinter Rifle",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true,
-                    "rapidFire": 1,
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Dark Lance",
                 "range": "36",
@@ -3620,6 +3585,41 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Splinter Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin Splinter Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "rapidFire": 1,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
@@ -3654,12 +3654,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Drukhari",
-            "Vehicle",
-            "Kabal",
-            "Fly",
             "Aeldari",
-            "Reaper"
+            "Drukhari",
+            "Fly",
+            "Kabal",
+            "Reaper",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3736,14 +3736,38 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Reavers",
-            "Wych Cult",
             "Aeldari",
             "Drukhari",
             "Fly",
-            "Mounted"
+            "Mounted",
+            "Reavers",
+            "Wych Cult"
         ],
         "ranged_weapons": [
+            {
+                "name": "Blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Heat Lance",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Splinter Pistol",
                 "range": "12",
@@ -3773,30 +3797,6 @@
                     "anti": true,
                     "anti3": true
                 }
-            },
-            {
-                "name": "Blaster",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heat Lance",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3844,28 +3844,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Revenant Titan",
             "Aeldari",
-            "Walker",
-            "Towering",
+            "Monster",
+            "Revenant Titan",
             "Titanic",
-            "Monster"
+            "Towering",
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Sonic Lance",
-                "range": "18",
+                "name": "Cloudburst missile launcher",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
+                "ballistic_skill": 3,
                 "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D6+6",
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2D6",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "autoHit": true
+                    "blast": true
                 }
             },
             {
@@ -3881,17 +3879,19 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Cloudburst missile launcher",
-                "range": "36",
+                "name": "Sonic Lance",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 0,
                 "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2D6",
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6+6",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "anti": true,
+                    "anti4": true,
+                    "autoHit": true
                 }
             }
         ],
@@ -3925,11 +3925,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Scorpion",
             "Aeldari",
-            "Vehicle",
             "Fly",
-            "Titanic"
+            "Scorpion",
+            "Titanic",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3977,13 +3977,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Scourges",
             "Aeldari",
             "Drukhari",
             "Fly",
             "Grenades",
             "Infantry",
-            "Jump Pack"
+            "Jump Pack",
+            "Scourges"
         ],
         "ranged_weapons": [
             {
@@ -3999,36 +3999,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Splinter Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true
-                }
-            },
-            {
-                "name": "Shardcarbine",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true
-                }
-            },
-            {
                 "name": "Blaster",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -4039,50 +4009,6 @@
                 "attacks": "1",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Heat Lance",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Splinter Cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Shredder",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             },
             {
                 "name": "Dark Lance",
@@ -4111,6 +4037,80 @@
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Heat Lance",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shardcarbine",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Shredder",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Splinter Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
                 }
             }
         ],
@@ -4147,9 +4147,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Fly",
             "Aeldari",
+            "Fly",
+            "Infantry",
             "Shadow Spectres"
         ],
         "ranged_weapons": [
@@ -4197,28 +4197,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Shadowseer",
-            "Character",
-            "Infantry",
-            "Grenades",
-            "Psyker",
-            "Harlequins",
             "Aeldari",
-            "Corsairs and Travelling players"
+            "Character",
+            "Corsairs and Travelling players",
+            "Grenades",
+            "Harlequins",
+            "Infantry",
+            "Psyker",
+            "Shadowseer"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Neuro Disruptor",
                 "range": "12",
@@ -4233,6 +4221,18 @@
                     "anti": true,
                     "anti2": true
                 }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -4265,26 +4265,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Shining Spears",
-            "Mounted",
+            "Aeldari",
             "Fly",
-            "Aeldari"
+            "Mounted",
+            "Shining Spears"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Laser Lance",
                 "range": "6",
@@ -4293,18 +4279,6 @@
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Star Lance",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -4323,6 +4297,32 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Star Lance",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ],
@@ -4384,10 +4384,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Shroud Runners",
+            "Aeldari",
             "Fly",
             "Mounted",
-            "Aeldari"
+            "Shroud Runners"
         ],
         "ranged_weapons": [
             {
@@ -4403,18 +4403,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Scatter Laser",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -4423,6 +4411,18 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -4444,13 +4444,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Skathach Wraithknight",
-            "Wraith Construct",
             "Aeldari",
-            "Towering",
+            "Monster",
+            "Skathach Wraithknight",
             "Titanic",
+            "Towering",
             "Walker",
-            "Monster"
+            "Wraith Construct"
         ],
         "ranged_weapons": [
             {
@@ -4568,13 +4568,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Skyweavers",
-            "Fly",
-            "Mounted",
-            "Smoke",
-            "Harlequins",
             "Aeldari",
-            "Corsairs and Travelling players"
+            "Corsairs and Travelling players",
+            "Fly",
+            "Harlequins",
+            "Mounted",
+            "Skyweavers",
+            "Smoke"
         ],
         "ranged_weapons": [
             {
@@ -4639,11 +4639,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Spiritseer",
+            "Aeldari",
             "Character",
             "Infantry",
             "Psyker",
-            "Aeldari"
+            "Spiritseer"
         ],
         "ranged_weapons": [
             {
@@ -4692,15 +4692,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Star Weaver",
+            "Aeldari",
+            "Corsairs and Travelling players",
             "Dedicated Transport",
             "Fly",
-            "Smoke",
-            "Vehicle",
-            "Transport",
             "Harlequins",
-            "Aeldari",
-            "Corsairs and Travelling players"
+            "Smoke",
+            "Star Weaver",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -4720,26 +4720,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Storm Guardians",
+            "Aeldari",
             "Battleline",
-            "Infantry",
             "Grenades",
             "Guardians",
-            "Aeldari"
+            "Infantry",
+            "Storm Guardians"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Aeldari Flamer",
                 "range": "12",
@@ -4765,21 +4753,21 @@
                 "attacks": "1",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Guardian Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Aeldari power sword",
                 "range": "",
@@ -4788,6 +4776,18 @@
                 "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Guardian Combat Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -4809,23 +4809,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Striking Scorpions",
+            "Aeldari",
             "Infantry",
-            "Aeldari"
+            "Striking Scorpions"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Scorpion's claw",
                 "range": "12",
@@ -4837,9 +4825,37 @@
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Shuriken pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Biting blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
             {
                 "name": "Scorpion chainsword",
                 "range": "",
@@ -4871,22 +4887,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Biting blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
             }
         ]
     },
@@ -4905,14 +4905,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Succubus",
-            "Wych Cult",
             "Aeldari",
-            "Drukhari",
             "Character",
-            "Infantry"
+            "Drukhari",
+            "Infantry",
+            "Succubus",
+            "Wych Cult"
         ],
         "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Splinter Pistol",
                 "range": "12",
@@ -4927,18 +4939,6 @@
                     "anti": true,
                     "anti3": true
                 }
-            },
-            {
-                "name": "Blast Pistol",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -4974,27 +4974,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
             "Support Weapons",
-            "Vehicle",
-            "Aeldari"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shadow weaver",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "D-cannon",
                 "range": "24",
@@ -5012,16 +4996,20 @@
                 }
             },
             {
-                "name": "Vibro Cannon",
+                "name": "Shadow weaver",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Shuriken Catapult",
@@ -5033,6 +5021,18 @@
                 "armor_penetration": 1,
                 "attacks": "2",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Vibro Cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ],
@@ -5053,19 +5053,19 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Swooping Hawks",
-            "Infantry",
+            "Aeldari",
             "Fly",
             "Grenades",
-            "Aeldari"
+            "Infantry",
+            "Swooping Hawks"
         ],
         "ranged_weapons": [
             {
-                "name": "Lasblaster",
+                "name": "Hawk's Talon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
@@ -5076,11 +5076,11 @@
                 }
             },
             {
-                "name": "Hawk's Talon",
+                "name": "Lasblaster",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
@@ -5121,11 +5121,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
-            "Fly",
+            "Aeldari",
             "Drukhari",
-            "Aeldari"
+            "Fly",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -5171,12 +5171,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "The Visarch",
-            "Ynnari",
-            "Infantry",
-            "Epic Hero",
+            "Aeldari",
             "Character",
-            "Aeldari"
+            "Epic Hero",
+            "Infantry",
+            "The Visarch",
+            "Ynnari"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -5209,15 +5209,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "The Yncarne",
-            "Epic Hero",
-            "Monster",
+            "Aeldari",
             "Character",
-            "Fly",
-            "Psyker",
             "Daemon",
-            "Ynnari",
-            "Aeldari"
+            "Epic Hero",
+            "Fly",
+            "Monster",
+            "Psyker",
+            "The Yncarne",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -5279,12 +5279,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Troupe",
+            "Aeldari",
+            "Corsairs and Travelling players",
+            "Grenades",
             "Harlequins",
             "Infantry",
-            "Grenades",
-            "Aeldari",
-            "Corsairs and Travelling players"
+            "Troupe"
         ],
         "ranged_weapons": [
             {
@@ -5301,6 +5301,18 @@
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Aeldari power sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Harlequin's Blade",
                 "range": "",
@@ -5324,18 +5336,6 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Aeldari power sword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -5354,27 +5354,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Troupe Master",
-            "Infantry",
+            "Aeldari",
             "Character",
+            "Corsairs and Travelling players",
             "Grenades",
             "Harlequins",
-            "Aeldari",
-            "Corsairs and Travelling players"
+            "Infantry",
+            "Troupe Master"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Fusion Pistol",
                 "range": "6",
@@ -5401,6 +5389,18 @@
                     "anti": true,
                     "anti2": true
                 }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -5445,11 +5445,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
+            "Fly",
             "Titanic",
-            "Vampire Hunter"
+            "Vampire Hunter",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -5523,14 +5523,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
+            "Fly",
             "Titanic",
             "Transport",
-            "Vampire Raider"
+            "Vampire Raider",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Scatter Laser",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Twin Pulse Laser",
                 "range": "48",
@@ -5544,18 +5556,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Scatter Laser",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -5588,13 +5588,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Venom",
             "Aeldari",
+            "Dedicated Transport",
             "Drukhari",
             "Fly",
-            "Dedicated Transport",
             "Transport",
-            "Vehicle"
+            "Vehicle",
+            "Venom"
         ],
         "ranged_weapons": [
             {
@@ -5663,14 +5663,38 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Voidraven",
             "Aeldari",
-            "Drukhari",
             "Aircraft",
+            "Drukhari",
+            "Fly",
             "Vehicle",
-            "Fly"
+            "Voidraven"
         ],
         "ranged_weapons": [
+            {
+                "name": "Dark Scythe",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Void Lance",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Voidraven Missiles -  Implosion Missiles",
                 "range": "48",
@@ -5698,30 +5722,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Void Lance",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6+2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Dark Scythe",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -5754,13 +5754,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Voidweaver",
-            "Harlequins",
-            "Fly",
-            "Vehicle",
-            "Smoke",
             "Aeldari",
-            "Corsairs and Travelling players"
+            "Corsairs and Travelling players",
+            "Fly",
+            "Harlequins",
+            "Smoke",
+            "Vehicle",
+            "Voidweaver"
         ],
         "ranged_weapons": [
             {
@@ -5824,10 +5824,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vyper",
-            "Vehicle",
+            "Aeldari",
             "Fly",
-            "Aeldari"
+            "Vehicle",
+            "Vyper"
         ],
         "ranged_weapons": [
             {
@@ -5875,10 +5875,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "War Walker",
+            "Aeldari",
             "Vehicle",
             "Walker",
-            "Aeldari"
+            "War Walker"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -5911,10 +5911,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Warlock Conclave",
-            "Psyker",
+            "Aeldari",
             "Infantry",
-            "Aeldari"
+            "Psyker",
+            "Warlock Conclave"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -5934,13 +5934,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Aeldari",
+            "Fly",
+            "Mounted",
+            "Psyker",
             "Warlock",
             "Warlock Skyrunner",
-            "Warlock Skyrunner Conclave",
-            "Mounted",
-            "Fly",
-            "Psyker",
-            "Aeldari"
+            "Warlock Skyrunner Conclave"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -5960,42 +5960,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aeldari",
+            "Fly",
+            "Vehicle",
             "Warp Hunter"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Shuriken Cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
             {
                 "name": "D-Flail - blast",
                 "range": "24",
@@ -6026,6 +5996,36 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "autoHit": true
+                }
+            },
+            {
+                "name": "Shuriken Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ],
@@ -6059,11 +6059,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Warp Spiders",
-            "Infantry",
-            "Fly",
             "Aeldari",
-            "Jump Pack"
+            "Fly",
+            "Infantry",
+            "Jump Pack",
+            "Warp Spiders"
         ],
         "ranged_weapons": [
             {
@@ -6113,10 +6113,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
-            "Walker",
             "Aeldari",
+            "Fly",
+            "Vehicle",
+            "Walker",
             "Wasp Assault Walker"
         ],
         "ranged_weapons": [],
@@ -6150,28 +6150,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Wave Serpent",
-            "Fly",
+            "Aeldari",
             "Dedicated Transport",
-            "Vehicle",
+            "Fly",
             "Transport",
-            "Aeldari"
+            "Vehicle",
+            "Wave Serpent"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Shuriken Cannon",
                 "range": "24",
@@ -6263,6 +6249,20 @@
                 }
             },
             {
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
                 "name": "Twin Starcannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -6307,9 +6307,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Webway Gate",
+            "Aeldari",
             "Fortification",
-            "Aeldari"
+            "Webway Gate"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -6331,26 +6331,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
+            "Aeldari",
             "Fly",
-            "Windriders",
-            "Aeldari"
+            "Mounted",
+            "Windriders"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Scatter Laser",
                 "range": "36",
@@ -6378,6 +6364,20 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
+            },
+            {
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": []
@@ -6397,25 +6397,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Wraithblades",
+            "Aeldari",
             "Infantry",
             "Wraith Construct",
-            "Aeldari"
+            "Wraithblades"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Ghostswords",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Ghostaxe",
                 "range": "",
@@ -6426,6 +6414,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Ghostswords",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -6445,12 +6445,24 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Aeldari",
-            "Wraithguard",
-            "Wraith Construct"
+            "Infantry",
+            "Wraith Construct",
+            "Wraithguard"
         ],
         "ranged_weapons": [
+            {
+                "name": "D-Scythe",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 10,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Wraithcannon",
                 "range": "18",
@@ -6465,18 +6477,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "D-Scythe",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 10,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -6496,27 +6496,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Wraithknight",
-            "Wraith Construct",
+            "Aeldari",
             "Monster",
             "Titanic",
             "Towering",
             "Walker",
-            "Aeldari"
+            "Wraith Construct",
+            "Wraithknight"
         ],
         "ranged_weapons": [
-            {
-                "name": "Suncannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2D6",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Heavy Wraithcannon",
                 "range": "36",
@@ -6572,9 +6560,33 @@
                 "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Suncannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2D6",
+                "damage": "3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Titanic Feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Titanic Ghostglaive - Strike",
                 "range": "",
@@ -6598,18 +6610,6 @@
                 "attacks": "15",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Titanic Feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -6628,25 +6628,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Wraithlord",
-            "Wraith Construct",
+            "Aeldari",
             "Monster",
             "Walker",
-            "Aeldari"
+            "Wraith Construct",
+            "Wraithlord"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Aeldari Flamer",
                 "range": "12",
@@ -6728,6 +6716,18 @@
                 }
             },
             {
+                "name": "Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Starcannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -6782,12 +6782,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Walker",
-            "Monster",
             "Aeldari",
+            "Monster",
+            "Psyker",
+            "Walker",
             "Wraith Construct",
-            "Wraithseer",
-            "Psyker"
+            "Wraithseer"
         ],
         "ranged_weapons": [
             {
@@ -6827,6 +6827,20 @@
                 "attacks": "1",
                 "damage": "D6+2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Destructor",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
             },
             {
                 "name": "Scatter Laser",
@@ -6882,20 +6896,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Destructor",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             }
         ],
         "melee_weapons": [
@@ -6946,15 +6946,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Wyches",
-            "Wych Cult",
             "Aeldari",
-            "Drukhari",
             "Battleline",
+            "Drukhari",
+            "Grenades",
             "Infantry",
-            "Grenades"
+            "Wych Cult",
+            "Wyches"
         ],
         "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Splinter Pistol",
                 "range": "12",
@@ -6969,18 +6981,6 @@
                     "anti": true,
                     "anti3": true
                 }
-            },
-            {
-                "name": "Blast Pistol",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -7013,13 +7013,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Yvraine",
-            "Infantry",
+            "Aeldari",
             "Character",
             "Epic Hero",
+            "Infantry",
             "Psyker",
             "Ynnari",
-            "Aeldari"
+            "Yvraine"
         ],
         "ranged_weapons": [
             {

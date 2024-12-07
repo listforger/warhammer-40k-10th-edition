@@ -16,12 +16,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
             "Attack Fighta",
+            "Fly",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -82,10 +82,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
+            "Battlewagon",
             "Orks",
-            "Battlewagon"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -103,30 +103,17 @@
                 }
             },
             {
-                "name": "Killkannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Zzap gun",
+                "name": "Kannon - frag",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 0,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "5",
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+3",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
+                    "blast": true
                 }
             },
             {
@@ -142,18 +129,16 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Kannon - frag",
-                "range": "36",
+                "name": "Killkannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+1",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Lobba",
@@ -168,21 +153,24 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Zzap gun",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 0,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "5",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Tracks and wheels",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Deff rolla",
                 "range": "",
@@ -196,18 +184,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Wreckin' ball",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 10,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Grabbin' klaw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -217,6 +193,30 @@
                 "armor_penetration": 2,
                 "attacks": "2",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Tracks and wheels",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Wreckin' ball",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 10,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "D6",
                 "parsed_weapon_types": null
             }
         ]
@@ -240,14 +240,26 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Infantry",
-            "Mob",
             "Battleline",
             "Beast Snagga",
             "Beast Snagga Boyz",
+            "Infantry",
+            "Mob",
             "Orks"
         ],
         "ranged_weapons": [
+            {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Thump gun",
                 "range": "18",
@@ -261,18 +273,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -321,12 +321,12 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Character",
-            "Infantry",
             "Beast Snagga",
             "Beastboss",
-            "Warboss",
-            "Orks"
+            "Character",
+            "Infantry",
+            "Orks",
+            "Warboss"
         ],
         "ranged_weapons": [
             {
@@ -394,12 +394,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Character",
             "Beast Snagga",
             "Beastboss on Squigosaur",
+            "Character",
+            "Mounted",
             "Orks",
-            "Warboss",
-            "Mounted"
+            "Warboss"
         ],
         "ranged_weapons": [
             {
@@ -431,21 +431,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Squigosaur\u2019s jaws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
                 "name": "Beastchoppa",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -458,6 +443,21 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true
+                }
+            },
+            {
+                "name": "Squigosaur\u2019s jaws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ]
@@ -479,11 +479,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Artillery",
             "Big Gunz",
+            "Grots",
             "Orks",
-            "Grots"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -574,12 +574,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
+            "Big Mek",
             "Character",
             "Grenades",
+            "Infantry",
             "Mek",
-            "Orks",
-            "Big Mek"
+            "Orks"
         ],
         "ranged_weapons": [
             {
@@ -614,18 +614,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Drilla",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -635,6 +623,18 @@
                 "armor_penetration": 3,
                 "attacks": "2",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power klaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -656,26 +656,30 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Big Mek in Mega Armour",
             "Character",
             "Infantry",
-            "Big Mek in Mega Armour",
-            "Orks",
             "Mega Armour",
-            "Mek"
+            "Mek",
+            "Orks"
         ],
         "ranged_weapons": [
             {
-                "name": "Tellyport blasta",
-                "range": "12",
+                "name": "Kombi-weapon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "3",
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
                 }
             },
             {
@@ -705,37 +709,21 @@
                 }
             },
             {
-                "name": "Kombi-weapon",
-                "range": "24",
+                "name": "Tellyport blasta",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
+                    "blast": true
                 }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Killsaw",
                 "range": "",
@@ -745,6 +733,18 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power klaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": null
             }
@@ -771,55 +771,15 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Character",
-            "Mounted",
-            "Speed Freeks",
-            "Grenades",
-            "Orks",
+            "Big Mek",
             "Big Mek on Warbike",
-            "Big Mek"
+            "Character",
+            "Grenades",
+            "Mounted",
+            "Orks",
+            "Speed Freeks"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shokk attack gun",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D6+1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Kustom mega-slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Kombi-weapon",
                 "range": "24",
@@ -851,6 +811,20 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Kustom mega-slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
                 "name": "Rokkit launcha",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -863,6 +837,32 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Shokk attack gun",
+                "range": "60",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D6+1",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Twin dakkagun",
@@ -894,18 +894,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Choppa",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -928,6 +916,18 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Power klaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -948,13 +948,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Infantry",
-            "Grenades",
-            "Orks",
-            "Big Mek with Kustom Force Field",
             "Big Mek",
-            "Mek"
+            "Big Mek with Kustom Force Field",
+            "Character",
+            "Grenades",
+            "Infantry",
+            "Mek",
+            "Orks"
         ],
         "ranged_weapons": [
             {
@@ -1002,12 +1002,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
-            "Infantry",
-            "Grenades",
-            "Orks",
             "Big Mek with Shokk Attack Gun",
-            "Mek"
+            "Character",
+            "Grenades",
+            "Infantry",
+            "Mek",
+            "Orks"
         ],
         "ranged_weapons": [
             {
@@ -1042,14 +1042,42 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
+            "Big Trakk",
             "Orks",
-            "Big Trakk"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Supa-kannon - shell",
+                "name": "Big shoota",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Kannon - frag",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Kannon - shell",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
@@ -1057,7 +1085,7 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "D3+3",
+                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -1075,21 +1103,7 @@
                 }
             },
             {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Kannon - shell",
+                "name": "Supa-kannon - shell",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
@@ -1097,22 +1111,8 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "D6",
+                "damage": "D3+3",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Kannon - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
             }
         ],
         "melee_weapons": [
@@ -1145,13 +1145,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Fortification",
-            "Vehicle",
-            "Transport",
             "Big'ed Bossbunka",
-            "Orks"
+            "Fortification",
+            "Orks",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Big shoota",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
             {
                 "name": "Gaze of Gork - glare",
                 "range": "24",
@@ -1184,20 +1198,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHitsD3": true
                 }
-            },
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
             }
         ],
         "melee_weapons": []
@@ -1217,12 +1217,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Blitza-bommer",
+            "Fly",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1288,30 +1288,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Grenades",
             "Boomdakka Snazzwagon",
+            "Grenades",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Mek speshul",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "12",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 4,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
             {
                 "name": "Big shoota",
                 "range": "36",
@@ -1337,6 +1320,23 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Mek speshul",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 4,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1371,12 +1371,12 @@
             "stealth": true
         },
         "tags": [
-            "Epic Hero",
-            "Infantry",
-            "Character",
-            "Grenades",
-            "Orks",
             "Boss Snikrot",
+            "Character",
+            "Epic Hero",
+            "Grenades",
+            "Infantry",
+            "Orks",
             "Smoke"
         ],
         "ranged_weapons": [
@@ -1429,12 +1429,12 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Infantry",
+            "Boss Zagstruk",
             "Character",
             "Epic Hero",
-            "Jump Pack",
             "Fly",
-            "Boss Zagstruk",
+            "Infantry",
+            "Jump Pack",
             "Orks"
         ],
         "ranged_weapons": [
@@ -1481,28 +1481,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Battleline",
-            "Mob",
-            "Grenades",
             "Boyz",
+            "Grenades",
+            "Infantry",
+            "Mob",
             "Orks"
         ],
         "ranged_weapons": [
-            {
-                "name": "Shoota",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
-            },
             {
                 "name": "Big shoota",
                 "range": "36",
@@ -1515,32 +1501,6 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 2
-                }
-            },
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             },
             {
@@ -1560,21 +1520,49 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Rokkit launcha",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Shoota",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Big choppa",
                 "range": "",
@@ -1585,6 +1573,18 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Choppa",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1618,8 +1618,8 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Burna Boyz",
+            "Infantry",
             "Orks"
         ],
         "ranged_weapons": [],
@@ -1653,12 +1653,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
             "Burna-bommer",
+            "Fly",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1739,40 +1739,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
-            "Transport",
             "Chinork Warkopta",
+            "Fly",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Deffgun",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Rattler kannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Big shoota",
                 "range": "36",
@@ -1788,6 +1762,20 @@
                 }
             },
             {
+                "name": "Deffgun",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
                 "name": "Kustom mega-blasta",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -1797,6 +1785,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Rattler kannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -1860,13 +1860,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Epic Hero",
             "Character",
-            "Infantry",
-            "Grenades",
-            "Orks",
             "Da Red Gobbo",
-            "Grots"
+            "Epic Hero",
+            "Grenades",
+            "Grots",
+            "Infantry",
+            "Orks"
         ],
         "ranged_weapons": [
             {
@@ -1918,12 +1918,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
             "Dakkajet",
+            "Fly",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1975,10 +1975,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
             "Deff Dread",
-            "Orks"
+            "Orks",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -2078,39 +2078,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Deff Rolla Battle Fortress",
+            "Orks",
             "Titanic",
             "Transport",
-            "Deff Rolla Battle Fortress",
-            "Orks"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Zzap gun",
+                "name": "Big shoota",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 2,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "3",
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "rapidFire": 2
                 }
-            },
-            {
-                "name": "Kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Kannon - frag",
@@ -2127,6 +2114,18 @@
                 }
             },
             {
+                "name": "Kannon - shell",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Lobba",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -2141,17 +2140,31 @@
                 }
             },
             {
-                "name": "Big shoota",
-                "range": "36",
+                "name": "Rokkit launcha",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Skorcha",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
                 "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 2
+                    "autoHit": true
                 }
             },
             {
@@ -2170,31 +2183,18 @@
                 }
             },
             {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
+                "name": "Zzap gun",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
+                "strength": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -2230,12 +2230,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
-            "Warboss",
-            "Deffkilla Wartrike",
-            "Orks",
             "Character",
-            "Speed Freeks"
+            "Deffkilla Wartrike",
+            "Mounted",
+            "Orks",
+            "Speed Freeks",
+            "Warboss"
         ],
         "ranged_weapons": [
             {
@@ -2307,12 +2307,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Deffkoptas",
             "Fly",
             "Grenades",
-            "Deffkoptas",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2331,18 +2331,6 @@
                 }
             },
             {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Kustom mega-blasta",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -2352,6 +2340,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ],
@@ -2385,25 +2385,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Deffkoptas with Big Shootas",
             "Fly",
             "Grenades",
-            "Orks"
+            "Orks",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Kopta rokkits",
                 "range": "24",
@@ -2432,6 +2420,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Twin big shoota",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -2449,18 +2449,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Spinnin\u2019 blades",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Killsaw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2470,6 +2458,18 @@
                 "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Spinnin\u2019 blades",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -2491,12 +2491,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Fly",
             "Aircraft",
             "Fighta-Bommer",
+            "Fly",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2571,9 +2571,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Grenades",
             "Flash Gitz",
+            "Grenades",
+            "Infantry",
             "Orks"
         ],
         "ranged_weapons": [
@@ -2624,24 +2624,24 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Gargantuan Squiggoth",
             "Monster",
+            "Orks",
             "Titanic",
             "Towering",
-            "Transport",
-            "Gargantuan Squiggoth",
-            "Orks"
+            "Transport"
         ],
         "ranged_weapons": [
             {
-                "name": "Supa-kannon",
-                "range": "60",
+                "name": "Kannon - frag",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2D6",
-                "damage": "3",
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -2659,15 +2659,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Kannon - frag",
-                "range": "36",
+                "name": "Supa-kannon",
+                "range": "60",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2D6",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -2720,11 +2720,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Epic Hero",
             "Character",
-            "Orks",
+            "Epic Hero",
             "Ghazghkull Thraka",
+            "Infantry",
+            "Orks",
             "Warboss"
         ],
         "ranged_weapons": [
@@ -2802,13 +2802,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Gorkanaut",
+            "Orks",
             "Titanic",
             "Towering",
-            "Walker",
             "Transport",
-            "Gorkanaut",
-            "Orks"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -2911,10 +2911,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Gretchin",
-            "Orks",
-            "Grots"
+            "Grots",
+            "Infantry",
+            "Orks"
         ],
         "ranged_weapons": [
             {
@@ -2974,11 +2974,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
-            "Speed Freeks",
             "Grot Bomm Launcha",
+            "Grots",
+            "Mounted",
             "Orks",
-            "Grots"
+            "Speed Freeks"
         ],
         "ranged_weapons": [
             {
@@ -3026,10 +3026,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Grot Mega-Tank",
+            "Grots",
             "Orks",
-            "Grots"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3151,10 +3151,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Grot Tanks",
+            "Grots",
             "Orks",
-            "Grots"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3260,13 +3260,13 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Epic Hero",
             "Character",
-            "Mounted",
-            "Gretchin",
+            "Epic Hero",
             "Fly",
-            "Orks",
-            "Grotmas Gitz"
+            "Gretchin",
+            "Grotmas Gitz",
+            "Mounted",
+            "Orks"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -3313,27 +3313,13 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Vehicle",
-            "Transport",
             "Beast Snagga",
             "Hunta Rig",
-            "Orks"
+            "Orks",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "\u2019Eavy lobba",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Stikka kannon",
                 "range": "12",
@@ -3347,6 +3333,20 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti2": true
+                }
+            },
+            {
+                "name": "\u2019Eavy lobba",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             }
         ],
@@ -3409,23 +3409,25 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
             "Kannonwagon",
-            "Orks"
+            "Orks",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Supa-kannon - shell",
+                "name": "Big shoota",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3+3",
-                "parsed_weapon_types": null
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             },
             {
                 "name": "Supa-kannon - frag",
@@ -3442,18 +3444,16 @@
                 }
             },
             {
-                "name": "Big shoota",
+                "name": "Supa-kannon - shell",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D3+3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -3488,9 +3488,9 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Character",
             "Epic Hero",
             "Infantry",
-            "Character",
             "Kaptin Badrukk",
             "Orks"
         ],
@@ -3570,25 +3570,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Kill Krusha",
+            "Orks",
             "Titanic",
             "Transport",
-            "Kill Krusha",
-            "Orks"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Krusha kannon - tankhamma shell",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 16,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "6",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Krusha kannon - blast burna",
                 "range": "48",
@@ -3604,18 +3592,29 @@
                 }
             },
             {
-                "name": "Twin big shoota",
-                "range": "36",
+                "name": "Krusha kannon - tankhamma shell",
+                "range": "60",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
+                "strength": 16,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Rokkit launcha",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true
+                    "blast": true
                 }
             },
             {
@@ -3633,17 +3632,18 @@
                 }
             },
             {
-                "name": "Rokkit launcha",
-                "range": "24",
+                "name": "Twin big shoota",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "damage": "3",
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "rapidFire": 2,
+                    "twinLinked": true
                 }
             }
         ],
@@ -3679,14 +3679,29 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Vehicle",
-            "Transport",
-            "Psyker",
             "Beast Snagga",
             "Kill Rig",
-            "Orks"
+            "Orks",
+            "Psyker",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Stikka kannon",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            },
             {
                 "name": "Wurrtower",
                 "range": "24",
@@ -3713,21 +3728,6 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true
-                }
-            },
-            {
-                "name": "Stikka kannon",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true
                 }
             }
         ],
@@ -3792,11 +3792,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Kill Tank",
+            "Orks",
             "Titanic",
             "Transport",
-            "Kill Tank",
-            "Orks"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -3889,13 +3889,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Grots",
             "Killa Kans",
             "Orks",
-            "Grots"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Grotzooka",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3+3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
             {
                 "name": "Kan shoota",
                 "range": "36",
@@ -3910,20 +3924,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 2
-                }
-            },
-            {
-                "name": "Grotzooka",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D3+3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             },
             {
@@ -3987,39 +3987,13 @@
             "stealth": true
         },
         "tags": [
-            "Infantry",
             "Grenades",
+            "Infantry",
             "Kommandos",
             "Orks",
             "Smoke"
         ],
         "ranged_weapons": [
-            {
-                "name": "Kustom shoota",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Burna",
                 "range": "12",
@@ -4035,6 +4009,20 @@
                 }
             },
             {
+                "name": "Kustom shoota",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
                 "name": "Rokkit launcha",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -4047,21 +4035,21 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Breacha ram",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Big choppa",
                 "range": "",
@@ -4071,6 +4059,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Breacha ram",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
@@ -4115,11 +4115,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Grenades",
             "Kustom Boosta-blasta",
             "Orks",
-            "Grenades",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -4138,6 +4138,18 @@
                 }
             },
             {
+                "name": "Grot blasta",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Rivet kannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -4150,18 +4162,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 3
                 }
-            },
-            {
-                "name": "Grot blasta",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -4194,11 +4194,25 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Lifta Wagon",
-            "Orks"
+            "Orks",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Big shoota",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
             {
                 "name": "Lifta-droppa",
                 "range": "36",
@@ -4212,20 +4226,6 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true
-                }
-            },
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
                 }
             },
             {
@@ -4244,18 +4244,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Tracks and wheels",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Deff rolla",
                 "range": "",
@@ -4278,6 +4266,18 @@
                 "armor_penetration": 2,
                 "attacks": "2",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Tracks and wheels",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -4350,12 +4350,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Epic Hero",
             "Character",
+            "Epic Hero",
             "Infantry",
-            "Painboy",
             "Mad Dok Grotsnik",
-            "Orks"
+            "Orks",
+            "Painboy"
         ],
         "ranged_weapons": [
             {
@@ -4420,10 +4420,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Mega Dread",
-            "Walker",
-            "Orks"
+            "Orks",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -4455,18 +4455,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Stompy feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Dread killsaw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -4489,6 +4477,18 @@
                 "attacks": "6",
                 "damage": "3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Stompy feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -4507,27 +4507,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Grenades",
+            "Infantry",
+            "Mega Armour",
             "Meganobz",
-            "Orks",
-            "Mega Armour"
+            "Orks"
         ],
         "ranged_weapons": [
-            {
-                "name": "Kustom shoota",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Kombi-weapon",
                 "range": "24",
@@ -4545,11 +4531,25 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
+            },
+            {
+                "name": "Kustom shoota",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Twin killsaw",
+                "name": "Killsaw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
@@ -4558,9 +4558,7 @@
                 "armor_penetration": 3,
                 "attacks": "2",
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
+                "parsed_weapon_types": null
             },
             {
                 "name": "Power klaw",
@@ -4575,7 +4573,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Killsaw",
+                "name": "Twin killsaw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
@@ -4584,7 +4582,9 @@
                 "armor_penetration": 3,
                 "attacks": "2",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ]
     },
@@ -4603,10 +4603,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Megatrakk Scrapjet",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -4624,18 +4624,6 @@
                 }
             },
             {
-                "name": "Wing missiles",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Twin big shoota",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -4649,6 +4637,18 @@
                     "rapidFire": 2,
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Wing missiles",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -4709,18 +4709,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Wrench",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Killsaw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -4730,6 +4718,18 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Wrench",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -4751,26 +4751,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Grots",
             "Mek Gunz",
             "Orks",
-            "Grots"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Smasha gun",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3+1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "1-2 Bubblechukka - big bubble",
                 "range": "48",
@@ -4828,6 +4814,20 @@
                 }
             },
             {
+                "name": "Smasha gun",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3+1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
                 "name": "Traktor kannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -4880,10 +4880,10 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Meka-Dread",
             "Orks",
-            "Meka-Dread"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -4900,18 +4900,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Stompy feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Dread killsaw",
                 "range": "",
@@ -4935,6 +4923,18 @@
                 "attacks": "6",
                 "damage": "3",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Stompy feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -4954,9 +4954,9 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Vehicle",
             "Mekboy Workshop",
-            "Orks"
+            "Orks",
+            "Vehicle"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -4978,15 +4978,27 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Morkanaut",
+            "Orks",
             "Titanic",
             "Towering",
             "Transport",
-            "Walker",
-            "Morkanaut",
-            "Orks"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Kustom mega-blasta",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Kustom mega-zappa",
                 "range": "36",
@@ -5000,18 +5012,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Kustom mega-blasta",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "D6",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Rokkit launcha",
@@ -5087,12 +5087,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Epic Hero",
-            "Character",
             "Beast Snagga",
+            "Character",
+            "Epic Hero",
+            "Mounted",
             "Mozrog Skragbad",
             "Orks",
-            "Mounted",
             "Warboss"
         ],
         "ranged_weapons": [
@@ -5175,18 +5175,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Squig jaws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Big choppa",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -5200,6 +5188,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Squig jaws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -5269,9 +5269,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Grenades",
             "Infantry",
             "Nobz",
-            "Grenades",
             "Orks"
         ],
         "ranged_weapons": [
@@ -5348,11 +5348,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
-            "Speed Freeks",
-            "Nobz on Warbikes",
             "Grenades",
-            "Orks"
+            "Mounted",
+            "Nobz on Warbikes",
+            "Orks",
+            "Speed Freeks"
         ],
         "ranged_weapons": [
             {
@@ -5384,20 +5384,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Power stabba",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true
-                }
-            },
             {
                 "name": "Big choppa",
                 "range": "",
@@ -5445,6 +5431,20 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Power stabba",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true
+                }
             }
         ]
     },
@@ -5467,9 +5467,9 @@
             "healD3Models": true
         },
         "tags": [
+            "Beast Snagga",
             "Character",
             "Infantry",
-            "Beast Snagga",
             "Orks",
             "Painboss"
         ],
@@ -5510,13 +5510,25 @@
             "healD3Models": true
         },
         "tags": [
-            "Infantry",
             "Character",
-            "Painboy",
-            "Orks"
+            "Infantry",
+            "Orks",
+            "Painboy"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
+            {
+                "name": "Power klaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "\u2019Urty syringe",
                 "range": "",
@@ -5531,18 +5543,6 @@
                     "anti": true,
                     "anti4": true
                 }
-            },
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -5561,11 +5561,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
-            "Speed Freeks",
             "Character",
+            "Mounted",
+            "Orks",
             "Painboy on Warbike",
-            "Orks"
+            "Speed Freeks"
         ],
         "ranged_weapons": [
             {
@@ -5598,6 +5598,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Power klaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "\u2019Urty syringe",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -5611,18 +5623,6 @@
                     "anti": true,
                     "anti4": true
                 }
-            },
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -5641,10 +5641,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Orks",
             "Rukkatrukk Squigbuggy",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -5748,10 +5748,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Shokkjump Dragsta",
             "Orks",
-            "Speed Freeks"
+            "Shokkjump Dragsta",
+            "Speed Freeks",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -5817,9 +5817,9 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Mounted",
-            "Speed Freeks",
             "Orks",
-            "Skorchas"
+            "Skorchas",
+            "Speed Freeks"
         ],
         "ranged_weapons": [
             {
@@ -5868,23 +5868,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Monster",
-            "Transport",
+            "Orks",
             "Squiggoth",
-            "Orks"
+            "Transport"
         ],
         "ranged_weapons": [
-            {
-                "name": "Kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Kannon - frag",
                 "range": "36",
@@ -5898,21 +5886,21 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Kannon - shell",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Gorin\u2019 horns - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Gorin\u2019 horns - strike",
                 "range": "",
@@ -5923,6 +5911,18 @@
                 "armor_penetration": 2,
                 "attacks": "4",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Gorin\u2019 horns - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -5973,6 +5973,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Squig jaws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Stikka (melee)",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -5987,18 +5999,6 @@
                     "anti4": true,
                     "plusOneToWound": true
                 }
-            },
-            {
-                "name": "Squig jaws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -6019,19 +6019,19 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Mounted",
             "Beast Snagga",
             "Grenades",
-            "Squighog Boyz",
-            "Orks"
+            "Mounted",
+            "Orks",
+            "Squighog Boyz"
         ],
         "ranged_weapons": [
             {
-                "name": "Slugga",
-                "range": "12",
+                "name": "Saddlegit weapons",
+                "range": "9",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
+                "ballistic_skill": 4,
+                "strength": 3,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
@@ -6039,11 +6039,11 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Saddlegit weapons",
-                "range": "9",
+                "name": "Slugga",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
+                "ballistic_skill": 5,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
@@ -6068,18 +6068,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Squig jaws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Big choppa",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -6093,6 +6081,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Squig jaws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Stikka (melee)",
@@ -6127,15 +6127,29 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
+            "Orks",
+            "Stompa",
             "Titanic",
             "Towering",
-            "Walker",
-            "Stompa",
-            "Orks"
+            "Transport",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Big shoota",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
             {
                 "name": "Deffkannon",
                 "range": "72",
@@ -6148,6 +6162,20 @@
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "blast": true
+                }
+            },
+            {
+                "name": "Skorcha",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
                 }
             },
             {
@@ -6178,34 +6206,6 @@
                 "damage": "D6+2",
                 "parsed_weapon_types": {
                     "blast": true
-                }
-            },
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
                 }
             },
             {
@@ -6266,12 +6266,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Jump Pack",
             "Fly",
             "Grenades",
-            "Stormboyz",
-            "Orks"
+            "Infantry",
+            "Jump Pack",
+            "Orks",
+            "Stormboyz"
         ],
         "ranged_weapons": [
             {
@@ -6333,8 +6333,8 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Infantry",
-            "Tankbustas",
-            "Orks"
+            "Orks",
+            "Tankbustas"
         ],
         "ranged_weapons": [
             {
@@ -6402,10 +6402,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Dedicated Transport",
-            "Vehicle",
+            "Orks",
             "Transport",
             "Trukk",
-            "Orks"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -6468,13 +6468,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Epic Hero",
             "Character",
+            "Epic Hero",
             "Grenades",
-            "Warboss",
+            "Infantry",
             "Orks",
-            "Ufthak Blackhawk"
+            "Ufthak Blackhawk",
+            "Warboss"
         ],
         "ranged_weapons": [
             {
@@ -6538,11 +6538,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
             "Grenades",
-            "Warbikers",
+            "Mounted",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Warbikers"
         ],
         "ranged_weapons": [
             {
@@ -6587,18 +6587,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Choppa",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -6608,6 +6596,18 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power klaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -6629,27 +6629,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Warboss",
             "Character",
-            "Infantry",
             "Grenades",
-            "Orks"
+            "Infantry",
+            "Orks",
+            "Warboss"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Kombi-weapon",
                 "range": "24",
@@ -6666,6 +6652,20 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Twin slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ],
@@ -6727,10 +6727,10 @@
         "tags": [
             "Character",
             "Infantry",
-            "Warboss in Mega Armour",
-            "Orks",
             "Mega Armour",
-            "Warboss"
+            "Orks",
+            "Warboss",
+            "Warboss in Mega Armour"
         ],
         "ranged_weapons": [
             {
@@ -6780,12 +6780,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
             "Character",
-            "Speed Freeks",
             "Grenades",
-            "Warboss",
-            "Orks"
+            "Mounted",
+            "Orks",
+            "Speed Freeks",
+            "Warboss"
         ],
         "ranged_weapons": [
             {
@@ -6806,18 +6806,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Killsaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Big choppa",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -6826,6 +6814,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Killsaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
@@ -6859,11 +6859,25 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Mounted",
+            "Orks",
             "Speed Freeks",
-            "Warbuggies",
-            "Orks"
+            "Warbuggies"
         ],
         "ranged_weapons": [
+            {
+                "name": "Rack of rokkits",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3+1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
             {
                 "name": "Twin big shoota",
                 "range": "36",
@@ -6877,20 +6891,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 2,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Rack of rokkits",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3+1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -6925,11 +6925,25 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Mounted",
+            "Orks",
             "Speed Freeks",
-            "Wartrakks",
-            "Orks"
+            "Wartrakks"
         ],
         "ranged_weapons": [
+            {
+                "name": "Rack of rokkits",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3+1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
             {
                 "name": "Twin big shoota",
                 "range": "36",
@@ -6943,20 +6957,6 @@
                 "parsed_weapon_types": {
                     "rapidFire": 2,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Rack of rokkits",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3+1",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -6992,13 +6992,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
             "Fly",
             "Grenades",
-            "Wazbom Blastajet",
             "Orks",
-            "Speed Freeks"
+            "Speed Freeks",
+            "Vehicle",
+            "Wazbom Blastajet"
         ],
         "ranged_weapons": [
             {
@@ -7016,17 +7016,20 @@
                 }
             },
             {
-                "name": "Twin wazbom mega-kannon",
+                "name": "Twin supa-shoota",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "damage": "D6",
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true,
+                    "rapidFire": 2,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "twinLinked": true
                 }
             },
@@ -7046,20 +7049,17 @@
                 }
             },
             {
-                "name": "Twin supa-shoota",
+                "name": "Twin wazbom mega-kannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "damage": "D6",
                 "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
+                    "blast": true,
                     "twinLinked": true
                 }
             }
@@ -7094,11 +7094,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Weirdboy",
             "Character",
             "Infantry",
+            "Orks",
             "Psyker",
-            "Orks"
+            "Weirdboy"
         ],
         "ranged_weapons": [
             {
@@ -7146,12 +7146,12 @@
             "feelNoPain": 6
         },
         "tags": [
+            "Beast Snagga",
             "Character",
             "Infantry",
-            "Wurrboy",
+            "Orks",
             "Psyker",
-            "Beast Snagga",
-            "Orks"
+            "Wurrboy"
         ],
         "ranged_weapons": [
             {
@@ -7189,11 +7189,11 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Epic Hero",
             "Character",
+            "Epic Hero",
             "Infantry",
-            "Zodgrod Wortsnagga",
-            "Orks"
+            "Orks",
+            "Zodgrod Wortsnagga"
         ],
         "ranged_weapons": [
             {

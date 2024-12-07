@@ -14,11 +14,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
+            "Reaver Titan",
             "Titanic",
             "Towering",
-            "Reaver Titan"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -148,13 +148,40 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
             "Titanic",
             "Towering",
+            "Vehicle",
+            "Walker",
             "Warbringer Nemesis Titan"
         ],
         "ranged_weapons": [
+            {
+                "name": "Anvillus defence battery",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
+            {
+                "name": "Ardex-defensor mauler",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Nemesis quake cannon",
                 "range": "480",
@@ -240,33 +267,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Anvillus defence battery",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
-            },
-            {
-                "name": "Ardex-defensor mauler",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -299,29 +299,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
             "Titanic",
             "Towering",
+            "Vehicle",
+            "Walker",
             "Warhound Titan"
         ],
         "ranged_weapons": [
-            {
-                "name": "Warhound vulcan mega-bolter",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "20",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
             {
                 "name": "Warhound inferno gun",
                 "range": "24",
@@ -377,6 +361,22 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Warhound vulcan mega-bolter",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "20",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             }
         ],
         "melee_weapons": [
@@ -409,37 +409,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Walker",
             "Titanic",
             "Towering",
+            "Vehicle",
+            "Walker",
             "Warlord Titan"
         ],
         "ranged_weapons": [
-            {
-                "name": "Ardex-defensor mauler",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Ardex-defensor lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Apocalypse launcher",
                 "range": "200",
@@ -455,18 +431,28 @@
                 }
             },
             {
-                "name": "Laser blaster",
-                "range": "72",
+                "name": "Ardex-defensor lascannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 16,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Ardex-defensor mauler",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "D6+3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
+                "damage": "2",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Arioch power claw",
@@ -494,6 +480,20 @@
                 "armor_penetration": 5,
                 "attacks": "D3+3",
                 "damage": "18",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Laser blaster",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 16,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "6",
+                "damage": "D6+3",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -559,18 +559,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Warlord feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "4",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Arioch power claw - strike",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -592,6 +580,18 @@
                 "armor_penetration": 3,
                 "attacks": "12",
                 "damage": "8",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Warlord feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "4",
                 "parsed_weapon_types": null
             }
         ]

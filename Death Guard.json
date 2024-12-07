@@ -14,13 +14,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
+            "Biologus Putrifier",
             "Chaos",
-            "Nurgle",
+            "Character",
+            "Death Guard",
             "Grenades",
-            "Biologus Putrifier"
+            "Infantry",
+            "Nurgle"
         ],
         "ranged_weapons": [
             {
@@ -87,28 +87,27 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Blightlord Terminators",
+            "Chaos",
             "Death Guard",
             "Infantry",
-            "Chaos",
             "Nurgle",
-            "Terminator",
-            "Blightlord Terminators"
+            "Terminator"
         ],
         "ranged_weapons": [
             {
-                "name": "Plague combi-bolter",
+                "name": "Blight launcher",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 2
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -130,21 +129,19 @@
                 }
             },
             {
-                "name": "Reaper autocannon",
-                "range": "36",
+                "name": "Plague combi-bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 2
                 }
             },
             {
@@ -164,37 +161,25 @@
                 }
             },
             {
-                "name": "Blight launcher",
-                "range": "24",
+                "name": "Reaper autocannon",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
+                "strength": 7,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
                 }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Flail of corruption",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
             {
                 "name": "Bubotic blade",
                 "range": "",
@@ -205,6 +190,21 @@
                 "armor_penetration": 2,
                 "attacks": "4",
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Flail of corruption",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
@@ -230,13 +230,13 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
-            "Grenades",
             "Chaos",
-            "Nurgle",
             "Chaos Lord",
+            "Character",
+            "Death Guard",
+            "Grenades",
+            "Infantry",
+            "Nurgle",
             "Palanquin of Nurgle"
         ],
         "ranged_weapons": [
@@ -250,30 +250,6 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -307,21 +283,33 @@
                     "devWoundsOn6s": true,
                     "rapidFire": 1
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -335,15 +323,27 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
+                "name": "Astartes chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Nurgling's claws and teeth",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 5,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": null
             },
             {
@@ -361,15 +361,15 @@
                 }
             },
             {
-                "name": "Nurgling's claws and teeth",
+                "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -389,15 +389,33 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
             "Chaos",
-            "Nurgle",
+            "Chaos Lord",
+            "Character",
+            "Death Guard",
             "Grenades",
-            "Chaos Lord"
+            "Infantry",
+            "Nurgle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Plague bolt pistol",
                 "range": "12",
@@ -411,6 +429,22 @@
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Plague combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 2
                 }
             },
             {
@@ -436,40 +470,6 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Plague combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 2
-                }
             }
         ],
         "melee_weapons": [
@@ -546,13 +546,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Chaos Lord",
+            "Character",
             "Death Guard",
             "Infantry",
-            "Character",
-            "Chaos",
             "Nurgle",
-            "Terminator",
-            "Chaos Lord"
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -591,6 +591,21 @@
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Chainfist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
             {
                 "name": "Plague fist",
                 "range": "",
@@ -634,21 +649,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Chainfist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
             }
         ]
     },
@@ -671,9 +671,9 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Death Guard",
             "Beast",
             "Chaos",
+            "Death Guard",
             "Nurgle",
             "Spawn"
         ],
@@ -708,13 +708,25 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Cultists",
             "Death Guard",
             "Infantry",
-            "Chaos",
-            "Nurgle",
-            "Cultists"
+            "Nurgle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Cultist firearm",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Flamer",
                 "range": "12",
@@ -727,20 +739,6 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
-                }
-            },
-            {
-                "name": "Heavy stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
                 }
             },
             {
@@ -770,16 +768,18 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Cultist firearm",
-                "range": "24",
+                "name": "Heavy stubber",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
+                "ballistic_skill": 5,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "1",
+                "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "rapidFire": 3
+                }
             }
         ],
         "melee_weapons": [
@@ -812,14 +812,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Daemon Prince",
             "Death Guard",
             "Monster",
-            "Character",
-            "Chaos",
             "Nurgle",
-            "Psyker",
-            "Daemon",
-            "Daemon Prince"
+            "Psyker"
         ],
         "ranged_weapons": [
             {
@@ -881,15 +881,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Monster",
-            "Character",
             "Chaos",
-            "Nurgle",
-            "Psyker",
+            "Character",
             "Daemon",
+            "Daemon Prince with Wings",
+            "Death Guard",
             "Fly",
-            "Daemon Prince with Wings"
+            "Monster",
+            "Nurgle",
+            "Psyker"
         ],
         "ranged_weapons": [
             {
@@ -951,16 +951,34 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
-            "Walker",
             "Chaos",
-            "Nurgle",
             "Daemon",
+            "Death Guard",
+            "Defiler",
+            "Nurgle",
             "Smoke",
-            "Defiler"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
             {
                 "name": "Defiler cannon",
                 "range": "48",
@@ -973,6 +991,36 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Plague combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 2
                 }
             },
             {
@@ -1008,6 +1056,20 @@
                 }
             },
             {
+                "name": "Twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
                 "name": "Twin plague heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1024,68 +1086,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Plague combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
                 }
             }
         ],
@@ -1131,38 +1131,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
-            "Walker",
             "Chaos",
+            "Death Guard",
+            "Helbrute",
             "Nurgle",
-            "Helbrute"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Multi-melta",
-                "range": "18",
+                "name": "Heavy flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
+                "ballistic_skill": 0,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "autoHit": true
                 }
             },
             {
@@ -1206,21 +1194,44 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Twin plague heavy bolter",
-                "range": "36",
+                "name": "Multi-melta",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plague combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Twin autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
                     "twinLinked": true
                 }
             },
@@ -1239,37 +1250,38 @@
                 }
             },
             {
-                "name": "Heavy flamer",
-                "range": "12",
+                "name": "Twin plague heavy bolter",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
+                "ballistic_skill": 3,
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Plague combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true,
-                    "rapidFire": 2
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
                 }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Helbrute fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Helbrute hammer",
                 "range": "",
@@ -1293,18 +1305,6 @@
                 "attacks": "8",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Helbrute fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1323,13 +1323,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
             "Chaos",
-            "Nurgle",
+            "Character",
+            "Death Guard",
+            "Death Guard Icon Bearer",
             "Grenades",
-            "Death Guard Icon Bearer"
+            "Infantry",
+            "Nurgle"
         ],
         "ranged_weapons": [
             {
@@ -1381,43 +1381,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
             "Chaos",
+            "Death Guard",
+            "Land Raider",
             "Nurgle",
-            "Transport",
             "Smoke",
-            "Land Raider"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Soulshatter lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plague combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -1437,6 +1409,48 @@
                 }
             },
             {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Plague combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Soulshatter lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Twin plague heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1453,20 +1467,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -1500,10 +1500,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
             "Chaos",
             "Daemon",
+            "Death Guard",
+            "Infantry",
             "Possessed"
         ],
         "ranged_weapons": [],
@@ -1537,44 +1537,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Smoke",
             "Chaos",
             "Death Guard",
             "Nurgle",
-            "Predator Annihilator"
+            "Predator Annihilator",
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Predator twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Plague combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -1591,6 +1561,48 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plague combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 2
                 }
             },
             {
@@ -1612,29 +1624,17 @@
                 }
             },
             {
-                "name": "Lascannon",
+                "name": "Predator twin lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 12,
+                "strength": 14,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "twinLinked": true
                 }
             }
         ],
@@ -1668,44 +1668,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
             "Chaos",
+            "Death Guard",
             "Nurgle",
+            "Predator Destructor",
             "Smoke",
-            "Predator Destructor"
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Predator autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Plague combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -1722,6 +1692,48 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plague combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 2
                 }
             },
             {
@@ -1743,29 +1755,17 @@
                 }
             },
             {
-                "name": "Lascannon",
+                "name": "Predator autocannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "rapidFire": 2
                 }
             }
         ],
@@ -1799,32 +1799,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
-            "Dedicated Transport",
-            "Smoke",
             "Chaos",
             "Death Guard",
+            "Dedicated Transport",
             "Nurgle",
-            "Rhino"
+            "Rhino",
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Plague combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Combi-weapon",
                 "range": "24",
@@ -1855,6 +1839,22 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
+                }
+            },
+            {
+                "name": "Plague combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 2
                 }
             }
         ],
@@ -1890,27 +1890,33 @@
             "minusOneDamage": true
         },
         "tags": [
+            "Chaos",
+            "Character",
             "Death Guard",
             "Infantry",
-            "Character",
-            "Chaos",
             "Nurgle",
-            "Terminator",
             "Psyker",
-            "Sorcerer"
+            "Sorcerer",
+            "Terminator"
         ],
         "ranged_weapons": [
             {
-                "name": "Curse of the Leper - witchfire",
+                "name": "Combi-weapon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
             },
             {
                 "name": "Curse of the Leper - focused witchfire",
@@ -1921,6 +1927,18 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2D6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Curse of the Leper - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -1939,39 +1957,9 @@
                     "lethalHitsOn6s": true,
                     "rapidFire": 2
                 }
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Force weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Chainfist",
                 "range": "",
@@ -1986,6 +1974,18 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Force weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "D3",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Plague fist",
@@ -2003,20 +2003,6 @@
                 }
             },
             {
-                "name": "Twin lightning claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Plague-encrusted exalted weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2029,6 +2015,20 @@
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Twin lightning claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ]
@@ -2048,12 +2048,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
             "Chaos",
+            "Death Guard",
+            "Deathshroud Terminators",
+            "Infantry",
             "Nurgle",
-            "Terminator",
-            "Deathshroud Terminators"
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -2121,13 +2121,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
-            "Fly",
             "Chaos",
-            "Nurgle",
             "Daemon",
-            "Foetid Bloat-drone"
+            "Death Guard",
+            "Fly",
+            "Foetid Bloat-drone",
+            "Nurgle",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2164,21 +2164,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Plague probe",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
-            {
                 "name": "Fleshmower",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2188,6 +2173,21 @@
                 "armor_penetration": 1,
                 "attacks": "10",
                 "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Plague probe",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
@@ -2210,13 +2210,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
             "Chaos",
-            "Nurgle",
+            "Character",
+            "Death Guard",
+            "Foul Blightspawn",
             "Grenades",
-            "Foul Blightspawn"
+            "Infantry",
+            "Nurgle"
         ],
         "ranged_weapons": [
             {
@@ -2255,11 +2255,11 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Death Guard",
-            "Infantry",
             "Chaos",
-            "Nurgle",
-            "Gellerpox Infected"
+            "Death Guard",
+            "Gellerpox Infected",
+            "Infantry",
+            "Nurgle"
         ],
         "ranged_weapons": [
             {
@@ -2319,13 +2319,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Chaos",
+            "Death Guard",
+            "Fly",
+            "Hell Talon",
             "Nurgle",
-            "Hell Talon"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2401,13 +2401,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Chaos",
+            "Death Guard",
+            "Fly",
+            "Hellblade",
             "Nurgle",
-            "Hellblade"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2457,14 +2457,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
             "Chaos",
-            "Nurgle",
-            "Terminator",
+            "Character",
+            "Death Guard",
             "Grenades",
-            "Lord of Contagion"
+            "Infantry",
+            "Lord of Contagion",
+            "Nurgle",
+            "Terminator"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2518,13 +2518,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Death Guard",
             "Infantry",
-            "Character",
-            "Chaos",
+            "Lord of Virulence",
             "Nurgle",
-            "Terminator",
-            "Lord of Virulence"
+            "Terminator"
         ],
         "ranged_weapons": [
             {
@@ -2578,27 +2578,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Death Guard",
             "Infantry",
-            "Character",
-            "Chaos",
+            "Malignant Plaguecaster",
             "Nurgle",
-            "Psyker",
-            "Malignant Plaguecaster"
+            "Psyker"
         ],
         "ranged_weapons": [
             {
-                "name": "Plague Wind - witchfire",
+                "name": "Plague bolt pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
+                "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -2616,18 +2617,17 @@
                 }
             },
             {
-                "name": "Plague bolt pistol",
+                "name": "Plague Wind - witchfire",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 0,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
                 "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
+                    "autoHit": true
                 }
             }
         ],
@@ -2664,11 +2664,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
             "Death Guard",
             "Fortification",
-            "Chaos",
-            "Nurgle",
-            "Miasmic Malignifier"
+            "Miasmic Malignifier",
+            "Nurgle"
         ],
         "ranged_weapons": [
             {
@@ -2705,18 +2705,18 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Death Guard",
-            "Monster",
-            "Psyker",
-            "Fly",
-            "Character",
-            "Epic Hero",
-            "Daemon",
-            "Grenades",
             "Chaos",
+            "Character",
+            "Daemon",
+            "Death Guard",
+            "Epic Hero",
+            "Fly",
+            "Grenades",
+            "Monster",
+            "Mortarion",
             "Nurgle",
             "Primarch",
-            "Mortarion"
+            "Psyker"
         ],
         "ranged_weapons": [
             {
@@ -2804,11 +2804,11 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Death Guard",
-            "Swarm",
             "Chaos",
+            "Death Guard",
+            "Mutoid Vermin",
             "Nurgle",
-            "Mutoid Vermin"
+            "Swarm"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2846,13 +2846,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
             "Chaos",
-            "Nurgle",
             "Daemon",
+            "Death Guard",
+            "Myphitic Blight-haulers",
+            "Nurgle",
             "Smoke",
-            "Myphitic Blight-haulers"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2942,12 +2942,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Death Guard",
             "Infantry",
-            "Character",
-            "Chaos",
-            "Nurgle",
-            "Noxious Blightbringer"
+            "Noxious Blightbringer",
+            "Nurgle"
         ],
         "ranged_weapons": [
             {
@@ -3008,15 +3008,30 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Chaos",
-            "Nurgle",
-            "Grenades",
             "Battleline",
+            "Chaos",
+            "Death Guard",
+            "Grenades",
+            "Infantry",
+            "Nurgle",
             "Plague Marines"
         ],
         "ranged_weapons": [
+            {
+                "name": "Blight launcher",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
             {
                 "name": "Meltagun",
                 "range": "12",
@@ -3076,6 +3091,22 @@
                 }
             },
             {
+                "name": "Plague spewer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "autoHit": true
+                }
+            },
+            {
                 "name": "Plasma gun - standard",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -3126,55 +3157,9 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Blight launcher",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
-            {
-                "name": "Plague spewer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true,
-                    "autoHit": true
-                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Plague knives",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
             {
                 "name": "Bubotic weapons",
                 "range": "",
@@ -3204,6 +3189,21 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
+            },
+            {
+                "name": "Plague knives",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             }
         ]
     },
@@ -3222,10 +3222,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Death Guard",
             "Infantry",
-            "Character",
-            "Chaos",
             "Nurgle",
             "Plague Surgeon"
         ],
@@ -3279,44 +3279,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Vehicle",
             "Chaos",
-            "Nurgle",
             "Daemon",
-            "Plagueburst Crawler"
+            "Death Guard",
+            "Nurgle",
+            "Plagueburst Crawler",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Plagueburst mortar",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
-            {
-                "name": "Rothail volley gun",
+                "name": "Entropy cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
                     "lethalHits": true,
-                    "lethalHitsOn6s": true,
-                    "rapidFire": 3
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -3332,16 +3315,17 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Entropy cannon",
-                "range": "24",
+                "name": "Plagueburst mortar",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "2",
                 "parsed_weapon_types": {
+                    "blast": true,
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
@@ -3360,6 +3344,22 @@
                     "anti": true,
                     "anti2": true,
                     "autoHit": true
+                }
+            },
+            {
+                "name": "Rothail volley gun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "rapidFire": 3
                 }
             }
         ],
@@ -3395,9 +3395,9 @@
             "feelNoPain": 5
         },
         "tags": [
+            "Chaos",
             "Death Guard",
             "Infantry",
-            "Chaos",
             "Nurgle",
             "Poxwalkers"
         ],
@@ -3435,44 +3435,17 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
-            "Grenades",
-            "Psyker",
             "Chaos",
+            "Character",
+            "Death Guard",
+            "Grenades",
+            "Infantry",
             "Nurgle",
-            "Sorcerer",
-            "Palanquin of Nurgle"
+            "Palanquin of Nurgle",
+            "Psyker",
+            "Sorcerer"
         ],
         "ranged_weapons": [
-            {
-                "name": "Infernal Gaze - witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Infernal Gaze - focused witchfire",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Bolt pistol",
                 "range": "12",
@@ -3500,6 +3473,51 @@
                 }
             },
             {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Infernal Gaze - focused witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Infernal Gaze - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Plasma pistol - standard",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -3522,27 +3540,33 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Accursed weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Astartes chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Force weapon",
                 "range": "",
@@ -3571,18 +3595,6 @@
                 }
             },
             {
-                "name": "Accursed weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -3592,18 +3604,6 @@
                 "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -3625,10 +3625,10 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Chaos",
+            "Character",
             "Death Guard",
             "Infantry",
-            "Character",
-            "Chaos",
             "Nurgle",
             "Tallyman"
         ],
@@ -3683,11 +3683,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Death Guard",
-            "Infantry",
-            "Character",
-            "Epic Hero",
             "Chaos",
+            "Character",
+            "Death Guard",
+            "Epic Hero",
+            "Infantry",
             "Nurgle",
             "Psyker",
             "Terminator",

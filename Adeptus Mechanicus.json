@@ -14,13 +14,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Archaeopter Fusilave",
-            "Vehicle",
+            "Adeptus Mechanicus",
             "Aircraft",
+            "Archaeopter Fusilave",
             "Fly",
             "Imperium",
-            "Adeptus Mechanicus",
-            "Skitarii"
+            "Skitarii",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -74,13 +74,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Archaeopter Stratoraptor",
-            "Skitarii",
-            "Vehicle",
+            "Adeptus Mechanicus",
             "Aircraft",
+            "Archaeopter Stratoraptor",
             "Fly",
             "Imperium",
-            "Adeptus Mechanicus"
+            "Skitarii",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -160,13 +160,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Archaeopter Transvector",
             "Adeptus Mechanicus",
-            "Vehicle",
             "Aircraft",
+            "Archaeopter Transvector",
             "Fly",
             "Imperium",
-            "Skitarii"
+            "Skitarii",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -223,14 +223,14 @@
             "healD3Wounds": true
         },
         "tags": [
-            "Belisarius Cawl",
-            "Epic Hero",
-            "Monster",
-            "Character",
-            "Tech-Priest",
             "Adeptus Mechanicus",
+            "Belisarius Cawl",
+            "Character",
+            "Cult Mechanicus",
+            "Epic Hero",
             "Imperium",
-            "Cult Mechanicus"
+            "Monster",
+            "Tech-Priest"
         ],
         "ranged_weapons": [
             {
@@ -309,12 +309,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Electro-Priests",
-            "Corpuscarii",
-            "Imperium",
-            "Infantry",
             "Adeptus Mechanicus",
-            "Cult Mechanicus"
+            "Corpuscarii",
+            "Cult Mechanicus",
+            "Electro-Priests",
+            "Imperium",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -368,13 +368,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Cybernetica Datasmith",
-            "Tech-Priest",
-            "Infantry",
-            "Character",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Legio Cybernetica"
+            "Character",
+            "Cybernetica Datasmith",
+            "Imperium",
+            "Infantry",
+            "Legio Cybernetica",
+            "Tech-Priest"
         ],
         "ranged_weapons": [
             {
@@ -425,12 +425,12 @@
             "feelNoPain": 5
         },
         "tags": [
+            "Adeptus Mechanicus",
+            "Cult Mechanicus",
             "Electro-Priests",
             "Fulgurite",
-            "Infantry",
             "Imperium",
-            "Adeptus Mechanicus",
-            "Cult Mechanicus"
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -466,11 +466,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Mechanicus",
             "Ironstrider Ballistarii",
-            "Vehicle",
-            "Smoke",
             "Skitarii",
-            "Adeptus Mechanicus"
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -536,38 +536,24 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Kastelan Robots",
             "Adeptus Mechanicus",
             "Imperium",
+            "Kastelan Robots",
+            "Legio Cybernetica",
             "Vehicle",
-            "Walker",
-            "Legio Cybernetica"
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin Kastelan phosphor blaster",
-                "range": "24",
+                "name": "Heavy phosphor blaster",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Kastelan phosphor blaster",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -585,19 +571,45 @@
                 }
             },
             {
-                "name": "Heavy phosphor blaster",
-                "range": "36",
+                "name": "Kastelan phosphor blaster",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "damage": "2",
+                "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin Kastelan phosphor blaster",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Kastelan fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Twin Kastelan fist",
                 "range": "",
@@ -611,18 +623,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Kastelan fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -643,12 +643,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Breachers",
-            "Kataphron",
-            "Infantry",
             "Adeptus Mechanicus",
+            "Breachers",
+            "Cult Mechanicus",
             "Imperium",
-            "Cult Mechanicus"
+            "Infantry",
+            "Kataphron"
         ],
         "ranged_weapons": [
             {
@@ -729,29 +729,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Destroyers",
-            "Kataphron",
-            "Infantry",
             "Adeptus Mechanicus",
+            "Cult Mechanicus",
+            "Destroyers",
             "Imperium",
-            "Cult Mechanicus"
+            "Infantry",
+            "Kataphron"
         ],
         "ranged_weapons": [
-            {
-                "name": "Heavy grav-cannon",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
-            },
             {
                 "name": "Cognis flamer",
                 "range": "12",
@@ -767,17 +752,18 @@
                 }
             },
             {
-                "name": "Phosphor blaster",
-                "range": "24",
+                "name": "Heavy grav-cannon",
+                "range": "30",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "rapidFire": 1
+                    "anti": true,
+                    "anti4": true
                 }
             },
             {
@@ -803,6 +789,20 @@
                 "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Phosphor blaster",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
             }
         ],
         "melee_weapons": []
@@ -822,13 +822,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Onager Dunecrawler",
-            "Imperium",
-            "Vehicle",
-            "Walker",
-            "Skitarii",
             "Adeptus Mechanicus",
-            "Smoke"
+            "Imperium",
+            "Onager Dunecrawler",
+            "Skitarii",
+            "Smoke",
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -846,6 +846,21 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Daedalus missile launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
                 }
             },
             {
@@ -880,21 +895,6 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHitsD3": true
-                }
-            },
-            {
-                "name": "Daedalus missile launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
                 }
             },
             {
@@ -970,13 +970,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Pteraxii Skystalkers",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Infantry",
             "Fly",
-            "Jump Pack",
             "Grenades",
+            "Imperium",
+            "Infantry",
+            "Jump Pack",
+            "Pteraxii Skystalkers",
             "Skitarii"
         ],
         "ranged_weapons": [
@@ -1041,13 +1041,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Pteraxii Sterylizors",
+            "Adeptus Mechanicus",
+            "Fly",
             "Imperium",
             "Infantry",
-            "Fly",
             "Jump Pack",
-            "Skitarii",
-            "Adeptus Mechanicus"
+            "Pteraxii Sterylizors",
+            "Skitarii"
         ],
         "ranged_weapons": [
             {
@@ -1079,6 +1079,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Pteraxii talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Taser goad",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1093,18 +1105,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits2": true
                 }
-            },
-            {
-                "name": "Pteraxii talons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1123,11 +1123,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Secutarii Hoplites",
-            "Infantry",
+            "Adeptus Mechanicus",
             "Imperium",
-            "Skitarii",
-            "Adeptus Mechanicus"
+            "Infantry",
+            "Secutarii Hoplites",
+            "Skitarii"
         ],
         "ranged_weapons": [
             {
@@ -1211,13 +1211,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
             "Adeptus Mechanicus",
+            "Imperium",
+            "Infantry",
             "Secutarii Peltasts",
-            "Skitarii",
-            "Imperium"
+            "Skitarii"
         ],
         "ranged_weapons": [
+            {
+                "name": "Archeotech pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
             {
                 "name": "Galvanic caster - flechette",
                 "range": "18",
@@ -1241,21 +1256,6 @@
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Archeotech pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
             }
         ],
         "melee_weapons": [
@@ -1288,11 +1288,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Serberys Raiders",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Skitarii",
-            "Mounted"
+            "Imperium",
+            "Mounted",
+            "Serberys Raiders",
+            "Skitarii"
         ],
         "ranged_weapons": [
             {
@@ -1356,38 +1356,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Serberys Sulphurhounds",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Skitarii",
-            "Mounted"
+            "Imperium",
+            "Mounted",
+            "Serberys Sulphurhounds",
+            "Skitarii"
         ],
         "ranged_weapons": [
             {
-                "name": "Sulphur breath",
-                "range": "9",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Phosphor pistol",
+                "name": "Mechanicus pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Phosphor blast carbine",
@@ -1404,18 +1393,29 @@
                 }
             },
             {
-                "name": "Mechanicus pistol",
+                "name": "Phosphor pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Sulphur breath",
+                "range": "9",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "autoHit": true
                 }
             }
         ],
@@ -1467,9 +1467,9 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Mechanicus",
-            "Infantry",
-            "Imperium",
             "Cult Mechanicus",
+            "Imperium",
+            "Infantry",
             "Servitors"
         ],
         "ranged_weapons": [
@@ -1488,6 +1488,18 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 6,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Plasma cannon - Standard",
@@ -1516,18 +1528,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 6,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1574,25 +1574,13 @@
             "stealth": true
         },
         "tags": [
-            "Imperium",
             "Adeptus Mechanicus",
-            "Skitarii",
+            "Imperium",
             "Infantry",
-            "Sicarian Infiltrators"
+            "Sicarian Infiltrators",
+            "Skitarii"
         ],
         "ranged_weapons": [
-            {
-                "name": "Stubcarbine",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Flechette blaster",
                 "range": "12",
@@ -1602,6 +1590,18 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Stubcarbine",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -1654,29 +1654,14 @@
             "stealth": true
         },
         "tags": [
-            "Sicarian Ruststalkers",
-            "Imperium",
             "Adeptus Mechanicus",
+            "Imperium",
             "Infantry",
+            "Sicarian Ruststalkers",
             "Skitarii"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Transonic razor & chordclaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true
-                }
-            },
             {
                 "name": "Transonic blades",
                 "range": "",
@@ -1708,6 +1693,21 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            },
+            {
+                "name": "Transonic razor & chordclaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
             }
         ]
     },
@@ -1728,11 +1728,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Marshal",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Skitarii",
-            "Character"
+            "Character",
+            "Imperium",
+            "Marshal",
+            "Skitarii"
         ],
         "ranged_weapons": [
             {
@@ -1781,38 +1781,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Rangers",
-            "Imperium",
             "Adeptus Mechanicus",
+            "Battleline",
+            "Imperium",
             "Infantry",
-            "Skitarii",
-            "Battleline"
+            "Rangers",
+            "Skitarii"
         ],
         "ranged_weapons": [
-            {
-                "name": "Galvanic rifle",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Transuranic arquebus",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Arc rifle",
                 "range": "30",
@@ -1829,6 +1805,33 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Galvanic rifle",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Mechanicus pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             },
             {
@@ -1856,19 +1859,16 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Mechanicus pistol",
-                "range": "12",
+                "name": "Transuranic arquebus",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "damage": "D3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1901,41 +1901,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vanguard",
-            "Imperium",
             "Adeptus Mechanicus",
+            "Battleline",
+            "Imperium",
             "Infantry",
             "Skitarii",
-            "Battleline"
+            "Vanguard"
         ],
         "ranged_weapons": [
-            {
-                "name": "Radium carbine",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
-                }
-            },
-            {
-                "name": "Transuranic arquebus",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Arc rifle",
                 "range": "30",
@@ -1952,6 +1925,21 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Mechanicus pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             },
             {
@@ -1979,19 +1967,31 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Mechanicus pistol",
-                "range": "12",
+                "name": "Radium carbine",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "anti": true,
+                    "anti4": true
                 }
+            },
+            {
+                "name": "Transuranic arquebus",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2026,12 +2026,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Skorpius Disintegrator",
-            "Imperium",
             "Adeptus Mechanicus",
+            "Imperium",
             "Skitarii",
-            "Vehicle",
-            "Smoke"
+            "Skorpius Disintegrator",
+            "Smoke",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2047,18 +2047,6 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            },
-            {
-                "name": "Ferumite cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Cognis heavy stubber",
@@ -2090,6 +2078,18 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Ferumite cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "3",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2124,14 +2124,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Skorpius Dunerider",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Vehicle",
             "Dedicated Transport",
-            "Transport",
+            "Imperium",
             "Skitarii",
-            "Smoke"
+            "Skorpius Dunerider",
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2187,13 +2187,13 @@
             "stealth": true
         },
         "tags": [
-            "Imperium",
             "Adeptus Mechanicus",
+            "Dragoons with Radium Jezzails",
+            "Imperium",
             "Skitarii",
-            "Vehicle",
-            "Walker",
             "Sydonian",
-            "Dragoons with Radium Jezzails"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -2256,13 +2256,13 @@
             "stealth": true
         },
         "tags": [
-            "Imperium",
             "Adeptus Mechanicus",
+            "Dragoons with Taser Lances",
+            "Imperium",
             "Skitarii",
-            "Vehicle",
-            "Walker",
             "Sydonian",
-            "Dragoons with Taser Lances"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -2319,14 +2319,29 @@
             "stealth": true
         },
         "tags": [
+            "Adeptus Mechanicus",
             "Character",
-            "Infantry",
             "Imperium",
+            "Infantry",
             "Skitarii",
-            "Sydonian",
-            "Adeptus Mechanicus"
+            "Sydonian"
         ],
         "ranged_weapons": [
+            {
+                "name": "Mechanicus pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
             {
                 "name": "Radium Jezzail",
                 "range": "36",
@@ -2355,21 +2370,6 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true
-                }
-            },
-            {
-                "name": "Mechanicus pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -2403,39 +2403,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Mechanicus",
+            "Character",
+            "Cult Mechanicus",
             "Dominus",
             "Imperium",
-            "Adeptus Mechanicus",
-            "Tech-Priest",
-            "Character",
             "Infantry",
-            "Cult Mechanicus"
+            "Tech-Priest"
         ],
         "ranged_weapons": [
-            {
-                "name": "Macrostubber",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Phosphor serpenta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Eradication ray - dissipated",
                 "range": "24",
@@ -2457,6 +2433,30 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Macrostubber",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Phosphor serpenta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
@@ -2509,13 +2509,13 @@
             "healD3Wounds": true
         },
         "tags": [
+            "Adeptus Mechanicus",
+            "Character",
+            "Cult Mechanicus",
             "Enginseer",
             "Imperium",
-            "Adeptus Mechanicus",
-            "Tech-Priest",
-            "Character",
             "Infantry",
-            "Cult Mechanicus"
+            "Tech-Priest"
         ],
         "ranged_weapons": [
             {
@@ -2576,13 +2576,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Manipulus",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Tech-Priest",
             "Character",
+            "Cult Mechanicus",
+            "Imperium",
             "Infantry",
-            "Cult Mechanicus"
+            "Manipulus",
+            "Tech-Priest"
         ],
         "ranged_weapons": [
             {
@@ -2644,13 +2644,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Technoarcheologist",
-            "Imperium",
             "Adeptus Mechanicus",
-            "Tech-Priest",
             "Character",
+            "Cult Mechanicus",
+            "Imperium",
             "Infantry",
-            "Cult Mechanicus"
+            "Tech-Priest",
+            "Technoarcheologist"
         ],
         "ranged_weapons": [
             {
@@ -2704,11 +2704,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Imperium",
-            "Transport",
             "Dedicated Transport",
-            "Terrax-pattern Termite"
+            "Imperium",
+            "Terrax-pattern Termite",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -2740,6 +2740,18 @@
                 }
             },
             {
+                "name": "Terrax melta cutter",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "5",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Twin volkite charger",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -2754,18 +2766,6 @@
                     "devWoundsOn6s": true,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Terrax melta cutter",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "5",
-                "damage": "D6",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [

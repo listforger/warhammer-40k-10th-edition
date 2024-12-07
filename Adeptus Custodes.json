@@ -14,13 +14,25 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Mounted",
+            "Adeptus Custodes",
+            "Agamatus Custodians",
             "Fly",
             "Imperium",
-            "Agamatus Custodians",
-            "Adeptus Custodes"
+            "Mounted"
         ],
         "ranged_weapons": [
+            {
+                "name": "Adrathic devastator",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Lastrum bolt cannon",
                 "range": "36",
@@ -36,18 +48,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
-            },
-            {
-                "name": "Adrathic devastator",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Twin las-pulsar",
@@ -102,11 +102,11 @@
         },
         "tags": [
             "Aleya",
-            "Epic Hero",
+            "Anathema Psykana",
             "Character",
-            "Infantry",
+            "Epic Hero",
             "Imperium",
-            "Anathema Psykana"
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -146,37 +146,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Custodes",
             "Allarus Custodians",
             "Imperium",
-            "Adeptus Custodes",
-            "Terminator",
-            "Infantry"
+            "Infantry",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Guardian Spear",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Castellan axe",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Balistus grenade launcher",
                 "range": "18",
@@ -190,21 +166,33 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Guardian Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
+                "name": "Castellan axe",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
+            {
+                "name": "Guardian Spear",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Castellan axe",
                 "range": "",
@@ -215,6 +203,18 @@
                 "armor_penetration": 1,
                 "attacks": "4",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Guardian Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -246,14 +246,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Rhino",
+            "Adeptus Custodes",
             "Anathema Psykana",
-            "Vehicle",
             "Dedicated Transport",
-            "Transport",
-            "Smoke",
             "Imperium",
-            "Adeptus Custodes"
+            "Rhino",
+            "Smoke",
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -315,13 +315,27 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Imperium",
             "Adeptus Custodes",
-            "Terminator",
+            "Aquilon Custodians",
+            "Imperium",
             "Infantry",
-            "Aquilon Custodians"
+            "Terminator"
         ],
         "ranged_weapons": [
+            {
+                "name": "Infernus firepike",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
             {
                 "name": "Lastrum storm bolter",
                 "range": "24",
@@ -348,20 +362,6 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Infernus firepike",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
                 }
             }
         ],
@@ -408,11 +408,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Custodes",
-            "Vehicle",
             "Aircraft",
+            "Ares Gunship",
             "Fly",
             "Imperium",
-            "Ares Gunship"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -470,11 +470,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Custodes",
             "Blade Champion",
-            "Infantry",
             "Character",
             "Imperium",
-            "Adeptus Custodes"
+            "Infantry"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -538,12 +538,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Caladius Grav-tank",
             "Fly",
             "Imperium",
-            "Caladius Grav-tank"
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Twin arachnus heavy blaze cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "D6+2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
             {
                 "name": "Twin Iliastus accelerator culverin",
                 "range": "48",
@@ -556,20 +570,6 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "rapidFire": 4,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin arachnus heavy blaze cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "D6+2",
-                "parsed_weapon_types": {
                     "twinLinked": true
                 }
             },
@@ -621,12 +621,24 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Custodes",
-            "Vehicle",
+            "Contemptor-Achillus Dreadnought",
             "Imperium",
-            "Walker",
-            "Contemptor-Achillus Dreadnought"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Achillus dreadspear",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Infernus incinerator",
                 "range": "12",
@@ -668,18 +680,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Achillus dreadspear",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -716,9 +716,9 @@
         "tags": [
             "Adeptus Custodes",
             "Contemptor-Galatus Dreadnought",
+            "Imperium",
             "Vehicle",
-            "Walker",
-            "Imperium"
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -769,30 +769,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
+            "Adeptus Custodes",
+            "Coronus Grav-carrier",
             "Fly",
             "Imperium",
-            "Coronus Grav-carrier",
-            "Adeptus Custodes"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin lastrum bolt cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
             {
                 "name": "Twin arachnus blaze cannon",
                 "range": "24",
@@ -807,6 +791,22 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin lastrum bolt cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
                 }
             }
         ],
@@ -842,11 +842,11 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Custodian Guard",
-            "Infantry",
+            "Adeptus Custodes",
             "Battleline",
+            "Custodian Guard",
             "Imperium",
-            "Adeptus Custodes"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -888,11 +888,11 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Sentinel Blade",
+                "name": "Misericordia",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 6,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
@@ -900,11 +900,11 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Misericordia",
+                "name": "Sentinel Blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
+                "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
@@ -930,10 +930,10 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Custodes",
             "Custodian Guard",
-            "Infantry",
             "Imperium",
-            "Adeptus Custodes"
+            "Infantry"
         ],
         "ranged_weapons": [
             {
@@ -1003,14 +1003,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Custodian Wardens",
             "Adeptus Custodes",
-            "Infantry",
-            "Imperium"
+            "Custodian Wardens",
+            "Imperium",
+            "Infantry"
         ],
         "ranged_weapons": [
             {
-                "name": "Guardian Spear",
+                "name": "Castellan axe",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
@@ -1022,7 +1022,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Castellan axe",
+                "name": "Guardian Spear",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
@@ -1036,18 +1036,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Guardian Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Castellan axe",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1057,6 +1045,18 @@
                 "armor_penetration": 1,
                 "attacks": "4",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Guardian Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1076,28 +1076,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Knight-Centura",
             "Adeptus Custodes",
-            "Infantry",
             "Anathema Psykana",
+            "Character",
             "Imperium",
-            "Character"
+            "Infantry",
+            "Knight-Centura"
         ],
         "ranged_weapons": [
-            {
-                "name": "Witchseeker Flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
             {
                 "name": "Master-crafted boltgun",
                 "range": "24",
@@ -1110,6 +1096,20 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Witchseeker Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
                 }
             }
         ],
@@ -1148,13 +1148,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
-            "Transport",
+            "Adeptus Custodes",
             "Aircraft",
             "Fly",
             "Imperium",
             "Orion Assault Dropship",
-            "Adeptus Custodes"
+            "Transport",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1170,6 +1170,20 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Spiculus heavy bolt launcher",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
                 "name": "Twin lastrum bolt cannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1183,20 +1197,6 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Spiculus heavy bolt launcher",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -1232,10 +1232,10 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
+            "Adeptus Custodes",
             "Fly",
             "Pallas Grav-attack",
-            "Adeptus Custodes"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1285,11 +1285,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Prosecutors",
             "Adeptus Custodes",
+            "Anathema Psykana",
             "Imperium",
             "Infantry",
-            "Anathema Psykana"
+            "Prosecutors"
         ],
         "ranged_weapons": [
             {
@@ -1324,9 +1324,9 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Infantry",
-            "Imperium",
             "Adeptus Custodes",
+            "Imperium",
+            "Infantry",
             "Sagittarum Custodians"
         ],
         "ranged_weapons": [
@@ -1377,25 +1377,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Shield-Captain",
-            "Imperium",
             "Adeptus Custodes",
             "Character",
-            "Infantry"
+            "Imperium",
+            "Infantry",
+            "Shield-Captain"
         ],
         "ranged_weapons": [
-            {
-                "name": "Guardian Spear",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Castellan axe",
                 "range": "24",
@@ -1409,8 +1397,8 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Sentinel Blade",
-                "range": "12",
+                "name": "Guardian Spear",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 4,
@@ -1431,21 +1419,21 @@
                 "attacks": "1",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Sentinel Blade",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Guardian Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Castellan axe",
                 "range": "",
@@ -1459,15 +1447,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Sentinel Blade",
+                "name": "Guardian Spear",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 6,
+                "strength": 7,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "7",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -1480,6 +1468,18 @@
                 "armor_penetration": 2,
                 "attacks": "7",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Sentinel Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "7",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -1499,38 +1499,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Terminator",
-            "Shield-Captain",
-            "Infantry",
-            "Imperium",
             "Adeptus Custodes",
-            "Character"
+            "Character",
+            "Imperium",
+            "Infantry",
+            "Shield-Captain",
+            "Terminator"
         ],
         "ranged_weapons": [
-            {
-                "name": "Guardian Spear",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Castellan axe",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Balistus grenade launcher",
                 "range": "18",
@@ -1544,21 +1520,33 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
-            }
-        ],
-        "melee_weapons": [
+            },
             {
-                "name": "Guardian Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
+                "name": "Castellan axe",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
+            {
+                "name": "Guardian Spear",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Castellan axe",
                 "range": "",
@@ -1569,6 +1557,18 @@
                 "armor_penetration": 1,
                 "attacks": "6",
                 "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Guardian Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "7",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1588,15 +1588,27 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Dawneagle Jetbike",
             "Adeptus Custodes",
+            "Character",
+            "Dawneagle Jetbike",
+            "Fly",
             "Imperium",
             "Mounted",
-            "Character",
-            "Fly",
             "Shield-Captain"
         ],
         "ranged_weapons": [
+            {
+                "name": "Salvo launcher",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Vertus hurricane bolter",
                 "range": "24",
@@ -1611,18 +1623,6 @@
                     "rapidFire": 3,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Salvo launcher",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1659,10 +1659,10 @@
             "minusOneDamage": true
         },
         "tags": [
-            "Vehicle",
-            "Imperium",
             "Adeptus Custodes",
+            "Imperium",
             "Telemon Heavy Dreadnought",
+            "Vehicle",
             "Walker"
         ],
         "ranged_weapons": [
@@ -1694,6 +1694,20 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Spiculus bolt launcher",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
                 "name": "Twin plasma projector",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -1707,35 +1721,9 @@
                     "autoHit": true,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Spiculus bolt launcher",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Telemon Caestus",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Armoured feet",
                 "range": "",
@@ -1746,6 +1734,18 @@
                 "armor_penetration": 0,
                 "attacks": "5",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Telemon Caestus",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
@@ -1767,12 +1767,12 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Trajann Valoris",
-            "Epic Hero",
+            "Adeptus Custodes",
             "Character",
-            "Infantry",
+            "Epic Hero",
             "Imperium",
-            "Adeptus Custodes"
+            "Infantry",
+            "Trajann Valoris"
         ],
         "ranged_weapons": [
             {
@@ -1820,13 +1820,13 @@
             "feelNoPain": 6
         },
         "tags": [
-            "Valerian",
             "Adeptus Custodes",
-            "Infantry",
             "Character",
+            "Epic Hero",
             "Imperium",
+            "Infantry",
             "Shield-Captain",
-            "Epic Hero"
+            "Valerian"
         ],
         "ranged_weapons": [
             {
@@ -1872,25 +1872,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Fly",
             "Imperium",
             "Infantry",
-            "Fly",
             "Jump Pack",
             "Venatari Custodians"
         ],
         "ranged_weapons": [
-            {
-                "name": "Venatari lance",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Kinetic destroyer",
                 "range": "12",
@@ -1906,9 +1894,33 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
+            },
+            {
+                "name": "Venatari lance",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Tarsis buckler",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Venatari lance",
                 "range": "",
@@ -1922,18 +1934,6 @@
                 "parsed_weapon_types": {
                     "plusOneToWound": true
                 }
-            },
-            {
-                "name": "Tarsis buckler",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1952,24 +1952,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Venerable Contemptor Dreadnought",
-            "Vehicle",
-            "Walker",
+            "Adeptus Custodes",
             "Imperium",
-            "Adeptus Custodes"
+            "Vehicle",
+            "Venerable Contemptor Dreadnought",
+            "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Multi-melta",
-                "range": "18",
+                "name": "Combi-bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             },
             {
                 "name": "Kheres-pattern assault cannon",
@@ -1987,18 +1989,16 @@
                 }
             },
             {
-                "name": "Combi-bolter",
-                "range": "24",
+                "name": "Multi-melta",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
                 "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2031,14 +2031,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Venerable Land Raider",
-            "Transport",
-            "Vehicle",
+            "Adeptus Custodes",
             "Imperium",
             "Smoke",
-            "Adeptus Custodes"
+            "Transport",
+            "Vehicle",
+            "Venerable Land Raider"
         ],
         "ranged_weapons": [
+            {
+                "name": "Godhammer lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Hunter-killer missile",
                 "range": "48",
@@ -2081,18 +2093,6 @@
                     "sustainedHits1": true,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Godhammer lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2125,10 +2125,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Adeptus Custodes",
             "Fly",
-            "Mounted",
             "Imperium",
-            "Adeptus Custodes"
+            "Mounted"
         ],
         "ranged_weapons": [
             {
@@ -2191,11 +2191,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vigilators",
+            "Adeptus Custodes",
             "Anathema Psykana",
-            "Infantry",
             "Imperium",
-            "Adeptus Custodes"
+            "Infantry",
+            "Vigilators"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2233,11 +2233,11 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Witchseekers",
             "Adeptus Custodes",
             "Anathema Psykana",
+            "Imperium",
             "Infantry",
-            "Imperium"
+            "Witchseekers"
         ],
         "ranged_weapons": [
             {

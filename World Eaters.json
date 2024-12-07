@@ -14,16 +14,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Monster",
-            "Fly",
-            "Character",
-            "Epic Hero",
+            "Angron",
             "Chaos",
-            "Khorne",
+            "Character",
             "Daemon",
+            "Epic Hero",
+            "Fly",
+            "Khorne",
+            "Monster",
             "Primarch",
-            "Angron"
+            "World Eaters"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -70,12 +70,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Infantry",
             "Chaos",
-            "Khorne",
             "Daemon",
-            "Eightbound"
+            "Eightbound",
+            "Infantry",
+            "Khorne",
+            "World Eaters"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -92,18 +92,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Lacerators",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Heavy chainglaive",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -113,6 +101,18 @@
                 "armor_penetration": 3,
                 "attacks": "8",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lacerators",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
@@ -134,15 +134,27 @@
             "feelNoPain": 6
         },
         "tags": [
-            "World Eaters",
-            "Infantry",
             "Chaos",
-            "Khorne",
             "Daemon",
-            "Exalted Eightbound"
+            "Exalted Eightbound",
+            "Infantry",
+            "Khorne",
+            "World Eaters"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
+            {
+                "name": "Heavy chainglaive",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "8",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Paired Eightbound chainfists",
                 "range": "",
@@ -156,18 +168,6 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Heavy chainglaive",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "8",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -186,13 +186,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Chaos",
+            "Fly",
+            "Hell Talon",
             "Khorne",
-            "World Eaters",
-            "Hell Talon"
+            "Vehicle",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -268,12 +268,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Vehicle",
             "Aircraft",
-            "Fly",
             "Chaos",
-            "Khorne",
+            "Fly",
             "Hellblade",
+            "Khorne",
+            "Vehicle",
             "World Eaters"
         ],
         "ranged_weapons": [
@@ -372,12 +372,12 @@
             "feelNoPain": 6
         },
         "tags": [
-            "World Eaters",
-            "Infantry",
             "Battleline",
             "Chaos",
+            "Infantry",
+            "Jakhals",
             "Khorne",
-            "Jakhals"
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -394,34 +394,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Mauler chainblade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Skullsmasher",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Dishonoured chainblades",
                 "range": "",
@@ -453,6 +425,34 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
                 }
+            },
+            {
+                "name": "Mauler chainblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Skullsmasher",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     },
@@ -471,13 +471,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Infantry",
             "Battleline",
-            "Grenades",
+            "Berserkers",
             "Chaos",
+            "Grenades",
+            "Infantry",
             "Khorne",
-            "Berserkers"
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -559,30 +559,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Vehicle",
+            "Chaos",
+            "Daemon",
+            "Khorne",
+            "Lord of Skulls",
             "Titanic",
             "Towering",
-            "Chaos",
-            "Khorne",
-            "Daemon",
-            "Lord of Skulls"
+            "Vehicle",
+            "World Eaters"
         ],
         "ranged_weapons": [
-            {
-                "name": "Gorestorm cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Daemongore cannon",
                 "range": "18",
@@ -598,15 +584,15 @@
                 }
             },
             {
-                "name": "Ichor cannon",
-                "range": "48",
+                "name": "Gorestorm cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2D6",
-                "damage": "2",
+                "attacks": "D6+3",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -625,6 +611,20 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Ichor cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -685,14 +685,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Infantry",
+            "Chaos",
             "Character",
             "Epic Hero",
             "Grenades",
-            "Chaos",
+            "Infantry",
             "Khorne",
-            "Kh\u00e2rn the Betrayer"
+            "Kh\u00e2rn the Betrayer",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -738,14 +738,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Mounted",
+            "Chaos",
             "Character",
             "Epic Hero",
             "Grenades",
-            "Chaos",
             "Khorne",
-            "Lord Invocatus"
+            "Lord Invocatus",
+            "Mounted",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -812,11 +812,11 @@
             "healD3Wounds": true
         },
         "tags": [
-            "World Eaters",
             "Beast",
             "Chaos",
             "Khorne",
-            "Spawn"
+            "Spawn",
+            "World Eaters"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -849,13 +849,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Monster",
-            "Character",
             "Chaos",
-            "Khorne",
+            "Character",
             "Daemon",
-            "Daemon Prince"
+            "Daemon Prince",
+            "Khorne",
+            "Monster",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -916,14 +916,14 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Monster",
-            "Character",
             "Chaos",
-            "Khorne",
+            "Character",
             "Daemon",
             "Daemon Prince",
-            "Fly"
+            "Fly",
+            "Khorne",
+            "Monster",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -981,107 +981,16 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
+            "Chaos",
+            "Daemon",
+            "Defiler",
+            "Khorne",
+            "Smoke",
             "Vehicle",
             "Walker",
-            "Smoke",
-            "Chaos",
-            "Khorne",
-            "Daemon",
-            "Defiler"
+            "World Eaters"
         ],
         "ranged_weapons": [
-            {
-                "name": "Defiler cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Reaper autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Twin heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
             {
                 "name": "Combi-bolter",
                 "range": "24",
@@ -1112,6 +1021,97 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1
+                }
+            },
+            {
+                "name": "Defiler cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Reaper autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ],
@@ -1157,13 +1157,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
+            "Chaos",
+            "Daemon",
+            "Forgefiend",
+            "Khorne",
             "Vehicle",
             "Walker",
-            "Chaos",
-            "Khorne",
-            "Daemon",
-            "Forgefiend"
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -1235,38 +1235,40 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
+            "Chaos",
+            "Helbrute",
+            "Khorne",
             "Vehicle",
             "Walker",
-            "Chaos",
-            "Khorne",
-            "Helbrute"
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
-                "name": "Multi-melta",
-                "range": "18",
+                "name": "Combi-bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
             },
             {
-                "name": "Twin autocannon",
-                "range": "48",
+                "name": "Heavy flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
+                "ballistic_skill": 0,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "autoHit": true
                 }
             },
             {
@@ -1310,6 +1312,32 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
                 "name": "Twin heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1339,37 +1367,21 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Helbrute fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Helbrute hammer",
                 "range": "",
@@ -1393,18 +1405,6 @@
                 "attacks": "8",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Helbrute fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1423,14 +1423,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Vehicle",
-            "Fly",
             "Aircraft",
             "Chaos",
-            "Khorne",
             "Daemon",
-            "Heldrake"
+            "Fly",
+            "Heldrake",
+            "Khorne",
+            "Vehicle",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -1495,27 +1495,15 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Vehicle",
-            "Transport",
-            "Smoke",
             "Chaos",
             "Khorne",
-            "Land Raider"
+            "Land Raider",
+            "Smoke",
+            "Transport",
+            "Vehicle",
+            "World Eaters"
         ],
         "ranged_weapons": [
-            {
-                "name": "Soulshatter lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Combi-bolter",
                 "range": "24",
@@ -1549,6 +1537,32 @@
                 }
             },
             {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Soulshatter lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Twin heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1563,20 +1577,6 @@
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             }
         ],
@@ -1610,13 +1610,13 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Mounted",
+            "Chaos",
             "Character",
             "Grenades",
-            "Chaos",
             "Khorne",
-            "Lord on Juggernaut"
+            "Lord on Juggernaut",
+            "Mounted",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -1646,6 +1646,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Exalted chainblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Juggernaught's bladed horn",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1658,18 +1670,6 @@
                 "parsed_weapon_types": {
                     "plusOneToWound": true
                 }
-            },
-            {
-                "name": "Exalted chainblade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
-                "damage": "2",
-                "parsed_weapon_types": null
             }
         ]
     },
@@ -1691,12 +1691,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Infantry",
-            "Character",
             "Chaos",
+            "Character",
+            "Infantry",
             "Khorne",
-            "Master of Executions"
+            "Master of Executions",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -1747,13 +1747,13 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
+            "Chaos",
+            "Daemon",
+            "Khorne",
+            "Maulerfiend",
             "Vehicle",
             "Walker",
-            "Chaos",
-            "Khorne",
-            "Daemon",
-            "Maulerfiend"
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -1771,18 +1771,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Maulerfiend fists",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Lasher tendrils",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1792,6 +1780,18 @@
                 "armor_penetration": 1,
                 "attacks": "6",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Maulerfiend fists",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "D6+1",
                 "parsed_weapon_types": null
             }
         ]
@@ -1811,28 +1811,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Vehicle",
-            "Smoke",
             "Chaos",
             "Khorne",
-            "Predator Annihilator"
+            "Predator Annihilator",
+            "Smoke",
+            "Vehicle",
+            "World Eaters"
         ],
         "ranged_weapons": [
-            {
-                "name": "Predator twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Combi-bolter",
                 "range": "24",
@@ -1866,6 +1852,20 @@
                 }
             },
             {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
                 "name": "Heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -1894,17 +1894,17 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Havoc launcher",
+                "name": "Predator twin lascannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "twinLinked": true
                 }
             }
         ],
@@ -1938,28 +1938,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Vehicle",
-            "Smoke",
             "Chaos",
             "Khorne",
-            "Predator Destructor"
+            "Predator Destructor",
+            "Smoke",
+            "Vehicle",
+            "World Eaters"
         ],
         "ranged_weapons": [
-            {
-                "name": "Predator autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
             {
                 "name": "Combi-bolter",
                 "range": "24",
@@ -1993,6 +1979,20 @@
                 }
             },
             {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
                 "name": "Heavy bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -2021,17 +2021,17 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Havoc launcher",
+                "name": "Predator autocannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "rapidFire": 2
                 }
             }
         ],
@@ -2065,14 +2065,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Vehicle",
-            "Transport",
-            "Dedicated Transport",
-            "Smoke",
             "Chaos",
+            "Dedicated Transport",
             "Khorne",
-            "Rhino"
+            "Rhino",
+            "Smoke",
+            "Transport",
+            "Vehicle",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
@@ -2155,44 +2155,26 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "World Eaters",
-            "Infantry",
             "Chaos",
+            "Infantry",
             "Khorne",
             "Terminator",
-            "Terminator Squad"
+            "Terminator Squad",
+            "World Eaters"
         ],
         "ranged_weapons": [
             {
-                "name": "Reaper autocannon",
-                "range": "36",
+                "name": "Combi-bolter",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
+                    "rapidFire": 2
                 }
             },
             {
@@ -2214,35 +2196,39 @@
                 }
             },
             {
-                "name": "Combi-bolter",
-                "range": "24",
+                "name": "Heavy flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 2
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Reaper autocannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
                 }
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Paired accursed weapons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Accursed weapon",
                 "range": "",
@@ -2253,18 +2239,6 @@
                 "armor_penetration": 2,
                 "attacks": "4",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Power fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
                 "parsed_weapon_types": null
             },
             {
@@ -2281,6 +2255,32 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Paired accursed weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ]
     }

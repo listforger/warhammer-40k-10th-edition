@@ -14,11 +14,26 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Unaligned Forces",
+            "Aegis Defence Line with Weapon Emplacement",
             "Fortification",
-            "Aegis Defence Line with Weapon Emplacement"
+            "Unaligned Forces"
         ],
         "ranged_weapons": [
+            {
+                "name": "Icarus Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
             {
                 "name": "Quad-gun",
                 "range": "48",
@@ -33,21 +48,6 @@
                     "anti": true,
                     "anti3": true,
                     "twinLinked": true
-                }
-            },
-            {
-                "name": "Icarus Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
                 }
             }
         ],
@@ -70,11 +70,11 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Unaligned Forces",
             "Allied Units",
-            "Monster",
+            "Ambull",
             "Character",
-            "Ambull"
+            "Monster",
+            "Unaligned Forces"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -107,14 +107,30 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Unaligned Forces",
+            "Bastion",
             "Fortification",
             "Towering",
-            "Vehicle",
             "Transport",
-            "Bastion"
+            "Unaligned Forces",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
             {
                 "name": "Icarus Lascannon",
                 "range": "48",
@@ -145,22 +161,6 @@
                     "anti3": true,
                     "twinLinked": true
                 }
-            },
-            {
-                "name": "Heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
             }
         ],
         "melee_weapons": []
@@ -183,11 +183,26 @@
             "Castellum Stronghold",
             "Fortification",
             "Titanic",
-            "Vehicle",
             "Transport",
-            "Unaligned Forces"
+            "Unaligned Forces",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Castellum air defence missiles",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
             {
                 "name": "Castellum battle cannon",
                 "range": "48",
@@ -198,20 +213,6 @@
                 "armor_penetration": 1,
                 "attacks": "D6+3",
                 "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Whirlwind castellan launcher",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -245,31 +246,18 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Twin lascannon",
-                "range": "48",
+                "name": "Twin assault cannon",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "autoHit": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
                     "twinLinked": true
                 }
             },
@@ -291,34 +279,46 @@
                 }
             },
             {
-                "name": "Castellum air defence missiles",
-                "range": "48",
+                "name": "Twin heavy flamer",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "D6",
-                "damage": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true
+                    "autoHit": true,
+                    "twinLinked": true
                 }
             },
             {
-                "name": "Twin assault cannon",
-                "range": "24",
+                "name": "Twin lascannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Whirlwind castellan launcher",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
+                "attacks": "D6+3",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true
+                    "blast": true
                 }
             }
         ],
@@ -339,14 +339,28 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Firestorm Redoubt",
             "Fortification",
-            "Unaligned Forces",
             "Transport",
+            "Unaligned Forces",
             "Vehicle",
-            "Wall of Martyrs",
-            "Firestorm Redoubt"
+            "Wall of Martyrs"
         ],
         "ranged_weapons": [
+            {
+                "name": "Battle cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
             {
                 "name": "Icarus Lascannon",
                 "range": "48",
@@ -360,36 +374,6 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true
-                }
-            },
-            {
-                "name": "Quad-gun",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti3": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Battle cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
                 }
             },
             {
@@ -419,6 +403,22 @@
                     "anti": true,
                     "anti4": true
                 }
+            },
+            {
+                "name": "Quad-gun",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": []
@@ -439,14 +439,30 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Unaligned Forces",
-            "Transport",
+            "Fortress of Redemption",
             "Titanic",
-            "Vehicle",
             "Towering",
-            "Fortress of Redemption"
+            "Transport",
+            "Unaligned Forces",
+            "Vehicle"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
             {
                 "name": "Redemptor lascannons",
                 "range": "48",
@@ -487,22 +503,6 @@
                 "attacks": "2",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
             }
         ],
         "melee_weapons": []
@@ -526,10 +526,10 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Unaligned Forces",
             "Allied Units",
+            "Guardian Drone",
             "Monster",
-            "Guardian Drone"
+            "Unaligned Forces"
         ],
         "ranged_weapons": [
             {
@@ -590,28 +590,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Unaligned Forces",
+            "Imperial Fortress Walls",
             "Titanic",
-            "Vehicle",
             "Towering",
             "Transport",
-            "Imperial Fortress Walls"
+            "Unaligned Forces",
+            "Vehicle"
         ],
         "ranged_weapons": [
-            {
-                "name": "Twin long-barrelled autocannon",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Twin heavy bolter",
                 "range": "36",
@@ -642,6 +628,20 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Twin long-barrelled autocannon",
+                "range": "60",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ],
         "melee_weapons": []
@@ -662,12 +662,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Unaligned Forces",
+            "Macro-cannon Aquila Strongpoint",
             "Titanic",
-            "Vehicle",
             "Transport",
-            "Wall of Martyrs",
-            "Macro-cannon Aquila Strongpoint"
+            "Unaligned Forces",
+            "Vehicle",
+            "Wall of Martyrs"
         ],
         "ranged_weapons": [
             {
@@ -717,11 +717,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Unaligned Forces",
-            "Transport",
-            "Vehicle",
+            "Plasma Obliterator",
             "Towering",
-            "Plasma Obliterator"
+            "Transport",
+            "Unaligned Forces",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -771,24 +771,52 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
+            "Primaris Redoubt",
             "Unaligned Forces",
-            "Vehicle",
-            "Primaris Redoubt"
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Primaris Redoubt turbo-laser destructor",
-                "range": "96",
+                "name": "Battle cannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 16,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3+1",
-                "damage": "D6+3",
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Primaris air defence missiles",
@@ -803,6 +831,20 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true
+                }
+            },
+            {
+                "name": "Primaris castellan launcher",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
                 }
             },
             {
@@ -849,15 +891,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Primaris castellan launcher",
-                "range": "72",
+                "name": "Primaris Redoubt turbo-laser destructor",
+                "range": "96",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+1",
-                "damage": "1",
+                "strength": 16,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3+1",
+                "damage": "D6+3",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -874,46 +916,6 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true
-                }
-            },
-            {
-                "name": "Battle cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
                 }
             },
             {
@@ -949,19 +951,17 @@
                 }
             },
             {
-                "name": "Heavy bolter",
-                "range": "36",
+                "name": "Twin lascannon",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "twinLinked": true
                 }
             }
         ],
@@ -986,8 +986,8 @@
         },
         "tags": [
             "Fortification",
-            "Unaligned Forces",
-            "Skyshield Landing Pad"
+            "Skyshield Landing Pad",
+            "Unaligned Forces"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -1012,10 +1012,10 @@
             "feelNoPain": 5
         },
         "tags": [
-            "Unaligned Forces",
             "Allied Units",
             "Infantry",
-            "Spindle Drones"
+            "Spindle Drones",
+            "Unaligned Forces"
         ],
         "ranged_weapons": [
             {
@@ -1048,12 +1048,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Unaligned Forces",
             "Allied Units",
-            "Monster",
-            "Epic Hero",
             "Character",
-            "The Archivist"
+            "Epic Hero",
+            "Monster",
+            "The Archivist",
+            "Unaligned Forces"
         ],
         "ranged_weapons": [
             {
@@ -1103,9 +1103,9 @@
         "tags": [
             "Fortification",
             "Unaligned Forces",
-            "Wall of Martyrs",
             "Vehicle",
-            "Vengeance Weapon Battery"
+            "Vengeance Weapon Battery",
+            "Wall of Martyrs"
         ],
         "ranged_weapons": [
             {
@@ -1191,30 +1191,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
-            "Unaligned Forces",
             "Titanic",
-            "Vehicle",
             "Transport",
-            "Wall of Martyrs",
-            "Vortex Missile Strongpoint"
+            "Unaligned Forces",
+            "Vehicle",
+            "Vortex Missile Strongpoint",
+            "Wall of Martyrs"
         ],
         "ranged_weapons": [
-            {
-                "name": "Vortex missile battery",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 16,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D6+3",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
             {
                 "name": "Heavy bolter",
                 "range": "36",
@@ -1229,6 +1213,22 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Vortex missile battery",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 16,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D6+3",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -1251,12 +1251,12 @@
             "minusOneDamage": true
         },
         "tags": [
+            "Bunker",
             "Fortification",
-            "Unaligned Forces",
             "Transport",
+            "Unaligned Forces",
             "Vehicle",
-            "Wall of Martyrs",
-            "Bunker"
+            "Wall of Martyrs"
         ],
         "ranged_weapons": [
             {
@@ -1308,10 +1308,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Defence Emplacement",
             "Fortification",
             "Unaligned Forces",
-            "Wall of Martyrs",
-            "Defence Emplacement"
+            "Wall of Martyrs"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -1331,10 +1331,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Defence Line",
             "Fortification",
             "Unaligned Forces",
-            "Wall of Martyrs",
-            "Defence Line"
+            "Wall of Martyrs"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
