@@ -184,6 +184,66 @@
     },
     {
         "status": "success",
+        "unit_name": "Lieutenant Titus",
+        "points": 70,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
+        "tags": [
+            "Adeptus Astartes",
+            "Character",
+            "Epic Hero",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Lieutenant",
+            "Tacticus",
+            "Titus",
+            "Ultramarines"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Marneus Calgar",
         "points": 185,
         "unit_type": "unit",

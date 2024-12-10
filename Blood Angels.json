@@ -467,7 +467,9 @@
         "oc": "1",
         "armour_save": "3",
         "invunerable_save": null,
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
@@ -521,7 +523,9 @@
         "oc": "1",
         "armour_save": "3",
         "invunerable_save": null,
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
@@ -564,7 +568,9 @@
         "oc": "4",
         "armour_save": "2",
         "invunerable_save": null,
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true
+        },
         "defenderGlobalModifiers": {
             "feelNoPain": 6
         },
@@ -836,11 +842,147 @@
     },
     {
         "status": "success",
-        "unit_name": "Death Company Marines [Legends]",
+        "unit_name": "Death Company Marines with Bolt Rifles",
+        "points": 90,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 6
+        },
+        "tags": [
+            "Adeptus Astartes",
+            "Blood Angels",
+            "Death Company",
+            "Death Company Marines with Bolt Rifles",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Tacticus"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Astartes Grenade Launcher - Frag",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Astartes Grenade Launcher - Krak",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Bolt Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Death Company Marines with Boltguns [Legends]",
         "points": 125,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 6
+        },
+        "tags": [
+            "Adeptus Astartes",
+            "Blood Angels",
+            "Death Company Marines",
+            "Grenades",
+            "Imperium",
+            "Infantry"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Thunder Hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Death Company Marines with Boltguns and Jump Packs [Legends]",
+        "points": 140,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "12",
         "wounds": "2",
         "leadership": "6",
         "oc": "1",
@@ -914,18 +1056,6 @@
                 "armor_penetration": 1,
                 "attacks": "4",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Power Fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]

@@ -4700,6 +4700,164 @@
     },
     {
         "status": "success",
+        "unit_name": "Nemesis Claw",
+        "points": 110,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": {
+            "plusOneToHit": true,
+            "plusOneToWound": true
+        },
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
+        "tags": [
+            "Chaos",
+            "Grenades",
+            "Heretic Astartes",
+            "Infantry",
+            "Nemesis Claw",
+            "Psyker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Missile launcher - frag",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Missile launcher - krak",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Nostraman chainblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Nostraman chainglaive",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Paired accursed weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Noctilith Crown",
         "points": 125,
         "unit_type": "model",

@@ -300,7 +300,19 @@
         ],
         "melee_weapons": [
             {
-                "name": "Carifex Extra Scything Talons",
+                "name": "Carnifex Crushing Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Carnifex Extra Scything Talons",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
@@ -312,7 +324,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Carifex Scything Talons",
+                "name": "Carnifex Scything Talons",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
@@ -321,18 +333,6 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Carnifex Crushing Claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "D6+1",
                 "parsed_weapon_types": null
             },
             {
@@ -2633,7 +2633,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": {
             "rerollOnesHits": true
         },
@@ -2674,7 +2674,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -3163,7 +3163,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
