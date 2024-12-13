@@ -336,7 +336,7 @@
     {
         "status": "success",
         "unit_name": "Bloodletters",
-        "points": 120,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -3057,7 +3057,7 @@
     {
         "status": "success",
         "unit_name": "Screamers",
-        "points": 75,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -3084,13 +3084,16 @@
                 "name": "Lamprey bite",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             }
         ]
     },

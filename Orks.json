@@ -1603,6 +1603,103 @@
     },
     {
         "status": "success",
+        "unit_name": "Breaka Boyz",
+        "points": 140,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "6",
+        "wounds": "2",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Breaka Boyz",
+            "Grenades",
+            "Infantry",
+            "Orks"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Rokkit pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Choppa",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Knucklebustas",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Smash hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
+            {
+                "name": "Tankhammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Burna Boyz",
         "points": 60,
         "unit_type": "unit",
@@ -6615,7 +6712,7 @@
     {
         "status": "success",
         "unit_name": "Warboss",
-        "points": 65,
+        "points": 75,
         "unit_type": "model",
         "toughness": "5",
         "movement": "6",
@@ -6711,7 +6808,7 @@
     {
         "status": "success",
         "unit_name": "Warboss in Mega Armour",
-        "points": 80,
+        "points": 90,
         "unit_type": "model",
         "toughness": "6",
         "movement": "5",

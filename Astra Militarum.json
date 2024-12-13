@@ -1533,7 +1533,7 @@
     {
         "status": "success",
         "unit_name": "Cadian Shock Troops",
-        "points": 60,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "12",
         "movement": "8",
@@ -1765,7 +1765,7 @@
     {
         "status": "success",
         "unit_name": "Catachan Jungle Fighters",
-        "points": 55,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "12",
         "movement": "8",
@@ -1871,7 +1871,7 @@
     {
         "status": "success",
         "unit_name": "Chimera",
-        "points": 70,
+        "points": 85,
         "unit_type": "model",
         "toughness": "9",
         "movement": "10",
@@ -2400,7 +2400,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Sniper Rifle",
+                "name": "Sniper rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
@@ -2638,7 +2638,7 @@
                 }
             },
             {
-                "name": "Sniper Rifle",
+                "name": "Sniper rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
@@ -3443,10 +3443,10 @@
                 }
             },
             {
-                "name": "Sniper Rifle",
+                "name": "Sniper rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
@@ -3565,7 +3565,7 @@
     {
         "status": "success",
         "unit_name": "Gaunt\u2019s Ghosts",
-        "points": 100,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -4497,7 +4497,7 @@
     {
         "status": "success",
         "unit_name": "Hellhound",
-        "points": 115,
+        "points": 125,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -5831,7 +5831,7 @@
     {
         "status": "success",
         "unit_name": "Lord Solar Leontus",
-        "points": 125,
+        "points": 150,
         "unit_type": "model",
         "toughness": "4",
         "movement": "12",
@@ -8317,7 +8317,7 @@
                 }
             },
             {
-                "name": "Sniper Rifle",
+                "name": "Sniper rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
@@ -8681,15 +8681,66 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Sniper Rifle",
+                "name": "Sniper rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
+        "unit_name": "Ratlings",
+        "points": 60,
+        "unit_type": "unit",
+        "toughness": "2",
+        "movement": "6",
+        "wounds": "1",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "6",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
+        "tags": [
+            "Astra Militarum",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Ratlings"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Sniper rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Tankstopper rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6",
                 "parsed_weapon_types": null
             }
         ],
@@ -8946,10 +8997,10 @@
                 }
             },
             {
-                "name": "Sniper Rifle",
+                "name": "Sniper rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
@@ -11120,7 +11171,7 @@
     {
         "status": "success",
         "unit_name": "Tempestus Aquilons",
-        "points": 90,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -11310,7 +11361,7 @@
     {
         "status": "success",
         "unit_name": "Tempestus Scions",
-        "points": 50,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "12",
         "movement": "8",
