@@ -424,7 +424,7 @@
         "ranged_weapons": [],
         "melee_weapons": [
             {
-                "name": "Flail of the Unforgiven",
+                "name": "Great Weapon of the Unforgiven",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -1162,7 +1162,7 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "16",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -1374,7 +1374,10 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ]
     },

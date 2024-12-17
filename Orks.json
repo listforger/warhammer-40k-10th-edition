@@ -6414,14 +6414,14 @@
     {
         "status": "success",
         "unit_name": "Tankbustas",
-        "points": 90,
+        "points": 120,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "6",
-        "wounds": "1",
+        "wounds": "2",
         "leadership": "7",
         "oc": "1",
-        "armour_save": "5",
+        "armour_save": "4",
         "invunerable_save": null,
         "global_modifiers": {
             "plusOneToHit": true,
@@ -6429,25 +6429,12 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Grenades",
             "Infantry",
             "Orks",
             "Tankbustas"
         ],
         "ranged_weapons": [
-            {
-                "name": "Pair of rokkit pistols",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
             {
                 "name": "Rokkit launcha",
                 "range": "24",
@@ -6461,24 +6448,46 @@
                 "parsed_weapon_types": {
                     "blast": true
                 }
+            },
+            {
+                "name": "Rokkit pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
             {
-                "name": "Tankhammer",
+                "name": "Choppa",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Smash hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "2",
-                "damage": "D3",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
+                    "anti4": true
                 }
             }
         ]
