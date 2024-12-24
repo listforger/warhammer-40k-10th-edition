@@ -1351,6 +1351,63 @@
     },
     {
         "status": "success",
+        "unit_name": "Parasite of Mortrex",
+        "points": 80,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "12",
+        "wounds": "5",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
+        "tags": [
+            "Character",
+            "Fly",
+            "Great Devourer",
+            "Infantry",
+            "Parasite of Mortrex",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Barbed Ovipositor",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Clawed Limbs",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Patriarch",
         "points": 75,
         "unit_type": "model",
@@ -1658,6 +1715,114 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Winged Hive Tyrant",
+        "points": 200,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "12",
+        "wounds": "10",
+        "leadership": "7",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Fly",
+            "Great Devourer",
+            "Hive Tyrant",
+            "Monster",
+            "Psyker",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader",
+            "Winged Hive Tyrant"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Monstrous bonesword and lash whip",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Monstrous Scything Talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Tyrant talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Winged Tyranid Prime",
+        "points": 65,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "12",
+        "wounds": "6",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Fly",
+            "Great Devourer",
+            "Infantry",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader",
+            "Winged Tyranid Prime"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Prime Talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
