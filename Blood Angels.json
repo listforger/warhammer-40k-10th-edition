@@ -69,21 +69,7 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Baal Flamestorm Cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Heavy Bolter",
+                "name": "2x Heavy Bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -99,7 +85,7 @@
                 }
             },
             {
-                "name": "Heavy Flamer",
+                "name": "2x Heavy Flamer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
@@ -108,6 +94,20 @@
                 "armor_penetration": 1,
                 "attacks": "D6",
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Baal Flamestorm Cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
@@ -1039,9 +1039,11 @@
             "Adeptus Astartes",
             "Blood Angels",
             "Death Company Marines with Jump Packs",
+            "Fly",
             "Grenades",
             "Imperium",
             "Infantry",
+            "Jump Pack",
             "Tacticus"
         ],
         "ranged_weapons": [],

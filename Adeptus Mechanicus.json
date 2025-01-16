@@ -5,7 +5,7 @@
         "points": 160,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "20+",
         "wounds": "10",
         "leadership": "7",
         "oc": "0",
@@ -63,7 +63,7 @@
         "points": 185,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "20+",
         "wounds": "10",
         "leadership": "7",
         "oc": "0",
@@ -151,7 +151,7 @@
         "points": 150,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "20+",
         "wounds": "10",
         "leadership": "7",
         "oc": "0",
@@ -214,7 +214,7 @@
         "leadership": "6",
         "oc": "3",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": {
             "rerollOnesHits": true
         },
@@ -364,7 +364,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -398,7 +398,7 @@
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
@@ -470,7 +470,8 @@
             "Ironstrider Ballistarii",
             "Skitarii",
             "Smoke",
-            "Vehicle"
+            "Vehicle",
+            "Walker"
         ],
         "ranged_weapons": [
             {
@@ -637,7 +638,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "6",
         "global_modifiers": {
             "rerollOnesHits": true
         },
@@ -725,7 +726,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "6",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -976,8 +977,9 @@
             "Imperium",
             "Infantry",
             "Jump Pack",
-            "Pteraxii Skystalkers",
-            "Skitarii"
+            "Pteraxii",
+            "Skitarii",
+            "Skystalkers"
         ],
         "ranged_weapons": [
             {
@@ -1046,8 +1048,9 @@
             "Imperium",
             "Infantry",
             "Jump Pack",
-            "Pteraxii Sterylizors",
-            "Skitarii"
+            "Pteraxii",
+            "Skitarii",
+            "Sterylizors"
         ],
         "ranged_weapons": [
             {
@@ -1119,7 +1122,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1207,7 +1210,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "6",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1383,7 +1386,7 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
+                "strength": 6,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6",
@@ -1428,7 +1431,7 @@
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
+                "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -1577,7 +1580,8 @@
             "Adeptus Mechanicus",
             "Imperium",
             "Infantry",
-            "Sicarian Infiltrators",
+            "Infiltrators",
+            "Sicarian",
             "Skitarii"
         ],
         "ranged_weapons": [
@@ -1657,7 +1661,8 @@
             "Adeptus Mechanicus",
             "Imperium",
             "Infantry",
-            "Sicarian Ruststalkers",
+            "Ruststalkers",
+            "Sicarian",
             "Skitarii"
         ],
         "ranged_weapons": [],
@@ -1722,7 +1727,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": {
             "rerollHits": true
         },
@@ -2080,7 +2085,7 @@
                 }
             },
             {
-                "name": "Ferumite cannon",
+                "name": "Ferrumite cannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
@@ -2170,7 +2175,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Sydonian Dragoons (Radium jezzail)",
+        "unit_name": "Sydonian Dragoons with radium jezzails",
         "points": 55,
         "unit_type": "unit",
         "toughness": "7",
@@ -2191,6 +2196,7 @@
             "Dragoons with Radium Jezzails",
             "Imperium",
             "Skitarii",
+            "Smoke",
             "Sydonian",
             "Vehicle",
             "Walker"
@@ -2241,7 +2247,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Sydonian Dragoons (Taser Lance)",
+        "unit_name": "Sydonian Dragoons with taser lances",
         "points": 70,
         "unit_type": "unit",
         "toughness": "7",
@@ -2260,6 +2266,7 @@
             "Dragoons with Taser Lances",
             "Imperium",
             "Skitarii",
+            "Smoke",
             "Sydonian",
             "Vehicle",
             "Walker"
@@ -2311,7 +2318,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": {
             "rerollWounds": true
         },
@@ -2323,6 +2330,7 @@
             "Character",
             "Imperium",
             "Infantry",
+            "Skatros",
             "Skitarii",
             "Sydonian"
         ],
@@ -2399,7 +2407,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -2502,7 +2510,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": {
             "heal": true,
@@ -2543,7 +2551,7 @@
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "4",
+                "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
@@ -2640,7 +2648,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
