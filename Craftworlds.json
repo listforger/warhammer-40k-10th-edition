@@ -14,7 +14,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Grenades",
@@ -36,7 +36,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Power Blade",
+                "name": "Power blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -52,7 +52,7 @@
     {
         "status": "success",
         "unit_name": "Asurmen",
-        "points": 115,
+        "points": 135,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -60,16 +60,17 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
-        "invunerable_save": "3",
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
+        "invunerable_save": "4",
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
             "Asurmen",
+            "Asuryani",
             "Character",
             "Epic Hero",
+            "Grenades",
             "Infantry",
             "Phoenix Lord"
         ],
@@ -79,15 +80,12 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -124,10 +122,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Autarch",
             "Character",
             "Grenades",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -136,13 +136,11 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
                     "autoHit": true
                 }
             },
@@ -159,15 +157,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Fusion Pistol",
+                "name": "Dragon Fusion Pistol",
                 "range": "6",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 9,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "1",
-                "damage": "D3",
+                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -175,11 +173,11 @@
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -187,9 +185,9 @@
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -214,21 +212,24 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             },
             {
                 "name": "Scorpion Chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
@@ -240,19 +241,19 @@
                 "name": "Star Glaive",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Autarch Skyrunner",
+        "unit_name": "Autarch Skyrunner [Legends]",
         "points": 90,
         "unit_type": "model",
         "toughness": "4",
@@ -265,7 +266,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Autarch",
             "Autarch Skyrunner",
             "Character",
@@ -344,7 +345,7 @@
     {
         "status": "success",
         "unit_name": "Autarch Wayleaper",
-        "points": 115,
+        "points": 80,
         "unit_type": "model",
         "toughness": "3",
         "movement": "14",
@@ -357,12 +358,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Autarch",
+            "Asuryani",
             "Autarch Wayleaper",
             "Character",
             "Fly",
             "Grenades",
-            "Infantry"
+            "Infantry",
+            "Jump Pack",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -371,13 +374,11 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
                     "autoHit": true
                 }
             },
@@ -394,15 +395,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Fusion Pistol",
+                "name": "Dragon Fusion Pistol",
                 "range": "6",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 9,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "1",
-                "damage": "D3",
+                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -410,11 +411,11 @@
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -422,9 +423,9 @@
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -449,21 +450,24 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             },
             {
                 "name": "Scorpion Chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
@@ -475,12 +479,12 @@
                 "name": "Star Glaive",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "2",
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "3",
                 "parsed_weapon_types": null
             }
         ]
@@ -488,9 +492,9 @@
     {
         "status": "success",
         "unit_name": "Avatar of Khaine",
-        "points": 335,
+        "points": 300,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "10",
         "wounds": "14",
         "leadership": "6",
@@ -501,6 +505,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Avatar of Khaine",
             "Character",
             "Daemon",
@@ -531,7 +536,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 14,
+                "strength": 16,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "6",
@@ -543,7 +548,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "12",
@@ -555,7 +560,7 @@
     {
         "status": "success",
         "unit_name": "Baharroth",
-        "points": 125,
+        "points": 115,
         "unit_type": "model",
         "toughness": "3",
         "movement": "14",
@@ -564,18 +569,19 @@
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Baharroth",
             "Character",
             "Epic Hero",
             "Fly",
             "Grenades",
             "Infantry",
+            "Jump Pack",
             "Phoenix Lord"
         ],
         "ranged_weapons": [
@@ -631,7 +637,8 @@
         "tags": [
             "Character",
             "Infantry",
-            "Psyker"
+            "Psyker",
+            "Ynnari"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -651,7 +658,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Cobra",
+        "unit_name": "Cobra [Legends]",
         "points": 415,
         "unit_type": "model",
         "toughness": "11",
@@ -664,7 +671,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Cobra",
             "Fly",
             "Titanic",
@@ -718,10 +725,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Anrathe",
+            "Anhrathe",
             "Corsair Cloud Dancer Band",
+            "Corsairs and Travelling Players",
             "Grenades",
-            "Mounted"
+            "Mounted",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -845,10 +854,12 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Anrathe",
+            "Anhrathe",
             "Corsair Reaver Band",
+            "Corsairs and Travelling Players",
             "Grenades",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -1048,12 +1059,14 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Anrathe",
+            "Anhrathe",
             "Corsair Skyreaver Band",
+            "Corsairs and Travelling Players",
             "Fly",
             "Grenades",
             "Infantry",
-            "Jump Pack"
+            "Jump Pack",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -1272,10 +1285,10 @@
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
-        "wounds": "1",
+        "wounds": "5",
         "leadership": "6",
-        "oc": "2",
-        "armour_save": "4",
+        "oc": "1",
+        "armour_save": "2",
         "invunerable_save": "4",
         "global_modifiers": {
             "rerollOnesHits": true
@@ -1283,16 +1296,18 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Anrathe",
+            "Anhrathe",
+            "Asuryani",
             "Battleline",
             "Corsair Voidreavers",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Grenades",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
-                "name": "Corsair blaster",
+                "name": "Blaster",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -1323,8 +1338,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1343,9 +1358,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -1383,16 +1397,25 @@
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
             {
                 "name": "Aeldari power sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power sword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -1412,21 +1435,23 @@
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
-        "wounds": "1",
+        "wounds": "5",
         "leadership": "6",
         "oc": "1",
-        "armour_save": "4",
+        "armour_save": "2",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Anrathe",
+            "Anhrathe",
+            "Asuryani",
             "Corsair Voidscarred",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Grenades",
             "Infantry",
-            "Psyker"
+            "Psyker",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -1483,22 +1508,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Neuro disruptor",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true
-                }
-            },
-            {
-                "name": "Ranger long rifle",
+                "name": "Long rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -1508,6 +1518,21 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Neuro disruptor",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
             },
             {
                 "name": "Shuriken cannon",
@@ -1520,9 +1545,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -1560,26 +1584,11 @@
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Aeldari power sword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Paired Hekatarii blades",
                 "range": "",
@@ -1593,6 +1602,18 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            },
+            {
+                "name": "Power sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Witch staff",
@@ -1630,9 +1651,12 @@
         "tags": [
             "Aeldari",
             "Aircraft",
+            "Aspect Warrior",
+            "Asuryani",
             "Crimson Hunter",
             "Fly",
-            "Vehicle"
+            "Vehicle",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -1672,12 +1696,67 @@
                 "parsed_weapon_types": null
             }
         ],
+        "melee_weapons": [
+            {
+                "name": "Wraithbone Hull",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "D-Cannon Platform",
+        "points": 125,
+        "unit_type": "model",
+        "toughness": "6",
+        "movement": "7",
+        "wounds": "5",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "D-Cannon Platform",
+            "Infantry",
+            "Support Weapon",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "D-cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 16,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D3",
+                "damage": "D6+2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            }
+        ],
         "melee_weapons": []
     },
     {
         "status": "success",
         "unit_name": "Dark Reapers",
-        "points": 85,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -1690,15 +1769,18 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Dark Reapers",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
-                "name": "Aeldari Missile Launcher - Starshot",
+                "name": "Missile Launcher - Starshot",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
@@ -1707,10 +1789,10 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Aeldari Missile Launcher - Sunburst",
+                "name": "Missile Launcher - Sunburst",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -1725,11 +1807,11 @@
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -1738,8 +1820,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -1755,9 +1837,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -1794,6 +1875,7 @@
         "tags": [
             "Aeldari",
             "Character",
+            "Corsairs and Travelling Players",
             "Death Jester",
             "Harlequin Allies",
             "Harlequins",
@@ -1806,14 +1888,11 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -1834,7 +1913,7 @@
     {
         "status": "success",
         "unit_name": "Dire Avengers",
-        "points": 70,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -1847,9 +1926,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Dire Avengers",
             "Grenades",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -1860,12 +1942,9 @@
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
+                "parsed_weapon_types": null
             },
             {
                 "name": "Shuriken Pistol",
@@ -1889,12 +1968,9 @@
                 "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "parsed_weapon_types": null
             },
             {
                 "name": "Power Glaive",
@@ -1902,8 +1978,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -1928,6 +2004,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Character",
             "Eldrad Ultran",
             "Epic Hero",
@@ -1990,7 +2067,7 @@
         "toughness": "9",
         "movement": "14",
         "wounds": "12",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "3",
         "armour_save": "3",
         "invunerable_save": null,
@@ -1998,10 +2075,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Falcon",
             "Fly",
             "Transport",
-            "Vehicle"
+            "Vehicle",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -2027,9 +2106,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -2065,7 +2143,7 @@
     {
         "status": "success",
         "unit_name": "Farseer",
-        "points": 80,
+        "points": 70,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -2074,14 +2152,18 @@
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "4",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToHit": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Character",
             "Farseer",
             "Infantry",
-            "Psyker"
+            "Psyker",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -2102,7 +2184,7 @@
                 "name": "Shuriken Pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -2156,25 +2238,27 @@
     {
         "status": "success",
         "unit_name": "Farseer Skyrunner",
-        "points": 90,
+        "points": 80,
         "unit_type": "model",
         "toughness": "4",
         "movement": "14",
         "wounds": "5",
         "leadership": "6",
         "oc": "2",
-        "armour_save": "3",
+        "armour_save": "6",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Character",
             "Farseer",
             "Farseer Skyrunner",
             "Fly",
             "Mounted",
-            "Psyker"
+            "Psyker",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -2195,7 +2279,7 @@
                 "name": "Shuriken Pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -2207,7 +2291,7 @@
                 "name": "Singing Spear",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 9,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
@@ -2263,7 +2347,7 @@
     {
         "status": "success",
         "unit_name": "Fire Dragons",
-        "points": 90,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -2272,13 +2356,19 @@
         "oc": "1",
         "armour_save": "3",
         "invunerable_save": "5",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true,
+            "rerollWounds": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Fire Dragons",
             "Grenades",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -2294,18 +2384,42 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Dragon Fusion Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Dragon's Breath Flamer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+2",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
+            },
+            {
+                "name": "Exarch's Dragon Fusion Gun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
             },
             {
                 "name": "Firepike",
@@ -2320,17 +2434,30 @@
                 "parsed_weapon_types": null
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Dragon Axe",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
         "unit_name": "Fire Prism",
-        "points": 170,
+        "points": 160,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
         "wounds": "12",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "3",
         "armour_save": "3",
         "invunerable_save": null,
@@ -2338,9 +2465,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Fire Prism",
             "Fly",
-            "Vehicle"
+            "Vehicle",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -2349,8 +2478,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "2D6",
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -2380,9 +2509,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -2499,7 +2627,7 @@
     {
         "status": "success",
         "unit_name": "Fuegan",
-        "points": 130,
+        "points": 120,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -2508,15 +2636,16 @@
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Fuegan",
+            "Grenades",
             "Infantry",
             "Phoenix Lord"
         ],
@@ -2534,7 +2663,7 @@
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true
+                    "sustainedHits2": true
                 }
             },
             {
@@ -2573,7 +2702,7 @@
         "toughness": "3",
         "movement": "7",
         "wounds": "1",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "4",
         "invunerable_save": null,
@@ -2581,26 +2710,15 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Battleline",
             "Grenades",
             "Guardian Defenders",
             "Guardians",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
-        "ranged_weapons": [
-            {
-                "name": "Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ],
+        "ranged_weapons": [],
         "melee_weapons": []
     },
     {
@@ -2620,11 +2738,13 @@
         "tags": [
             "Aeldari",
             "Aircraft",
+            "Asuryani",
             "Fly",
             "Hemlock Wraithfighter",
             "Psyker",
             "Vehicle",
-            "Wraith Construct"
+            "Wraith Construct",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -2646,7 +2766,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Hornet",
+        "unit_name": "Hornet [Legends]",
         "points": 100,
         "unit_type": "model",
         "toughness": "7",
@@ -2659,7 +2779,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Fly",
             "Hornet",
             "Vehicle"
@@ -2761,7 +2881,7 @@
     {
         "status": "success",
         "unit_name": "Howling Banshees",
-        "points": 70,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
@@ -2773,9 +2893,10 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Howling Banshees",
-            "Infantry"
+            "Infantry",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -2795,12 +2916,15 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             }
         ],
         "melee_weapons": [
@@ -2808,55 +2932,67 @@
                 "name": "Banshee Blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             },
             {
                 "name": "Executioner",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             },
             {
                 "name": "Mirrorswords",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             },
             {
                 "name": "Triskele",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 3,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Illic Nightspear",
+        "unit_name": "Illic Nightspear [Legends]",
         "points": 70,
         "unit_type": "model",
         "toughness": "3",
@@ -2869,7 +3005,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Illic Nightspear",
@@ -2921,7 +3057,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Irillyth",
+        "unit_name": "Irillyth [Legends]",
         "points": 105,
         "unit_type": "model",
         "toughness": "3",
@@ -2936,7 +3072,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Fly",
@@ -2976,7 +3112,7 @@
     {
         "status": "success",
         "unit_name": "Jain Zar",
-        "points": 90,
+        "points": 105,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -2986,11 +3122,13 @@
         "armour_save": "2",
         "invunerable_save": "4",
         "global_modifiers": {
-            "plusOneToHit": true
+            "rerollWounds": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Infantry",
@@ -3013,34 +3151,25 @@
         ],
         "melee_weapons": [
             {
-                "name": "The Blade of Destruction - Strike",
+                "name": "Blade of Destruction",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "6",
+                "attacks": "8",
                 "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "The Blade of Destruction - Sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "12",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Karandras",
+        "unit_name": "Karandras [Legends]",
         "points": 90,
         "unit_type": "model",
         "toughness": "3",
@@ -3055,7 +3184,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Infantry",
@@ -3113,7 +3242,83 @@
     },
     {
         "status": "success",
-        "unit_name": "Lynx",
+        "unit_name": "Lhykhis",
+        "points": 120,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "12",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
+            "Character",
+            "Epic Hero",
+            "Fly",
+            "Infantry",
+            "Jump Pack",
+            "Lhykhis",
+            "Phoenix Lord"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Brood Twain",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true,
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Spider's Fangs",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Weaverender",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Lynx [Legends]",
         "points": 180,
         "unit_type": "model",
         "toughness": "9",
@@ -3126,7 +3331,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Fly",
             "Lynx",
             "Vehicle"
@@ -3163,7 +3368,7 @@
     {
         "status": "success",
         "unit_name": "Maugan Ra",
-        "points": 115,
+        "points": 100,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -3172,13 +3377,12 @@
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToHit": true,
-            "rerollWounds": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Infantry",
@@ -3187,13 +3391,13 @@
         ],
         "ranged_weapons": [
             {
-                "name": "The Maugetar",
+                "name": "Maugetar",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -3204,7 +3408,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "The Maugetar",
+                "name": "Maugetar",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -3220,12 +3424,12 @@
     {
         "status": "success",
         "unit_name": "Night Spinner",
-        "points": 210,
+        "points": 190,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
         "wounds": "12",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "3",
         "armour_save": "3",
         "invunerable_save": null,
@@ -3233,6 +3437,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Fly",
             "Night Spinner",
             "Vehicle"
@@ -3244,14 +3449,12 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "D6+3",
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
                     "twinLinked": true
                 }
             },
@@ -3266,9 +3469,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -3303,7 +3505,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Nightwing",
+        "unit_name": "Nightwing [Legends]",
         "points": 150,
         "unit_type": "model",
         "toughness": "8",
@@ -3318,8 +3520,8 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
             "Aircraft",
+            "Asuryani",
             "Fly",
             "Nightwing",
             "Vehicle"
@@ -3388,11 +3590,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Monster",
             "Phantom Titan",
             "Titanic",
             "Towering",
-            "Walker"
+            "Walker",
+            "Wraith Construct"
         ],
         "ranged_weapons": [
             {
@@ -3530,7 +3734,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Prince Yriel",
+        "unit_name": "Prince Yriel [Legends]",
         "points": 100,
         "unit_type": "model",
         "toughness": "3",
@@ -3543,7 +3747,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Character",
             "Epic Hero",
             "Infantry",
@@ -3586,7 +3790,7 @@
         "toughness": "3",
         "movement": "7",
         "wounds": "1",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "5",
         "invunerable_save": "5",
@@ -3594,12 +3798,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Infantry",
-            "Rangers"
+            "Rangers",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
-                "name": "Ranger long rifle",
+                "name": "Long rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -3608,18 +3814,6 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
                 "parsed_weapon_types": null
             }
         ],
@@ -3641,11 +3835,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
+            "Fly",
             "Monster",
             "Revenant Titan",
             "Titanic",
             "Towering",
-            "Walker"
+            "Walker",
+            "Wraith Construct"
         ],
         "ranged_weapons": [
             {
@@ -3708,7 +3905,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Scorpion",
+        "unit_name": "Scorpion [Legends]",
         "points": 410,
         "unit_type": "model",
         "toughness": "11",
@@ -3721,7 +3918,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Fly",
             "Scorpion",
             "Titanic",
@@ -3760,7 +3957,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Shadow Spectres",
+        "unit_name": "Shadow Spectres [Legends]",
         "points": 115,
         "unit_type": "unit",
         "toughness": "3",
@@ -3773,7 +3970,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Fly",
             "Infantry",
             "Jump Pack",
@@ -3811,6 +4008,45 @@
     },
     {
         "status": "success",
+        "unit_name": "Shadow Weaver Platform",
+        "points": 75,
+        "unit_type": "model",
+        "toughness": "6",
+        "movement": "7",
+        "wounds": "5",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Infantry",
+            "Shadow Weaver Platform",
+            "Support Weapon"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Shadow weaver",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            }
+        ],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Shadowseer",
         "points": 60,
         "unit_type": "model",
@@ -3826,7 +4062,7 @@
         "tags": [
             "Aeldari",
             "Character",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Grenades",
             "Harlequin Allies",
             "Harlequins",
@@ -3841,8 +4077,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -3881,7 +4117,7 @@
     {
         "status": "success",
         "unit_name": "Shining Spears",
-        "points": 90,
+        "points": 120,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -3894,6 +4130,8 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Fly",
             "Mounted",
             "Shining Spears"
@@ -3908,7 +4146,7 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -3922,9 +4160,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -3936,7 +4173,7 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
@@ -3960,12 +4197,14 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
                     "plusOneToWound": true
                 }
             },
@@ -3974,7 +4213,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
@@ -3985,13 +4224,15 @@
                 "name": "Star Lance",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
+                "ballistic_skill": 3,
+                "strength": 5,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "4",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
                     "plusOneToWound": true
                 }
             }
@@ -4013,16 +4254,18 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Fly",
             "Mounted",
-            "Shroud Runners"
+            "Shroud Runners",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
                 "name": "Ranger long rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -4040,26 +4283,18 @@
                 "armor_penetration": 0,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             }
         ],
         "melee_weapons": []
     },
     {
         "status": "success",
-        "unit_name": "Skathach Wraithknight",
+        "unit_name": "Skathach Wraithknight [Legends]",
         "points": 490,
         "unit_type": "model",
         "toughness": "12",
@@ -4072,7 +4307,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Monster",
             "Skathach Wraithknight",
             "Titanic",
@@ -4184,7 +4419,7 @@
     {
         "status": "success",
         "unit_name": "Skyweavers",
-        "points": 105,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -4197,7 +4432,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Fly",
             "Harlequin Allies",
             "Harlequins",
@@ -4242,9 +4477,9 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -4258,17 +4493,17 @@
         "unit_type": "model",
         "toughness": "3",
         "movement": "12",
-        "wounds": "3",
+        "wounds": "4",
         "leadership": "6",
         "oc": "1",
         "armour_save": "6",
-        "invunerable_save": "3",
+        "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
             "Character",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Epic Hero",
             "Harlequin Allies",
             "Harlequins",
@@ -4303,31 +4538,18 @@
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Character",
             "Infantry",
             "Psyker",
-            "Spiritseer"
+            "Spiritseer",
+            "Ynnari"
         ],
-        "ranged_weapons": [
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ],
+        "ranged_weapons": [],
         "melee_weapons": [
             {
                 "name": "Witch Staff",
@@ -4355,16 +4577,17 @@
         "movement": "14",
         "wounds": "6",
         "leadership": "6",
-        "oc": "1",
+        "oc": "2",
         "armour_save": "4",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Dedicated Transport",
             "Fly",
+            "Harlequin Allies",
             "Harlequins",
             "Smoke",
             "Star Weaver",
@@ -4381,92 +4604,30 @@
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
-        "wounds": "1",
-        "leadership": "6",
-        "oc": "2",
+        "wounds": "2",
+        "leadership": "7",
+        "oc": "0",
         "armour_save": "4",
         "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Battleline",
             "Grenades",
             "Guardians",
             "Infantry",
-            "Storm Guardians"
+            "Storm Guardians",
+            "Ynnari"
         ],
-        "ranged_weapons": [
-            {
-                "name": "Aeldari Flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Guardian Fusion Gun",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Shuriken Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Aeldari power sword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Guardian Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "ranged_weapons": [],
+        "melee_weapons": []
     },
     {
         "status": "success",
         "unit_name": "Striking Scorpions",
-        "points": 65,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -4479,21 +4640,26 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Infantry",
-            "Striking Scorpions"
+            "Striking Scorpions",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
-                "name": "Scorpion's claw",
+                "name": "Chainsabres",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
+                "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             },
             {
                 "name": "Shuriken pistol",
@@ -4514,15 +4680,32 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "2",
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Chainsabres",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
                 }
             },
             {
@@ -4531,8 +4714,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -4545,98 +4728,15 @@
                 "name": "Scorpion's claw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "4",
+                "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
+                "parsed_weapon_types": null
             }
         ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Support Weapons",
-        "points": 135,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "3",
-        "wounds": "5",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "4",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Aeldari",
-            "Support Weapons",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "D-cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 16,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D3",
-                "damage": "D6+2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Shadow weaver",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Shuriken Catapult",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Vibro Cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ],
-        "melee_weapons": []
     },
     {
         "status": "success",
@@ -4654,22 +4754,41 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Fly",
             "Grenades",
             "Infantry",
-            "Swooping Hawks"
+            "Jump Pack",
+            "Swooping Hawks",
+            "Ynnari"
         ],
         "ranged_weapons": [
+            {
+                "name": "Exarch's Lasblaster",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
             {
                 "name": "Hawk's Talon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "damage": "1",
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
@@ -4689,11 +4808,42 @@
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
+            },
+            {
+                "name": "Scatter Laser",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Sunpistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Aeldari Power Sword",
+                "name": "Power Sword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -4731,23 +4881,57 @@
         "ranged_weapons": [],
         "melee_weapons": [
             {
-                "name": "Asu-var, The Sword of Silent Screams",
+                "name": "Asu-var - duellist stance",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Asu-var - mythic stance",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "attacks": "4",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
+            {
+                "name": "Asu-var - quicksilver stance",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "The Yncarne",
-        "points": 350,
+        "points": 250,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -4787,7 +4971,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Vilith-zhar, the Sword of Souls - Strike",
+                "name": "Vilith-zhar - Strike",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -4799,7 +4983,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Vilith-zhar, the Sword of Souls - Sweep",
+                "name": "Vilith-zhar - Sweep",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -4815,7 +4999,7 @@
     {
         "status": "success",
         "unit_name": "Troupe",
-        "points": 75,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
@@ -4825,12 +5009,13 @@
         "armour_save": "6",
         "invunerable_save": "4",
         "global_modifiers": {
+            "rerollOnesHits": true,
             "plusOneToWound": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Grenades",
             "Harlequin Allies",
             "Harlequins",
@@ -4853,30 +5038,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Aeldari power sword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Harlequin's Blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Harlequin's Special Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -4886,14 +5047,32 @@
                 "armor_penetration": 1,
                 "attacks": "4",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Power sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Troupe Master",
-        "points": 55,
+        "points": 75,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -4902,12 +5081,15 @@
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "4",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollOnesHits": true,
+            "plusOneToWound": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
             "Character",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Grenades",
             "Harlequin Allies",
             "Harlequins",
@@ -4924,7 +5106,7 @@
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "1",
-                "damage": "D3",
+                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -4933,8 +5115,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -4964,21 +5146,27 @@
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Troupe Master's Blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ]
     },
@@ -5127,8 +5315,45 @@
     },
     {
         "status": "success",
+        "unit_name": "Vibro Cannon Platform",
+        "points": 60,
+        "unit_type": "model",
+        "toughness": "6",
+        "movement": "7",
+        "wounds": "5",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Infantry",
+            "Support Weapon",
+            "Vibro Cannon Platform"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Vibro Cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Voidweaver",
-        "points": 115,
+        "points": 125,
         "unit_type": "model",
         "toughness": "6",
         "movement": "14",
@@ -5141,18 +5366,17 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
-            "Corsairs and Travelling players",
+            "Corsairs and Travelling Players",
             "Fly",
             "Harlequin Allies",
             "Harlequins",
-            "Smoke",
             "Vehicle",
             "Voidweaver"
         ],
         "ranged_weapons": [
             {
                 "name": "Prismatic Cannon - dispersed pulse",
-                "range": "36",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
@@ -5166,7 +5390,7 @@
             },
             {
                 "name": "Prismatic Cannon - focused lances",
-                "range": "36",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 12,
@@ -5198,13 +5422,13 @@
     },
     {
         "status": "success",
-        "unit_name": "Vyper",
-        "points": 75,
-        "unit_type": "model",
+        "unit_name": "Vypers",
+        "points": 65,
+        "unit_type": "unit",
         "toughness": "6",
         "movement": "14",
         "wounds": "6",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "3",
         "invunerable_save": null,
@@ -5212,9 +5436,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Fly",
             "Vehicle",
-            "Vyper"
+            "Vypers",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -5249,23 +5475,25 @@
     },
     {
         "status": "success",
-        "unit_name": "War Walker",
-        "points": 110,
-        "unit_type": "model",
+        "unit_name": "War Walkers",
+        "points": 95,
+        "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
         "wounds": "6",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": "4",
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Vehicle",
             "Walker",
-            "War Walker"
+            "War Walkers",
+            "Ynnari"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -5285,6 +5513,73 @@
     },
     {
         "status": "success",
+        "unit_name": "Warlock",
+        "points": 45,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Character",
+            "Infantry",
+            "Psyker",
+            "Warlock",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Singing Spear",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Singing Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Witchblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Warlock Conclave",
         "points": 55,
         "unit_type": "unit",
@@ -5299,17 +5594,61 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Infantry",
             "Psyker",
-            "Warlock Conclave"
+            "Warlock",
+            "Warlock Conclave",
+            "Ynnari"
         ],
-        "ranged_weapons": [],
-        "melee_weapons": []
+        "ranged_weapons": [
+            {
+                "name": "Singing Spear",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Singing Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Witchblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            }
+        ]
     },
     {
         "status": "success",
-        "unit_name": "Warlock Skyrunner Conclave",
-        "points": 90,
+        "unit_name": "Warlock Skyrunners",
+        "points": 45,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -5322,19 +5661,102 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
+            "Character",
             "Fly",
             "Mounted",
             "Psyker",
             "Warlock",
-            "Warlock Skyrunner",
-            "Warlock Skyrunner Conclave"
+            "Warlock Skyrunners",
+            "Ynnari"
         ],
-        "ranged_weapons": [],
-        "melee_weapons": []
+        "ranged_weapons": [
+            {
+                "name": "Destructor",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Singing Spear",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin Shuriken Catapult",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Singing Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Witchblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true
+                }
+            }
+        ]
     },
     {
         "status": "success",
-        "unit_name": "Warp Hunter",
+        "unit_name": "Warp Hunter [Legends]",
         "points": 145,
         "unit_type": "model",
         "toughness": "9",
@@ -5347,7 +5769,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Fly",
             "Vehicle",
             "Warp Hunter"
@@ -5434,7 +5856,7 @@
     {
         "status": "success",
         "unit_name": "Warp Spiders",
-        "points": 125,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "12",
@@ -5447,30 +5869,90 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aspect Warrior",
+            "Asuryani",
             "Fly",
             "Infantry",
             "Jump Pack",
-            "Warp Spiders"
+            "Warp Spiders",
+            "Ynnari"
         ],
         "ranged_weapons": [
+            {
+                "name": "Death Weavers",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true,
+                    "twinLinked": true
+                }
+            },
             {
                 "name": "Deathspinner",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Exarch's Deathspinner",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Spinneret Rifle",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
                     "autoHit": true
                 }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Powerblade Array",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "10",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "twinLinked": true
+                }
+            },
             {
                 "name": "Powerblades",
                 "range": "",
@@ -5479,9 +5961,13 @@
                 "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
+                "attacks": "5",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "twinLinked": true
+                }
             }
         ]
     },
@@ -5500,7 +5986,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Fly",
             "Vehicle",
             "Walker",
@@ -5525,12 +6011,12 @@
     {
         "status": "success",
         "unit_name": "Wave Serpent",
-        "points": 110,
+        "points": 115,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
         "wounds": "13",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "3",
         "invunerable_save": "5",
@@ -5538,11 +6024,13 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Dedicated Transport",
             "Fly",
             "Transport",
             "Vehicle",
-            "Wave Serpent"
+            "Wave Serpent",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -5556,9 +6044,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -5615,6 +6102,9 @@
                 "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "twinLinked": true
                 }
             },
@@ -5629,9 +6119,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
                     "twinLinked": true
                 }
             },
@@ -5681,8 +6170,8 @@
     },
     {
         "status": "success",
-        "unit_name": "Webway Gate",
-        "points": 220,
+        "unit_name": "Webway Gate [Legends]",
+        "points": 105,
         "unit_type": "model",
         "toughness": "12",
         "movement": "",
@@ -5694,7 +6183,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Fortification",
             "Webway Gate"
         ],
@@ -5706,22 +6195,24 @@
         "unit_name": "Windriders",
         "points": 80,
         "unit_type": "unit",
-        "toughness": "4",
-        "movement": "14",
-        "wounds": "2",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "5",
         "leadership": "6",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": null,
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "6",
         "global_modifiers": {
             "rerollHits": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Fly",
             "Mounted",
-            "Windriders"
+            "Windriders",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -5734,7 +6225,11 @@
                 "armor_penetration": 0,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Shuriken Cannon",
@@ -5747,9 +6242,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -5772,22 +6266,26 @@
     {
         "status": "success",
         "unit_name": "Wraithblades",
-        "points": 160,
+        "points": 170,
         "unit_type": "unit",
-        "toughness": "7",
+        "toughness": "6",
         "movement": "6",
         "wounds": "3",
-        "leadership": "6",
+        "leadership": "8",
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToHit": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Infantry",
             "Wraith Construct",
-            "Wraithblades"
+            "Wraithblades",
+            "Ynnari"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -5808,11 +6306,11 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
-                "strength": 6,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -5820,35 +6318,41 @@
     {
         "status": "success",
         "unit_name": "Wraithguard",
-        "points": 180,
+        "points": 170,
         "unit_type": "unit",
-        "toughness": "7",
+        "toughness": "6",
         "movement": "6",
         "wounds": "3",
-        "leadership": "6",
+        "leadership": "8",
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": null,
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToHit": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Infantry",
             "Wraith Construct",
-            "Wraithguard"
+            "Wraithguard",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
                 "name": "D-Scythe",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 10,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
+                "ballistic_skill": 0,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "D6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
             },
             {
                 "name": "Wraithcannon",
@@ -5859,11 +6363,8 @@
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
+                "damage": "D6+1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": []
@@ -5871,10 +6372,10 @@
     {
         "status": "success",
         "unit_name": "Wraithknight",
-        "points": 495,
+        "points": 435,
         "unit_type": "model",
         "toughness": "12",
-        "movement": "10",
+        "movement": "12",
         "wounds": "18",
         "leadership": "6",
         "oc": "10",
@@ -5884,12 +6385,14 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Monster",
             "Titanic",
             "Towering",
             "Walker",
             "Wraith Construct",
-            "Wraithknight"
+            "Wraithknight",
+            "Ynnari"
         ],
         "ranged_weapons": [
             {
@@ -5903,7 +6406,6 @@
                 "attacks": "D3",
                 "damage": "2D6",
                 "parsed_weapon_types": {
-                    "blast": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
@@ -5931,9 +6433,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -5953,12 +6454,14 @@
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "2D6",
+                "attacks": "D6+4",
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             }
         ],
         "melee_weapons": [
@@ -5973,7 +6476,95 @@
                 "attacks": "5",
                 "damage": "2",
                 "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wraithknight with Ghostglaive",
+        "points": 420,
+        "unit_type": "model",
+        "toughness": "12",
+        "movement": "12",
+        "wounds": "18",
+        "leadership": "6",
+        "oc": "10",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Monster",
+            "Titanic",
+            "Towering",
+            "Walker",
+            "Wraith Construct",
+            "Wraithknight with Ghostglaive",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy Wraithcannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 20,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "D3",
+                "damage": "2D6",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
+            {
+                "name": "Scatter Laser",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Shuriken Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Starcannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
             {
                 "name": "Titanic Ghostglaive - Strike",
                 "range": "",
@@ -6003,39 +6594,30 @@
     {
         "status": "success",
         "unit_name": "Wraithlord",
-        "points": 145,
+        "points": 140,
         "unit_type": "model",
-        "toughness": "11",
+        "toughness": "10",
         "movement": "8",
         "wounds": "10",
-        "leadership": "6",
+        "leadership": "8",
         "oc": "3",
         "armour_save": "2",
         "invunerable_save": null,
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollOnesHits": true,
+            "rerollOnesWounds": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Asuryani",
             "Monster",
             "Walker",
             "Wraith Construct",
-            "Wraithlord"
+            "Wraithlord",
+            "Ynnari"
         ],
         "ranged_weapons": [
-            {
-                "name": "Aeldari Flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
             {
                 "name": "Aeldari Missile Launcher - Starshot",
                 "range": "48",
@@ -6075,6 +6657,20 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
                 "name": "Scatter Laser",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -6084,7 +6680,11 @@
                 "armor_penetration": 0,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Shuriken Cannon",
@@ -6097,9 +6697,8 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -6168,7 +6767,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Wraithseer",
+        "unit_name": "Wraithseer [Legends]",
         "points": 160,
         "unit_type": "model",
         "toughness": "11",
@@ -6181,7 +6780,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aeldari",
+            "Asuryani",
             "Monster",
             "Psyker",
             "Walker",
@@ -6332,8 +6931,451 @@
     },
     {
         "status": "success",
-        "unit_name": "Yvraine",
-        "points": 125,
+        "unit_name": "Ynnari Archon",
+        "points": 75,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "8",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": {
+            "rerollWounds": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Archon",
+            "Character",
+            "Infantry",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Huskblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ynnari Incubi",
+        "points": 75,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Incubi",
+            "Infantry",
+            "Ynnari"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Demiklaives - Dual Blades",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Demiklaives - Single Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Klaive",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ynnari Kabalite Warriors",
+        "points": 110,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "6",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Battleline",
+            "Grenades",
+            "Infantry",
+            "Kabalite Warriors",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Dark Lance",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shredder",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Splinter Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Splinter Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Sybarite Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ynnari Raider",
+        "points": 80,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "14",
+        "wounds": "10",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "4",
+        "invunerable_save": "6",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Dedicated Transport",
+            "Fly",
+            "Raider",
+            "Transport",
+            "Vehicle",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Dark Lance",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Disintegrator Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Bladevanes",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ynnari Reavers",
+        "points": 65,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "16",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "4",
+        "invunerable_save": "6",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Fly",
+            "Mounted",
+            "Reavers",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Heat Lance",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Splinter Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Agonizer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            },
+            {
+                "name": "Bladevanes",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ynnari Succubus",
+        "points": 45,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -6343,6 +7385,217 @@
         "armour_save": "6",
         "invunerable_save": "4",
         "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Character",
+            "Infantry",
+            "Succubus",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Succubus Weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ynnari Venom",
+        "points": 70,
+        "unit_type": "model",
+        "toughness": "6",
+        "movement": "14",
+        "wounds": "6",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "6",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Dedicated Transport",
+            "Fly",
+            "Transport",
+            "Vehicle",
+            "Venom",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Splinter Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin Splinter Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "rapidFire": 1,
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Bladevanes",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ynnari Wyches",
+        "points": 90,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "8",
+        "wounds": "1",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "6",
+        "invunerable_save": "6",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Battleline",
+            "Grenades",
+            "Infantry",
+            "Wyches",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Hekatarii Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Yvraine",
+        "points": 100,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "8",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "global_modifiers": {
+            "rerollWounds": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
@@ -6374,7 +7627,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Kha-vir, the Sword of Sorrows",
+                "name": "Kha-vir",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
