@@ -69,7 +69,21 @@
         ],
         "ranged_weapons": [
             {
-                "name": "2x Heavy Bolter",
+                "name": "Baal Flamestorm Cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Heavy Bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -85,7 +99,7 @@
                 }
             },
             {
-                "name": "2x Heavy Flamer",
+                "name": "Heavy Flamer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
@@ -94,20 +108,6 @@
                 "armor_penetration": 1,
                 "attacks": "D6",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Baal Flamestorm Cannon",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "damage": "2",
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
@@ -953,7 +953,8 @@
         "tags": [
             "Adeptus Astartes",
             "Blood Angels",
-            "Death Company Marines",
+            "Death Company",
+            "Death Company Marines with Boltguns",
             "Grenades",
             "Imperium",
             "Infantry"
@@ -996,7 +997,8 @@
         "tags": [
             "Adeptus Astartes",
             "Blood Angels",
-            "Death Company Marines",
+            "Death Company",
+            "Death Company Marines with Boltguns and Jump Packs",
             "Grenades",
             "Imperium",
             "Infantry"

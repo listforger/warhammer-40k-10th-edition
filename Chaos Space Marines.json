@@ -1533,7 +1533,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Predator Annihilator",
-        "points": 130,
+        "points": 135,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -2989,7 +2989,7 @@
     {
         "status": "success",
         "unit_name": "Forgefiend",
-        "points": 190,
+        "points": 180,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -4228,7 +4228,7 @@
     {
         "status": "success",
         "unit_name": "Lord Discordant on Helstalker",
-        "points": 175,
+        "points": 160,
         "unit_type": "model",
         "toughness": "9",
         "movement": "10",
@@ -6103,7 +6103,10 @@
                 "armor_penetration": 2,
                 "attacks": "D6",
                 "damage": "D3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Infernal Gaze - witchfire",
