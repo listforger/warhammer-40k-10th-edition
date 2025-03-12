@@ -174,7 +174,9 @@
             "Fly",
             "Legiones Daemonica",
             "Monster",
-            "Psyker"
+            "Psyker",
+            "Shadow Legion",
+            "Undivided"
         ],
         "ranged_weapons": [
             {
@@ -259,7 +261,8 @@
             "Daemon",
             "Legiones Daemonica",
             "Nurgle",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -301,7 +304,8 @@
             "Khorne",
             "Khorne non-Battleline",
             "Legiones Daemonica",
-            "Mounted"
+            "Mounted",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -339,15 +343,13 @@
         "points": 110,
         "unit_type": "unit",
         "toughness": "4",
-        "movement": "6",
+        "movement": "8",
         "wounds": "1",
         "leadership": "7",
         "oc": "2",
         "armour_save": "7",
         "invunerable_save": "5",
-        "global_modifiers": {
-            "rerollWounds": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Battleline",
@@ -357,7 +359,8 @@
             "Infantry",
             "Khorne",
             "Khorne Battleline",
-            "Legiones Daemonica"
+            "Legiones Daemonica",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -381,7 +384,7 @@
         "points": 65,
         "unit_type": "model",
         "toughness": "4",
-        "movement": "6",
+        "movement": "8",
         "wounds": "4",
         "leadership": "7",
         "oc": "1",
@@ -399,7 +402,8 @@
             "Infantry",
             "Khorne",
             "Khorne non-Battleline",
-            "Legiones Daemonica"
+            "Legiones Daemonica",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -427,7 +431,7 @@
         "wounds": "18",
         "leadership": "6",
         "oc": "5",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": {
             "plusOneToHit": true
@@ -442,7 +446,8 @@
             "Khorne",
             "Khorne non-Battleline",
             "Legiones Daemonica",
-            "Monster"
+            "Monster",
+            "Shadow Legion"
         ],
         "ranged_weapons": [
             {
@@ -480,8 +485,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "6",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -524,7 +529,7 @@
         "wounds": "1",
         "leadership": "8",
         "oc": "1",
-        "armour_save": "7",
+        "armour_save": "8",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -535,6 +540,7 @@
             "Daemon",
             "Infantry",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch Battleline"
         ],
@@ -588,6 +594,7 @@
             "Fly",
             "Legiones Daemonica",
             "Mounted",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -668,6 +675,7 @@
             "Infantry",
             "Legiones Daemonica",
             "Psyker",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -736,6 +744,7 @@
             "Infantry",
             "Legiones Daemonica",
             "Psyker",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -934,6 +943,7 @@
             "Daemonettes",
             "Infantry",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh Battleline"
         ],
@@ -1022,6 +1032,7 @@
             "Fly",
             "Infantry",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -1088,6 +1099,7 @@
             "Exalted Seeker Chariot",
             "Legiones Daemonica",
             "Mounted",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -1164,6 +1176,7 @@
             "Legiones Daemonica",
             "Mounted",
             "Psyker",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -1244,7 +1257,8 @@
             "Fortification",
             "Legiones Daemonica",
             "Nurgle",
-            "Nurgle non-Battleline"
+            "Nurgle non-Battleline",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": []
@@ -1269,6 +1283,7 @@
             "Daemon",
             "Fiends",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -1312,6 +1327,7 @@
             "Fly",
             "Infantry",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -1367,7 +1383,8 @@
             "Flesh Hounds",
             "Khorne",
             "Khorne non-Battleline",
-            "Legiones Daemonica"
+            "Legiones Daemonica",
+            "Shadow Legion"
         ],
         "ranged_weapons": [
             {
@@ -1423,6 +1440,7 @@
             "Legiones Daemonica",
             "Mounted",
             "Psyker",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -1495,6 +1513,7 @@
             "Legiones Daemonica",
             "Nurgle",
             "Nurgle non-Battleline",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline",
             "Tzeentch",
@@ -1543,6 +1562,7 @@
             "Monster",
             "Nurgle",
             "Nurgle non-Battleline",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline",
             "Tzeentch",
@@ -1587,7 +1607,8 @@
             "Monster",
             "Nurgle",
             "Nurgle non-Battleline",
-            "Psyker"
+            "Psyker",
+            "Shadow Legion"
         ],
         "ranged_weapons": [
             {
@@ -1638,11 +1659,11 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "D6",
+                "damage": "D6+1",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
@@ -1700,6 +1721,7 @@
             "Hellflayer",
             "Legiones Daemonica",
             "Mounted",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -1789,6 +1811,7 @@
             "Legiones Daemonica",
             "Mounted",
             "Psyker",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -1906,6 +1929,7 @@
             "Infantry",
             "Infernal Enrapturess",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -2087,6 +2111,7 @@
             "Legiones Daemonica",
             "Monster",
             "Psyker",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -2182,11 +2207,11 @@
         "points": 180,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "8",
+        "movement": "10",
         "wounds": "20",
         "leadership": "6",
         "oc": "5",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -2196,6 +2221,7 @@
             "Khorne",
             "Khorne non-Battleline",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Soul Grinder",
             "Vehicle",
             "Walker"
@@ -2290,6 +2316,7 @@
             "Lord of Change",
             "Monster",
             "Psyker",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -2364,11 +2391,11 @@
         "points": 180,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "8",
+        "movement": "10",
         "wounds": "20",
         "leadership": "6",
         "oc": "5",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -2378,6 +2405,7 @@
             "Legiones Daemonica",
             "Nurgle",
             "Nurgle non-Battleline",
+            "Shadow Legion",
             "Soul Grinder",
             "Vehicle",
             "Walker"
@@ -2473,6 +2501,7 @@
             "Nurgle",
             "Nurgle Battleline",
             "Nurglings",
+            "Shadow Legion",
             "Swarm"
         ],
         "ranged_weapons": [],
@@ -2503,7 +2532,7 @@
         "movement": "6",
         "wounds": "1",
         "leadership": "8",
-        "oc": "2",
+        "oc": "1",
         "armour_save": "7",
         "invunerable_save": "4",
         "global_modifiers": null,
@@ -2516,6 +2545,7 @@
             "Infantry",
             "Legiones Daemonica",
             "Pink",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch Battleline"
         ],
@@ -2572,7 +2602,8 @@
             "Mounted",
             "Nurgle",
             "Nurgle non-Battleline",
-            "Plague Drones"
+            "Plague Drones",
+            "Shadow Legion"
         ],
         "ranged_weapons": [
             {
@@ -2646,7 +2677,8 @@
             "Legiones Daemonica",
             "Nurgle",
             "Nurgle non-Battleline",
-            "Plague Toads"
+            "Plague Toads",
+            "Shadow Legion"
         ],
         "ranged_weapons": [
             {
@@ -2705,7 +2737,8 @@
             "Legiones Daemonica",
             "Nurgle",
             "Nurgle Battleline",
-            "Plaguebearers"
+            "Plaguebearers",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2747,7 +2780,8 @@
             "Mounted",
             "Nurgle",
             "Nurgle non-Battleline",
-            "Pox Riders"
+            "Pox Riders",
+            "Shadow Legion"
         ],
         "ranged_weapons": [
             {
@@ -2824,7 +2858,8 @@
             "Nurgle",
             "Nurgle non-Battleline",
             "Poxbringer",
-            "Psyker"
+            "Psyker",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2869,7 +2904,8 @@
             "Khorne non-Battleline",
             "Legiones Daemonica",
             "Mounted",
-            "Rendmaster on Blood Throne"
+            "Rendmaster on Blood Throne",
+            "Shadow Legion"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -2949,7 +2985,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "7",
@@ -2964,7 +3000,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
+                "strength": 8,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "14",
@@ -3074,6 +3110,7 @@
             "Fly",
             "Legiones Daemonica",
             "Screamers",
+            "Shadow Legion",
             "Tzeentch",
             "Tzeentch non-Battleline"
         ],
@@ -3116,6 +3153,7 @@
             "Legiones Daemonica",
             "Mounted",
             "Seeker Chariot",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -3189,6 +3227,7 @@
             "Legiones Daemonica",
             "Mounted",
             "Seekers",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline"
         ],
@@ -3338,11 +3377,11 @@
         "points": 305,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "8",
+        "movement": "10",
         "wounds": "20",
         "leadership": "6",
         "oc": "5",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -3363,9 +3402,9 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -3392,8 +3431,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "16",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -3421,6 +3460,7 @@
             "Khorne",
             "Khorne non-Battleline",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Skull Altar"
         ],
         "ranged_weapons": [],
@@ -3447,6 +3487,7 @@
             "Khorne non-Battleline",
             "Legiones Daemonica",
             "Mounted",
+            "Shadow Legion",
             "Skull Cannon"
         ],
         "ranged_weapons": [
@@ -3502,7 +3543,7 @@
         "wounds": "6",
         "leadership": "7",
         "oc": "2",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -3514,6 +3555,7 @@
             "Khorne non-Battleline",
             "Legiones Daemonica",
             "Mounted",
+            "Shadow Legion",
             "Skullmaster"
         ],
         "ranged_weapons": [],
@@ -3552,7 +3594,7 @@
         "points": 85,
         "unit_type": "model",
         "toughness": "4",
-        "movement": "6",
+        "movement": "8",
         "wounds": "5",
         "leadership": "7",
         "oc": "1",
@@ -3599,11 +3641,11 @@
         "points": 180,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "8",
+        "movement": "10",
         "wounds": "20",
         "leadership": "6",
         "oc": "5",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -3611,6 +3653,7 @@
             "Chaos",
             "Daemon",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline",
             "Soul Grinder",
@@ -3710,6 +3753,7 @@
             "Legiones Daemonica",
             "Nurgle",
             "Nurgle non-Battleline",
+            "Shadow Legion",
             "Sloppity Bilepiper"
         ],
         "ranged_weapons": [],
@@ -3753,6 +3797,7 @@
             "Monster",
             "Nurgle",
             "Nurgle non-Battleline",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline",
             "Spined Chaos Beast",
@@ -3797,6 +3842,7 @@
             "Legiones Daemonica",
             "Nurgle",
             "Nurgle non-Battleline",
+            "Shadow Legion",
             "Spoilpox Scrivener"
         ],
         "ranged_weapons": [
@@ -4118,6 +4164,7 @@
             "Legiones Daemonica",
             "Mounted",
             "Psyker",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline",
             "Tormentbringer on Exalted Seeker Chariot"
@@ -4196,6 +4243,7 @@
             "Infantry",
             "Legiones Daemonica",
             "Psyker",
+            "Shadow Legion",
             "Slaanesh",
             "Slaanesh non-Battleline",
             "Tranceweaver"
@@ -4225,11 +4273,11 @@
         "points": 180,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "8",
+        "movement": "10",
         "wounds": "20",
         "leadership": "6",
         "oc": "5",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -4237,6 +4285,7 @@
             "Chaos",
             "Daemon",
             "Legiones Daemonica",
+            "Shadow Legion",
             "Soul Grinder",
             "Tzeentch",
             "Tzeentch non-Battleline",
