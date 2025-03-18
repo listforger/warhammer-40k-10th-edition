@@ -154,12 +154,12 @@
         "unit_name": "Be'lakor",
         "points": 375,
         "unit_type": "model",
-        "toughness": "10",
+        "toughness": "11",
         "movement": "12",
-        "wounds": "18",
+        "wounds": "20",
         "leadership": "6",
         "oc": "5",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -219,11 +219,11 @@
                 "strength": 14,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
-                "attacks": "6",
+                "attacks": "7",
                 "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             },
             {
@@ -236,7 +236,11 @@
                 "armor_penetration": 3,
                 "attacks": "14",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             }
         ]
     },
@@ -249,7 +253,7 @@
         "movement": "6",
         "wounds": "7",
         "leadership": "7",
-        "oc": "2",
+        "oc": "3",
         "armour_save": "6",
         "invunerable_save": "5",
         "global_modifiers": null,
@@ -293,7 +297,7 @@
         "wounds": "4",
         "leadership": "7",
         "oc": "2",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -1597,7 +1601,9 @@
         "armour_save": "5",
         "invunerable_save": "4",
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 6
+        },
         "tags": [
             "Chaos",
             "Character",
@@ -2948,7 +2954,9 @@
         "armour_save": "5",
         "invunerable_save": "4",
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 6
+        },
         "tags": [
             "Chaos",
             "Character",
