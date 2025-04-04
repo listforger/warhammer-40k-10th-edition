@@ -195,6 +195,75 @@
     },
     {
         "status": "success",
+        "unit_name": "Goremongers",
+        "points": 85,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "9",
+        "wounds": "1",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "6",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Goremongers",
+            "Grenades",
+            "Infantry",
+            "Khorne",
+            "World Eaters"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Autopistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Blood harpoon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHitsD3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Chainblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Hell Talon [Legends]",
         "points": 140,
         "unit_type": "model",
