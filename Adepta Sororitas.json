@@ -2722,9 +2722,7 @@
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "5",
-        "global_modifiers": {
-            "plusOneToWound": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": {
             "heal": true,
             "healD3Models": true
@@ -2762,34 +2760,6 @@
                 "attacks": "1",
                 "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Ministorum flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Ministorum hand flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             },
             {
                 "name": "Plasma gun - standard",
