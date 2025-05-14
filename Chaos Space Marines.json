@@ -3898,7 +3898,7 @@
     {
         "status": "success",
         "unit_name": "Khorne Berserkers",
-        "points": 90,
+        "points": 180,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -3921,11 +3921,11 @@
         "ranged_weapons": [],
         "melee_weapons": [
             {
-                "name": "Berserker chainblade",
+                "name": "Chainblade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
+                "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
@@ -5027,7 +5027,7 @@
         "unit_name": "Plague Marines",
         "points": 90,
         "unit_type": "unit",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "5",
         "wounds": "2",
         "leadership": "6",
@@ -5056,6 +5056,21 @@
                 "armor_penetration": 1,
                 "attacks": "2",
                 "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
@@ -5098,21 +5113,6 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
-            },
-            {
-                "name": "Plague boltgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "lethalHits": true,
@@ -5177,6 +5177,21 @@
                 "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true
