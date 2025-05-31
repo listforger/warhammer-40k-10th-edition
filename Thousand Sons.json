@@ -2,25 +2,25 @@
     {
         "status": "success",
         "unit_name": "Ahriman",
-        "points": 140,
+        "points": 100,
         "unit_type": "model",
         "toughness": "4",
-        "movement": "6",
-        "wounds": "5",
+        "movement": "10",
+        "wounds": "6",
         "leadership": "6",
-        "oc": "1",
+        "oc": "2",
         "armour_save": "3",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToWound": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Ahriman",
             "Chaos",
             "Character",
             "Epic Hero",
+            "Fly",
             "Infantry",
+            "Mounted",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -39,16 +39,18 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Psychic Stalk",
+                "name": "Transmogrifying Blast",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
+                "attacks": "D6+1",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             }
         ],
         "melee_weapons": [
@@ -68,68 +70,168 @@
     },
     {
         "status": "success",
-        "unit_name": "Ahriman on Disc of Tzeentch",
-        "points": 150,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "10",
-        "wounds": "6",
-        "leadership": "6",
+        "unit_name": "Blue Horrors",
+        "points": 90,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "6",
+        "wounds": "1",
+        "leadership": "8",
         "oc": "1",
-        "armour_save": "3",
+        "armour_save": "8",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToWound": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Ahriman on Disc of Tzeentch",
+            "Battleline",
+            "Blue",
             "Chaos",
-            "Character",
-            "Epic Hero",
-            "Fly",
+            "Daemon",
+            "Horrors",
             "Infantry",
-            "Psyker",
-            "Thousand Sons",
+            "Summoned",
             "Tzeentch"
         ],
         "ranged_weapons": [
             {
-                "name": "Inferno bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Psychic Stalk",
+                "name": "Coruscating Blue flames",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
+                "ballistic_skill": 4,
+                "strength": 3,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "D6",
+                "attacks": "2",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
             {
-                "name": "Black Staff of Ahriman",
+                "name": "Blue claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "3",
+                "ballistic_skill": 5,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Chaos Land Raider",
+        "points": 240,
+        "unit_type": "model",
+        "toughness": "12",
+        "movement": "10",
+        "wounds": "16",
+        "leadership": "6",
+        "oc": "5",
+        "armour_save": "2",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Land Raider",
+            "Smoke",
+            "Thousand Sons",
+            "Transport",
+            "Tzeentch",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Inferno combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Inferno combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Soulshatter lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin inferno heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -282,8 +384,829 @@
     },
     {
         "status": "success",
+        "unit_name": "Chaos Predator Annihilator",
+        "points": 130,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "10",
+        "wounds": "11",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": {
+            "rerollHits": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Predator Annihilator",
+            "Smoke",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Inferno combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Inferno combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Inferno heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Predator twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Chaos Predator Destructor",
+        "points": 140,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "10",
+        "wounds": "11",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Predator Destructor",
+            "Smoke",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Inferno combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Inferno combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Inferno heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Predator autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Chaos Rhino",
+        "points": 90,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "12",
+        "wounds": "10",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": {
+            "plusOneToHit": true,
+            "plusOneToWound": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Dedicated Transport",
+            "Rhino",
+            "Thousand Sons",
+            "Transport",
+            "Tzeentch",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Inferno combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Inferno combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Chaos Spawn",
+        "points": 65,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "8",
+        "wounds": "4",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
+        "tags": [
+            "Beast",
+            "Chaos",
+            "Spawn",
+            "Thousand Sons",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Hideous Mutations",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Chaos Vindicator",
+        "points": 185,
+        "unit_type": "model",
+        "toughness": "11",
+        "movement": "10",
+        "wounds": "11",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Smoke",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle",
+            "Vindicator"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Demolisher cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6+3",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Inferno combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Inferno combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Daemon Prince of Tzeentch",
+        "points": 180,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "9",
+        "wounds": "10",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Daemon Prince",
+            "Monster",
+            "Psychic weapon",
+            "Psyker",
+            "Thousand Sons",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Dark Blessing",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "9",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Infernal cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Hellforged weapons - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Hellforged weapons - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Daemon Prince of Tzeentch with wings",
+        "points": 170,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "13",
+        "wounds": "10",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": {
+            "rerollHits": true,
+            "rerollWounds": true
+        },
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
+        "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Daemon Prince",
+            "Fly",
+            "Monster",
+            "Psychic weapon",
+            "Psyker",
+            "Thousand Sons",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Dark Blessing",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "9",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Infernal cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Hellforged weapons - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Hellforged weapons - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Defiler",
+        "points": 165,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "8",
+        "wounds": "14",
+        "leadership": "6",
+        "oc": "5",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Daemon",
+            "Defiler",
+            "Smoke",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Defiler cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Inferno combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Reaper autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Twin heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin inferno heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Defiler claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 16,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Defiler scourge",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Exalted Sorcerer",
-        "points": 110,
+        "points": 80,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -300,6 +1223,7 @@
             "Exalted Sorcerer",
             "Grenades",
             "Infantry",
+            "Psychic weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -332,44 +1256,6 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Warpflame pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             }
         ],
         "melee_weapons": [
@@ -389,7 +1275,7 @@
                 "name": "Prosperine khopesh",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
@@ -402,10 +1288,10 @@
     {
         "status": "success",
         "unit_name": "Exalted Sorcerer on Disc of Tzeentch",
-        "points": 115,
+        "points": 100,
         "unit_type": "model",
         "toughness": "4",
-        "movement": "12",
+        "movement": "10",
         "wounds": "6",
         "leadership": "6",
         "oc": "1",
@@ -419,6 +1305,7 @@
             "Exalted Sorcerer",
             "Fly",
             "Infantry",
+            "Psychic weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -449,44 +1336,6 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Warpflame pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
             }
         ],
         "melee_weapons": [
@@ -506,13 +1355,394 @@
                 "name": "Prosperine khopesh",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Flamers",
+        "points": 65,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "9",
+        "wounds": "3",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "7",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Daemon",
+            "Flamers",
+            "Fly",
+            "Infantry",
+            "Scintillating Legions",
+            "Summoned",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Flickering flames",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Flamer mouths",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Forgefiend",
+        "points": 140,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "8",
+        "wounds": "12",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Daemon",
+            "Forgefiend",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Ectoplasma cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Hades autocannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Forgefiend claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Forgefiend jaws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Helbrute",
+        "points": 110,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "6",
+        "wounds": "8",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Helbrute",
+            "Helbrute melee",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Helbrute plasma cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Inferno combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Missile launcher - frag",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Missile launcher - krak",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin inferno heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Helbrute hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power scourge",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Heldrake",
+        "points": 215,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "20",
+        "wounds": "12",
+        "leadership": "6",
+        "oc": "0",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aircraft",
+            "Chaos",
+            "Fly",
+            "Heldrake",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Baleflamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Hades autocannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Heldrake claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ]
     },
@@ -655,7 +1885,7 @@
     {
         "status": "success",
         "unit_name": "Infernal Master",
-        "points": 105,
+        "points": 85,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -672,25 +1902,14 @@
             "Grenades",
             "Infantry",
             "Infernal Master",
+            "Psychic weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
         ],
         "ranged_weapons": [
             {
-                "name": "Inferno bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Screamer Invocation - focused witchfire",
+                "name": "Fires of the Abyss - focused witchfire",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
@@ -704,18 +1923,30 @@
                 }
             },
             {
-                "name": "Screamer Invocation - witchfire",
+                "name": "Fires of the Abyss - witchfire",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2D3",
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
+            },
+            {
+                "name": "Inferno bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -723,11 +1954,11 @@
                 "name": "Force weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "4",
+                "attacks": "5",
                 "damage": "D3",
                 "parsed_weapon_types": null
             }
@@ -735,8 +1966,171 @@
     },
     {
         "status": "success",
+        "unit_name": "Kairos Fateweaver",
+        "points": 260,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "12",
+        "wounds": "20",
+        "leadership": "6",
+        "oc": "5",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Epic Hero",
+            "Fly",
+            "Kairos Fateweaver",
+            "Monster",
+            "Psyker",
+            "Scintillating Legions",
+            "Summoned",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Infernal Gateway - focused witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3+6",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Infernal Gateway - witchfire",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Staff of Tomorrow",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2D3",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Lord of Change",
+        "points": 250,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "12",
+        "wounds": "18",
+        "leadership": "6",
+        "oc": "5",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Character",
+            "Daemon",
+            "Fly",
+            "Lord of Change",
+            "Monster",
+            "Psyker",
+            "Scintillating Legions",
+            "Summoned",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Bolt of Change - focused witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "9",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Bolt of Change - witchfire",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "9",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Rod of sorcery",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Baleful sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Staff of Tzeentch",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "3",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Magnus the Red",
-        "points": 465,
+        "points": 420,
         "unit_type": "model",
         "toughness": "11",
         "movement": "14",
@@ -745,10 +2139,7 @@
         "oc": "6",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToHit": true,
-            "plusOneToWound": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Chaos",
@@ -769,7 +2160,7 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
+                "strength": 11,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3D3",
@@ -784,7 +2175,7 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
+                "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+3",
@@ -826,8 +2217,72 @@
     },
     {
         "status": "success",
+        "unit_name": "Maulerfiend",
+        "points": 130,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "10",
+        "wounds": "12",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Daemon",
+            "Maulerfiend",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Magma cutter",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Lasher tendrils",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Maulerfiend fists",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Mutalith Vortex Beast",
-        "points": 165,
+        "points": 160,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -842,21 +2297,21 @@
         },
         "tags": [
             "Chaos",
-            "Daemon",
             "Monster",
             "Mutalith Vortex Beast",
+            "Mutant",
             "Thousand Sons",
             "Tzeentch"
         ],
         "ranged_weapons": [
             {
                 "name": "Warp vortex - beam",
-                "range": "24",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 18,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+6",
                 "parsed_weapon_types": {
@@ -880,7 +2335,7 @@
             },
             {
                 "name": "Warp vortex - torrent",
-                "range": "12",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 6,
@@ -911,11 +2366,64 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
-                "damage": "4",
+                "damage": "3",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Pink Horrors",
+        "points": 115,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "6",
+        "wounds": "1",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "7",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Battleline",
+            "Chaos",
+            "Daemon",
+            "Horrors",
+            "Infantry",
+            "Pink",
+            "Summoned",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Coruscating pink flames",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Pink claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -923,12 +2431,12 @@
     {
         "status": "success",
         "unit_name": "Rubric Marines",
-        "points": 110,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "4",
-        "movement": "5",
+        "movement": "6",
         "wounds": "2",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "3",
         "invunerable_save": "5",
@@ -941,7 +2449,9 @@
             "Chaos",
             "Infantry",
             "Psyker",
+            "Rubric",
             "Rubric Marines",
+            "Rubricae",
             "Thousand Sons",
             "Tzeentch"
         ],
@@ -964,35 +2474,28 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
             {
-                "name": "Plasma pistol - standard",
-                "range": "12",
+                "name": "Malefic Curse",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 4,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Soulreaper cannon",
@@ -1000,8 +2503,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1036,23 +2539,6 @@
                 "parsed_weapon_types": {
                     "autoHit": true
                 }
-            },
-            {
-                "name": "Warpsmite",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
             }
         ],
         "melee_weapons": [
@@ -1078,7 +2564,7 @@
         "toughness": "5",
         "movement": "5",
         "wounds": "3",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": "4",
@@ -1086,10 +2572,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Chaos",
-            "Heavy weapon",
             "Infantry",
             "Psyker",
-            "Scarab Occult Terminators",
+            "Rubricae",
+            "Scarab Occult",
             "Terminator",
             "Thousand Sons",
             "Tzeentch"
@@ -1136,23 +2622,8 @@
                 }
             },
             {
-                "name": "Soulreaper cannon",
+                "name": "Malefic Curse",
                 "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Warpsmite",
-                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
@@ -1163,6 +2634,21 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Soulreaper cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
@@ -1191,6 +2677,317 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Screamers",
+        "points": 80,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "14",
+        "wounds": "3",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Beast",
+            "Chaos",
+            "Daemon",
+            "Fly",
+            "Scintillating Legions",
+            "Screamers",
+            "Summoned",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Lamprey bite",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Sekhetar Robots",
+        "points": 90,
+        "unit_type": "unit",
+        "toughness": "6",
+        "movement": "8",
+        "wounds": "4",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
+        "tags": [
+            "Chaos",
+            "Sekhetar Robots",
+            "Thousand Sons",
+            "Tzeentch",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy warpflamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Hellfyre missile rack",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Pyreflux meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 10,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Warpflame projector",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Power claw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Sorcerer",
+        "points": 75,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Character",
+            "Grenades",
+            "Infantry",
+            "Psychic weapon",
+            "Psyker",
+            "Sorcerer",
+            "Thousand Sons",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Inferno bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Pandaemonic Delusion",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Force weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Prosperine khopesh",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Sorcerer in Terminator Armour",
+        "points": 85,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "5",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": {
+            "plusOneToHit": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Character",
+            "Infantry",
+            "Psychic weapon",
+            "Psyker",
+            "Sorcerer",
+            "Terminator",
+            "Thousand Sons",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Gaze of Hate",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Inferno combi-bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
+                "name": "Inferno combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Force weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "D3",
                 "parsed_weapon_types": null
             }
         ]
@@ -1371,1603 +3168,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Thousand Sons Chaos Spawn",
-        "points": 65,
-        "unit_type": "unit",
-        "toughness": "5",
-        "movement": "8",
-        "wounds": "4",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "4",
-        "invunerable_save": "5",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 5,
-            "heal": true,
-            "healD3Wounds": true
-        },
-        "tags": [
-            "Beast",
-            "Chaos",
-            "Spawn",
-            "Thousand Sons",
-            "Tzeentch"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Hideous Mutations",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+2",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Cultists",
-        "points": 55,
-        "unit_type": "unit",
-        "toughness": "3",
-        "movement": "6",
-        "wounds": "1",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "6",
-        "invunerable_save": "6",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Cultists",
-            "Infantry",
-            "Thousand Sons",
-            "Tzeentch"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Cultist firearm",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Grenade launcher - frag",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Grenade launcher - krak",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Heavy stubber",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 3
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Brutal assault weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Daemon Prince",
-        "points": 170,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "7",
-        "wounds": "10",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Character",
-            "Daemon",
-            "Daemon Prince",
-            "Monster",
-            "Psyker",
-            "Thousand Sons",
-            "Tzeentch"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Infernal cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Hellforged weapons - strike",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Hellforged weapons - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "14",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Daemon Prince with wings",
-        "points": 180,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "11",
-        "wounds": "10",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Character",
-            "Daemon",
-            "Daemon Prince",
-            "Fly",
-            "Monster",
-            "Psyker",
-            "Thousand Sons",
-            "Tzeentch"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Infernal cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Hellforged weapons - strike",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Hellforged weapons - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "14",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Defiler",
-        "points": 190,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "8",
-        "wounds": "14",
-        "leadership": "6",
-        "oc": "5",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Daemon",
-            "Defiler",
-            "Smoke",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Defiler cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Reaper autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Twin heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin inferno heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Defiler claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 16,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Defiler scourge",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Forgefiend",
-        "points": 145,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "8",
-        "wounds": "12",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Daemon",
-            "Forgefiend",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Ectoplasma cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Hades autocannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Forgefiend claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Forgefiend jaws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Helbrute",
-        "points": 130,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "6",
-        "wounds": "8",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": "5",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Helbrute",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Helbrute plasma cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Inferno combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Missile launcher - frag",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Missile launcher - krak",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin inferno heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Helbrute fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Helbrute hammer",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Power scourge",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Heldrake",
-        "points": 195,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "20",
-        "wounds": "12",
-        "leadership": "6",
-        "oc": "0",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Aircraft",
-            "Chaos",
-            "Fly",
-            "Heldrake",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Baleflamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Hades autocannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Heldrake claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti2": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Land Raider",
-        "points": 240,
-        "unit_type": "model",
-        "toughness": "12",
-        "movement": "10",
-        "wounds": "16",
-        "leadership": "6",
-        "oc": "5",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Land Raider",
-            "Smoke",
-            "Thousand Sons",
-            "Transport",
-            "Tzeentch",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Inferno combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Soulshatter lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin inferno heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured tracks",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Maulerfiend",
-        "points": 140,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "10",
-        "wounds": "12",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Daemon",
-            "Maulerfiend",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Magma cutter",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Lasher tendrils",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Maulerfiend fists",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Predator Annihilator",
-        "points": 135,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "10",
-        "wounds": "11",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Predator Annihilator",
-            "Smoke",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Inferno combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Inferno heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Predator twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured tracks",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Predator Destructor",
-        "points": 140,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "10",
-        "wounds": "11",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Predator Destructor",
-            "Smoke",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Inferno combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Inferno heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Predator autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured tracks",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Rhino",
-        "points": 75,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "12",
-        "wounds": "10",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Dedicated Transport",
-            "Rhino",
-            "Thousand Sons",
-            "Transport",
-            "Tzeentch",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Inferno combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured tracks",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Sorcerer",
-        "points": 105,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Character",
-            "Grenades",
-            "Infantry",
-            "Psyker",
-            "Sorcerer",
-            "Thousand Sons",
-            "Tzeentch"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Fires of the Abyss",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits3": true
-                }
-            },
-            {
-                "name": "Inferno bolt pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - standard",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Warpflame pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Force weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Sorcerer in Terminator Armour",
-        "points": 105,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "5",
-        "wounds": "5",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "global_modifiers": {
-            "rerollOnesHits": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Character",
-            "Infantry",
-            "Psyker",
-            "Sorcerer",
-            "Terminator",
-            "Thousand Sons",
-            "Tzeentch"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Coruscating Flames",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Inferno combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Force weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Prosperine khopesh",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Thousand Sons Vindicator",
-        "points": 185,
-        "unit_type": "model",
-        "toughness": "11",
-        "movement": "10",
-        "wounds": "11",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaos",
-            "Smoke",
-            "Thousand Sons",
-            "Tzeentch",
-            "Vehicle",
-            "Vindicator"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Demolisher cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D6+3",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Inferno combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            },
-            {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured tracks",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Tzaangor Enlightened",
         "points": 50,
         "unit_type": "unit",
@@ -2977,13 +3177,14 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "5",
-        "invunerable_save": "6",
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Chaos",
             "Fly",
             "Mounted",
+            "Mutant",
             "Thousand Sons",
             "Tzaangor Enlightened",
             "Tzeentch"
@@ -3000,21 +3201,6 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Fatecaster greatbow",
-                "range": "30",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true
-                }
             }
         ],
         "melee_weapons": [
@@ -3026,7 +3212,7 @@
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "4",
+                "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -3036,10 +3222,10 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "plusOneToWound": true
                 }
@@ -3048,16 +3234,59 @@
     },
     {
         "status": "success",
+        "unit_name": "Tzaangor Enlightened with Fatecaster greatbows",
+        "points": 50,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "10",
+        "wounds": "2",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "5",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Chaos",
+            "Fly",
+            "Mounted",
+            "Mutant",
+            "Thousand Sons",
+            "Tzaangor Enlightened",
+            "Tzaangor Enlightened with Fatecaster greatbows",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Fatecaster greatbow",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            }
+        ],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Tzaangor Shaman",
-        "points": 60,
+        "points": 55,
         "unit_type": "model",
         "toughness": "4",
         "movement": "10",
         "wounds": "4",
         "leadership": "7",
-        "oc": "1",
+        "oc": "2",
         "armour_save": "5",
-        "invunerable_save": "6",
+        "invunerable_save": "5",
         "global_modifiers": {
             "plusOneToHit": true
         },
@@ -3066,7 +3295,10 @@
             "Chaos",
             "Character",
             "Fly",
+            "Infantry",
             "Mounted",
+            "Mutant",
+            "Psychic weapon",
             "Psyker",
             "Thousand Sons",
             "Tzaangor Shaman",
@@ -3074,7 +3306,7 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Mutating orbs",
+                "name": "Baleful Devolution",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -3092,7 +3324,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Shaman's stave",
+                "name": "Force stave",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -3108,21 +3340,21 @@
     {
         "status": "success",
         "unit_name": "Tzaangors",
-        "points": 65,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
         "wounds": "1",
         "leadership": "7",
-        "oc": "2",
+        "oc": "1",
         "armour_save": "6",
         "invunerable_save": "6",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
             "Chaos",
             "Infantry",
+            "Mutant",
             "Thousand Sons",
             "Tzaangors",
             "Tzeentch"
@@ -3160,8 +3392,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null

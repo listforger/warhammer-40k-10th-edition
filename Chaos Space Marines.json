@@ -5771,12 +5771,12 @@
     {
         "status": "success",
         "unit_name": "Rubric Marines",
-        "points": 110,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "4",
-        "movement": "5",
+        "movement": "6",
         "wounds": "2",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "3",
         "invunerable_save": "5",
@@ -5791,6 +5791,7 @@
             "Infantry",
             "Psyker",
             "Rubric Marines",
+            "Rubricae",
             "Tzeentch"
         ],
         "ranged_weapons": [
@@ -5819,28 +5820,21 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Plasma pistol - standard",
-                "range": "12",
+                "name": "Malefic Curse",
+                "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma pistol - supercharge",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 4,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": null
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Soulreaper cannon",
@@ -5883,23 +5877,6 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
-                }
-            },
-            {
-                "name": "Warpsmite",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true
                 }
             }
         ],
