@@ -111,7 +111,7 @@
     {
         "status": "success",
         "unit_name": "Autarch",
-        "points": 75,
+        "points": 85,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -2353,7 +2353,7 @@
     {
         "status": "success",
         "unit_name": "Fire Dragons",
-        "points": 110,
+        "points": 120,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -2458,7 +2458,7 @@
     {
         "status": "success",
         "unit_name": "Fire Prism",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -2890,7 +2890,7 @@
     {
         "status": "success",
         "unit_name": "Howling Banshees",
-        "points": 90,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
@@ -4139,7 +4139,7 @@
     {
         "status": "success",
         "unit_name": "Shining Spears",
-        "points": 120,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -4955,7 +4955,7 @@
     {
         "status": "success",
         "unit_name": "The Yncarne",
-        "points": 250,
+        "points": 260,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -5505,7 +5505,7 @@
     {
         "status": "success",
         "unit_name": "War Walkers",
-        "points": 95,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
@@ -6451,7 +6451,11 @@
                 "armor_penetration": 0,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Shuriken Cannon",
@@ -6964,7 +6968,7 @@
     {
         "status": "success",
         "unit_name": "Ynnari Archon",
-        "points": 75,
+        "points": 85,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -7034,7 +7038,7 @@
     {
         "status": "success",
         "unit_name": "Ynnari Incubi",
-        "points": 75,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -7626,7 +7630,7 @@
         "armour_save": "6",
         "invunerable_save": "4",
         "global_modifiers": {
-            "rerollWounds": true
+            "rerollOnesWounds": true
         },
         "defenderGlobalModifiers": null,
         "tags": [

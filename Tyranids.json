@@ -957,7 +957,7 @@
     {
         "status": "success",
         "unit_name": "Hive Guard",
-        "points": 100,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "6",
@@ -1021,7 +1021,7 @@
     {
         "status": "success",
         "unit_name": "Hive Tyrant",
-        "points": 225,
+        "points": 195,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -1135,6 +1135,81 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Hyperadapted Raveners",
+        "points": 165,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "6",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Burrowers",
+            "Character",
+            "Great Devourer",
+            "Hyperadapted Raveners",
+            "Infantry",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Venom bolt",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Prime claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti5": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Ravener heavy claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti5": true,
+                    "twinLinked": true
+                }
             }
         ]
     },
@@ -1771,10 +1846,10 @@
     {
         "status": "success",
         "unit_name": "Psychophage",
-        "points": 95,
+        "points": 110,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "8",
+        "movement": "12",
         "wounds": "10",
         "leadership": "8",
         "oc": "3",
@@ -1792,6 +1867,7 @@
             "Harvester",
             "Monster",
             "Psychophage",
+            "Smoke",
             "Tyranids"
         ],
         "ranged_weapons": [
@@ -1817,9 +1893,9 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+1",
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -1886,38 +1962,26 @@
     {
         "status": "success",
         "unit_name": "Raveners",
-        "points": 75,
+        "points": 125,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
         "wounds": "3",
         "leadership": "8",
         "oc": "1",
-        "armour_save": "5",
+        "armour_save": "4",
         "invunerable_save": null,
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Burrowers",
             "Great Devourer",
             "Infantry",
             "Raveners",
             "Tyranids",
             "Vanguard Invader"
         ],
-        "ranged_weapons": [
-            {
-                "name": "Thoracic bio-weapon",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ],
+        "ranged_weapons": [],
         "melee_weapons": [
             {
                 "name": "Ravener claws and talons",
@@ -1925,10 +1989,10 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "7",
-                "damage": "1",
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
@@ -1992,7 +2056,7 @@
     {
         "status": "success",
         "unit_name": "Screamer-killer",
-        "points": 145,
+        "points": 135,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -2416,7 +2480,7 @@
     {
         "status": "success",
         "unit_name": "The Swarmlord",
-        "points": 240,
+        "points": 220,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -2541,6 +2605,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Character",
             "Great Devourer",
             "Monster",
             "Trygon",
@@ -3017,7 +3082,7 @@
     {
         "status": "success",
         "unit_name": "Winged Hive Tyrant",
-        "points": 200,
+        "points": 170,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",

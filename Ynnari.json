@@ -125,7 +125,7 @@
     {
         "status": "success",
         "unit_name": "Autarch",
-        "points": 75,
+        "points": 85,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -712,10 +712,10 @@
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
-        "wounds": "5",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
+        "wounds": "1",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "4",
         "invunerable_save": "4",
         "global_modifiers": {
             "rerollOnesHits": true
@@ -862,10 +862,10 @@
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
-        "wounds": "5",
+        "wounds": "1",
         "leadership": "6",
         "oc": "1",
-        "armour_save": "2",
+        "armour_save": "4",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -1942,7 +1942,7 @@
     {
         "status": "success",
         "unit_name": "Fire Dragons",
-        "points": 110,
+        "points": 120,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -2047,7 +2047,7 @@
     {
         "status": "success",
         "unit_name": "Fire Prism",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -2502,7 +2502,7 @@
     {
         "status": "success",
         "unit_name": "Howling Banshees",
-        "points": 90,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
@@ -2980,7 +2980,7 @@
     {
         "status": "success",
         "unit_name": "Mandrakes",
-        "points": 70,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
@@ -3397,7 +3397,7 @@
     {
         "status": "success",
         "unit_name": "Raider",
-        "points": 80,
+        "points": 75,
         "unit_type": "model",
         "toughness": "8",
         "movement": "14",
@@ -3498,7 +3498,7 @@
     {
         "status": "success",
         "unit_name": "Ravager",
-        "points": 110,
+        "points": 100,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -4396,7 +4396,7 @@
     {
         "status": "success",
         "unit_name": "Shining Spears",
-        "points": 120,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -5291,7 +5291,7 @@
     {
         "status": "success",
         "unit_name": "The Yncarne",
-        "points": 250,
+        "points": 260,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -5680,7 +5680,7 @@
     {
         "status": "success",
         "unit_name": "Venom",
-        "points": 70,
+        "points": 65,
         "unit_type": "model",
         "toughness": "6",
         "movement": "14",
@@ -5969,7 +5969,7 @@
     {
         "status": "success",
         "unit_name": "War Walkers",
-        "points": 95,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
@@ -6690,12 +6690,12 @@
         "unit_name": "Windriders",
         "points": 80,
         "unit_type": "unit",
-        "toughness": "3",
-        "movement": "7",
-        "wounds": "5",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
+        "toughness": "4",
+        "movement": "14",
+        "wounds": "2",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "4",
         "invunerable_save": "6",
         "global_modifiers": {
             "rerollHits": true
@@ -6915,7 +6915,11 @@
                 "armor_penetration": 0,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Shuriken Cannon",
@@ -7393,7 +7397,7 @@
         "armour_save": "6",
         "invunerable_save": "4",
         "global_modifiers": {
-            "rerollWounds": true
+            "rerollOnesWounds": true
         },
         "defenderGlobalModifiers": null,
         "tags": [

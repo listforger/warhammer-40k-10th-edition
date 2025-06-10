@@ -220,7 +220,7 @@
         "armour_save": "3",
         "invunerable_save": null,
         "global_modifiers": {
-            "rerollOnesHits": true
+            "rerollHits": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1430,7 +1430,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Lord with Jump Pack",
-        "points": 90,
+        "points": 80,
         "unit_type": "model",
         "toughness": "4",
         "movement": "12",
@@ -2421,7 +2421,7 @@
     {
         "status": "success",
         "unit_name": "Dark Apostle",
-        "points": 75,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -2861,7 +2861,7 @@
     {
         "status": "success",
         "unit_name": "Fellgor Beastmen",
-        "points": 85,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -4232,12 +4232,12 @@
         "points": 160,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "10",
+        "movement": "14",
         "wounds": "10",
         "leadership": "6",
         "oc": "4",
         "armour_save": "2",
-        "invunerable_save": "5",
+        "invunerable_save": "4",
         "global_modifiers": {
             "rerollOnesWounds": true
         },
@@ -4320,11 +4320,11 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "2",
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "plusOneToWound": true
                 }
@@ -4390,7 +4390,7 @@
     {
         "status": "success",
         "unit_name": "Master of Possession",
-        "points": 70,
+        "points": 60,
         "unit_type": "model",
         "toughness": "4",
         "movement": "8",
@@ -4857,7 +4857,7 @@
     {
         "status": "success",
         "unit_name": "Noise Marines",
-        "points": 135,
+        "points": 145,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "6",
@@ -4871,7 +4871,6 @@
         "tags": [
             "Chaos",
             "Cults of the Dark Gods",
-            "Grenades",
             "Heretic Astartes",
             "Infantry",
             "Noise Marines",
@@ -6787,7 +6786,7 @@
     {
         "status": "success",
         "unit_name": "Traitor Enforcer",
-        "points": 65,
+        "points": 55,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -7067,8 +7066,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 14,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "6",
                 "damage": "3",
                 "parsed_weapon_types": {
@@ -7084,13 +7083,15 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "14",
-                "damage": "1",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ]
