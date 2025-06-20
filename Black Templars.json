@@ -224,6 +224,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti4": true,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -267,7 +268,10 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true,
+                    "oneShot": true
+                }
             },
             {
                 "name": "Repulsor Defensive Array",
@@ -374,6 +378,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -595,6 +600,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -666,6 +672,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -760,6 +767,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -774,6 +782,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -829,6 +838,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -846,6 +856,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }

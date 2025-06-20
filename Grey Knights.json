@@ -36,6 +36,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -297,6 +298,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -420,6 +422,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -511,6 +514,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -608,7 +612,9 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti2": true
+                    "antiTypeInfantry": true,
+                    "anti2": true,
+                    "ignoresCover": true
                 }
             },
             {
@@ -680,6 +686,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -793,6 +800,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -806,7 +814,9 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": [
@@ -968,6 +978,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1022,6 +1033,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1175,7 +1187,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Multi-melta",
@@ -1269,7 +1283,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Hurricane bolter",
@@ -1379,6 +1395,7 @@
                 "attacks": "D6+3",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1392,7 +1409,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Multi-melta",
@@ -1486,7 +1505,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm bolter",
@@ -1611,7 +1632,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm bolter",
@@ -1725,7 +1748,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm bolter",
@@ -2368,6 +2393,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2528,6 +2554,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2627,7 +2654,9 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti2": true
+                    "antiTypeDaemon": true,
+                    "anti2": true,
+                    "ignoresCover": true
                 }
             },
             {
@@ -2658,6 +2687,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeDaemon": true,
                     "anti2": true
                 }
             }
@@ -2697,6 +2727,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2710,7 +2741,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Multi-melta",
@@ -2807,6 +2840,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2820,7 +2854,9 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": [
@@ -2909,6 +2945,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2982,7 +3019,9 @@
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": null,
-        "global_modifiers": null,
+        "global_modifiers": {
+            "indirectFire": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Grenades",
@@ -3004,6 +3043,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3102,6 +3142,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3145,7 +3186,9 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti2": true
+                    "antiTypeInfantry": true,
+                    "anti2": true,
+                    "ignoresCover": true
                 }
             },
             {
@@ -3317,6 +3360,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },

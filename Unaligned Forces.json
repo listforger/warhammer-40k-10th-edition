@@ -46,6 +46,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti3": true,
                     "twinLinked": true
                 }
@@ -158,6 +159,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti3": true,
                     "twinLinked": true
                 }
@@ -229,6 +231,7 @@
                 "damage": "D6+1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true
                 }
@@ -289,6 +292,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -318,7 +322,8 @@
                 "attacks": "D6+3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             }
         ],
@@ -416,6 +421,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti3": true,
                     "twinLinked": true
                 }
@@ -844,7 +850,8 @@
                 "attacks": "D6+1",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -874,6 +881,7 @@
                 "damage": "D6+1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true
                 }
@@ -915,7 +923,8 @@
                 "attacks": "D3+1",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -946,6 +955,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -1066,7 +1076,9 @@
                 "armor_penetration": 2,
                 "attacks": "1",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1228,7 +1240,8 @@
                 "parsed_weapon_types": {
                     "blast": true,
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "indirectFire": true
                 }
             }
         ],
@@ -1286,6 +1299,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti3": true,
                     "twinLinked": true
                 }

@@ -109,6 +109,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -267,6 +268,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -453,6 +455,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeMonster": true,
                     "anti4": true
                 }
             },
@@ -689,6 +692,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -817,6 +821,7 @@
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeCharacter": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -863,6 +868,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeChaos": true,
                     "anti2": true
                 }
             }

@@ -123,6 +123,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti5": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -267,7 +268,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm Bolter",
@@ -334,6 +337,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -654,6 +658,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -738,6 +743,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -1115,6 +1121,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1132,6 +1139,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti5": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2075,7 +2083,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm bolter",
@@ -2228,6 +2238,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti5": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2268,6 +2279,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2282,6 +2294,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }

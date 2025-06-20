@@ -191,6 +191,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -209,6 +210,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -266,6 +268,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -280,6 +283,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -294,6 +298,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -408,6 +413,8 @@
                 "attacks": "D6",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "oneShot": true,
                     "autoHit": true
                 }
             },
@@ -423,6 +430,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -541,6 +549,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -636,7 +645,8 @@
                 "attacks": "D6+3",
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "ignoresCover": true
                 }
             },
             {
@@ -665,7 +675,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm bolter",
@@ -806,6 +818,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -882,6 +895,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1029,6 +1043,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeChaos": true,
                     "anti2": true
                 }
             },
@@ -1233,6 +1248,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -1251,6 +1267,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -1292,6 +1309,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1306,6 +1324,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1394,7 +1413,9 @@
                 "attacks": "3D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "ignoresCover": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -1407,7 +1428,9 @@
                 "armor_penetration": 3,
                 "attacks": "D6+2",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             },
             {
                 "name": "Heavy Bolter",
@@ -1435,7 +1458,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1633,7 +1658,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Immolation Flamers",
@@ -1646,6 +1673,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1731,6 +1759,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -1799,6 +1828,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1882,6 +1912,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -2175,6 +2206,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2283,6 +2315,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -2360,7 +2393,7 @@
     {
         "status": "success",
         "unit_name": "Repentia Squad",
-        "points": 85,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -2455,6 +2488,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2468,7 +2502,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Repressor twin heavy flamer",
@@ -2481,6 +2517,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -2590,6 +2627,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -2608,6 +2646,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -2653,6 +2692,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2667,6 +2707,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2783,6 +2824,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -2853,6 +2895,8 @@
                 "attacks": "D6",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "oneShot": true,
                     "autoHit": true
                 }
             },
@@ -2974,6 +3018,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3142,6 +3187,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3233,7 +3279,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm bolter",

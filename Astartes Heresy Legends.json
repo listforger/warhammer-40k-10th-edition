@@ -34,7 +34,9 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti2": true
+                    "antiTypeMonster": true,
+                    "anti2": true,
+                    "antiTypeVehicle": true
                 }
             }
         ],
@@ -128,6 +130,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -414,6 +417,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -594,6 +598,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -739,6 +744,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -835,6 +841,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -943,6 +950,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1024,6 +1032,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -1125,6 +1134,7 @@
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true
                 }
@@ -1280,6 +1290,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1375,7 +1386,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Javelin missile launcher - frag",
@@ -1552,6 +1565,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -1599,6 +1613,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1612,7 +1627,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Kratos battlecannon - AP",
@@ -1862,7 +1879,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Multi-melta",
@@ -1899,7 +1918,8 @@
                 "attacks": "D6+4",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -1944,6 +1964,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -2041,7 +2062,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Multi-melta",
@@ -2097,6 +2120,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -2179,6 +2203,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti2": true,
                     "blast": true
                 }
@@ -2194,6 +2219,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2207,7 +2233,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Meltagun",
@@ -2343,6 +2371,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2460,6 +2489,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti2": true,
                     "blast": true
                 }
@@ -2516,7 +2546,8 @@
                 "attacks": "D6+4",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             }
         ],
@@ -2625,6 +2656,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2843,7 +2875,9 @@
                 "armor_penetration": 0,
                 "attacks": "2D6",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             },
             {
                 "name": "Heavy bolter",
@@ -2871,7 +2905,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Lascannon",
@@ -2977,7 +3013,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Lascannon",
@@ -3072,7 +3110,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Lascannon",
@@ -3186,7 +3226,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Lascannon",
@@ -3293,7 +3335,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Lascannon",
@@ -3481,6 +3525,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3562,6 +3607,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -3635,6 +3681,7 @@
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true
                 }
@@ -3811,6 +3858,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3936,6 +3984,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -4025,7 +4074,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Laservolley cannon - overcharge fire",
@@ -4111,7 +4162,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Scorpius multi-launcher",
@@ -4124,7 +4177,8 @@
                 "attacks": "2D3+3",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {

@@ -121,7 +121,9 @@
                 "armor_penetration": 5,
                 "attacks": "1",
                 "damage": "D6+2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             }
         ],
         "melee_weapons": [
@@ -182,6 +184,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeCharacter": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -1338,6 +1341,7 @@
                 "damage": "D6+6",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti2": true,
                     "lethalHits": true,
                     "lethalHitsOn6s": true
@@ -1453,7 +1457,9 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": []
@@ -1619,6 +1625,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2299,6 +2306,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti4": true,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -2449,7 +2457,9 @@
                 "armor_penetration": 5,
                 "attacks": "1",
                 "damage": "D6+2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             }
         ],
         "melee_weapons": [
@@ -3094,6 +3104,7 @@
                 "attacks": "D6+3",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3153,6 +3164,40 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Antimatter meteor",
+                "range": "24",
+                "weapon_types": "C'tan Powers",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "indirectFire": true
+                }
+            },
+            {
+                "name": "Cosmic fire",
+                "range": "18",
+                "weapon_types": "C'tan Powers",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "autoHit": true
+                }
+            },
+            {
                 "name": "Tesla sphere",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -3166,6 +3211,24 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits2": true
+                }
+            },
+            {
+                "name": "Time's arrow",
+                "range": "24",
+                "weapon_types": "C'tan Powers",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "6",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeCharacter": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             }
         ],
@@ -3246,7 +3309,9 @@
                 "armor_penetration": 1,
                 "attacks": "12",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             }
         ],
         "melee_weapons": [
@@ -3573,6 +3638,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },

@@ -35,6 +35,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -137,6 +138,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -247,6 +249,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -264,6 +267,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -724,6 +728,7 @@
                 "attacks": "D6+3",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -753,6 +758,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -1042,7 +1048,9 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1133,7 +1141,9 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1309,7 +1319,9 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Blastmaster - varied frequency",
@@ -1321,7 +1333,9 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Screamer pistol",
@@ -1333,7 +1347,9 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Sonic blaster",
@@ -1345,7 +1361,9 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": [

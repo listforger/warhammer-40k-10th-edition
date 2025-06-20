@@ -91,9 +91,11 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -515,6 +517,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeAny": true,
                     "anti4": true
                 }
             },

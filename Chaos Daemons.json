@@ -191,7 +191,8 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "ignoresCover": true
                 }
             },
             {
@@ -206,7 +207,8 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "ignoresCover": true
                 }
             }
         ],
@@ -480,6 +482,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -613,7 +616,9 @@
                 "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Fires of Tzeentch - pink fire",
@@ -626,6 +631,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -655,7 +661,9 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true
+                    "antiTypeMonster": true,
+                    "anti4": true,
+                    "antiTypeVehicle": true
                 }
             }
         ]
@@ -1054,7 +1062,9 @@
                 "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Fires of Tzeentch - pink fire",
@@ -1067,6 +1077,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1123,6 +1134,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             }
@@ -1241,7 +1253,9 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true
+                    "antiTypeMonster": true,
+                    "anti4": true,
+                    "antiTypeVehicle": true
                 }
             }
         ]
@@ -1353,6 +1367,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1408,6 +1423,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1646,6 +1662,7 @@
                 "attacks": "D6+3",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1750,6 +1767,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             }
@@ -1767,6 +1785,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             },
@@ -2031,7 +2050,8 @@
                 "attacks": "D3+6",
                 "damage": "D3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -2045,7 +2065,8 @@
                 "attacks": "D6+3",
                 "damage": "D3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             }
         ],
@@ -2103,6 +2124,7 @@
                 "attacks": "D6+3",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -2120,6 +2142,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeCharacter": true,
                     "anti3": true
                 }
             }
@@ -2286,6 +2309,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -2471,6 +2495,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
+                    "indirectFire": true,
                     "lethalHits": true,
                     "lethalHitsOn6s": true
                 }
@@ -3013,6 +3038,7 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -3090,6 +3116,7 @@
                 "attacks": "D6+3",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -3166,6 +3193,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeMonster": true,
                     "anti4": true
                 }
             }
@@ -3208,6 +3236,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             }
@@ -3446,6 +3475,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -3895,6 +3925,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -3957,6 +3988,7 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3973,6 +4005,7 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -4101,6 +4134,7 @@
                 "attacks": "D6+3",
                 "damage": "D3",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -4115,6 +4149,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -4220,6 +4255,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             }
@@ -4237,6 +4273,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             },

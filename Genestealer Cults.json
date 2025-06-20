@@ -135,7 +135,8 @@
                 "attacks": "D6+3",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -285,7 +286,8 @@
                 "attacks": "D6",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "oneShot": true
                 }
             },
             {
@@ -299,6 +301,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -416,6 +419,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -532,7 +536,9 @@
                 "armor_penetration": 3,
                 "attacks": "2",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Psionic cascade - witchfire",
@@ -544,7 +550,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": []
@@ -689,6 +697,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -894,6 +903,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1131,7 +1141,9 @@
         "oc": "2",
         "armour_save": "5",
         "invunerable_save": null,
-        "global_modifiers": null,
+        "global_modifiers": {
+            "oneShot": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Battleline",
@@ -1177,6 +1189,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1419,7 +1432,9 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti2": true
+                    "antiTypeInfantry": true,
+                    "anti2": true,
+                    "ignoresCover": true
                 }
             }
         ],
@@ -1448,6 +1463,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti2": true
                 }
             }
@@ -1537,7 +1553,8 @@
                 "attacks": "D6",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "oneShot": true
                 }
             },
             {
@@ -1551,7 +1568,8 @@
                 "attacks": "D6+3",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             }
         ],
@@ -1596,6 +1614,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true
                 }
             }
@@ -1613,6 +1632,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             }

@@ -110,7 +110,9 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Twin cognis lascannon",
@@ -262,6 +264,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -556,7 +559,9 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Incendine combustor",
@@ -569,6 +574,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -582,7 +588,9 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Twin Kastelan phosphor blaster",
@@ -595,6 +603,7 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "twinLinked": true
                 }
             }
@@ -665,6 +674,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "rapidFire": 2
                 }
@@ -681,6 +691,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti2": true,
                     "blast": true
                 }
@@ -750,6 +761,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -803,6 +815,7 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "rapidFire": 1
                 }
             }
@@ -911,6 +924,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti4": true,
                     "twinLinked": true
                 }
@@ -938,6 +952,7 @@
                 "attacks": "12",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "twinLinked": true
                 }
             }
@@ -1077,6 +1092,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1146,6 +1162,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -1192,6 +1209,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -1393,7 +1411,8 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "ignoresCover": true
                 }
             },
             {
@@ -1406,7 +1425,9 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Sulphur breath",
@@ -1419,6 +1440,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1436,6 +1458,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -1490,6 +1513,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "rapidFire": 1
                 }
@@ -1521,6 +1545,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1562,6 +1587,7 @@
                 "attacks": "1",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "rapidFire": 1
                 }
             }
@@ -1833,6 +1859,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -1850,6 +1877,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             }
@@ -1946,6 +1974,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -2066,6 +2095,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -2190,7 +2220,8 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -2352,7 +2383,9 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Radium jezzail",
@@ -2366,6 +2399,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             }
@@ -2422,7 +2456,9 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             }
         ],
         "melee_weapons": [
@@ -2438,6 +2474,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeWalker": true,
                     "anti2": true,
                     "plusOneToWound": true,
                     "sustainedHits": true,
@@ -2517,6 +2554,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeMonster": true,
                     "anti4": true
                 }
             }
@@ -2606,7 +2644,9 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Volkite blaster",
@@ -2830,6 +2870,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2884,6 +2925,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },

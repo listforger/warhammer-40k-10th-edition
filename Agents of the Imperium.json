@@ -34,6 +34,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti2": true,
                     "autoHit": true
                 }
@@ -212,6 +213,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true
                 }
             }
@@ -229,6 +231,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -370,6 +373,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -384,6 +388,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -493,6 +498,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -553,6 +559,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -782,6 +789,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -802,6 +810,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -897,7 +906,9 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Heavy stubber",
@@ -1016,6 +1027,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1043,6 +1055,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -1176,6 +1189,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -1299,7 +1313,8 @@
                 "attacks": "D6",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "oneShot": true
                 }
             },
             {
@@ -1443,7 +1458,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Storm bolter",
@@ -1556,6 +1573,7 @@
                 "attacks": "D6+1",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -1720,6 +1738,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -1820,7 +1839,9 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeDaemon": true,
                     "anti4": true,
+                    "antiTypeInfantry": true,
                     "anti5": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -1883,6 +1904,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2036,6 +2058,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeCharacter": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2053,6 +2076,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -2112,6 +2136,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -2191,7 +2216,7 @@
     {
         "status": "success",
         "unit_name": "Inquisitor Karamazov [Legends]",
-        "points": 130,
+        "points": 140,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -2397,6 +2422,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true
                 }
             }
@@ -2452,6 +2478,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2479,7 +2506,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Lasgun array",
@@ -2540,7 +2569,7 @@
     {
         "status": "success",
         "unit_name": "Janus Draik [Legends]",
-        "points": 55,
+        "points": 40,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -2575,6 +2604,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true
                 }
             }
@@ -2739,6 +2769,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2754,6 +2785,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -2883,6 +2915,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -2970,7 +3003,7 @@
     {
         "status": "success",
         "unit_name": "Neyam Shai Murad [Legends]",
-        "points": 55,
+        "points": 40,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -3186,6 +3219,7 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti2": true
                 }
             },
@@ -3299,6 +3333,8 @@
                 "attacks": "D6",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "oneShot": true,
                     "autoHit": true
                 }
             },
@@ -3325,6 +3361,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3339,6 +3376,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3464,7 +3502,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Immolation flamers",
@@ -3477,6 +3517,7 @@
                 "attacks": "2D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3603,6 +3644,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -3621,6 +3663,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypePsyker": true,
                     "anti2": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -3678,6 +3721,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3692,6 +3736,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3706,6 +3751,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -3879,7 +3925,9 @@
                 "armor_penetration": 0,
                 "attacks": "2",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Special-issue bolt pistol",
@@ -4086,6 +4134,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
@@ -4224,7 +4273,9 @@
                 "armor_penetration": 1,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "ignoresCover": true
+                }
             },
             {
                 "name": "Heavy stubber",
@@ -4312,7 +4363,8 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "ignoresCover": true
                 }
             },
             {
@@ -4327,7 +4379,8 @@
                 "damage": "D3+3",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "ignoresCover": true
                 }
             }
         ],
@@ -4480,9 +4533,11 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }

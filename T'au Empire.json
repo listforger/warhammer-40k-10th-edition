@@ -159,7 +159,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Twin heavy rail cannon",
@@ -301,7 +303,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Swiftstrike burst cannon",
@@ -443,6 +447,7 @@
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "indirectFire": true,
                     "twinLinked": true
                 }
             }
@@ -534,7 +539,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Shield Drone",
@@ -573,6 +580,7 @@
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "indirectFire": true,
                     "twinLinked": true
                 }
             }
@@ -769,7 +777,8 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -903,6 +912,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -959,7 +969,8 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -1081,6 +1092,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1135,7 +1147,8 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -1257,6 +1270,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1402,7 +1416,8 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "indirectFire": true
                 }
             },
             {
@@ -1524,6 +1539,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1728,6 +1744,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -1922,7 +1939,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Smart missile system",
@@ -1934,7 +1953,9 @@
                 "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             },
             {
                 "name": "Twin pulse carbine",
@@ -2284,6 +2305,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -2481,7 +2503,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Smart missile system",
@@ -2493,7 +2517,9 @@
                 "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             },
             {
                 "name": "Twin pulse carbine",
@@ -2755,6 +2781,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             },
@@ -2796,6 +2823,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -3110,6 +3138,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true
                 }
             },
@@ -3380,7 +3409,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Smart missile system",
@@ -3392,7 +3423,9 @@
                 "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             },
             {
                 "name": "Twin pulse carbine",
@@ -3528,7 +3561,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             }
         ],
         "melee_weapons": [
@@ -3743,6 +3778,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -3830,7 +3866,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Twin pulse carbine",
@@ -4013,7 +4051,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             }
         ],
         "melee_weapons": [
@@ -4065,7 +4105,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Twin long-barrelled burst cannon",
@@ -4216,6 +4258,7 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "indirectFire": true,
                     "twinLinked": true
                 }
             }
@@ -4276,6 +4319,7 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti3": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -4371,7 +4415,9 @@
                 "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             },
             {
                 "name": "Twin pulse carbine",
@@ -4607,6 +4653,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
+                    "indirectFire": true,
                     "twinLinked": true
                 }
             },
@@ -4635,6 +4682,7 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "indirectFire": true,
                     "twinLinked": true
                 }
             },
@@ -4649,6 +4697,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -4778,6 +4827,7 @@
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "indirectFire": true,
                     "twinLinked": true
                 }
             }
@@ -4828,7 +4878,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Twin ion rifle - overcharged",
@@ -5003,7 +5055,9 @@
                 "armor_penetration": 0,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true
+                }
             },
             {
                 "name": "Tri-axis ion cannon - standard",
@@ -5356,7 +5410,9 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "oneShot": true
+                }
             },
             {
                 "name": "Skyspear missile rack",
@@ -5370,6 +5426,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeFly": true,
                     "anti3": true,
                     "blast": true
                 }
@@ -5550,6 +5607,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti3": true,
                     "blast": true
                 }
@@ -5580,6 +5638,7 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
@@ -5798,6 +5857,7 @@
                 "attacks": "10",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "ignoresCover": true,
                     "autoHit": true
                 }
             }
