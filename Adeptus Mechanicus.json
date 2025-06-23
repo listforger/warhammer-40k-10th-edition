@@ -710,6 +710,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeVehicle": true,
                     "anti4": true
                 }
             },
@@ -777,7 +778,8 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true
+                    "antiTypeVehicle": true,
+                    "anti2": true
                 }
             },
             {
@@ -875,7 +877,8 @@
                 "damage": "D6+1",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true
+                    "antiTypeFly": true,
+                    "anti2": true
                 }
             },
             {
@@ -2153,6 +2156,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
+                    "antiTypeInfantry": true,
                     "anti4": true
                 }
             },
@@ -2539,7 +2543,8 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true
+                    "antiTypeInfantry": true,
+                    "anti3": true
                 }
             },
             {
@@ -2554,8 +2559,8 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "antiTypeMonster": true,
-                    "anti4": true
+                    "anti4": true,
+                    "antiTypeVehicleOrMonster": true
                 }
             }
         ],
@@ -2971,7 +2976,8 @@
                 "damage": "D3+3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true
+                    "antiTypeVehicle": true,
+                    "anti3": true
                 }
             }
         ]

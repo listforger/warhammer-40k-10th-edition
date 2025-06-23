@@ -205,11 +205,11 @@
     {
         "status": "success",
         "unit_name": "Chaos Cerastus Knight Acheron",
-        "points": 420,
+        "points": 355,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "12",
-        "wounds": "25",
+        "wounds": "28",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -290,11 +290,11 @@
     {
         "status": "success",
         "unit_name": "Chaos Cerastus Knight Atrapos",
-        "points": 420,
+        "points": 355,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "12",
-        "wounds": "25",
+        "wounds": "28",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -418,11 +418,11 @@
     {
         "status": "success",
         "unit_name": "Chaos Cerastus Knight Castigator",
-        "points": 445,
+        "points": 355,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "12",
-        "wounds": "25",
+        "wounds": "28",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -486,11 +486,11 @@
     {
         "status": "success",
         "unit_name": "Chaos Cerastus Knight Lancer",
-        "points": 420,
+        "points": 355,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "14",
-        "wounds": "25",
+        "wounds": "28",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -558,11 +558,11 @@
     {
         "status": "success",
         "unit_name": "Chaos Questoris Knight Magaera",
-        "points": 435,
+        "points": 345,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "10",
-        "wounds": "22",
+        "wounds": "26",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -687,11 +687,11 @@
     {
         "status": "success",
         "unit_name": "Chaos Questoris Knight Styrix",
-        "points": 430,
+        "points": 345,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "10",
-        "wounds": "22",
+        "wounds": "26",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -816,11 +816,11 @@
     {
         "status": "success",
         "unit_name": "Knight Abominant",
-        "points": 365,
+        "points": 325,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "10",
-        "wounds": "22",
+        "wounds": "26",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -862,7 +862,7 @@
                 "strength": 12,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "9",
+                "attacks": "12",
                 "damage": "3",
                 "parsed_weapon_types": {
                     "devWounds": true,
@@ -904,11 +904,11 @@
     {
         "status": "success",
         "unit_name": "Knight Desecrator",
-        "points": 400,
+        "points": 335,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "10",
-        "wounds": "22",
+        "wounds": "26",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -1010,11 +1010,11 @@
     {
         "status": "success",
         "unit_name": "Knight Despoiler",
-        "points": 400,
+        "points": 335,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "10",
-        "wounds": "22",
+        "wounds": "26",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -1142,7 +1142,8 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti4": true,
+                    "antiTypeFly": true,
+                    "anti2": true,
                     "twinLinked": true
                 }
             },
@@ -1225,11 +1226,11 @@
     {
         "status": "success",
         "unit_name": "Knight Rampager",
-        "points": 380,
+        "points": 335,
         "unit_type": "model",
-        "toughness": "12",
+        "toughness": "11",
         "movement": "12",
-        "wounds": "22",
+        "wounds": "26",
         "leadership": "6",
         "oc": "10",
         "armour_save": "3",
@@ -1276,7 +1277,11 @@
                 "armor_penetration": 4,
                 "attacks": "6",
                 "damage": "6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Reaper chainsword - sweep",
@@ -1288,7 +1293,11 @@
                 "armor_penetration": 3,
                 "attacks": "18",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Warpstrike claw - strike",
@@ -1300,7 +1309,11 @@
                 "armor_penetration": 3,
                 "attacks": "6",
                 "damage": "8",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Warpstrike claw - sweep",
@@ -1312,6 +1325,99 @@
                 "armor_penetration": 2,
                 "attacks": "12",
                 "damage": "3",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Knight Ruinator",
+        "points": 350,
+        "unit_type": "model",
+        "toughness": "11",
+        "movement": "10",
+        "wounds": "26",
+        "leadership": "6",
+        "oc": "10",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": {
+            "rerollWounds": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Abhorrent",
+            "Chaos",
+            "Chaos Knights",
+            "Character",
+            "Knight Ruinator",
+            "Titanic",
+            "Towering",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Darkflame lance",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Terrorpulse missiles",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Fellbore - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "6",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti2": true,
+                    "antiTypeVehicleOrMonster": true
+                }
+            },
+            {
+                "name": "Fellbore - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "10",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1319,14 +1425,14 @@
     {
         "status": "success",
         "unit_name": "Knight Tyrant",
-        "points": 480,
+        "points": 395,
         "unit_type": "model",
-        "toughness": "13",
+        "toughness": "12",
         "movement": "8",
-        "wounds": "24",
+        "wounds": "28",
         "leadership": "6",
         "oc": "10",
-        "armour_save": "2",
+        "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -1366,8 +1472,8 @@
                 "attacks": "3D6",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "autoHit": true,
-                    "ignoresCover": true
+                    "ignoresCover": true,
+                    "autoHit": true
                 }
             },
             {
@@ -1376,8 +1482,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "D6+3",
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -1390,8 +1496,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
                 "attacks": "D6+3",
                 "damage": "3",
                 "parsed_weapon_types": {
@@ -1447,19 +1553,16 @@
             },
             {
                 "name": "Warpshock harpoon",
-                "range": "18",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 24,
                 "armour_penetration": 6,
                 "armor_penetration": 6,
-                "attacks": "1",
+                "attacks": "D3",
                 "damage": "12",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeMonster": true,
-                    "anti4": true,
-                    "antiTypeVehicle": true,
+                    "blast": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
@@ -1483,19 +1586,18 @@
     {
         "status": "success",
         "unit_name": "War Dog Brigand",
-        "points": 165,
+        "points": 140,
         "unit_type": "model",
-        "toughness": "10",
+        "toughness": "9",
         "movement": "12",
-        "wounds": "12",
+        "wounds": "14",
         "leadership": "7",
-        "oc": "8",
+        "oc": "6",
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
             "Brigand",
             "Chaos",
             "Chaos Knights",
@@ -1518,7 +1620,7 @@
             },
             {
                 "name": "Daemonbreath spear",
-                "range": "24",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 12,
@@ -1578,11 +1680,11 @@
         "unit_name": "War Dog Executioner",
         "points": 130,
         "unit_type": "model",
-        "toughness": "10",
+        "toughness": "9",
         "movement": "12",
-        "wounds": "12",
+        "wounds": "14",
         "leadership": "7",
-        "oc": "8",
+        "oc": "6",
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": {
@@ -1590,7 +1692,6 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
             "Chaos",
             "Chaos Knights",
             "Executioner",
@@ -1658,19 +1759,18 @@
         "unit_name": "War Dog Huntsman",
         "points": 140,
         "unit_type": "model",
-        "toughness": "10",
+        "toughness": "9",
         "movement": "12",
-        "wounds": "12",
+        "wounds": "14",
         "leadership": "7",
-        "oc": "8",
+        "oc": "6",
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": {
-            "rerollOnesWounds": true
+            "rerollWounds": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
             "Chaos",
             "Chaos Knights",
             "Huntsman",
@@ -1693,7 +1793,7 @@
             },
             {
                 "name": "Daemonbreath spear",
-                "range": "24",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 12,
@@ -1750,17 +1850,16 @@
         "unit_name": "War Dog Karnivore",
         "points": 140,
         "unit_type": "model",
-        "toughness": "10",
+        "toughness": "9",
         "movement": "14",
-        "wounds": "12",
+        "wounds": "14",
         "leadership": "7",
-        "oc": "8",
+        "oc": "6",
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
             "Chaos",
             "Chaos Knights",
             "Karnivore",
@@ -1801,28 +1900,20 @@
         ],
         "melee_weapons": [
             {
-                "name": "Reaper chaintalon - strike",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Reaper chaintalon - sweep",
+                "name": "Reaper chaintalon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "8",
+                "attacks": "12",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             },
             {
                 "name": "Slaughterclaw",
@@ -1832,20 +1923,24 @@
                 "strength": 12,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "4",
+                "attacks": "6",
                 "damage": "D6+2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "War Dog Moirax",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
-        "toughness": "10",
+        "toughness": "9",
         "movement": "12",
-        "wounds": "12",
+        "wounds": "14",
         "leadership": "7",
         "oc": "8",
         "armour_save": "3",
@@ -1853,7 +1948,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
             "Chaos",
             "Chaos Knights",
             "Moirax",
@@ -1912,7 +2006,7 @@
                 }
             },
             {
-                "name": "Siege claw and rad cleanser",
+                "name": "Rad cleanser",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
@@ -1977,11 +2071,11 @@
         "unit_name": "War Dog Stalker",
         "points": 140,
         "unit_type": "model",
-        "toughness": "10",
+        "toughness": "9",
         "movement": "12",
-        "wounds": "12",
+        "wounds": "14",
         "leadership": "7",
-        "oc": "8",
+        "oc": "6",
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": {
@@ -1989,10 +2083,8 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Battleline",
             "Chaos",
             "Chaos Knights",
-            "Character",
             "Stalker",
             "Vehicle",
             "Walker",
@@ -2013,7 +2105,7 @@
             },
             {
                 "name": "Daemonbreath spear",
-                "range": "24",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 12,
