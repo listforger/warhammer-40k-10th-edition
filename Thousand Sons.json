@@ -1013,7 +1013,7 @@
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "6",
+                "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
             }
@@ -1064,7 +1064,9 @@
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 6
+        },
         "tags": [
             "Chaos",
             "Daemon",
@@ -1307,7 +1309,7 @@
         "movement": "10",
         "wounds": "6",
         "leadership": "6",
-        "oc": "1",
+        "oc": "2",
         "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
