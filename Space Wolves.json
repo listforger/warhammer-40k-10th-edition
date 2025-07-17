@@ -5,7 +5,7 @@
         "points": 95,
         "unit_type": "model",
         "toughness": "5",
-        "movement": "5",
+        "movement": "6",
         "wounds": "6",
         "leadership": "6",
         "oc": "1",
@@ -38,8 +38,8 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "antiTypeMonster": true,
-                    "anti2": true
+                    "anti3": true,
+                    "antiTypeVehicleOrMonster": true
                 }
             }
         ],
@@ -56,8 +56,8 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "antiTypeMonster": true,
-                    "anti2": true
+                    "anti3": true,
+                    "antiTypeVehicleOrMonster": true
                 }
             }
         ]
@@ -65,10 +65,10 @@
     {
         "status": "success",
         "unit_name": "Bjorn the Fell-Handed",
-        "points": 190,
+        "points": 170,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "8",
+        "movement": "9",
         "wounds": "8",
         "leadership": "6",
         "oc": "3",
@@ -76,8 +76,7 @@
         "invunerable_save": null,
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 5,
-            "halfDamage": true
+            "feelNoPain": 5
         },
         "tags": [
             "Adeptus Astartes",
@@ -108,34 +107,6 @@
                 }
             },
             {
-                "name": "Heavy plasma cannon - standard",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Heavy plasma cannon - supercharge",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
                 "name": "Helfrost cannon - dispersed",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -154,7 +125,7 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
@@ -172,20 +143,6 @@
                 "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
             }
         ],
         "melee_weapons": [
@@ -209,10 +166,10 @@
     {
         "status": "success",
         "unit_name": "Blood Claws",
-        "points": 140,
+        "points": 135,
         "unit_type": "unit",
         "toughness": "4",
-        "movement": "6",
+        "movement": "7",
         "wounds": "2",
         "leadership": "6",
         "oc": "2",
@@ -227,99 +184,15 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Space Wolves"
+            "Space Wolves",
+            "Tacticus"
         ],
-        "ranged_weapons": [
-            {
-                "name": "Flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Grav-gun",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeVehicle": true,
-                    "anti2": true
-                }
-            },
-            {
-                "name": "Meltagun",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Plasma gun - standard",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Plasma gun - supercharge",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "rapidFire": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "ranged_weapons": [],
+        "melee_weapons": []
     },
     {
         "status": "success",
-        "unit_name": "Canis Wolfborn",
+        "unit_name": "Canis Wolfborn [Legends]",
         "points": 75,
         "unit_type": "model",
         "toughness": "6",
@@ -385,7 +258,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Cyberwolf",
+        "unit_name": "Cyberwolf [Legends]",
         "points": 20,
         "unit_type": "model",
         "toughness": "4",
@@ -426,7 +299,7 @@
     {
         "status": "success",
         "unit_name": "Fenrisian Wolves",
-        "points": 30,
+        "points": 40,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "10",
@@ -454,45 +327,6 @@
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Grey Hunters",
-        "points": 85,
-        "unit_type": "unit",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "2",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Astartes",
-            "Battleline",
-            "Grenades",
-            "Grey Hunters",
-            "Imperium",
-            "Infantry",
-            "Space Wolves"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -501,7 +335,100 @@
     },
     {
         "status": "success",
-        "unit_name": "Harald Deathwolf",
+        "unit_name": "Grey Hunters",
+        "points": 180,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": {
+            "rerollWounds": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Battleline",
+            "Grenades",
+            "Grey Hunters",
+            "Imperium",
+            "Infantry",
+            "Space Wolves",
+            "Tacticus"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Carbine",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Power fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Harald Deathwolf [Legends]",
         "points": 85,
         "unit_type": "model",
         "toughness": "6",
@@ -554,7 +481,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Hounds of Morkai",
+        "unit_name": "Hounds of Morkai [Legends]",
         "points": 80,
         "unit_type": "unit",
         "toughness": "4",
@@ -623,14 +550,14 @@
         "points": 60,
         "unit_type": "model",
         "toughness": "4",
-        "movement": "6",
+        "movement": "7",
         "wounds": "4",
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": null,
         "global_modifiers": {
-            "plusOneToHit": true
+            "rerollWounds": true
         },
         "defenderGlobalModifiers": {
             "heal": true,
@@ -639,7 +566,6 @@
         "tags": [
             "Adeptus Astartes",
             "Character",
-            "Grenades",
             "Imperium",
             "Infantry",
             "Iron Priest",
@@ -652,10 +578,10 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
-                "strength": 3,
+                "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D3",
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "autoHit": true
@@ -665,7 +591,7 @@
                 "name": "Helfrost pistol - focused",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
@@ -676,26 +602,14 @@
         ],
         "melee_weapons": [
             {
-                "name": "Servo-arm",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "damage": "3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Tempest hammer",
+                "name": "Tempest hammer and Servo-arm",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "3",
                 "parsed_weapon_types": null
             }
@@ -798,7 +712,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Krom Dragongaze",
+        "unit_name": "Krom Dragongaze [Legends]",
         "points": 65,
         "unit_type": "model",
         "toughness": "4",
@@ -843,11 +757,11 @@
     {
         "status": "success",
         "unit_name": "Logan Grimnar",
-        "points": 115,
+        "points": 110,
         "unit_type": "model",
         "toughness": "5",
-        "movement": "5",
-        "wounds": "6",
+        "movement": "6",
+        "wounds": "8",
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
@@ -868,7 +782,19 @@
         "ranged_weapons": [],
         "melee_weapons": [
             {
-                "name": "The Axe Morkai - one-handed",
+                "name": "Axe Morkai - Strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Axe Morkai - Sweep",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -880,22 +806,22 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "The Axe Morkai - two-handed",
+                "name": "Tyrnak and Fenrir [Extra Attacks]",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "6",
-                "damage": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Logan Grimnar on Stormrider",
+        "unit_name": "Logan Grimnar on Stormrider [Legends]",
         "points": 180,
         "unit_type": "model",
         "toughness": "6",
@@ -920,19 +846,19 @@
         "ranged_weapons": [],
         "melee_weapons": [
             {
-                "name": "Flurry of teeth and claws",
+                "name": "Axe Morkai - Strike",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "1",
+                "damage": "3",
                 "parsed_weapon_types": null
             },
             {
-                "name": "The Axe Morkai - one-handed",
+                "name": "Axe Morkai - Sweep",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -944,22 +870,22 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "The Axe Morkai - two-handed",
+                "name": "Flurry of teeth and claws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "6",
-                "damage": "3",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Long Fangs",
+        "unit_name": "Long Fangs [Legends]",
         "points": 120,
         "unit_type": "unit",
         "toughness": "4",
@@ -1161,7 +1087,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Lukas the Trickster",
+        "unit_name": "Lukas the Trickster [Legends]",
         "points": 50,
         "unit_type": "model",
         "toughness": "4",
@@ -1227,10 +1153,10 @@
     {
         "status": "success",
         "unit_name": "Murderfang",
-        "points": 170,
+        "points": 160,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "8",
+        "movement": "9",
         "wounds": "8",
         "leadership": "6",
         "oc": "0",
@@ -1269,7 +1195,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "The Murderclaws",
+                "name": "Murderclaws",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -1279,6 +1205,9 @@
                 "attacks": "8",
                 "damage": "3",
                 "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "twinLinked": true
                 }
             }
@@ -1289,12 +1218,12 @@
         "unit_name": "Njal Stormcaller",
         "points": 85,
         "unit_type": "model",
-        "toughness": "5",
-        "movement": "5",
-        "wounds": "5",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "4",
         "leadership": "6",
         "oc": "1",
-        "armour_save": "2",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -1307,7 +1236,7 @@
             "Njal Stormcaller",
             "Psyker",
             "Space Wolves",
-            "Terminator"
+            "Tacticus"
         ],
         "ranged_weapons": [
             {
@@ -1368,13 +1297,15 @@
         "points": 90,
         "unit_type": "model",
         "toughness": "4",
-        "movement": "6",
+        "movement": "7",
         "wounds": "5",
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
         "invunerable_save": "4",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollWounds": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
@@ -1410,7 +1341,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Skyclaws",
+        "unit_name": "Skyclaws [Legends]",
         "points": 90,
         "unit_type": "unit",
         "toughness": "4",
@@ -1547,19 +1478,16 @@
     {
         "status": "success",
         "unit_name": "Space Wolves Venerable Dreadnought",
-        "points": 155,
+        "points": 140,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "6",
+        "movement": "8",
         "wounds": "8",
         "leadership": "6",
         "oc": "3",
         "armour_save": "2",
         "invunerable_save": null,
-        "global_modifiers": {
-            "rerollOnesHits": true,
-            "rerollOnesWounds": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
@@ -1599,34 +1527,6 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Plasma cannon - standard",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Plasma cannon - supercharge",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
                 "name": "Storm Bolter",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -1650,7 +1550,7 @@
                 "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
+                "attacks": "6",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
             },
@@ -1662,7 +1562,7 @@
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "10",
+                "attacks": "12",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -1670,7 +1570,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Stormfang Gunship",
+        "unit_name": "Stormfang Gunship [Legends]",
         "points": 300,
         "unit_type": "model",
         "toughness": "10",
@@ -1742,7 +1642,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Stormwolf",
+        "unit_name": "Stormwolf [Legends]",
         "points": 250,
         "unit_type": "model",
         "toughness": "10",
@@ -1800,10 +1700,10 @@
     {
         "status": "success",
         "unit_name": "Thunderwolf Cavalry",
-        "points": 120,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "6",
-        "movement": "10",
+        "movement": "12",
         "wounds": "4",
         "leadership": "6",
         "oc": "2",
@@ -1859,15 +1759,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Heirloom weapon",
+                "name": "Wolf Guard Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "4",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
@@ -1885,7 +1785,8 @@
         "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": {
-            "rerollHits": true
+            "plusOneToHit": true,
+            "plusOneToWound": true
         },
         "defenderGlobalModifiers": {
             "feelNoPain": 6
@@ -1898,7 +1799,8 @@
             "Imperium",
             "Infantry",
             "Space Wolves",
-            "Ulrik the Slayer"
+            "Ulrik the Slayer",
+            "Wolf Priest"
         ],
         "ranged_weapons": [
             {
@@ -1937,13 +1839,17 @@
                 "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "antiTypeVehicleOrMonster": true
+                }
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Wolf Guard",
+        "unit_name": "Wolf Guard [Legends]",
         "points": 85,
         "unit_type": "unit",
         "toughness": "4",
@@ -2025,7 +1931,74 @@
     },
     {
         "status": "success",
-        "unit_name": "Wolf Guard Battle Leader in Terminator Armour",
+        "unit_name": "Wolf Guard Battle Leader",
+        "points": 65,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": {
+            "rerollOnesHits": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Battle Leader",
+            "Character",
+            "Imperium",
+            "Infantry",
+            "Space Wolves",
+            "Tacticus",
+            "Wolf Guard"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Master-crafted Bolt Carbine",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Master-crafted Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "7",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Guard Battle Leader in Terminator Armour [Legends]",
         "points": 75,
         "unit_type": "model",
         "toughness": "5",
@@ -2155,7 +2128,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Wolf Guard Battle Leader on Thunderwolf",
+        "unit_name": "Wolf Guard Battle Leader on Thunderwolf [Legends]",
         "points": 80,
         "unit_type": "model",
         "toughness": "6",
@@ -2305,7 +2278,72 @@
     },
     {
         "status": "success",
-        "unit_name": "Wolf Guard Pack Leader",
+        "unit_name": "Wolf Guard Headtakers",
+        "points": 85,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "3",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Beast",
+            "Headtakers",
+            "Hunting Wolves",
+            "Imperium",
+            "Infantry",
+            "Space Wolves",
+            "Tacticus",
+            "Wolf Guard"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Paired Master-crafted Power Weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Teeth and Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Guard Pack Leader [Legends]",
         "points": 30,
         "unit_type": "model",
         "toughness": "4",
@@ -2405,7 +2443,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Wolf Guard Pack Leader in Terminator Armour",
+        "unit_name": "Wolf Guard Pack Leader in Terminator Armour [Legends]",
         "points": 40,
         "unit_type": "model",
         "toughness": "5",
@@ -2520,7 +2558,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Wolf Guard Pack Leader with Jump Pack",
+        "unit_name": "Wolf Guard Pack Leader with Jump Pack [Legends]",
         "points": 35,
         "unit_type": "model",
         "toughness": "4",
@@ -2623,18 +2661,16 @@
     {
         "status": "success",
         "unit_name": "Wolf Guard Terminators",
-        "points": 185,
+        "points": 170,
         "unit_type": "unit",
         "toughness": "5",
-        "movement": "5",
+        "movement": "6",
         "wounds": "3",
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
@@ -2647,55 +2683,25 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Combi-weapon",
+                "name": "Assault Cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
+                "ballistic_skill": 2,
+                "strength": 6,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "1",
+                "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
                     "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
+                    "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Cyclone missile launcher - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2D6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
-            },
-            {
-                "name": "Cyclone missile launcher - krak",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "damage": "D6",
-                "parsed_weapon_types": null
             },
             {
                 "name": "Storm Bolter",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
@@ -2707,6 +2713,18 @@
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Power fist",
                 "range": "",
@@ -2720,27 +2738,15 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power weapon",
+                "name": "Relic Great Axe",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Thunder hammer",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
+                "strength": 7,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
@@ -2754,7 +2760,7 @@
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
+                "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "twinLinked": true
@@ -2764,7 +2770,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Wolf Lord on Thunderwolf",
+        "unit_name": "Wolf Lord on Thunderwolf [Legends]",
         "points": 100,
         "unit_type": "model",
         "toughness": "6",
@@ -2818,7 +2824,33 @@
     },
     {
         "status": "success",
-        "unit_name": "Wolf Scouts",
+        "unit_name": "Wolf Priest",
+        "points": 70,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Character",
+            "Imperium",
+            "Infantry",
+            "Space Wolves",
+            "Tacticus",
+            "Wolf Priest"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Scouts [Legends]",
         "points": 80,
         "unit_type": "unit",
         "toughness": "4",
@@ -2986,19 +3018,19 @@
     {
         "status": "success",
         "unit_name": "Wulfen",
-        "points": 95,
+        "points": 85,
         "unit_type": "unit",
-        "toughness": "5",
-        "movement": "8",
+        "toughness": "6",
+        "movement": "9",
         "wounds": "2",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "0",
         "armour_save": "4",
         "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 6
+        "global_modifiers": {
+            "rerollOnesHits": true
         },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
             "Imperium",
@@ -3011,11 +3043,11 @@
                 "name": "Stormfrag auto-launcher",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
+                "ballistic_skill": 4,
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "D6",
+                "attacks": "D3",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
@@ -3024,38 +3056,30 @@
         ],
         "melee_weapons": [
             {
-                "name": "Wulfen claws and melee weapons",
+                "name": "Wulfen Weapons",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Wulfen hammer",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Wulfen Dreadnought",
-        "points": 130,
+        "points": 145,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "8",
+        "movement": "9",
         "wounds": "8",
         "leadership": "6",
         "oc": "0",
@@ -3099,7 +3123,7 @@
                 "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
+                "attacks": "6",
                 "damage": "D6+1",
                 "parsed_weapon_types": null
             },
@@ -3111,7 +3135,7 @@
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "10",
+                "attacks": "12",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -3123,9 +3147,68 @@
                 "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "5",
+                "attacks": "6",
                 "damage": "3",
                 "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wulfen with Storm Shields",
+        "points": 100,
+        "unit_type": "unit",
+        "toughness": "6",
+        "movement": "9",
+        "wounds": "2",
+        "leadership": "7",
+        "oc": "0",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": {
+            "rerollOnesHits": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Imperium",
+            "Infantry",
+            "Space Wolves",
+            "Wulfen",
+            "Wulfen with Storm Shields"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Stormfrag auto-launcher",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Thunder Hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti3": true,
+                    "antiTypeVehicleOrMonster": true
+                }
             }
         ]
     }
