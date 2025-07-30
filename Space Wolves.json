@@ -1477,99 +1477,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Space Wolves Venerable Dreadnought",
-        "points": 140,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "8",
-        "wounds": "8",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Astartes",
-            "Dreadnought",
-            "Imperium",
-            "Smoke",
-            "Space Wolves",
-            "Vehicle",
-            "Venerable Dreadnought",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Helfrost cannon - dispersed",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Helfrost cannon - focused",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "5",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Fenrisian great axe - strike",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "D6+1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Fenrisian great axe - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "12",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Stormfang Gunship [Legends]",
         "points": 300,
         "unit_type": "model",
@@ -1844,6 +1751,99 @@
                     "anti4": true,
                     "antiTypeVehicleOrMonster": true
                 }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Venerable Dreadnought",
+        "points": 140,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "8",
+        "wounds": "8",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Dreadnought",
+            "Imperium",
+            "Smoke",
+            "Space Wolves",
+            "Vehicle",
+            "Venerable Dreadnought",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Helfrost cannon - dispersed",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Helfrost cannon - focused",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "5",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Fenrisian great axe - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Fenrisian great axe - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "12",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },

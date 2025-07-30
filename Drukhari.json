@@ -880,7 +880,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Aeldari power sword",
+                "name": "Power sword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -1606,7 +1606,7 @@
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
-        "wounds": "2",
+        "wounds": "1",
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
@@ -2926,20 +2926,6 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Heat Lance",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 14,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            },
-            {
                 "name": "Stinger Pod",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -2967,6 +2953,20 @@
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Twin heat lance",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 14,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": {
                     "twinLinked": true
                 }
             },

@@ -466,10 +466,11 @@
         "tags": [
             "Agents of the Imperium",
             "Battleline",
-            "Deathwatch Kill Team",
+            "Deathwatch",
             "Grenades",
             "Imperium",
             "Infantry",
+            "Kill Team",
             "Ordo Xenos",
             "Retinue"
         ],
@@ -578,7 +579,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Blackshield blades",
+                "name": "Black Shield blades",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -656,10 +657,53 @@
             "Infantry",
             "Terminator"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            }
+        ],
         "melee_weapons": [
             {
-                "name": "Power Weapon",
+                "name": "Chainfist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeVehicle": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -3001,7 +3045,7 @@
         "leadership": "6",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": {
             "plusOneToHit": true
         },
@@ -3016,6 +3060,21 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Assault cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
                 "name": "Bolt pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -3025,6 +3084,44 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Cyclone missile launcher - frag",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Cyclone missile launcher - krak",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "D6",
                 "parsed_weapon_types": null
             },
             {
@@ -3043,6 +3140,113 @@
                 }
             },
             {
+                "name": "Heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Infernus heavy bolter - heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Infernus heavy bolter - heavy flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Long Vigil ranged weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Plasma cannon - standard",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Plasma cannon - supercharge",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2
+                }
+            },
+            {
                 "name": "Twin boltgun",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -3058,6 +3262,22 @@
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Chainfist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeVehicle": true,
+                    "anti3": true
+                }
+            },
             {
                 "name": "Deathwatch thunder hammer",
                 "range": "",
@@ -3086,7 +3306,19 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power Weapon",
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
