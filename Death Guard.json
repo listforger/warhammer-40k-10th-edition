@@ -2392,7 +2392,10 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             },
             {
                 "name": "Plasma cannon",
@@ -2405,7 +2408,9 @@
                 "attacks": "D3",
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
@@ -2419,7 +2424,9 @@
                 "attacks": "2",
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
                 }
             },
             {
