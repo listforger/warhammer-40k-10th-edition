@@ -89,6 +89,7 @@
             "Daemon",
             "Horrors",
             "Infantry",
+            "Psychic Weapon",
             "Scintillating Legions",
             "Summoned",
             "Tzeentch"
@@ -354,6 +355,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "7",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -894,7 +907,7 @@
             "Daemon",
             "Daemon Prince",
             "Monster",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -990,7 +1003,7 @@
             "Daemon Prince",
             "Fly",
             "Monster",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -1246,7 +1259,7 @@
             "Exalted Sorcerer",
             "Grenades",
             "Infantry",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -1330,7 +1343,7 @@
             "Grenades",
             "Infantry",
             "Mounted",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -1678,6 +1691,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Helbrute hammer",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1932,7 +1957,7 @@
             "Grenades",
             "Infantry",
             "Infernal Master",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Thousand Sons",
             "Tzeentch"
@@ -2430,6 +2455,7 @@
             "Horrors",
             "Infantry",
             "Pink",
+            "Psychic Weapon",
             "Scintillating Legions",
             "Summoned",
             "Tzeentch"
@@ -2483,6 +2509,7 @@
             "Battleline",
             "Chaos",
             "Infantry",
+            "Psychic Weapon",
             "Psyker",
             "Rubric",
             "Rubric Marines",
@@ -2581,6 +2608,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Force weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2611,6 +2650,7 @@
         "tags": [
             "Chaos",
             "Infantry",
+            "Psychic Weapon",
             "Psyker",
             "Rubricae",
             "Scarab Occult",
@@ -2847,6 +2887,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Power claw",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2879,7 +2931,7 @@
             "Character",
             "Grenades",
             "Infantry",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Sorcerer",
             "Thousand Sons",
@@ -2962,7 +3014,7 @@
             "Chaos",
             "Character",
             "Infantry",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Sorcerer",
             "Terminator",
@@ -3058,6 +3110,7 @@
             "Fly",
             "Grenades",
             "Infantry",
+            "Psychic Weapon",
             "Psyker",
             "Sorcerer",
             "Thousand Sons",
@@ -3320,7 +3373,20 @@
                 }
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
@@ -3345,7 +3411,7 @@
             "Infantry",
             "Mounted",
             "Mutant",
-            "Psychic weapon",
+            "Psychic Weapon",
             "Psyker",
             "Thousand Sons",
             "Tzaangor Shaman",

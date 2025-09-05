@@ -546,6 +546,41 @@
     },
     {
         "status": "success",
+        "unit_name": "Hunting Wolves",
+        "points": null,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "10",
+        "wounds": "1",
+        "leadership": "8",
+        "oc": "0",
+        "armour_save": "6",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Beast",
+            "Hunting Wolves",
+            "Imperium"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Teeth and Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Iron Priest",
         "points": 60,
         "unit_type": "model",
@@ -1072,6 +1107,18 @@
                 "parsed_weapon_types": null
             },
             {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Power weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1175,7 +1222,8 @@
             "Murderfang",
             "Space Wolves",
             "Vehicle",
-            "Walker"
+            "Walker",
+            "Wulfen"
         ],
         "ranged_weapons": [
             {
@@ -1470,6 +1518,18 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -2072,6 +2132,18 @@
                 }
             },
             {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -2209,6 +2281,18 @@
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Crushing teeth and claws",
                 "range": "",
@@ -2674,11 +2758,11 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Astartes",
-            "Grenades",
             "Imperium",
             "Infantry",
             "Space Wolves",
             "Terminator",
+            "Wolf Guard",
             "Wolf Guard Terminators"
         ],
         "ranged_weapons": [
@@ -2794,6 +2878,18 @@
         ],
         "ranged_weapons": [],
         "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
             {
                 "name": "Crushing teeth and claws",
                 "range": "",
@@ -3096,7 +3192,7 @@
             "Space Wolves",
             "Vehicle",
             "Walker",
-            "Wulfen Dreadnought"
+            "Wulfen"
         ],
         "ranged_weapons": [
             {
