@@ -173,6 +173,7 @@
             "Grey Knights",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker"
         ],
@@ -227,6 +228,7 @@
             "Grey Knights",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Psyker",
             "Terminator"
         ],
@@ -281,8 +283,10 @@
             "Grey Knights",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Terminator"
         ],
         "ranged_weapons": [
@@ -371,10 +375,13 @@
         "tags": [
             "Brotherhood Techmarine",
             "Character",
+            "Extra Attacks Weapon",
             "Grey Knights",
             "Imperium",
             "Infantry",
-            "Psyker"
+            "Melee Weapon",
+            "Psyker",
+            "Ranged Weapon"
         ],
         "ranged_weapons": [
             {
@@ -629,6 +636,7 @@
             "Grey Knights",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
             "Terminator"
@@ -729,8 +737,10 @@
             "Grand Master in Nemesis Dreadknight",
             "Grey Knights",
             "Imperium",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Vehicle",
             "Walker"
         ],
@@ -1606,7 +1616,7 @@
     {
         "status": "success",
         "unit_name": "Land Raider",
-        "points": 240,
+        "points": 220,
         "unit_type": "model",
         "toughness": "12",
         "movement": "10",
@@ -1808,7 +1818,20 @@
                 }
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Armoured tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
@@ -1924,7 +1947,7 @@
     {
         "status": "success",
         "unit_name": "Land Raider Redeemer",
-        "points": 285,
+        "points": 270,
         "unit_type": "model",
         "toughness": "12",
         "movement": "12",

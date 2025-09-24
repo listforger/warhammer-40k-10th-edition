@@ -482,7 +482,7 @@
     {
         "status": "success",
         "unit_name": "Broadside Battlesuits",
-        "points": 90,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -644,6 +644,8 @@
             "Character",
             "Grenades",
             "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon",
             "T'au Empire"
         ],
         "ranged_weapons": [
@@ -716,7 +718,7 @@
     {
         "status": "success",
         "unit_name": "Commander Farsight",
-        "points": 95,
+        "points": 85,
         "unit_type": "model",
         "toughness": "5",
         "movement": "10",
@@ -799,6 +801,8 @@
             "Character",
             "Commander in Coldstar Battlesuit",
             "Fly",
+            "Melee Weapon",
+            "Ranged Weapon",
             "T'au Empire",
             "Vehicle",
             "Walker"
@@ -991,6 +995,7 @@
             "Character",
             "Commander in Crisis Battlesuit",
             "Fly",
+            "Melee Weapon",
             "T'au Empire",
             "Vehicle",
             "Walker"
@@ -1169,6 +1174,7 @@
             "Character",
             "Commander in Enforcer Battlesuit",
             "Fly",
+            "Melee Weapon",
             "T'au Empire",
             "Vehicle",
             "Walker"
@@ -1600,7 +1606,7 @@
     {
         "status": "success",
         "unit_name": "Crisis Fireknife Battlesuits",
-        "points": 130,
+        "points": 120,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -1805,7 +1811,7 @@
     {
         "status": "success",
         "unit_name": "Crisis Sunforge Battlesuits",
-        "points": 150,
+        "points": 140,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -2137,6 +2143,7 @@
             "Ethereal",
             "Fly",
             "Infantry",
+            "Melee Weapon",
             "T'au Empire"
         ],
         "ranged_weapons": [
@@ -2195,7 +2202,7 @@
     {
         "status": "success",
         "unit_name": "Firesight Team",
-        "points": 70,
+        "points": 60,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -2213,6 +2220,8 @@
             "Firesight Team",
             "Infantry",
             "Markerlight",
+            "Melee Weapon",
+            "Ranged Weapon",
             "T'au Empire"
         ],
         "ranged_weapons": [
@@ -2683,6 +2692,7 @@
             "stealth": true
         },
         "tags": [
+            "Extra Attacks Weapon",
             "Knarloc Riders",
             "Kroot",
             "Mounted",
@@ -2981,6 +2991,8 @@
             "Flesh Shaper",
             "Infantry",
             "Kroot",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Shaper",
             "T'au Empire"
         ],
@@ -3073,9 +3085,12 @@
         },
         "tags": [
             "Character",
+            "Extra Attacks Weapon",
             "Kroot",
             "Lone-spear",
+            "Melee Weapon",
             "Mounted",
+            "Ranged Weapon",
             "T'au Empire"
         ],
         "ranged_weapons": [
@@ -3167,6 +3182,7 @@
             "Character",
             "Infantry",
             "Kroot",
+            "Melee Weapon",
             "Shaper",
             "T'au Empire",
             "Trail Shaper"
@@ -3222,6 +3238,8 @@
             "Character",
             "Infantry",
             "Kroot",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Shaper",
             "T'au Empire",
             "War Shaper"
@@ -3301,6 +3319,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Extra Attacks Weapon",
             "Grenades",
             "Kroot",
             "Krootox Rampagers",
@@ -3369,6 +3388,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Extra Attacks Weapon",
             "Grenades",
             "Kroot",
             "Krootox Riders",
@@ -4327,7 +4347,7 @@
                 "range": "72",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "6",
@@ -4339,7 +4359,7 @@
                 "range": "72",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 7,
+                "strength": 9,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",

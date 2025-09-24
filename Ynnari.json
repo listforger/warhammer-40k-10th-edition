@@ -145,6 +145,8 @@
             "Character",
             "Grenades",
             "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Ynnari"
         ],
         "ranged_weapons": [
@@ -296,7 +298,9 @@
             "Autarch Skyrunner",
             "Character",
             "Fly",
-            "Mounted"
+            "Melee Weapon",
+            "Mounted",
+            "Ranged Weapon"
         ],
         "ranged_weapons": [
             {
@@ -402,6 +406,8 @@
             "Grenades",
             "Infantry",
             "Jump Pack",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Ynnari"
         ],
         "ranged_weapons": [
@@ -660,6 +666,8 @@
             "Bonesinger",
             "Character",
             "Infantry",
+            "Melee Weapon",
+            "Psychic Weapon",
             "Psyker"
         ],
         "ranged_weapons": [],
@@ -736,7 +744,7 @@
     {
         "status": "success",
         "unit_name": "Corsair Voidreavers",
-        "points": 60,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -1478,7 +1486,9 @@
             "Death Jester",
             "Harlequin Allies",
             "Harlequins",
-            "Infantry"
+            "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon"
         ],
         "ranged_weapons": [
             {
@@ -1512,7 +1522,7 @@
     {
         "status": "success",
         "unit_name": "Dire Avengers",
-        "points": 80,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -1830,8 +1840,10 @@
             "Character",
             "Farseer",
             "Infantry",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Ynnari"
         ],
         "ranged_weapons": [
@@ -1926,9 +1938,11 @@
             "Farseer",
             "Farseer Skyrunner",
             "Fly",
+            "Melee Weapon",
             "Mounted",
             "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Ynnari"
         ],
         "ranged_weapons": [
@@ -3914,6 +3928,7 @@
         "tags": [
             "Aeldari",
             "Drukhari",
+            "Extra Attacks Weapon",
             "Fly",
             "Kabal",
             "Reaper",
@@ -4502,8 +4517,10 @@
             "Harlequin Allies",
             "Harlequins",
             "Infantry",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Shadowseer"
         ],
         "ranged_weapons": [
@@ -4702,7 +4719,7 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Ranger long rifle",
+                "name": "Long rifle",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
@@ -4959,6 +4976,7 @@
             "Asuryani",
             "Character",
             "Infantry",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
             "Spiritseer",
@@ -5657,6 +5675,8 @@
             "Harlequin Allies",
             "Harlequins",
             "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Troupe Master"
         ],
         "ranged_weapons": [
@@ -6243,8 +6263,10 @@
             "Asuryani",
             "Character",
             "Infantry",
+            "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Warlock",
             "Ynnari"
         ],
@@ -6992,7 +7014,7 @@
     {
         "status": "success",
         "unit_name": "Wraithblades",
-        "points": 170,
+        "points": 160,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "6",
@@ -7595,8 +7617,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D3",
                 "parsed_weapon_types": null

@@ -382,20 +382,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Twin Lightning Claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
             }
         ]
     },
@@ -514,6 +500,7 @@
             "Imperium",
             "Infantry",
             "Lieutenant",
+            "Melee Weapon",
             "Terminator"
         ],
         "ranged_weapons": [
@@ -1014,7 +1001,7 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D6+1",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
                     "twinLinked": true
@@ -1029,7 +1016,7 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "D6+1",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true,
                     "twinLinked": true
@@ -1426,7 +1413,9 @@
             "Dark Angels",
             "Grenades",
             "Imperium",
+            "Melee Weapon",
             "Mounted",
+            "Ranged Weapon",
             "Ravenwing",
             "Ravenwing Command Squad"
         ],
@@ -1603,7 +1592,7 @@
     {
         "status": "success",
         "unit_name": "Ravenwing Darkshroud",
-        "points": 115,
+        "points": 100,
         "unit_type": "model",
         "toughness": "8",
         "movement": "14",

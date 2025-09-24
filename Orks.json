@@ -339,7 +339,9 @@
             "Beastboss",
             "Character",
             "Infantry",
+            "Melee Weapon",
             "Orks",
+            "Ranged Weapon",
             "Warboss"
         ],
         "ranged_weapons": [
@@ -396,7 +398,7 @@
     {
         "status": "success",
         "unit_name": "Beastboss on Squigosaur",
-        "points": 130,
+        "points": 110,
         "unit_type": "model",
         "toughness": "8",
         "movement": "10",
@@ -413,8 +415,11 @@
             "Beast Snagga",
             "Beastboss on Squigosaur",
             "Character",
+            "Extra Attacks Weapon",
+            "Melee Weapon",
             "Mounted",
             "Orks",
+            "Ranged Weapon",
             "Warboss"
         ],
         "ranged_weapons": [
@@ -597,7 +602,9 @@
             "Grenades",
             "Infantry",
             "Mek",
-            "Orks"
+            "Melee Weapon",
+            "Orks",
+            "Ranged Weapon"
         ],
         "ranged_weapons": [
             {
@@ -680,7 +687,8 @@
             "Infantry",
             "Mega Armour",
             "Mek",
-            "Orks"
+            "Orks",
+            "Ranged Weapon"
         ],
         "ranged_weapons": [
             {
@@ -1021,7 +1029,7 @@
     {
         "status": "success",
         "unit_name": "Big Mek with Shokk Attack Gun",
-        "points": 85,
+        "points": 80,
         "unit_type": "model",
         "toughness": "5",
         "movement": "6",
@@ -1403,7 +1411,7 @@
     {
         "status": "success",
         "unit_name": "Boss Snikrot",
-        "points": 95,
+        "points": 75,
         "unit_type": "model",
         "toughness": "5",
         "movement": "6",
@@ -2396,8 +2404,10 @@
         "tags": [
             "Character",
             "Deffkilla Wartrike",
+            "Melee Weapon",
             "Mounted",
             "Orks",
+            "Ranged Weapon",
             "Speed Freeks",
             "Warboss"
         ],
@@ -3489,9 +3499,9 @@
         "tags": [
             "Beast Snagga",
             "Hunta Rig",
+            "Monster",
             "Orks",
-            "Transport",
-            "Vehicle"
+            "Transport"
         ],
         "ranged_weapons": [
             {
@@ -3563,8 +3573,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -3859,10 +3869,10 @@
         "tags": [
             "Beast Snagga",
             "Kill Rig",
+            "Monster",
             "Orks",
             "Psyker",
-            "Transport",
-            "Vehicle"
+            "Transport"
         ],
         "ranged_weapons": [
             {
@@ -3948,8 +3958,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -4695,7 +4705,7 @@
     {
         "status": "success",
         "unit_name": "Meganobz",
-        "points": 70,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -4890,6 +4900,7 @@
             "Character",
             "Infantry",
             "Mek",
+            "Melee Weapon",
             "Orks"
         ],
         "ranged_weapons": [
@@ -5275,7 +5286,7 @@
     {
         "status": "success",
         "unit_name": "Mozrog Skragbad",
-        "points": 165,
+        "points": 145,
         "unit_type": "model",
         "toughness": "8",
         "movement": "10",
@@ -5361,7 +5372,9 @@
         "invunerable_save": null,
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
-        "tags": null,
+        "tags": [
+            "Extra Attacks Weapon"
+        ],
         "ranged_weapons": [
             {
                 "name": "Slugga",
@@ -5424,6 +5437,7 @@
         "tags": [
             "Character",
             "Infantry",
+            "Melee Weapon",
             "Nob with Waaagh! Banner",
             "Orks"
         ],
@@ -5699,6 +5713,7 @@
             "Beast Snagga",
             "Character",
             "Infantry",
+            "Melee Weapon",
             "Orks",
             "Painboss"
         ],
@@ -6176,7 +6191,9 @@
         "invunerable_save": null,
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
-        "tags": null,
+        "tags": [
+            "Extra Attacks Weapon"
+        ],
         "ranged_weapons": [
             {
                 "name": "Saddlegit weapons",
@@ -6777,7 +6794,7 @@
     {
         "status": "success",
         "unit_name": "Warbikers",
-        "points": 70,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "12",
@@ -6893,9 +6910,12 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
+            "Extra Attacks Weapon",
             "Grenades",
             "Infantry",
+            "Melee Weapon",
             "Orks",
+            "Ranged Weapon",
             "Warboss"
         ],
         "ranged_weapons": [
@@ -6975,7 +6995,7 @@
     {
         "status": "success",
         "unit_name": "Warboss in Mega Armour",
-        "points": 90,
+        "points": 80,
         "unit_type": "model",
         "toughness": "6",
         "movement": "5",
@@ -6992,7 +7012,9 @@
             "Character",
             "Infantry",
             "Mega Armour",
+            "Melee Weapon",
             "Orks",
+            "Ranged Weapon",
             "Warboss",
             "Warboss in Mega Armour"
         ],
@@ -7046,6 +7068,7 @@
         "tags": [
             "Character",
             "Grenades",
+            "Melee Weapon",
             "Mounted",
             "Orks",
             "Speed Freeks",
@@ -7360,8 +7383,11 @@
         "tags": [
             "Character",
             "Infantry",
+            "Melee Weapon",
             "Orks",
+            "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Weirdboy"
         ],
         "ranged_weapons": [
@@ -7413,8 +7439,11 @@
             "Beast Snagga",
             "Character",
             "Infantry",
+            "Melee Weapon",
             "Orks",
+            "Psychic Weapon",
             "Psyker",
+            "Ranged Weapon",
             "Wurrboy"
         ],
         "ranged_weapons": [

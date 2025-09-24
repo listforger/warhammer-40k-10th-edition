@@ -24,6 +24,7 @@
             "Imperium",
             "Infantry",
             "Lieutenant",
+            "Melee Weapon",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -198,6 +199,7 @@
             "Grenades",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Tacticus"
         ],
         "ranged_weapons": [],
@@ -237,10 +239,11 @@
             "Adeptus Astartes",
             "Battleline",
             "Black Templars",
+            "Crusader Squad",
             "Grenades",
             "Imperium",
             "Infantry",
-            "Primaris Crusader Squad",
+            "Power Weapon",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -288,22 +291,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Astartes Chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
             {
                 "name": "Master-crafted Power Weapon",
                 "range": "",
@@ -359,30 +346,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Astartes Chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Combat Knife",
                 "range": "",
@@ -487,9 +450,11 @@
             "Chaplain",
             "Character",
             "Execrator",
+            "Extra Attacks Weapon",
             "Grenades",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -889,6 +854,8 @@
             "Imperium",
             "Infantry",
             "Marshal",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -1082,75 +1049,12 @@
             "Grenades",
             "Imperium",
             "Infantry",
+            "Power Fist Weapon",
+            "Power Weapon",
             "Sternguard Veteran Squad",
             "Tacticus"
         ],
-        "ranged_weapons": [
-            {
-                "name": "Pyrecannon",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6+1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true
-                }
-            },
-            {
-                "name": "Sternguard Bolt Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Sternguard Bolt Rifle",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1
-                }
-            },
-            {
-                "name": "Sternguard Heavy Bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            }
-        ],
+        "ranged_weapons": [],
         "melee_weapons": [
             {
                 "name": "Astartes Chainsword",
@@ -1161,18 +1065,6 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -1222,6 +1114,7 @@
             "Grenades",
             "Imperium",
             "Infantry",
+            "Power Weapon",
             "Primaris Sword Brethren",
             "Tacticus"
         ],

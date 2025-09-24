@@ -155,6 +155,8 @@
             "Grenades",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -816,18 +818,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Astartes Chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Power Fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -908,18 +898,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Astartes Chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Close Combat Weapon",
                 "range": "",
@@ -1062,20 +1040,7 @@
             "Tacticus"
         ],
         "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Astartes Chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -1285,6 +1250,7 @@
             "Adeptus Astartes",
             "Blood Angels",
             "Dreadnought",
+            "Extra Attacks Weapon",
             "Imperium",
             "Librarian Dreadnought",
             "Psychic Weapon",
@@ -1357,7 +1323,7 @@
     {
         "status": "success",
         "unit_name": "Sanguinary Guard",
-        "points": 110,
+        "points": 125,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -1397,7 +1363,7 @@
                 "name": "Encarmine Blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
@@ -1409,11 +1375,11 @@
                 "name": "Encarmine Spear",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": {
                     "plusOneToWound": true
@@ -1446,20 +1412,7 @@
             "Tacticus"
         ],
         "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Astartes Chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": null
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -1481,7 +1434,9 @@
             "Character",
             "Grenades",
             "Imperium",
+            "Melee Weapon",
             "Mounted",
+            "Ranged Weapon",
             "Sanguinary Priest"
         ],
         "ranged_weapons": [
@@ -1609,6 +1564,7 @@
             "Imperium",
             "Infantry",
             "Jump Pack",
+            "Melee Weapon",
             "Sanguinary Priest with Jump Pack"
         ],
         "ranged_weapons": [],

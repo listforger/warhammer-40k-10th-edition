@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Arjac Rockfist",
-        "points": 95,
+        "points": 105,
         "unit_type": "model",
         "toughness": "5",
         "movement": "6",
@@ -445,6 +445,7 @@
             "Captain",
             "Character",
             "Epic Hero",
+            "Extra Attacks Weapon",
             "Grenades",
             "Harald Deathwolf",
             "Imperium",
@@ -604,6 +605,8 @@
             "Imperium",
             "Infantry",
             "Iron Priest",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Space Wolves",
             "Techmarine"
         ],
@@ -672,10 +675,13 @@
         "tags": [
             "Adeptus Astartes",
             "Character",
+            "Extra Attacks Weapon",
             "Grenades",
             "Imperium",
             "Iron Priest",
+            "Melee Weapon",
             "Mounted",
+            "Ranged Weapon",
             "Space Wolves"
         ],
         "ranged_weapons": [
@@ -808,6 +814,7 @@
             "Chapter Master",
             "Character",
             "Epic Hero",
+            "Extra Attacks Weapon",
             "Imperium",
             "Infantry",
             "Logan Grimnar",
@@ -841,7 +848,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Tyrnak and Fenrir [Extra Attacks]",
+                "name": "Tyrnak and Fenrir",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -873,6 +880,7 @@
             "Chapter Master",
             "Character",
             "Epic Hero",
+            "Extra Attacks Weapon",
             "Imperium",
             "Logan Grimnar on Stormrider",
             "Mounted",
@@ -1094,18 +1102,6 @@
             }
         ],
         "melee_weapons": [
-            {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
             {
                 "name": "Close combat weapon",
                 "range": "",
@@ -1342,7 +1338,7 @@
     {
         "status": "success",
         "unit_name": "Ragnar Blackmane",
-        "points": 90,
+        "points": 100,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
@@ -1510,18 +1506,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Astartes chainsword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "damage": "1",
-                "parsed_weapon_types": null
-            },
-            {
                 "name": "Close combat weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1667,7 +1651,7 @@
     {
         "status": "success",
         "unit_name": "Thunderwolf Cavalry",
-        "points": 100,
+        "points": 115,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "12",
@@ -2011,6 +1995,8 @@
             "Character",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Space Wolves",
             "Tacticus",
             "Wolf Guard"
@@ -2075,6 +2061,7 @@
             "Character",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Space Wolves",
             "Terminator",
             "Wolf Guard Battle Leader in Terminator Armour"
@@ -2181,20 +2168,6 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
-            },
-            {
-                "name": "Twin lightning claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
             }
         ]
     },
@@ -2217,6 +2190,7 @@
             "Character",
             "Grenades",
             "Imperium",
+            "Melee Weapon",
             "Mounted",
             "Space Wolves",
             "Wolf Guard Battle Leader on Thunderwolf"
@@ -2342,20 +2316,6 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true
-                }
-            },
-            {
-                "name": "Twin lightning claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
                 }
             }
         ]
@@ -2508,22 +2468,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Twin lightning claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -2546,6 +2491,7 @@
             "Imperium",
             "Infantry",
             "Pack Leader",
+            "Ranged Weapon",
             "Space Wolves",
             "Terminator",
             "Wolf Guard Pack Leader in Terminator Armour"
@@ -2623,20 +2569,6 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin lightning claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
             }
         ]
     },
@@ -2725,22 +2657,7 @@
                 }
             }
         ],
-        "melee_weapons": [
-            {
-                "name": "Twin lightning claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -2872,6 +2789,7 @@
             "Character",
             "Grenades",
             "Imperium",
+            "Melee Weapon",
             "Mounted",
             "Space Wolves",
             "Wolf Lord on Thunderwolf"
@@ -3094,20 +3012,6 @@
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
-            },
-            {
-                "name": "Twin Lightning Claws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
             }
         ]
     },

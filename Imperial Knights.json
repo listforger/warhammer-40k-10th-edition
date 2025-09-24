@@ -218,7 +218,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Armiger",
-            "Battleline",
             "Helverin",
             "Imperial Knights",
             "Imperium",
@@ -296,7 +295,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Armiger",
-            "Battleline",
             "Imperial Knights",
             "Imperium",
             "Moirax",
@@ -430,7 +428,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Armiger",
-            "Battleline",
             "Imperial Knights",
             "Imperium",
             "Vehicle",
@@ -534,40 +531,6 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Chainbreaker las-impulsor - high intensity",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "D6",
-                "damage": "4",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
-                "name": "Chainbreaker las-impulsor - low intensity",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2D6",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
                 "name": "Chainbreaker multi-laser",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
@@ -594,6 +557,40 @@
                 "attacks": "1",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Las-impulsor - high intensity",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6",
+                "damage": "4",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Las-impulsor - low intensity",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2D6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
             }
         ],
         "melee_weapons": [
@@ -663,6 +660,8 @@
             "Imperial Knights",
             "Imperium",
             "Knight Acheron",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -754,6 +753,8 @@
             "Imperial Knights",
             "Imperium",
             "Knight Atrapos",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -878,6 +879,8 @@
             "Imperial Knights",
             "Imperium",
             "Knight Castigator",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -946,6 +949,8 @@
             "Imperial Knights",
             "Imperium",
             "Knight Lancer",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -1018,6 +1023,8 @@
             "Imperial Knights",
             "Imperium",
             "Knight Castellan",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -1030,8 +1037,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "D6+3",
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -1044,8 +1051,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
                 "attacks": "D6+3",
                 "damage": "3",
                 "parsed_weapon_types": {
@@ -1256,7 +1263,126 @@
                 "name": "Titanic feet",
                 "range": "",
                 "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Knight Defender",
+        "points": 425,
+        "unit_type": "model",
+        "toughness": "11",
+        "movement": "10",
+        "wounds": "26",
+        "leadership": "6",
+        "oc": "10",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "minusOneDamage": true
+        },
+        "tags": [
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Defender",
+            "Questoris",
+            "Titanic",
+            "Towering",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Conversion beam obliterator",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "4",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHitsD3": true
+                }
+            },
+            {
+                "name": "Phosphor blaster",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "rapidFire": 1
+                }
+            },
+            {
+                "name": "Plasma executor - standard",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Plasma executor - supercharge",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6+3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Twin incendine combustor",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Titanic feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
                 "strength": 8,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -1451,6 +1577,7 @@
             "Imperial Knights",
             "Imperium",
             "Knight Gallant",
+            "Melee Weapon",
             "Questoris",
             "Titanic",
             "Towering",
@@ -1540,7 +1667,10 @@
                 "armor_penetration": 4,
                 "attacks": "6",
                 "damage": "6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Reaper chainsword - sweep",
@@ -1552,7 +1682,10 @@
                 "armor_penetration": 3,
                 "attacks": "18",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             },
             {
                 "name": "Thunderstrike gauntlet - strike",
@@ -1564,7 +1697,10 @@
                 "armor_penetration": 3,
                 "attacks": "6",
                 "damage": "8",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             },
             {
                 "name": "Thunderstrike gauntlet - sweep",
@@ -1576,7 +1712,10 @@
                 "armor_penetration": 2,
                 "attacks": "12",
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             }
         ]
     },
@@ -1600,6 +1739,7 @@
             "Imperium",
             "Knight Paladin",
             "Questoris",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -1756,7 +1896,7 @@
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": {
-            "rerollHits": true
+            "rerollWounds": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1765,6 +1905,7 @@
             "Imperium",
             "Knight Preceptor",
             "Questoris",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -1953,6 +2094,7 @@
             "Imperial Knights",
             "Imperium",
             "Knight Valiant",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -1976,18 +2118,16 @@
             },
             {
                 "name": "Thundercoil harpoon",
-                "range": "18",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 24,
                 "armour_penetration": 6,
                 "armor_penetration": 6,
-                "attacks": "1",
-                "damage": "12",
+                "attacks": "D3",
+                "damage": "10",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "anti4": true,
-                    "antiTypeVehicleOrMonster": true,
+                    "blast": true,
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
@@ -2035,9 +2175,7 @@
         "armour_save": "3",
         "invunerable_save": "5",
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "minusOneDamage": true
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Character",
             "Imperial Knights",
@@ -2222,6 +2360,7 @@
             "Imperium",
             "Knight Magaera",
             "Questoris",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",
@@ -2349,6 +2488,7 @@
             "Imperium",
             "Knight Styrix",
             "Questoris",
+            "Ranged Weapon",
             "Titanic",
             "Towering",
             "Vehicle",

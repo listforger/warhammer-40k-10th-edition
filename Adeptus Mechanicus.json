@@ -209,7 +209,7 @@
     {
         "status": "success",
         "unit_name": "Belisarius Cawl",
-        "points": 135,
+        "points": 175,
         "unit_type": "model",
         "toughness": "8",
         "movement": "8",
@@ -218,9 +218,7 @@
         "oc": "3",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "rerollOnesHits": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": {
             "heal": true,
             "healD3Wounds": true
@@ -231,6 +229,7 @@
             "Character",
             "Cult Mechanicus",
             "Epic Hero",
+            "Extra Attacks Weapon",
             "Imperium",
             "Monster",
             "Tech-Priest"
@@ -244,11 +243,9 @@
                 "strength": 14,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
-                "attacks": "D3",
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true
-                }
+                "attacks": "3",
+                "damage": "D6",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -378,6 +375,7 @@
             "Imperium",
             "Infantry",
             "Legio Cybernetica",
+            "Melee Weapon",
             "Tech-Priest"
         ],
         "ranged_weapons": [
@@ -458,7 +456,7 @@
     {
         "status": "success",
         "unit_name": "Ironstrider Ballistarii",
-        "points": 70,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
@@ -471,6 +469,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Mechanicus",
+            "Imperium",
             "Ironstrider Ballistarii",
             "Skitarii",
             "Smoke",
@@ -491,7 +490,8 @@
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "sustainedHits1": true,
+                    "twinLinked": true
                 }
             },
             {
@@ -507,7 +507,8 @@
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "sustainedHits1": true,
+                    "twinLinked": true
                 }
             }
         ],
@@ -914,13 +915,13 @@
                 "strength": 9,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2D3",
+                "attacks": "3D3",
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true
+                    "sustainedHits1": true
                 }
             },
             {
@@ -928,16 +929,16 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 9,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "2D3",
+                "attacks": "3D3",
                 "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true
+                    "sustainedHits1": true
                 }
             },
             {
@@ -1431,6 +1432,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Mechanicus",
+            "Extra Attacks Weapon",
             "Imperium",
             "Mounted",
             "Serberys Sulphurhounds",
@@ -1836,7 +1838,7 @@
                 "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
             },
@@ -1846,8 +1848,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1925,8 +1927,8 @@
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "4",
-                "damage": "1",
+                "attacks": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
@@ -1957,6 +1959,7 @@
             "Imperium",
             "Infantry",
             "Marshal",
+            "Melee Weapon",
             "Skitarii"
         ],
         "ranged_weapons": [
@@ -2584,6 +2587,8 @@
             "Character",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Skatros",
             "Skitarii",
             "Sydonian"
@@ -2673,6 +2678,8 @@
             "Dominus",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Tech-Priest"
         ],
         "ranged_weapons": [
@@ -2779,8 +2786,10 @@
             "Character",
             "Cult Mechanicus",
             "Enginseer",
+            "Extra Attacks Weapon",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Tech-Priest"
         ],
         "ranged_weapons": [
@@ -2848,6 +2857,8 @@
             "Imperium",
             "Infantry",
             "Manipulus",
+            "Melee Weapon",
+            "Ranged Weapon",
             "Tech-Priest"
         ],
         "ranged_weapons": [
@@ -2915,6 +2926,7 @@
             "Cult Mechanicus",
             "Imperium",
             "Infantry",
+            "Melee Weapon",
             "Tech-Priest",
             "Technoarcheologist"
         ],
