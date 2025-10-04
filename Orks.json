@@ -419,7 +419,6 @@
             "Melee Weapon",
             "Mounted",
             "Orks",
-            "Ranged Weapon",
             "Warboss"
         ],
         "ranged_weapons": [
@@ -2069,6 +2068,56 @@
                     "devWounds": true,
                     "devWoundsOn6s": true
                 }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Da Red Gobbo's A-bomb-inable Snowman [Legends]",
+        "points": 40,
+        "unit_type": "model",
+        "toughness": "2",
+        "movement": "6",
+        "wounds": "3",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "5",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Da Red Gobbo A-bomb-inable Snowman",
+            "Epic Hero",
+            "Infantry",
+            "Orks"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Kustom grot blasta",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     },
