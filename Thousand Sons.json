@@ -77,7 +77,7 @@
         "movement": "6",
         "wounds": "1",
         "leadership": "8",
-        "oc": "1",
+        "oc": "0",
         "armour_save": "8",
         "invunerable_save": "4",
         "global_modifiers": null,
@@ -750,6 +750,46 @@
     {
         "status": "success",
         "unit_name": "Chaos Spawn",
+        "points": 65,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "8",
+        "wounds": "4",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
+        "tags": [
+            "Beast",
+            "Chaos",
+            "Mutant",
+            "Spawn",
+            "Thousand Sons",
+            "Tzeentch"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Hideous Mutations",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Chaos Spawn (Flesh Change)",
         "points": 65,
         "unit_type": "unit",
         "toughness": "5",

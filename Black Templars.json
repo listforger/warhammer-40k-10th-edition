@@ -417,6 +417,62 @@
     },
     {
         "status": "success",
+        "unit_name": "Emperor's Champion (Anointed)",
+        "points": 90,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "8",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Black Templars",
+            "Character",
+            "Emperor's Champion",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Tacticus"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Black Sword - Strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeCharacter": true,
+                    "anti5": true
+                }
+            },
+            {
+                "name": "Black Sword - Sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "10",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Execrator",
         "points": 70,
         "unit_type": "model",

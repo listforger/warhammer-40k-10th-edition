@@ -2,17 +2,17 @@
     {
         "status": "success",
         "unit_name": "Archon",
-        "points": 85,
+        "points": 80,
         "unit_type": "model",
         "toughness": "3",
-        "movement": "8",
+        "movement": "7",
         "wounds": "4",
         "leadership": "6",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "2",
         "global_modifiers": {
-            "rerollWounds": true
+            "rerollHits": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
@@ -55,6 +55,22 @@
         ],
         "melee_weapons": [
             {
+                "name": "Agoniser",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            },
+            {
                 "name": "Huskblade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -62,30 +78,42 @@
                 "strength": 3,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Master-crafted power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti3": true
-                }
+                "parsed_weapon_types": null
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Beastmaster",
-        "points": 120,
+        "unit_name": "Beastmaster [Legends]",
+        "points": 135,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
         "wounds": "3",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "6",
         "global_modifiers": {
-            "rerollOnesHits": true
+            "rerollHits": true,
+            "rerollWounds": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
@@ -111,7 +139,8 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
-                    "anti3": true
+                    "anti3": true,
+                    "twinLinked": true
                 }
             }
         ],
@@ -122,8 +151,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -138,8 +167,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -153,8 +182,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -887,13 +916,13 @@
     },
     {
         "status": "success",
-        "unit_name": "Court of the Archon",
+        "unit_name": "Court of the Archon [Legends]",
         "points": 95,
         "unit_type": "unit",
         "toughness": "3",
-        "movement": "8",
+        "movement": "7",
         "wounds": "2",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "5",
         "invunerable_save": "5",
@@ -1016,12 +1045,12 @@
     {
         "status": "success",
         "unit_name": "Cronos",
-        "points": 50,
+        "points": 55,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "7",
         "wounds": "7",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "3",
         "invunerable_save": "6",
@@ -1072,13 +1101,17 @@
                 "name": "Spirit-leech Tentacles",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti2": true
+                }
             }
         ]
     },
@@ -1148,10 +1181,15 @@
         "oc": "1",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToWound": true,
+            "rerollHits": true,
+            "rerollWounds": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Blades for Hire",
             "Character",
             "Drazhar",
             "Drukhari",
@@ -1168,10 +1206,11 @@
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "7",
+                "attacks": "8",
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "devWounds": true,
+                    "devWoundsOn6s": true
                 }
             },
             {
@@ -1182,7 +1221,7 @@
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
+                "attacks": "6",
                 "damage": "3",
                 "parsed_weapon_types": {
                     "devWounds": true,
@@ -1193,13 +1232,13 @@
     },
     {
         "status": "success",
-        "unit_name": "Grotesques",
+        "unit_name": "Grotesques [Legends]",
         "points": 80,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "7",
         "wounds": "4",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "6",
@@ -1224,6 +1263,9 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true,
                     "autoHit": true
                 }
             }
@@ -1235,25 +1277,39 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Paired monstrous Weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Haemonculus",
-        "points": 60,
+        "points": 70,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
         "wounds": "5",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
-        "armour_save": "6",
+        "armour_save": "5",
         "invunerable_save": "6",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -1304,15 +1360,233 @@
     },
     {
         "status": "success",
+        "unit_name": "Hand of the Archon",
+        "points": 125,
+        "unit_type": "upgrade",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "1",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "6",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Drukhari",
+            "Grenades",
+            "Hand of the Archon",
+            "Infantry",
+            "Kabal",
+            "Smoke"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Dark Lance",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shardcarbine",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Shredder",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Splinter Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Splinter Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Stinger pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti2": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close Combat Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Pain sculptors",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti4": true,
+                    "twinLinked": true
+                }
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Razorflail",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Hellions",
-        "points": 75,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
         "wounds": "2",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
-        "armour_save": "5",
+        "armour_save": "4",
         "invunerable_save": "6",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -1362,25 +1636,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Heliarch Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti3": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
-                }
-            },
-            {
                 "name": "Hellglaive",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1391,9 +1646,46 @@
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "plusOneToWound": true,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true,
+                    "plusOneToWound": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Stunclaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "plusOneToWound": true
                 }
             }
         ]
@@ -1401,7 +1693,7 @@
     {
         "status": "success",
         "unit_name": "Incubi",
-        "points": 85,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -1410,10 +1702,13 @@
         "oc": "1",
         "armour_save": "3",
         "invunerable_save": "5",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToHit": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Blades for Hire",
             "Drukhari",
             "Incubi",
             "Infantry"
@@ -1426,23 +1721,21 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "twinLinked": true
-                }
+                "parsed_weapon_types": null
             },
             {
                 "name": "Demiklaives - Single Blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "2",
                 "parsed_weapon_types": null
             },
@@ -1451,7 +1744,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
@@ -1463,16 +1756,18 @@
     {
         "status": "success",
         "unit_name": "Kabalite Warriors",
-        "points": 100,
+        "points": 115,
         "unit_type": "unit",
         "toughness": "3",
-        "movement": "8",
+        "movement": "7",
         "wounds": "1",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "4",
         "invunerable_save": "6",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollWounds": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
@@ -1481,7 +1776,8 @@
             "Grenades",
             "Infantry",
             "Kabal",
-            "Kabalite Warriors"
+            "Kabalite Warriors",
+            "Smoke"
         ],
         "ranged_weapons": [
             {
@@ -1600,13 +1896,13 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Sybarite Weapon",
+                "name": "Power Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1619,8 +1915,63 @@
     },
     {
         "status": "success",
+        "unit_name": "Lady Malys",
+        "points": 100,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Archon",
+            "Character",
+            "Drukhari",
+            "Epic Hero",
+            "Infantry",
+            "Kabal",
+            "Lady Malys"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Lady's Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Razor fan",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Lelith Hesperax",
-        "points": 95,
+        "points": 85,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -1667,12 +2018,12 @@
     {
         "status": "success",
         "unit_name": "Mandrakes",
-        "points": 65,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
         "wounds": "1",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "7",
         "invunerable_save": "5",
@@ -1680,6 +2031,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Blades for Hire",
             "Drukhari",
             "Infantry",
             "Mandrakes"
@@ -1691,13 +2043,14 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "ignoresCover": true
                 }
             }
         ],
@@ -1708,27 +2061,32 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Raider",
-        "points": 75,
+        "points": 85,
         "unit_type": "model",
         "toughness": "8",
         "movement": "14",
         "wounds": "10",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "4",
         "invunerable_save": "6",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
@@ -1757,9 +2115,9 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -1767,14 +2125,14 @@
         ],
         "melee_weapons": [
             {
-                "name": "Bladevanes",
+                "name": "Bladevanes and chainsnares",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3+3",
                 "damage": "1",
                 "parsed_weapon_types": null
             }
@@ -1783,12 +2141,12 @@
     {
         "status": "success",
         "unit_name": "Ravager",
-        "points": 100,
+        "points": 115,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
         "wounds": "11",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "3",
         "armour_save": "4",
         "invunerable_save": "6",
@@ -1820,9 +2178,9 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -1835,8 +2193,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -1846,12 +2204,12 @@
     {
         "status": "success",
         "unit_name": "Raven Strike Fighter [Legends]",
-        "points": 130,
+        "points": 170,
         "unit_type": "model",
         "toughness": "8",
         "movement": "20",
         "wounds": "10",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "0",
         "armour_save": "4",
         "invunerable_save": "5",
@@ -1889,7 +2247,7 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "8",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
@@ -1907,8 +2265,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -1923,7 +2281,7 @@
         "toughness": "8",
         "movement": "20",
         "wounds": "10",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "0",
         "armour_save": "4",
         "invunerable_save": "6",
@@ -1957,9 +2315,9 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "3",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -2001,8 +2359,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -2042,7 +2400,7 @@
                     "anti": true,
                     "antiTypeInfantry": true,
                     "anti3": true,
-                    "rapidFire": 1,
+                    "rapidFire": 2,
                     "twinLinked": true
                 }
             }
@@ -2054,8 +2412,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -2065,12 +2423,12 @@
     {
         "status": "success",
         "unit_name": "Reaper [Legends]",
-        "points": 95,
+        "points": 115,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
         "wounds": "11",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "3",
         "armour_save": "4",
         "invunerable_save": "6",
@@ -2106,10 +2464,10 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "D6+3",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -2122,8 +2480,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -2150,12 +2508,12 @@
     {
         "status": "success",
         "unit_name": "Reavers",
-        "points": 65,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "16",
         "wounds": "2",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "4",
         "invunerable_save": "6",
@@ -2198,7 +2556,7 @@
                 "name": "Splinter Pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 2,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
@@ -2229,57 +2587,47 @@
         ],
         "melee_weapons": [
             {
-                "name": "Agonizer",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti3": true
-                }
-            },
-            {
                 "name": "Bladevanes",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "plusOneToWound": true
+                }
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Scourges",
+        "unit_name": "Scourges with Heavy Weapons",
         "points": 130,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "14",
         "wounds": "1",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "4",
         "invunerable_save": "5",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Blades for Hire",
             "Drukhari",
             "Fly",
             "Grenades",
             "Infantry",
             "Jump Pack",
-            "Scourges"
+            "Scourges",
+            "Scourges with Heavy Weapons"
         ],
         "ranged_weapons": [
             {
@@ -2319,7 +2667,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Drukhari Haywire Blaster",
+                "name": "Haywire Blaster",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
@@ -2428,13 +2776,141 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Solarite Weapon",
+                "name": "Power Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 3,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Scourges with Shardcarbines",
+        "points": 80,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "14",
+        "wounds": "1",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Blades for Hire",
+            "Drukhari",
+            "Fly",
+            "Grenades",
+            "Infantry",
+            "Jump Pack",
+            "Scourges",
+            "Scourges with Shardcarbines"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Blast Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6+1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Shardcarbine",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Shredder",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Splinter Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 2,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -2686,16 +3162,19 @@
     {
         "status": "success",
         "unit_name": "Succubus",
-        "points": 45,
+        "points": 50,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
         "wounds": "4",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "4",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true,
+            "rerollWounds": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
@@ -2705,46 +3184,17 @@
             "Succubus",
             "Wych Cult"
         ],
-        "ranged_weapons": [
-            {
-                "name": "Blast Pistol",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "damage": "D3",
-                "parsed_weapon_types": null
-            },
-            {
-                "name": "Splinter Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti3": true
-                }
-            }
-        ],
+        "ranged_weapons": [],
         "melee_weapons": [
             {
-                "name": "Succubus Weapons",
+                "name": "Archite glaive and agoniser",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 3,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "6",
+                "attacks": "7",
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -2762,7 +3212,7 @@
         "toughness": "7",
         "movement": "7",
         "wounds": "7",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "3",
         "invunerable_save": "6",
@@ -2782,7 +3232,7 @@
                 "name": "Stinger Pod",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 5,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
@@ -2794,7 +3244,7 @@
                 "name": "Twin Haywire Blaster",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 3,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -2813,7 +3263,7 @@
                 "name": "Twin heat lance",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 14,
                 "armour_penetration": 4,
                 "armor_penetration": 4,
@@ -2834,6 +3284,9 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true,
                     "autoHit": true,
                     "twinLinked": true
                 }
@@ -2842,7 +3295,7 @@
                 "name": "Twin Splinter Cannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
                 "strength": 3,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -2866,8 +3319,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "8",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -2878,8 +3331,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
                 "parsed_weapon_types": null
@@ -2889,7 +3342,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
-                "strength": 8,
+                "strength": 9,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
@@ -2900,12 +3353,12 @@
                 "name": "Talos Ichor Injector",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "1",
-                "damage": "2",
+                "damage": "D6",
                 "parsed_weapon_types": null
             }
         ]
@@ -2918,7 +3371,7 @@
         "toughness": "10",
         "movement": "16",
         "wounds": "18",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "5",
         "armour_save": "4",
         "invunerable_save": "5",
@@ -3139,7 +3592,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Urien Rakarth",
+        "unit_name": "Urien Rakarth [Legends]",
         "points": 80,
         "unit_type": "model",
         "toughness": "4",
@@ -3149,7 +3602,9 @@
         "oc": "1",
         "armour_save": "6",
         "invunerable_save": "4",
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToWound": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
@@ -3202,12 +3657,12 @@
     {
         "status": "success",
         "unit_name": "Venom",
-        "points": 65,
+        "points": 70,
         "unit_type": "model",
         "toughness": "6",
         "movement": "14",
         "wounds": "6",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "1",
         "armour_save": "4",
         "invunerable_save": "6",
@@ -3256,7 +3711,7 @@
                     "anti": true,
                     "antiTypeInfantry": true,
                     "anti3": true,
-                    "rapidFire": 1,
+                    "rapidFire": 2,
                     "twinLinked": true
                 }
             }
@@ -3268,8 +3723,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -3279,12 +3734,12 @@
     {
         "status": "success",
         "unit_name": "Voidraven Bomber",
-        "points": 235,
+        "points": 245,
         "unit_type": "model",
         "toughness": "9",
         "movement": "20",
         "wounds": "12",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "0",
         "armour_save": "4",
         "invunerable_save": "6",
@@ -3343,8 +3798,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -3359,8 +3814,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "1",
                 "parsed_weapon_types": null
@@ -3454,14 +3909,14 @@
     {
         "status": "success",
         "unit_name": "Wracks",
-        "points": 55,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "7",
-        "wounds": "1",
-        "leadership": "6",
+        "wounds": "2",
+        "leadership": "7",
         "oc": "2",
-        "armour_save": "6",
+        "armour_save": "5",
         "invunerable_save": "6",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -3479,7 +3934,7 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 6,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
@@ -3497,6 +3952,9 @@
                 "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true,
                     "autoHit": true
                 }
             },
@@ -3535,17 +3993,34 @@
                 }
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            }
+        ]
     },
     {
         "status": "success",
         "unit_name": "Wyches",
-        "points": 80,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
         "wounds": "1",
-        "leadership": "6",
+        "leadership": "7",
         "oc": "2",
         "armour_save": "6",
         "invunerable_save": "6",
@@ -3555,7 +4030,6 @@
             "Aeldari",
             "Battleline",
             "Drukhari",
-            "Grenades",
             "Infantry",
             "Wych Cult",
             "Wyches"
@@ -3592,6 +4066,18 @@
         ],
         "melee_weapons": [
             {
+                "name": "Gladiatorial weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
                 "name": "Hekatarii Blade",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -3599,9 +4085,25 @@
                 "strength": 3,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "3",
+                "attacks": "4",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
             }
         ]
     }
