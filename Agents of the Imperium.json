@@ -17,7 +17,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Agents of the Imperium",
-            "Alpha Kill Team",
+            "Aquila Kill Team",
             "Battleline",
             "Deathwatch",
             "Grenades",
@@ -101,8 +101,39 @@
                 }
             },
             {
-                "name": "Special-issue bolt pistol",
+                "name": "Infernus heavy bolter - heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            },
+            {
+                "name": "Infernus heavy bolter - heavy flamer",
                 "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true
+                }
+            },
+            {
+                "name": "Special-issue bolt pistol",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
@@ -981,7 +1012,7 @@
             },
             {
                 "name": "Special-issue bolt pistol",
-                "range": "12",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
@@ -1048,7 +1079,10 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             }
         ],
         "melee_weapons": [
@@ -1111,7 +1145,10 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             },
             {
                 "name": "Plasma incinerator - Standard",
@@ -1643,7 +1680,10 @@
                 "armor_penetration": 0,
                 "attacks": "1",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
             },
             {
                 "name": "Frag cannon",
@@ -1683,10 +1723,10 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,

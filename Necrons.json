@@ -506,6 +506,89 @@
     },
     {
         "status": "success",
+        "unit_name": "Canoptek Macrocytes",
+        "points": 85,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "8",
+        "wounds": "1",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "reanimationProtocols": true
+        },
+        "tags": [
+            "Beast",
+            "Canoptek",
+            "Fly",
+            "Macrocytes",
+            "Necrons"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Atomiser beam",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Gauss scalpel",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Tesla caster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Canoptek Reanimator",
         "points": 75,
         "unit_type": "model",
@@ -651,6 +734,73 @@
                 "armor_penetration": 2,
                 "attacks": "5",
                 "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Canoptek Tomb Crawlers",
+        "points": 50,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "5",
+        "wounds": "3",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "reanimationProtocols": true
+        },
+        "tags": [
+            "Beast",
+            "Canoptek",
+            "Necrons",
+            "Tomb Crawlers"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Dimensional isolator",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Twin gauss reaper",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -1385,6 +1535,73 @@
             }
         ],
         "melee_weapons": []
+    },
+    {
+        "status": "success",
+        "unit_name": "Geomancer",
+        "points": 75,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "8",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "reanimationProtocols": true
+        },
+        "tags": [
+            "Character",
+            "Cryptek",
+            "Geomancer",
+            "Infantry",
+            "Necrons"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Tremorglaive - reverberating beam",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Tremorglaive - shock wave pulse",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6+2",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Tremorglaive",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
     },
     {
         "status": "success",
