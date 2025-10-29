@@ -1,6 +1,61 @@
 [
     {
         "status": "success",
+        "unit_name": "Caanok Var",
+        "points": 100,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "5",
+        "wounds": "6",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
+        "tags": [
+            "Adeptus Astartes",
+            "Caanok Var",
+            "Captain",
+            "Character",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Iron Hands",
+            "Terminator"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Axiom - Strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Axiom - Sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "10",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Iron Father Feirros",
         "points": 95,
         "unit_type": "model",

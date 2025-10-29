@@ -42,5 +42,79 @@
                 }
             }
         ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Suboden Khan",
+        "points": 115,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "12",
+        "wounds": "8",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Captain",
+            "Character",
+            "Epic Hero",
+            "Grenades",
+            "Imperium",
+            "Mounted",
+            "Suboden Khan",
+            "White Scars"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Onslaught Gatling Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "8",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Power Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "8",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Stormtooth",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "anti": true,
+                    "anti4": true,
+                    "antiTypeVehicleOrMonster": true
+                }
+            }
+        ]
     }
 ]

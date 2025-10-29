@@ -713,6 +713,85 @@
     },
     {
         "status": "success",
+        "unit_name": "Deathleaper",
+        "points": 80,
+        "unit_type": "model",
+        "toughness": "6",
+        "movement": "8",
+        "wounds": "7",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Deathleaper",
+            "Epic Hero",
+            "Great Devourer",
+            "Infantry",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
+        "unit_name": "Gargoyles",
+        "points": 85,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "12",
+        "wounds": "1",
+        "leadership": "8",
+        "oc": "2",
+        "armour_save": "6",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Battleline",
+            "Endless Multitude",
+            "Fly",
+            "Gargoyles",
+            "Great Devourer",
+            "Infantry",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Fleshborer",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Blinding venom",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Goliath Rockgrinder",
         "points": 120,
         "unit_type": "model",
@@ -996,6 +1075,68 @@
     },
     {
         "status": "success",
+        "unit_name": "Hyperadapted Raveners",
+        "points": 165,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "6",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Burrowers",
+            "Character",
+            "Great Devourer",
+            "Hyperadapted Raveners",
+            "Infantry",
+            "Melee Weapon",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Venom bolt",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Prime claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti5": true,
+                    "antiTypeVehicleOrMonster": true,
+                    "twinLinked": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Jackal Alphus",
         "points": 55,
         "unit_type": "model",
@@ -1073,7 +1214,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1118,6 +1259,30 @@
     },
     {
         "status": "success",
+        "unit_name": "Lictor",
+        "points": 60,
+        "unit_type": "model",
+        "toughness": "6",
+        "movement": "8",
+        "wounds": "6",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Great Devourer",
+            "Infantry",
+            "Lictor",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Locus",
         "points": 45,
         "unit_type": "model",
@@ -1127,7 +1292,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1165,7 +1330,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1203,6 +1368,62 @@
                 "armor_penetration": 1,
                 "attacks": "3",
                 "damage": "D3",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Mawloc",
+        "points": 135,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "10",
+        "wounds": "14",
+        "leadership": "8",
+        "oc": "4",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Extra Attacks Weapon",
+            "Great Devourer",
+            "Mawloc",
+            "Monster",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Distendible jaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Mawloc scything talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "16",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -1409,6 +1630,46 @@
     },
     {
         "status": "success",
+        "unit_name": "Neurolictor",
+        "points": 70,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "8",
+        "wounds": "7",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "4",
+        "global_modifiers": {
+            "plusOneToWound": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Great Devourer",
+            "Infantry",
+            "Neurolictor",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Piercing claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Nexos",
         "points": 60,
         "unit_type": "model",
@@ -1459,6 +1720,64 @@
     },
     {
         "status": "success",
+        "unit_name": "Parasite of Mortrex",
+        "points": 80,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "12",
+        "wounds": "5",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Extra Attacks Weapon",
+            "Fly",
+            "Great Devourer",
+            "Infantry",
+            "Melee Weapon",
+            "Parasite of Mortrex",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Barbed ovipositor",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true
+                }
+            },
+            {
+                "name": "Clawed limbs",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Patriarch",
         "points": 75,
         "unit_type": "model",
@@ -1468,7 +1787,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1511,7 +1830,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": {
             "plusOneToHit": true
         },
@@ -1587,7 +1906,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1614,6 +1933,46 @@
     },
     {
         "status": "success",
+        "unit_name": "Raveners",
+        "points": 125,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "3",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Burrowers",
+            "Great Devourer",
+            "Infantry",
+            "Raveners",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Ravener claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Reductus Saboteur",
         "points": 65,
         "unit_type": "model",
@@ -1623,7 +1982,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": null,
         "defenderGlobalModifiers": {
             "stealth": true
@@ -1707,7 +2066,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "5",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "global_modifiers": {
             "rerollHits": true,
             "rerollWounds": true
@@ -1805,6 +2164,235 @@
                 "armor_penetration": 2,
                 "attacks": "6",
                 "damage": "D6",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Trygon",
+        "points": 140,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "10",
+        "wounds": "14",
+        "leadership": "8",
+        "oc": "4",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Great Devourer",
+            "Monster",
+            "Trygon",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Bio-electric pulse",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Trygon scything talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "12",
+                "damage": "3",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Tyrannocyte",
+        "points": 105,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "8",
+        "wounds": "10",
+        "leadership": "8",
+        "oc": "2",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Dedicated Transport",
+            "Fly",
+            "Great Devourer",
+            "Monster",
+            "Transport",
+            "Tyranids",
+            "Tyrannocyte",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Tyrannocyte Bio-weapons",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Flensing Whips",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Von Ryan's Leapers",
+        "points": 70,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "3",
+        "leadership": "8",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "6",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Great Devourer",
+            "Infantry",
+            "Tyranids",
+            "Vanguard Invader",
+            "Von Ryan's Leapers"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Leaper's talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Winged Hive Tyrant",
+        "points": 170,
+        "unit_type": "model",
+        "toughness": "9",
+        "movement": "12",
+        "wounds": "10",
+        "leadership": "7",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Fly",
+            "Great Devourer",
+            "Hive Tyrant",
+            "Melee Weapon",
+            "Monster",
+            "Psyker",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader",
+            "Winged Hive Tyrant"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Tyrant talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Winged Tyranid Prime",
+        "points": 65,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "12",
+        "wounds": "6",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Character",
+            "Fly",
+            "Great Devourer",
+            "Infantry",
+            "Melee Weapon",
+            "Synapse",
+            "Tyranids",
+            "Vanguard Invader",
+            "Winged Tyranid Prime"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Prime talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
                 "parsed_weapon_types": null
             }
         ]
