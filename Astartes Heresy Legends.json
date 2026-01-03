@@ -472,7 +472,7 @@
     {
         "status": "success",
         "unit_name": "Deredeo Dreadnought [Legends]",
-        "points": 170,
+        "points": 160,
         "unit_type": "model",
         "toughness": "9",
         "movement": "6",
@@ -885,6 +885,25 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Combi-weapon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti3": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "rapidFire": 1
+                }
+            },
+            {
                 "name": "Demolisher cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -919,7 +938,21 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2D6",
-                "damage": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            },
+            {
+                "name": "Havoc launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true
                 }
@@ -978,6 +1011,23 @@
                 "attacks": "2",
                 "damage": "D6",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Quad heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true
+                }
             },
             {
                 "name": "Quad lascannon",
@@ -1072,9 +1122,8 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aircraft",
+            "Fire Raptor Gunship",
             "Fly",
-            "Storm Eagle Gunship",
-            "Transport",
             "Vehicle"
         ],
         "ranged_weapons": [

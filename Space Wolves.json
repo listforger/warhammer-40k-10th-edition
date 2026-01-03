@@ -65,7 +65,7 @@
     {
         "status": "success",
         "unit_name": "Bjorn the Fell-Handed",
-        "points": 170,
+        "points": 160,
         "unit_type": "model",
         "toughness": "9",
         "movement": "9",
@@ -215,7 +215,7 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Bolt pistol",
+                "name": "Bolt Pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
@@ -336,7 +336,7 @@
     {
         "status": "success",
         "unit_name": "Grey Hunters",
-        "points": 180,
+        "points": 165,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "7",
@@ -583,7 +583,7 @@
     {
         "status": "success",
         "unit_name": "Iron Priest",
-        "points": 60,
+        "points": 55,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
@@ -1184,7 +1184,7 @@
     {
         "status": "success",
         "unit_name": "Murderfang",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "9",
         "movement": "9",
@@ -1540,7 +1540,7 @@
                 "name": "Helfrost destructor - focused",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 0,
                 "strength": 8,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
@@ -1777,7 +1777,7 @@
     {
         "status": "success",
         "unit_name": "Venerable Dreadnought",
-        "points": 140,
+        "points": 130,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -2840,6 +2840,97 @@
     },
     {
         "status": "success",
+        "unit_name": "Wolf Scouts",
+        "points": 105,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Phobos",
+            "Smoke",
+            "Space Wolves",
+            "Wolf Scouts"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Instigator Bolt Carbine",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Thunderclap",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Combat Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Runic Stave",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Teeth and Claws",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Wolf Scouts [Legends]",
         "points": 80,
         "unit_type": "unit",
@@ -3009,7 +3100,7 @@
     {
         "status": "success",
         "unit_name": "Wulfen Dreadnought",
-        "points": 145,
+        "points": 135,
         "unit_type": "model",
         "toughness": "9",
         "movement": "9",

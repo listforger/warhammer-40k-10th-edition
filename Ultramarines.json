@@ -57,6 +57,92 @@
     },
     {
         "status": "success",
+        "unit_name": "Cato Sicarius",
+        "points": 95,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Captain",
+            "Cato",
+            "Character",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Sicarius",
+            "Tacticus",
+            "Ultramarines"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Artisan Plasma Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Talassarian Tempest Blade - Coup de Gra",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Talassarian Tempest Blade - Strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Talassarian Tempest Blade - Sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "9",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Chaplain Cassius [Legends]",
         "points": 80,
         "unit_type": "model",
@@ -299,6 +385,64 @@
                 "attacks": "5",
                 "damage": "2",
                 "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Marneus Calgar in Armour of Antilochus",
+        "points": 140,
+        "unit_type": "model",
+        "toughness": "6",
+        "movement": "6",
+        "wounds": "6",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Chapter Master",
+            "Character",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Marneus Calgar",
+            "Terminator",
+            "Ultramarines"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Gauntlets of Ultramar",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Gauntlets of Ultramar",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true
+                }
             }
         ]
     },
@@ -624,6 +768,61 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Victrix Honour Guard",
+        "points": 120,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Ancient",
+            "Champion",
+            "Epic Hero",
+            "Honor Guard",
+            "Imperium",
+            "Infantry",
+            "Tacticus",
+            "Victrix"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Master-crafted Bolt Carbine",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Blades of Honour",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "twinLinked": true
                 }
             }
         ]
