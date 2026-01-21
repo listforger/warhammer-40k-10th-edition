@@ -144,7 +144,8 @@
             "Chaos Bikers",
             "Grenades",
             "Heretic Astartes",
-            "Mounted"
+            "Mounted",
+            "Unit Champion"
         ],
         "ranged_weapons": [
             {
@@ -1990,7 +1991,8 @@
             "Chaos Terminator Squad",
             "Heretic Astartes",
             "Infantry",
-            "Terminator"
+            "Terminator",
+            "Unit Champion"
         ],
         "ranged_weapons": [
             {
@@ -2179,7 +2181,8 @@
             "Chosen",
             "Grenades",
             "Heretic Astartes",
-            "Infantry"
+            "Infantry",
+            "Unit Champion"
         ],
         "ranged_weapons": [
             {
@@ -2320,7 +2323,8 @@
             "Damned",
             "Grenades",
             "Heretic Astartes",
-            "Infantry"
+            "Infantry",
+            "Unit Champion"
         ],
         "ranged_weapons": [
             {
@@ -5515,7 +5519,7 @@
     {
         "status": "success",
         "unit_name": "Raptors",
-        "points": 90,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -5529,6 +5533,7 @@
         "tags": [
             "Chaos",
             "Fly",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
             "Jump Pack",
@@ -5549,7 +5554,7 @@
                 "parsed_weapon_types": null
             },
             {
-                "name": "Power fist",
+                "name": "Heavy melee weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -5558,6 +5563,18 @@
                 "armor_penetration": 2,
                 "attacks": "3",
                 "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Mutations",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
                 "parsed_weapon_types": null
             }
         ]
@@ -7508,6 +7525,7 @@
             "Chaos",
             "Daemon",
             "Fly",
+            "Grenades",
             "Heretic Astartes",
             "Infantry",
             "Jump Pack",

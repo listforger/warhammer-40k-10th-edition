@@ -57,6 +57,67 @@
     },
     {
         "status": "success",
+        "unit_name": "Captain Titus",
+        "points": 90,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "6",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
+        "tags": [
+            "Adeptus Astartes",
+            "Captain",
+            "Character",
+            "Epic Hero",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Tacticus",
+            "Titus",
+            "Ultramarines"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Master-crafted Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Master-crafted Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti2": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Cato Sicarius",
         "points": 95,
         "unit_type": "model",
@@ -775,11 +836,11 @@
     {
         "status": "success",
         "unit_name": "Victrix Honour Guard",
-        "points": 120,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
-        "wounds": "4",
+        "wounds": "3",
         "leadership": "6",
         "oc": "2",
         "armour_save": "2",
@@ -794,6 +855,7 @@
             "Imperium",
             "Infantry",
             "Tacticus",
+            "Ultramarines",
             "Victrix"
         ],
         "ranged_weapons": [
@@ -824,6 +886,98 @@
                 "parsed_weapon_types": {
                     "twinLinked": true
                 }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wardens of Ultramar",
+        "points": 90,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Astartes",
+            "Epic Hero",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Psyker",
+            "Tacticus",
+            "Ultramarines",
+            "Wardens of Ultramar"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Archeotech Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Astropathic Blast",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Force Stave",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": null
             }
         ]
     }

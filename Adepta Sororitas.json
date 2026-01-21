@@ -717,6 +717,128 @@
     },
     {
         "status": "success",
+        "unit_name": "Celestian Insidiants",
+        "points": 120,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "6",
+        "wounds": "1",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adepta Sororitas",
+            "Celestian Insidiants",
+            "Grenades",
+            "Imperium",
+            "Infantry"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Condemnor bolt pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypePsyker": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Inferno pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D3",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Ministorum hand flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Blessed sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Null mace",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypePsyker": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            },
+            {
+                "name": "Virge of Admonition",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypePsyker": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Celestian Sacresant (Anointed Halberd)",
         "points": null,
         "unit_type": "model",

@@ -172,6 +172,42 @@
     },
     {
         "status": "success",
+        "unit_name": "Breaching Robot",
+        "points": 35,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "3",
+        "leadership": "6",
+        "oc": "0",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Allied Units",
+            "Breaching Robot",
+            "Unaligned Forces",
+            "Vehicle"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Cutting blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "damage": "1",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Castellum Stronghold [Legends]",
         "points": null,
         "unit_type": "model",
@@ -980,6 +1016,47 @@
                 "attacks": "1",
                 "damage": "D6+1",
                 "parsed_weapon_types": {
+                    "twinLinked": true
+                }
+            }
+        ],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
+        "unit_name": "Sentry Gun",
+        "points": 30,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "",
+        "wounds": "3",
+        "leadership": "6",
+        "oc": "0",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Allied Units",
+            "Sentry Gun",
+            "Unaligned Forces",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Twin heavy bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "twinLinked": true
                 }
             }

@@ -147,14 +147,14 @@
     {
         "status": "success",
         "unit_name": "C'tan Shard of the Deceiver",
-        "points": 265,
+        "points": 285,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "6",
-        "wounds": "12",
+        "movement": "8",
+        "wounds": "16",
         "leadership": "6",
-        "oc": "6",
-        "armour_save": "4",
+        "oc": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -181,7 +181,7 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeCharacter": true,
@@ -197,7 +197,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "8",
@@ -209,14 +209,14 @@
     {
         "status": "success",
         "unit_name": "C'tan Shard of the Nightbringer",
-        "points": 305,
+        "points": 315,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "6",
-        "wounds": "12",
+        "movement": "10",
+        "wounds": "16",
         "leadership": "6",
         "oc": "4",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -239,8 +239,8 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "D3",
                 "damage": "D6+3",
                 "parsed_weapon_types": null
@@ -279,14 +279,14 @@
     {
         "status": "success",
         "unit_name": "C'tan Shard of the Void Dragon",
-        "points": 300,
+        "points": 310,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "6",
-        "wounds": "12",
+        "movement": "10",
+        "wounds": "16",
         "leadership": "6",
         "oc": "4",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -309,10 +309,10 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 8,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "1",
+                "attacks": "D3",
                 "damage": "D6+2",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -357,8 +357,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
                 "attacks": "5",
                 "damage": "D6+2",
                 "parsed_weapon_types": {
@@ -2412,6 +2412,76 @@
     },
     {
         "status": "success",
+        "unit_name": "Nekrosor Ammentar",
+        "points": 165,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "10",
+        "wounds": "9",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "reanimationProtocols": true
+        },
+        "tags": [
+            "Character",
+            "Destroyer Cult",
+            "Epic Hero",
+            "Infantry",
+            "Necrons",
+            "Nekrosor Ammentar"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Enmitic disintegrators",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Blade tail and whip coils",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Unmaker gauntlet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "damage": "3",
+                "parsed_weapon_types": null
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Nemesor Zahndrekh [Legends]",
         "points": 85,
         "unit_type": "model",
@@ -3770,14 +3840,14 @@
     {
         "status": "success",
         "unit_name": "Transcendent C'tan",
-        "points": 295,
+        "points": 305,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "6",
-        "wounds": "12",
+        "movement": "8",
+        "wounds": "16",
         "leadership": "6",
         "oc": "4",
-        "armour_save": "4",
+        "armour_save": "3",
         "invunerable_save": "4",
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -3804,7 +3874,7 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "D3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -3818,7 +3888,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "8",
@@ -4052,7 +4122,7 @@
     },
     {
         "status": "success",
-        "unit_name": "Varguard Obyron [Legends]",
+        "unit_name": "Vargard Obyron [Legends]",
         "points": 85,
         "unit_type": "model",
         "toughness": "5",
