@@ -3617,7 +3617,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",
+            "Aircraft",
             "Asuryani",
+            "Fly",
+            "Phoenix",
             "Vehicle"
         ],
         "ranged_weapons": [
@@ -3631,7 +3634,9 @@
                 "armor_penetration": 1,
                 "attacks": "D6",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "blast": true
+                }
             },
             {
                 "name": "Phoenix pulse laser",

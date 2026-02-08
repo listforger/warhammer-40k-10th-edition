@@ -816,7 +816,10 @@
                 "armor_penetration": 2,
                 "attacks": "4",
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                },
+                "attacksMultiplier": 0
             },
             {
                 "name": "Kataphron plasma culverin - supercharge",
@@ -1754,8 +1757,10 @@
                 "attacks": "D3",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
-                }
+                    "blast": true,
+                    "attacksMultiplier": 0
+                },
+                "attacksMultiplier": 0
             },
             {
                 "name": "Plasma cannon - supercharge",
