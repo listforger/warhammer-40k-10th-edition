@@ -36,10 +36,12 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -80,10 +82,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -97,8 +101,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Stormtooth",
@@ -109,12 +116,14 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "plusOneToWound": true,
                     "anti": true,
                     "anti4": true,
-                    "antiTypeVehicleOrMonster": true
+                    "antiTypeVehicleOrMonster": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]

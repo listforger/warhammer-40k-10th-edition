@@ -35,10 +35,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "ignoresCover": true,
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -52,8 +54,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -98,10 +103,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "ignoresCover": true,
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -115,10 +122,12 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]

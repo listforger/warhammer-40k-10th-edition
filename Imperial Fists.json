@@ -36,10 +36,12 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -85,12 +87,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "rapidFire": 2,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -104,8 +108,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -145,11 +152,13 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeVehicle": true,
-                    "anti2": true
+                    "anti2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -163,8 +172,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     }

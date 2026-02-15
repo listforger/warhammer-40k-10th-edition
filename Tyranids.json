@@ -30,9 +30,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D6+3",
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -46,8 +48,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "D3+3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -82,9 +87,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -98,8 +105,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -134,12 +144,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D3",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "indirectFire": true
+                    "indirectFire": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -153,8 +165,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -195,11 +210,13 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -236,9 +253,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -250,8 +269,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             },
             {
                 "name": "Devourers with brainleech worms",
@@ -262,8 +284,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "12",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             },
             {
                 "name": "Heavy venom cannon",
@@ -274,9 +299,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -288,8 +315,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Stranglethorn cannon",
@@ -300,9 +330,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+1",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -316,8 +348,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "4",
+                "attacksMultiplier": 2,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             },
             {
                 "name": "Carnifex extra scything talons",
@@ -328,8 +363,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Carnifex scything talons",
@@ -340,8 +378,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Chitinous claws and teeth",
@@ -352,8 +393,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -431,9 +475,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "10",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -471,9 +517,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "D6+3",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -487,8 +535,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -527,8 +578,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -541,8 +595,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -581,8 +638,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -620,8 +680,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Twin heavy venom cannon",
@@ -632,10 +695,12 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true,
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -647,10 +712,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+1",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -664,8 +731,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -704,9 +774,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "D6+6",
+                "attacksMultiplier": 2,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -720,8 +792,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -758,8 +833,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -772,8 +850,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "14",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Shovelling claws",
@@ -784,8 +865,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -826,9 +910,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3D6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -840,9 +926,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "D6+6",
+                "attacksMultiplier": 2,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -856,8 +944,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "10",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Titanic scything talons",
@@ -868,8 +959,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -910,9 +1004,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2D6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -924,8 +1020,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Tentaclids",
@@ -936,13 +1035,15 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeVehicle": true,
                     "anti4": true,
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -957,7 +1058,9 @@
                 "armor_penetration": 1,
                 "attacks": "4",
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Thorax spur",
@@ -968,11 +1071,13 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
-                    "anti2": true
+                    "anti2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -1037,8 +1142,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             }
         ]
     },
@@ -1159,8 +1267,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1200,10 +1311,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "ignoresCover": true,
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -1217,6 +1330,7 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -1320,8 +1434,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1359,9 +1476,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D6+3",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -1375,8 +1494,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Massive scything talons - sweep",
@@ -1387,8 +1509,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1426,13 +1551,15 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
                     "anti4": true,
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1444,8 +1571,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "16",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1507,8 +1637,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             }
         ]
     },
@@ -1550,8 +1683,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1596,10 +1732,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2D6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "ignoresCover": true,
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -1613,8 +1751,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1630,10 +1771,8 @@
         "oc": "5",
         "armour_save": "2",
         "invunerable_save": null,
-        "global_modifiers": {
-            "rerollHits": true,
-            "rerollWounds": true
-        },
+        "modelCount": 1,
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Extra Attacks Weapon",
@@ -1654,8 +1793,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -1668,8 +1810,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Toxinjecter Harpoon",
@@ -1680,8 +1825,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1697,10 +1845,8 @@
         "oc": "5",
         "armour_save": "2",
         "invunerable_save": "4",
-        "global_modifiers": {
-            "rerollHits": true,
-            "rerollWounds": true
-        },
+        "modelCount": 1,
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Extra Attacks Weapon",
@@ -1722,9 +1868,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2D6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1736,10 +1884,12 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "melta": true,
-                    "melta2": true
+                    "melta2": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1751,8 +1901,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "D3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -1765,8 +1918,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Monstrous scything talons",
@@ -1777,8 +1933,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1822,8 +1981,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Old One Eye’s claws and talons - Sweep",
@@ -1834,8 +1996,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "12",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1879,11 +2044,13 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
-                    "anti3": true
+                    "anti3": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1895,8 +2062,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1938,10 +2108,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "ignoresCover": true,
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -1955,13 +2127,15 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypePsyker": true,
                     "anti4": true,
                     "devWounds": true,
-                    "devWoundsOn6s": true
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -1998,11 +2172,13 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+1",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "ignoresCover": true,
                     "autoHit": true,
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -2016,8 +2192,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -2055,9 +2234,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -2094,8 +2275,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -2108,11 +2292,13 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -2148,9 +2334,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D6+3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -2164,8 +2352,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "10",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -2200,9 +2391,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3D6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -2216,8 +2409,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "10",
+                "attacksMultiplier": 1,
                 "damage": "D3+3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -2253,8 +2449,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -2267,11 +2466,13 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "6",
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHits1": true
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -2332,8 +2533,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "10",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -2346,8 +2550,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -2384,8 +2591,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Shardlauncher",
@@ -2396,9 +2606,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -2410,8 +2622,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Strangleweb",
@@ -2422,11 +2637,13 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -2438,8 +2655,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Termagant spinefist",
@@ -2450,9 +2670,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -2466,8 +2688,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
+                "attacksMultiplier": 4,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 4
+                }
             }
         ]
     },
@@ -2506,8 +2731,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -2520,8 +2748,11 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "D6+1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Massive scything talons - strike",
@@ -2532,8 +2763,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Massive scything talons - sweep",
@@ -2544,8 +2778,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -2585,9 +2822,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+3",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -2601,9 +2840,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -2639,11 +2880,13 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2D6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
-                    "anti2": true
+                    "anti2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -2657,11 +2900,13 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "12",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
-                    "anti2": true
+                    "anti2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -2699,11 +2944,13 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
-                    "sustainedHits2": true
+                    "sustainedHits2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -2717,8 +2964,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "12",
+                "attacksMultiplier": 1,
                 "damage": "3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -2758,9 +3008,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -2797,9 +3049,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+1",
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2811,8 +3065,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             },
             {
                 "name": "Devourer",
@@ -2823,8 +3080,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "5",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             },
             {
                 "name": "Spinefists",
@@ -2835,9 +3095,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2849,9 +3111,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -2865,8 +3129,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "5",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             }
         ]
     },
@@ -2905,8 +3172,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -2919,8 +3189,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -2955,9 +3228,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D6+6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "autoHit": true
+                    "autoHit": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -2969,12 +3244,14 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "20",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -2986,8 +3263,11 @@
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "D6+6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Stinger salvoes",
@@ -2998,8 +3278,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "8",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -3012,8 +3295,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -3049,8 +3335,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Crushing claws and rending claws",
@@ -3061,9 +3350,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -3075,8 +3366,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -3115,11 +3409,13 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeInfantry": true,
-                    "anti2": true
+                    "anti2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -3159,8 +3455,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -3258,8 +3557,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -3300,8 +3602,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -3342,10 +3647,12 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
+                "attacksMultiplier": 2,
                 "damage": "D6+1",
                 "parsed_weapon_types": {
                     "lethalHits": true,
-                    "lethalHitsOn6s": true
+                    "lethalHitsOn6s": true,
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -3357,9 +3664,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "attacksMultiplier": 2,
                 "damage": "D3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -3373,8 +3682,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
+                "attacksMultiplier": 2,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             }
         ]
     }
