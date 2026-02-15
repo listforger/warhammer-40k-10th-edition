@@ -198,7 +198,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             }
         ],
         "melee_weapons": [
@@ -323,7 +326,10 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta4": true
+                }
             },
             {
                 "name": "Plasma destroyer - standard",
@@ -3578,6 +3584,21 @@
                 "attacks": "8",
                 "damage": "1",
                 "parsed_weapon_types": null
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             }
         ],
         "melee_weapons": [
@@ -3697,7 +3718,10 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Twin autocannon",
@@ -4489,7 +4513,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Missile launcher - frag",
@@ -4636,7 +4663,10 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             }
         ],
         "melee_weapons": [
@@ -4989,7 +5019,10 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             }
         ],
         "melee_weapons": [
@@ -5231,7 +5264,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Missile launcher - frag",
@@ -5516,7 +5552,10 @@
                 "armor_penetration": 3,
                 "attacks": "D3",
                 "damage": "4",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Fleshmetal guns - ruinous salvo",
@@ -5631,7 +5670,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Plague belcher",
@@ -5812,7 +5854,23 @@
             "Jump Pack",
             "Raptors"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Close combat weapon",
@@ -5889,6 +5947,21 @@
                 "parsed_weapon_types": {
                     "ignoresCover": true,
                     "autoHit": true
+                }
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
                 }
             }
         ],
@@ -7781,7 +7854,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Plasma gun - standard",
@@ -8090,7 +8166,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta1": true
+                }
             },
             {
                 "name": "Plasma pistol - standard",

@@ -206,7 +206,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Dragon Fusion Pistol",
@@ -218,7 +221,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Reaper Launcher - Starshot",
@@ -345,7 +351,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Laser Lance",
@@ -469,7 +478,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Dragon Fusion Pistol",
@@ -481,7 +493,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Reaper Launcher - Starshot",
@@ -999,7 +1014,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D3",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Long rifle",
@@ -2127,7 +2145,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Dragon Fusion Pistol",
@@ -2139,7 +2160,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Dragon's Breath Flamer",
@@ -2166,7 +2190,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta6": true
+                }
             },
             {
                 "name": "Firepike",
@@ -2178,7 +2205,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             }
         ],
         "melee_weapons": [
@@ -4158,7 +4188,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Splinter Pistol",
@@ -4443,7 +4476,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta3": true
+                }
             },
             {
                 "name": "Shardcarbine",
@@ -4933,7 +4969,10 @@
                 "armor_penetration": 4,
                 "attacks": "4",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Scatter Laser",
@@ -5793,7 +5832,10 @@
                 "armor_penetration": 4,
                 "attacks": "1",
                 "damage": "D6",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true
+                }
             },
             {
                 "name": "Neuro Disruptor",
@@ -6264,7 +6306,7 @@
     {
         "status": "success",
         "unit_name": "Vypers",
-        "points": 65,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "14",
@@ -6286,18 +6328,85 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Twin Shuriken Catapult",
-                "range": "18",
+                "name": "Bright Lance",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "damage": "D6+2",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Missile Launcher - Starshot",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "damage": "D6",
+                "parsed_weapon_types": null
+            },
+            {
+                "name": "Missile Launcher - Sunburst",
+                "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
+                "attacks": "D6",
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "blast": true
                 }
+            },
+            {
+                "name": "Scatter Laser",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "6",
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true
+                }
+            },
+            {
+                "name": "Shuriken Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true
+                }
+            },
+            {
+                "name": "Starcannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "damage": "2",
+                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
