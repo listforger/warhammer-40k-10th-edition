@@ -1199,6 +1199,26 @@
                 }
             },
             {
+                "name": "Shieldbreaker missile launcher",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 6,
+                "armor_penetration": 6,
+                "attacks": "1",
+                "attacksMultiplier": 3,
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeTitanic": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 3
+                }
+            },
+            {
                 "name": "Twin meltagun",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -1214,6 +1234,23 @@
                     "melta2": true,
                     "twinLinked": true,
                     "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Twin siegebreaker cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 3,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 3
                 }
             },
             {
@@ -1321,14 +1358,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1340,12 +1377,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6+1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
                     "indirectFire": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1407,10 +1444,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "D6",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1621,14 +1658,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1640,12 +1677,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6+1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
                     "indirectFire": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1690,10 +1727,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "D6",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1817,14 +1854,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1836,12 +1873,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6+1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
                     "indirectFire": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1886,10 +1923,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "D6",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -2001,14 +2038,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2020,12 +2057,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6+1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
                     "indirectFire": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2087,10 +2124,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "D6",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -2196,14 +2233,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2215,12 +2252,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6+1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
                     "indirectFire": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2312,10 +2349,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "D6",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -2428,6 +2465,26 @@
                 }
             },
             {
+                "name": "Shieldbreaker missile launcher",
+                "range": "72",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 6,
+                "armor_penetration": 6,
+                "attacks": "1",
+                "attacksMultiplier": 3,
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeTitanic": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 3
+                }
+            },
+            {
                 "name": "Thundercoil harpoon",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -2461,6 +2518,23 @@
                     "melta2": true,
                     "twinLinked": true,
                     "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Twin siegebreaker cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 3,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 3
                 }
             }
         ],
@@ -2550,14 +2624,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
                     "anti2": true,
                     "twinLinked": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2569,12 +2643,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6+1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
                     "indirectFire": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2619,10 +2693,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "D6",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             }
         ],

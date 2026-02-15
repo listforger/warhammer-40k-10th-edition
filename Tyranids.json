@@ -1,63 +1,6 @@
 [
     {
         "status": "success",
-        "unit_name": "Barbed Hierodule [Legends]",
-        "points": 340,
-        "unit_type": "model",
-        "toughness": "12",
-        "movement": "8",
-        "wounds": "18",
-        "leadership": "8",
-        "oc": "5",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Barbed Hierodule",
-            "Great Devourer",
-            "Monster",
-            "Tyranids"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Bio-cannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "attacksMultiplier": 2,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Hierodule scything talons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "8",
-                "attacksMultiplier": 1,
-                "damage": "D3+3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Barbgaunts",
         "points": 55,
         "unit_type": "unit",
@@ -415,9 +358,7 @@
         "invunerable_save": "4",
         "modelCount": 1,
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Character",
             "Deathleaper",
@@ -438,47 +379,9 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Dimachaeron [Legends]",
-        "points": 200,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "12",
-        "wounds": "16",
-        "leadership": "7",
-        "oc": "5",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Dimachaeron",
-            "Great Devourer",
-            "Monster",
-            "Tyranids"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Massive scything talons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "10",
                 "attacksMultiplier": 1,
-                "damage": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "twinLinked": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1057,6 +960,7 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
@@ -1113,8 +1017,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "indirectFire": true,
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Shockcannon",
@@ -1125,10 +1033,13 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "anti2": true
+                    "antiTypeVehicle": true,
+                    "anti2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -1184,9 +1095,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "attacksMultiplier": 2,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1198,9 +1111,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+1",
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -1214,9 +1129,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1228,8 +1145,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
+                "attacksMultiplier": 2,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             }
         ]
     },
@@ -1336,7 +1256,8 @@
                     "anti": true,
                     "anti5": true,
                     "antiTypeVehicleOrMonster": true,
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1348,12 +1269,14 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti5": true,
                     "antiTypeVehicleOrMonster": true,
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -1372,9 +1295,7 @@
         "invunerable_save": null,
         "modelCount": 1,
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Great Devourer",
             "Infantry",
@@ -1393,47 +1314,6 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "damage": "2",
-                "parsed_weapon_types": null
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Malanthrope [Legends]",
-        "points": 75,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "6",
-        "wounds": "10",
-        "leadership": "7",
-        "oc": "3",
-        "armour_save": "4",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
-        "tags": [
-            "Character",
-            "Fly",
-            "Great Devourer",
-            "Infantry",
-            "Synapse",
-            "Tyranids"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Grasping tail",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -1661,9 +1541,7 @@
         "global_modifiers": {
             "plusOneToWound": true
         },
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Great Devourer",
             "Infantry",
@@ -2018,9 +1896,7 @@
         "invunerable_save": null,
         "modelCount": 1,
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Character",
             "Extra Attacks Weapon",
@@ -2356,123 +2232,6 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Scythed Hierodule [Legends]",
-        "points": 330,
-        "unit_type": "model",
-        "toughness": "12",
-        "movement": "12",
-        "wounds": "18",
-        "leadership": "8",
-        "oc": "5",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Great Devourer",
-            "Monster",
-            "Scythed Hierodule",
-            "Tyranids"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Bio-acid spray",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Hierodule scything talons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "10",
-                "attacksMultiplier": 1,
-                "damage": "D3+3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Sky-slasher Swarms [Legends]",
-        "points": 60,
-        "unit_type": "unit",
-        "toughness": "2",
-        "movement": "12",
-        "wounds": "4",
-        "leadership": "8",
-        "oc": "0",
-        "armour_save": "6",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Fly",
-            "Great Devourer",
-            "Sky-slasher Swarms",
-            "Swarm",
-            "Tyranids"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Spinemaws",
-                "range": "6",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Claws and teeth",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -3434,9 +3193,7 @@
         "invunerable_save": "6",
         "modelCount": 3,
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Great Devourer",
             "Infantry",
@@ -3501,9 +3258,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "D3",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -3515,9 +3274,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D6+1",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true
+                    "blast": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -3531,9 +3292,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
-                    "twinLinked": true
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -3545,8 +3308,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
+                "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": null
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             },
             {
                 "name": "Tyrant talons",

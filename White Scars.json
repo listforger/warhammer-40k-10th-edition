@@ -25,7 +25,23 @@
             "Tacticus",
             "White Scars"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Moonfang",
@@ -73,6 +89,21 @@
             "White Scars"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Onslaught Gatling Cannon",
                 "range": "24",

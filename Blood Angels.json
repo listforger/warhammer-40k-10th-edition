@@ -125,6 +125,38 @@
                 }
             },
             {
+                "name": "Hunter-killer missile",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "oneShot": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Storm Bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Twin Assault Cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -143,7 +175,23 @@
                 }
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Armoured Tracks",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
     },
     {
         "status": "success",
@@ -187,6 +235,23 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -204,116 +269,30 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Brother Corbulo [Legends]",
-        "points": 75,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Blood Angels",
-            "Brother Corbulo",
-            "Character",
-            "Epic Hero",
-            "Grenades",
-            "Imperium",
-            "Infantry",
-            "Sanguinary Priest",
-            "Space Marines"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
+            },
             {
-                "name": "Heaven's Teeth",
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Relic Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Captain Tycho [Legends]",
-        "points": 75,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Blood Angels",
-            "Captain",
-            "Character",
-            "Epic Hero",
-            "Grenades",
-            "Imperium",
-            "Infantry",
-            "Space Marines",
-            "Tycho"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Blood Song",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "melta": true,
-                    "melta2": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Dead Man's Hand",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "2",
@@ -385,6 +364,36 @@
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -523,6 +532,23 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -535,6 +561,36 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "7",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Relic Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -575,6 +631,23 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Hand Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Heavy Bolt Pistol",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -588,9 +661,85 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "7",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Relic Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
     },
     {
         "status": "success",
@@ -634,6 +783,63 @@
                 "parsed_weapon_types": {
                     "twinLinked": true,
                     "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Twin Heavy Bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Icarus Ironhail Heavy Stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeFly": true,
+                    "anti4": true,
+                    "rapidFire": 3,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -717,6 +923,40 @@
             "Walker"
         ],
         "ranged_weapons": [
+            {
+                "name": "Heavy Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Storm Bolter",
                 "range": "24",
@@ -826,9 +1066,179 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Bolt Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Hand Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 4,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 4
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thunder Hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
     },
     {
         "status": "success",
@@ -861,6 +1271,23 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Hand Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
                 "name": "Heavy Bolt Pistol",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
@@ -869,14 +1296,142 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 4,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 4
+                }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 2
                 }
             }
         ],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Eviscerator",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thunder Hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
     },
     {
         "status": "success",
@@ -938,6 +1493,21 @@
                 }
             },
             {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 3,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 3
+                }
+            },
+            {
                 "name": "Bolt Rifle",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -946,14 +1516,93 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Hand Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
             {
                 "name": "Close Combat Weapon",
                 "range": "",
@@ -970,6 +1619,39 @@
                 }
             },
             {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Eviscerator",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Power Fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -981,6 +1663,38 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thunder Hammer",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1012,8 +1726,163 @@
             "Infantry",
             "Space Marines"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Hand Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Thunder Hammer",
                 "range": "",
@@ -1059,8 +1928,163 @@
             "Infantry",
             "Space Marines"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Boltgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Hand Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
+            {
+                "name": "Astartes Chainsword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Thunder Hammer",
                 "range": "",
@@ -1109,146 +2133,148 @@
             "Space Marines",
             "Tacticus"
         ],
-        "ranged_weapons": [],
-        "melee_weapons": []
-    },
-    {
-        "status": "success",
-        "unit_name": "Furioso Dreadnought [Legends]",
-        "points": 150,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "6",
-        "wounds": "8",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Blood Angels",
-            "Dreadnought",
-            "Furioso Dreadnought",
-            "Imperium",
-            "Smoke",
-            "Space Marines",
-            "Vehicle",
-            "Walker"
-        ],
         "ranged_weapons": [
             {
-                "name": "Heavy Frag Cannon",
+                "name": "Hand Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Heavy Bolt Pistol",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
+                "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
+                "attacks": "1",
                 "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Plasma Pistol - Standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma Pistol - Supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "blast": true,
-                    "rapidFire": 1,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Blood Talons",
+                "name": "Astartes Chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Furioso Fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
                 "attacksMultiplier": 2,
-                "damage": "3",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 2
                 }
             },
             {
-                "name": "Twin Furioso Fists",
+                "name": "Eviscerator",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Gabriel Seth [Legends]",
-        "points": 90,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "6",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Blood Angels",
-            "Chapter Master",
-            "Character",
-            "Epic Hero",
-            "Gabriel Seth",
-            "Grenades",
-            "Imperium",
-            "Infantry",
-            "Space Marines"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Blood Reaver",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
+                "ballistic_skill": 4,
+                "strength": 7,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "6",
+                "attacks": "3",
                 "attacksMultiplier": 1,
-                "damage": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -1323,105 +2349,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Librarian Dreadnought [Legends]",
-        "points": 170,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "8",
-        "wounds": "8",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Blood Angels",
-            "Dreadnought",
-            "Extra Attacks Weapon",
-            "Imperium",
-            "Librarian Dreadnought",
-            "Psychic Weapon",
-            "Psyker",
-            "Smoke",
-            "Space Marines",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Blood Lance - Focused Witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6+3",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Blood Lance - Witchfire",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHitsD3": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Furioso Fist",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Furioso Force Halberd",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6+3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Sanguinary Guard",
         "points": 125,
         "unit_type": "unit",
@@ -1458,6 +2385,23 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Inferno Pistol",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1521,47 +2465,35 @@
             "Space Marines",
             "Tacticus"
         ],
-        "ranged_weapons": [],
-        "melee_weapons": []
-    },
-    {
-        "status": "success",
-        "unit_name": "Sanguinary Priest on Bike [Legends]",
-        "points": 135,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "12",
-        "wounds": "5",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Blood Angels",
-            "Character",
-            "Grenades",
-            "Imperium",
-            "Melee Weapon",
-            "Mounted",
-            "Sanguinary Priest",
-            "Space Marines"
+        "ranged_weapons": [
+            {
+                "name": "Absolvor Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
         ],
-        "ranged_weapons": [],
         "melee_weapons": [
             {
-                "name": "Power Fist",
+                "name": "Astartes Chainsword",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
                 "attacksMultiplier": 1,
-                "damage": "2",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -1595,7 +2527,23 @@
             "Sanguinary Priest",
             "Space Marines"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Astartes Chainsword",
@@ -1656,74 +2604,6 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Tycho the Lost [Legends]",
-        "points": 90,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Blood Angels",
-            "Captain",
-            "Character",
-            "Epic Hero",
-            "Grenades",
-            "Imperium",
-            "Infantry",
-            "Space Marines",
-            "Tycho the Lost"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Blood Song",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "melta": true,
-                    "melta2": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Dead Man's Hand",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }

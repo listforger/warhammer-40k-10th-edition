@@ -92,6 +92,21 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Master-crafted Bolter",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -227,72 +242,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Chaplain Cassius [Legends]",
-        "points": 80,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "5",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chaplain Cassius",
-            "Character",
-            "Epic Hero",
-            "Imperium",
-            "Infantry",
-            "Space Marines",
-            "Ultramarines"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Infernus",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Artificer Crozius",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Chief Librarian Tigurius",
         "points": 75,
         "unit_type": "model",
@@ -317,6 +266,21 @@
             "Ultramarines"
         ],
         "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Storm of the Emperor’s Wrath - Focuse",
                 "range": "18",
@@ -397,7 +361,23 @@
             "Titus",
             "Ultramarines"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Astartes Chainsword",
@@ -642,220 +622,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Sergeant Chronus [Legends]",
-        "points": 75,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "3",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Epic Hero",
-            "Imperium",
-            "Infantry",
-            "Sergeant Chronus",
-            "Space Marines",
-            "Ultramarines"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Chronus' Servo-Arm",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Sergeant Telion [Legends]",
-        "points": 70,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "3",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "4",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
-        "tags": [
-            "Character",
-            "Epic Hero",
-            "Imperium",
-            "Infantry",
-            "Sergeant Telion",
-            "Space Marines",
-            "Ultramarines"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Quietus",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Combat Knife",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Tyrannic War Veterans [Legends]",
-        "points": 85,
-        "unit_type": "unit",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "2",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Grenades",
-            "Imperium",
-            "Infantry",
-            "Space Marines",
-            "Tyrannic War Veterans",
-            "Ultramarines"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Bolt Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeAny": true,
-                    "anti4": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Boltgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeAny": true,
-                    "anti4": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Close Combat Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeAny": true,
-                    "anti4": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Ultramarines Honour Guard [Legends]",
-        "points": 155,
-        "unit_type": "unit",
-        "toughness": "4",
-        "movement": "6",
-        "wounds": "2",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Grenades",
-            "Honor Guard",
-            "Imperium",
-            "Infantry",
-            "Space Marines",
-            "Ultramarines"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": []
-    },
-    {
-        "status": "success",
         "unit_name": "Uriel Ventris",
         "points": 95,
         "unit_type": "model",
@@ -881,6 +647,21 @@
             "Uriel Ventris"
         ],
         "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Invictus",
                 "range": "24",
@@ -977,6 +758,21 @@
                     "twinLinked": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
             }
         ]
     },
@@ -1037,6 +833,36 @@
                     "blast": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Bolt Rifle",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
@@ -1064,6 +890,21 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {

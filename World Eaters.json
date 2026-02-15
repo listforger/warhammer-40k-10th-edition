@@ -1451,24 +1451,7 @@
             "World Eaters"
         ],
         "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Chainblades",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeVehicleOrMonster": true,
-                    "anti3": true
-                }
-            }
-        ]
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -2033,161 +2016,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Hell Talon [Legends]",
-        "points": 140,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "20",
-        "wounds": "14",
-        "leadership": "6",
-        "oc": "0",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Aircraft",
-            "Chaos",
-            "Fly",
-            "Hell Talon",
-            "Khorne",
-            "Vehicle",
-            "World Eaters"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Autocannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Havoc launcher",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Hellblade [Legends]",
-        "points": 115,
-        "unit_type": "model",
-        "toughness": "8",
-        "movement": "20",
-        "wounds": "10",
-        "leadership": "6",
-        "oc": "0",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Aircraft",
-            "Chaos",
-            "Fly",
-            "Hellblade",
-            "Khorne",
-            "Vehicle",
-            "World Eaters"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1,
-                    "twinLinked": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Jakhal",
         "points": null,
         "unit_type": "model",
@@ -2271,10 +2099,10 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 4,
+                "attacksMultiplier": 67,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 4
+                    "attacksMultiplier": 67
                 }
             }
         ],
@@ -2288,10 +2116,10 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 64,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 64
                 }
             },
             {

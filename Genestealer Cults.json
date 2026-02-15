@@ -832,7 +832,23 @@
             "Vanguard Invader"
         ],
         "ranged_weapons": [],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Lictor claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
     },
     {
         "status": "success",
@@ -1280,6 +1296,25 @@
                     "twinLinked": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Ravener heavy claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti5": true,
+                    "antiTypeVehicleOrMonster": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 2
+                }
             }
         ]
     },
@@ -1444,7 +1479,23 @@
             "Vanguard Invader"
         ],
         "ranged_weapons": [],
-        "melee_weapons": []
+        "melee_weapons": [
+            {
+                "name": "Lictor claws and talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
     },
     {
         "status": "success",
@@ -2404,46 +2455,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Tectonic Fragdrill [Legends]",
-        "points": 125,
-        "unit_type": "model",
-        "toughness": "11",
-        "movement": "",
-        "wounds": "14",
-        "leadership": "7",
-        "oc": "0",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Fortification",
-            "Genestealer Cults",
-            "Tectonic Fragdrill",
-            "Vehicle"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Fragdrill",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 6,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Trygon",
         "points": 140,
         "unit_type": "model",
@@ -2632,8 +2643,72 @@
             "Vanguard Invader",
             "Winged Hive Tyrant"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Heavy venom cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Stranglethorn cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
+            {
+                "name": "Monstrous bonesword and lash whip",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Monstrous scything talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Tyrant talons",
                 "range": "",

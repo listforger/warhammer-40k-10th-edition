@@ -1,83 +1,6 @@
 [
     {
         "status": "success",
-        "unit_name": "Attack Fighta [Legends]",
-        "points": 100,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "20",
-        "wounds": "10",
-        "leadership": "7",
-        "oc": "0",
-        "armour_save": "3",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Aircraft",
-            "Attack Fighta",
-            "Fly",
-            "Orks",
-            "Speed Freeks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Wing missiles",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Battlewagon",
         "points": 160,
         "unit_type": "model",
@@ -553,115 +476,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Big Gunz [Legends]",
-        "points": 20,
-        "unit_type": "unit",
-        "toughness": "4",
-        "movement": "3",
-        "wounds": "3",
-        "leadership": "8",
-        "oc": "1",
-        "armour_save": "5",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollOnesHits": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Artillery",
-            "Big Gunz",
-            "Grots",
-            "Orks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Kannon - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 6,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 6,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Lobba",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 6,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "indirectFire": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Zzap gun",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 6,
-                "strength": 2,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Close combat weapons",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 3,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 3
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Big Mek",
         "points": 70,
         "unit_type": "model",
@@ -888,232 +702,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Big Mek on Warbike [Legends]",
-        "points": 105,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "6",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollOnesHits": true,
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": {
-            "heal": true,
-            "healD3Wounds": true
-        },
-        "tags": [
-            "Big Mek",
-            "Big Mek on Warbike",
-            "Character",
-            "Grenades",
-            "Mounted",
-            "Orks",
-            "Speed Freeks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Kombi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Kustom mega-blasta",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 2,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Kustom mega-slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 2,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 2,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Shokk attack gun",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "D6+1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin dakkagun",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Big choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "attacksMultiplier": 2,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Killsaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 2,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Big Mek with Kustom Force Field [Leg...",
         "points": 55,
         "unit_type": "model",
@@ -1226,125 +814,6 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Big Trakk [Legends]",
-        "points": 90,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "12",
-        "wounds": "12",
-        "leadership": "7",
-        "oc": "3",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Big Trakk",
-            "Orks",
-            "Transport",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Kannon - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Supa-kannon - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Supa-kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D3+3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1667,69 +1136,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Boss Zagstruk [Legends]",
-        "points": 90,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "12",
-        "wounds": "6",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "4",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": {
-            "feelNoPain": 6
-        },
-        "tags": [
-            "Boss Zagstruk",
-            "Character",
-            "Epic Hero",
-            "Fly",
-            "Infantry",
-            "Jump Pack",
-            "Orks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Da Vulcha’s Klaws and choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Boyz",
         "points": 80,
         "unit_type": "unit",
@@ -2035,7 +1441,72 @@
             "Infantry",
             "Orks"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Big shoota",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Burna",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 4,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 4
+                }
+            },
+            {
+                "name": "Kustom mega-blasta",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Rokkit launcha",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
             {
                 "name": "Close combat weapon",
@@ -2046,10 +1517,10 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
-                "attacksMultiplier": 3,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 3
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -2061,10 +1532,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
-                "attacksMultiplier": 12,
+                "attacksMultiplier": 4,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 12
+                    "attacksMultiplier": 4
                 }
             }
         ]
@@ -2168,209 +1639,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Chinork Warkopta [Legends]",
-        "points": 105,
-        "unit_type": "model",
-        "toughness": "8",
-        "movement": "14",
-        "wounds": "10",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Chinork Warkopta",
-            "Fly",
-            "Orks",
-            "Speed Freeks",
-            "Transport",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Deffgun",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 3,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "rapidFire": 1,
-                    "attacksMultiplier": 3
-                }
-            },
-            {
-                "name": "Kustom mega-blasta",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Rattler kannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 3,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 3
-                }
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Da Red Gobbo [Legends]",
-        "points": 40,
-        "unit_type": "model",
-        "toughness": "2",
-        "movement": "6",
-        "wounds": "3",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "5",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Da Red Gobbo",
-            "Epic Hero",
-            "Grenades",
-            "Grots",
-            "Infantry",
-            "Orks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Kustom grot blasta",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Icon of da Revolushun",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Da Red Gobbo's A-bomb-inable Snowman...",
         "points": 40,
         "unit_type": "model",
@@ -2420,65 +1688,6 @@
                 "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Da Red Gobbo's Tinboy [Legends]",
-        "points": 45,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "5",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Da Red Gobbo",
-            "Epic Hero",
-            "Grots",
-            "Orks",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Tinboy's kustom shoota",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Tinboy's klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -2670,179 +1879,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Deff Rolla Battle Fortress [Legends]",
-        "points": 250,
-        "unit_type": "model",
-        "toughness": "12",
-        "movement": "10",
-        "wounds": "22",
-        "leadership": "7",
-        "oc": "8",
-        "armour_save": "3",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Deff Rolla Battle Fortress",
-            "Orks",
-            "Titanic",
-            "Transport",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Kannon - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Lobba",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "indirectFire": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Zzap gun",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 2,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Deff rolla",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Deffkilla Wartrike",
         "points": 80,
         "unit_type": "model",
@@ -3023,222 +2059,6 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 2
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Deffkoptas with Big Shootas [Legends]",
-        "points": 130,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "4",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Deffkoptas with Big Shootas",
-            "Fly",
-            "Grenades",
-            "Orks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Kopta rokkits",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Kustom mega-blasta",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Killsaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Spinnin’ blades",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Fighta-Bommer [Legends]",
-        "points": 100,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "20",
-        "wounds": "12",
-        "leadership": "7",
-        "oc": "0",
-        "armour_save": "3",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Aircraft",
-            "Fighta-Bommer",
-            "Fly",
-            "Orks",
-            "Speed Freeks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Grot-guided bomm",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "attacksMultiplier": 3,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "oneShot": true,
-                    "indirectFire": true,
-                    "attacksMultiplier": 3
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 3,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 3
-                }
-            },
-            {
-                "name": "Wing missiles",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -3660,10 +2480,25 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 30,
+                "attacksMultiplier": 10,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 30
+                    "attacksMultiplier": 10
+                }
+            },
+            {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -3677,10 +2512,10 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 30,
+                "attacksMultiplier": 10,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 30
+                    "attacksMultiplier": 10
                 }
             },
             {
@@ -3692,397 +2527,8 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
-                "attacksMultiplier": 3,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 3
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Grot Bomm Launcha [Legends]",
-        "points": 50,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "6",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollHits": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Grot Bomm Launcha",
-            "Grots",
-            "Mounted",
-            "Orks",
-            "Speed Freeks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Grot-guided bomms",
-                "range": "72",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "oneShot": true,
-                    "indirectFire": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Spiked wheel",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Grot Mega-Tank [Legends]",
-        "points": 110,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "8",
-        "wounds": "12",
-        "leadership": "8",
-        "oc": "4",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Grot Mega-Tank",
-            "Grots",
-            "Orks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Mega-tank weapons",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "10",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin grotzooka",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D3+3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "ignoresCover": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin kustom mega-blasta",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Grot Tanks [Legends]",
-        "points": 155,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "10",
-        "wounds": "5",
-        "leadership": "8",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Grot Tanks",
-            "Grots",
-            "Orks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Grot tank shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 2,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Grotzooka",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D3+3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "ignoresCover": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Kustom mega-blasta",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 2,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Ramshackle hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 6,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 6
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Grotmas Gitz [Legends]",
-        "points": 40,
-        "unit_type": "model",
-        "toughness": "3",
-        "movement": "10",
-        "wounds": "5",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 5
-        },
-        "tags": [
-            "Character",
-            "Epic Hero",
-            "Fly",
-            "Gretchin",
-            "Grotmas Gitz",
-            "Mounted",
-            "Orks"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Bludgeoning bag of gifts",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Massive gift-filled gob",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -4196,312 +2642,6 @@
                 "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Kannonwagon [Legends]",
-        "points": 115,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "12",
-        "wounds": "16",
-        "leadership": "7",
-        "oc": "4",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Kannonwagon",
-            "Orks",
-            "Transport",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Supa-kannon - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Supa-kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D3+3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Spiked ram",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Kaptin Badrukk [Legends]",
-        "points": 80,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "6",
-        "wounds": "6",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollHits": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Epic Hero",
-            "Infantry",
-            "Kaptin Badrukk",
-            "Orks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Da Rippa - standard",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 0,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 0
-                }
-            },
-            {
-                "name": "Da Rippa - supercharge",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Kill Krusha [Legends]",
-        "points": 230,
-        "unit_type": "model",
-        "toughness": "12",
-        "movement": "10",
-        "wounds": "22",
-        "leadership": "7",
-        "oc": "8",
-        "armour_save": "3",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Kill Krusha",
-            "Orks",
-            "Titanic",
-            "Transport",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Krusha kannon - blast burna",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Krusha kannon - tankhamma shell",
-                "range": "60",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 16,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 2,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Tracks and wheels",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -4630,118 +2770,6 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Kill Tank [Legends]",
-        "points": 295,
-        "unit_type": "model",
-        "toughness": "12",
-        "movement": "12",
-        "wounds": "24",
-        "leadership": "6",
-        "oc": "10",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Kill Tank",
-            "Orks",
-            "Titanic",
-            "Transport",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Bursta kannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 14,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3D6",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Giga shoota",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "30",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Reinforced ram",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -5121,141 +3149,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Lifta Wagon [Legends]",
-        "points": 135,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "10",
-        "wounds": "16",
-        "leadership": "7",
-        "oc": "5",
-        "armour_save": "3",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Lifta Wagon",
-            "Orks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 4,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 4
-                }
-            },
-            {
-                "name": "Lifta-droppa",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 6,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeVehicle": true,
-                    "anti3": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Rokkit launcha",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 4,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 4
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Deff rolla",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Grabbin' klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Tracks and wheels",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Wreckin' ball",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 10,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Lootas",
         "points": 50,
         "unit_type": "unit",
@@ -5278,6 +3171,22 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Big shoota",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Deffgun",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
@@ -5286,195 +3195,59 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
-                "attacksMultiplier": 12,
+                "attacksMultiplier": 4,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "rapidFire": 1,
-                    "attacksMultiplier": 12
-                }
-            }
-        ],
-        "melee_weapons": []
-    },
-    {
-        "status": "success",
-        "unit_name": "Mad Dok Grotsnik [Legends]",
-        "points": 65,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "5",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 5
-        },
-        "tags": [
-            "Character",
-            "Epic Hero",
-            "Infantry",
-            "Mad Dok Grotsnik",
-            "Orks",
-            "Painboy"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 4
                 }
             },
             {
-                "name": "’Urty syringe",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Mega Dread [Legends]",
-        "points": 225,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "8",
-        "wounds": "16",
-        "leadership": "7",
-        "oc": "5",
-        "armour_save": "2",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Mega Dread",
-            "Orks",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Boombits",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Killkannon",
+                "name": "Kustom mega-blasta",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 5,
                 "strength": 9,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "D6+3",
+                "attacks": "3",
                 "attacksMultiplier": 1,
-                "damage": "2",
+                "damage": "D6",
                 "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Rokkit launcha",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D3",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true,
                     "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Dread killsaw",
+                "name": "Close combat weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "4",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Dread rippa klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Stompy feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
+                "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "4",
-                "attacksMultiplier": 1,
+                "attacks": "2",
+                "attacksMultiplier": 5,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 5
                 }
             }
         ]
@@ -5901,121 +3674,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Meka-Dread [Legends]",
-        "points": 210,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "8",
-        "wounds": "16",
-        "leadership": "7",
-        "oc": "5",
-        "armour_save": "2",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": {
-            "heal": true,
-            "healD3Wounds": true
-        },
-        "tags": [
-            "Meka-Dread",
-            "Orks",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Killkannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6+3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Dread killsaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "4",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Dread rippa klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Stompy feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Mekboy Workshop [Legends]",
-        "points": 80,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "",
-        "wounds": "10",
-        "leadership": "7",
-        "oc": "0",
-        "armour_save": "4",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Fortification",
-            "Mekboy Workshop",
-            "Orks",
-            "Vehicle"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": []
-    },
-    {
-        "status": "success",
         "unit_name": "Morkanaut",
         "points": 280,
         "unit_type": "model",
@@ -6294,64 +3952,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Nob with Waaagh! Banner [Legends]",
-        "points": 70,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "6",
-        "wounds": "3",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "4",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Infantry",
-            "Melee Weapon",
-            "Nob with Waaagh! Banner",
-            "Orks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Kustom shoota",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Waaagh! banner",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Nobz",
         "points": 105,
         "unit_type": "unit",
@@ -6459,156 +4059,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Nobz on Warbikes [Legends]",
-        "points": 125,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "4",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Grenades",
-            "Mounted",
-            "Nobz on Warbikes",
-            "Orks",
-            "Speed Freeks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Slugga",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Twin dakkagun",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Big choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Killsaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Power stabba",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Painboss",
         "points": 70,
         "unit_type": "model",
@@ -6682,98 +4132,6 @@
         ],
         "ranged_weapons": [],
         "melee_weapons": [
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "’Urty syringe",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 2,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Painboy on Warbike [Legends]",
-        "points": 85,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "4",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Mounted",
-            "Orks",
-            "Painboy on Warbike",
-            "Speed Freeks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Twin dakkagun",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Killsaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
             {
                 "name": "Power klaw",
                 "range": "",
@@ -7010,153 +4368,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Skorchas [Legends]",
-        "points": 45,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "6",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollWounds": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Mounted",
-            "Orks",
-            "Skorchas",
-            "Speed Freeks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Skorcha",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Spiked wheel",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Squiggoth [Legends]",
-        "points": 150,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "10",
-        "wounds": "18",
-        "leadership": "7",
-        "oc": "5",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Monster",
-            "Orks",
-            "Squiggoth",
-            "Transport"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Kannon - frag",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Kannon - shell",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Gorin’ horns - strike",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Gorin’ horns - sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Squighog Boy",
         "points": null,
         "unit_type": "model",
@@ -7279,10 +4490,25 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 9,
+                "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 9
+                    "attacksMultiplier": 3
+                }
+            },
+            {
+                "name": "Slugga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -7294,13 +4520,13 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
-                "attacksMultiplier": 9,
+                "attacksMultiplier": 3,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true,
                     "antiTypeVehicleOrMonster": true,
-                    "attacksMultiplier": 9
+                    "attacksMultiplier": 3
                 }
             }
         ],
@@ -7314,13 +4540,13 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
-                "attacksMultiplier": 3,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true,
                     "antiTypeVehicleOrMonster": true,
-                    "attacksMultiplier": 3
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -7332,10 +4558,10 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 12,
+                "attacksMultiplier": 4,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 12
+                    "attacksMultiplier": 4
                 }
             },
             {
@@ -7347,14 +4573,14 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 9,
+                "attacksMultiplier": 3,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true,
                     "antiTypeVehicleOrMonster": true,
                     "plusOneToWound": true,
-                    "attacksMultiplier": 9
+                    "attacksMultiplier": 3
                 }
             }
         ]
@@ -7774,87 +5000,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Ufthak Blackhawk [Legends]",
-        "points": 70,
-        "unit_type": "model",
-        "toughness": "5",
-        "movement": "6",
-        "wounds": "6",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "4",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollHits": true,
-            "rerollWounds": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Epic Hero",
-            "Grenades",
-            "Infantry",
-            "Orks",
-            "Ufthak Blackhawk",
-            "Warboss"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Shokk rifle",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Princess' jaws",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Snazzhammer",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Warbikers",
         "points": 65,
         "unit_type": "unit",
@@ -8145,247 +5290,6 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Warboss on Warbike [Legends]",
-        "points": 75,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "7",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Character",
-            "Grenades",
-            "Melee Weapon",
-            "Mounted",
-            "Orks",
-            "Speed Freeks",
-            "Warboss"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Twin dakkagun",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Big choppa",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Killsaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Power klaw",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Warbuggies [Legends]",
-        "points": 40,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "6",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Mounted",
-            "Orks",
-            "Speed Freeks",
-            "Warbuggies"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Rack of rokkits",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3+1",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Spiked wheel",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Wartrakks [Legends]",
-        "points": 50,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "6",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "4",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Mounted",
-            "Orks",
-            "Speed Freeks",
-            "Wartrakks"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Rack of rokkits",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3+1",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin big shoota",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 5,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Spiked wheel",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
                 }
             }
         ]

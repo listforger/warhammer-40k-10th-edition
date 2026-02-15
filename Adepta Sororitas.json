@@ -104,31 +104,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Battle Sanctum [Legends]",
-        "points": 170,
-        "unit_type": "model",
-        "toughness": "11",
-        "movement": "",
-        "wounds": "20",
-        "leadership": "7",
-        "oc": "0",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adepta Sororitas",
-            "Battle Sanctum",
-            "Fortification",
-            "Imperium",
-            "Towering"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": []
-    },
-    {
-        "status": "success",
         "unit_name": "Battle Sisters Squad",
         "points": 105,
         "unit_type": "unit",
@@ -160,11 +135,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 4,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "rapidFire": 2,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 4
                 }
             },
             {
@@ -207,7 +182,7 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -216,7 +191,7 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -228,7 +203,7 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -237,7 +212,7 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -284,12 +259,12 @@
                 "armour_penetration": 4,
                 "armor_penetration": 4,
                 "attacks": "1",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 4,
                 "damage": "D6",
                 "parsed_weapon_types": {
                     "melta": true,
                     "melta2": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 4
                 }
             },
             {
@@ -301,12 +276,12 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D6",
-                "attacksMultiplier": 6,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "ignoresCover": true,
                     "autoHit": true,
-                    "attacksMultiplier": 6
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -384,10 +359,10 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
-                "attacksMultiplier": 4,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 4
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -401,10 +376,10 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -416,10 +391,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -1040,72 +1015,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Celestian Sacresant Aveline [Legends]",
-        "points": null,
-        "unit_type": "model",
-        "toughness": "3",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollHits": true,
-            "rerollWounds": true
-        },
-        "defenderGlobalModifiers": {
-            "feelNoPain": 6
-        },
-        "tags": [
-            "Adepta Sororitas",
-            "Celestian Sacresant Aveline",
-            "Character",
-            "Epic Hero",
-            "Grenades",
-            "Imperium",
-            "Infantry"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Ministorum hand flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "The Thorn of the White Rose",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Celestian Sacresants",
         "points": 70,
         "unit_type": "unit",
@@ -1217,13 +1126,13 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1235,12 +1144,12 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1249,46 +1158,6 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Crusaders [Legends]",
-        "points": 40,
-        "unit_type": "unit",
-        "toughness": "3",
-        "movement": "6",
-        "wounds": "2",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adepta Sororitas",
-            "Crusaders",
-            "Imperium",
-            "Infantry"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Power Weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
@@ -1353,48 +1222,6 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Death Cult Assassins [Legends]",
-        "points": 55,
-        "unit_type": "unit",
-        "toughness": "3",
-        "movement": "7",
-        "wounds": "1",
-        "leadership": "7",
-        "oc": "1",
-        "armour_save": "5",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": {
-            "rerollWounds": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adepta Sororitas",
-            "Death Cult Assassins",
-            "Imperium",
-            "Infantry"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Death Cult power blades",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1567,7 +1394,7 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -1576,7 +1403,7 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1588,7 +1415,7 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -1597,7 +1424,7 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1692,10 +1519,10 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
-                "attacksMultiplier": 4,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 4
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -1709,10 +1536,10 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1724,10 +1551,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -2733,18 +2560,6 @@
                     "twinLinked": true,
                     "attacksMultiplier": 2
                 }
-            },
-            {
-                "name": "Bolt Pistol",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "1",
-                "damage": "1",
-                "parsed_weapon_types": null
             }
         ],
         "melee_weapons": [
@@ -2972,133 +2787,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Repressor [Legends]",
-        "points": 130,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "12",
-        "wounds": "12",
-        "leadership": "7",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 1,
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adepta Sororitas",
-            "Dedicated Transport",
-            "Imperium",
-            "Repressor",
-            "Smoke",
-            "Sororitas Rhino",
-            "Transport",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "oneShot": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Repressor twin heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Storm bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured tracks",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Dozer Ram",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Retributor Squad",
         "points": 120,
         "unit_type": "unit",
@@ -3163,7 +2851,7 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -3172,7 +2860,7 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -3184,7 +2872,7 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -3193,7 +2881,7 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -3306,10 +2994,10 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
-                "attacksMultiplier": 4,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 4
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -3323,10 +3011,10 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -3338,10 +3026,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]
