@@ -691,7 +691,9 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
-        "tags": null,
+        "tags": [
+            "Agents of the Imperium"
+        ],
         "ranged_weapons": [],
         "melee_weapons": [
             {
@@ -1000,6 +1002,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Agents of the Imperium",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -1095,6 +1098,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Agents of the Imperium",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -1178,6 +1182,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Agents of the Imperium",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -1576,6 +1581,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Agents of the Imperium",
             "Gravis"
         ],
         "ranged_weapons": [
@@ -2588,152 +2594,6 @@
     },
     {
         "status": "success",
-        "unit_name": "Inquisitor in Terminator Armour [Leg...",
-        "points": 70,
-        "unit_type": "model",
-        "toughness": "4",
-        "movement": "5",
-        "wounds": "5",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
-        "invunerable_save": "6",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 70,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Agents of the Imperium",
-            "Character",
-            "Grenades",
-            "Imperium",
-            "Infantry",
-            "Inquisitor",
-            "Melee Weapon",
-            "Psychic Weapon",
-            "Ranged Weapon",
-            "Terminator"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Psycannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 8,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Psychic shock wave",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 3,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "2D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "autoHit": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Storm bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Force weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Inquisitorial melee weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Inquisitorial Agents",
         "points": 50,
         "unit_type": "unit",
@@ -3162,7 +3022,9 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
-        "tags": null,
+        "tags": [
+            "Agents of the Imperium"
+        ],
         "ranged_weapons": [
             {
                 "name": "Plasma pistol - Standard",
