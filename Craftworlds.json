@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Asurmen",
-        "points": 125,
+        "points": 135,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 125,
+                    "points": 135,
                     "source": "fallback"
                 }
             ],
@@ -1383,6 +1383,51 @@
                 }
             }
         ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Craftworld Warleader [Crucible]",
+        "points": 75,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 75,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": {
+            "rerollHits": true,
+            "rerollWounds": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Character",
+            "Craftworld Warleader",
+            "Craftworlds",
+            "Crucible",
+            "Infantry",
+            "Leader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -2938,6 +2983,52 @@
                 }
             }
         ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Ghost Warrior [Crucible]",
+        "points": 160,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "8",
+        "wounds": "10",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 160,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": {
+            "rerollOnesHits": true,
+            "rerollOnesWounds": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Character",
+            "Craftworlds",
+            "Crucible",
+            "Ghost Warrior",
+            "Monster",
+            "Walker",
+            "Wraith Construct"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
     },
     {
         "status": "success",
@@ -4755,6 +4846,49 @@
     },
     {
         "status": "success",
+        "unit_name": "Skyrunner [Crucible]",
+        "points": 80,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "14",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 80,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Character",
+            "Craftworlds",
+            "Crucible",
+            "Fly",
+            "Leader",
+            "Mounted",
+            "Skyrunner"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Skyweavers",
         "points": 95,
         "unit_type": "unit",
@@ -5063,6 +5197,7 @@
             "Asuryani",
             "Craftworlds",
             "Fly",
+            "Grenades",
             "Starfangs",
             "Vehicle",
             "Ynnari"
@@ -7578,7 +7713,7 @@
     {
         "status": "success",
         "unit_name": "Wraithblades",
-        "points": 160,
+        "points": 150,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "6",
@@ -7596,7 +7731,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 160,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -7652,7 +7787,7 @@
     {
         "status": "success",
         "unit_name": "Wraithguard",
-        "points": 170,
+        "points": 160,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "6",
@@ -7670,7 +7805,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 170,
+                    "points": 160,
                     "source": "fallback"
                 }
             ],
@@ -8030,7 +8165,7 @@
     {
         "status": "success",
         "unit_name": "Wraithlord",
-        "points": 140,
+        "points": 130,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -8048,7 +8183,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],

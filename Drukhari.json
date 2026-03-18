@@ -130,6 +130,51 @@
     },
     {
         "status": "success",
+        "unit_name": "Archtormentor [Crucible]",
+        "points": 60,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "8",
+        "wounds": "4",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "6",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 60,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": {
+            "rerollHits": true,
+            "plusOneToWound": true
+        },
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Archtormentor",
+            "Character",
+            "Crucible",
+            "Drukhari",
+            "Infantry",
+            "Leader",
+            "Wych Cult"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Corsair Skyreavers",
         "points": 75,
         "unit_type": "unit",
@@ -1122,8 +1167,8 @@
     },
     {
         "status": "success",
-        "unit_name": "Haemonculus",
-        "points": 70,
+        "unit_name": "Flesh Crafter [Crucible]",
+        "points": 60,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
@@ -1141,7 +1186,49 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 60,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Character",
+            "Crucible",
+            "Drukhari",
+            "Flesh Crafter",
+            "Haemonculus Covens",
+            "Infantry",
+            "Leader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
+        "unit_name": "Haemonculus",
+        "points": 60,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "5",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "5",
+        "invunerable_save": "6",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -2809,7 +2896,7 @@
     {
         "status": "success",
         "unit_name": "Scourges with Shardcarbines",
-        "points": 80,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "14",
@@ -2827,7 +2914,7 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 80,
+                    "points": 75,
                     "source": "xml"
                 }
             ],
@@ -3295,6 +3382,7 @@
             "Asuryani",
             "Drukhari",
             "Fly",
+            "Grenades",
             "Starfangs",
             "Vehicle",
             "Ynnari"
@@ -4340,7 +4428,7 @@
     {
         "status": "success",
         "unit_name": "Wracks",
-        "points": 65,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "7",
@@ -4358,27 +4446,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 65,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 105,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 105,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 105,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 }
             ],
