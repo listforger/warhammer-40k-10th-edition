@@ -311,6 +311,7 @@
             "Extra Attacks Weapon",
             "Imperium",
             "Monster",
+            "Supreme Commander",
             "Tech-Priest"
         ],
         "ranged_weapons": [
@@ -1023,7 +1024,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "7",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -1205,7 +1206,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "7",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -1274,6 +1275,237 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Hastarii Exterminators",
+        "points": 135,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "5",
+        "wounds": "2",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 135,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Mechanicus",
+            "Exterminators",
+            "Hastarii",
+            "Imperium",
+            "Infantry",
+            "Skitarii"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Eradication caster - dissipated",
+                "range": "30",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti4": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Eradication caster - focused",
+                "range": "15",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeInfantry": true,
+                    "anti4": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Hastarii arc blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypeVehicle": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Hastarii Fusiliers",
+        "points": 145,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "5",
+        "wounds": "2",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 145,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Mechanicus",
+            "Fusiliers",
+            "Hastarii",
+            "Imperium",
+            "Infantry",
+            "Skitarii"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Hastarii phosphor blaster",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Neutron fusil",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -1920,7 +2152,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -2016,7 +2248,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "2",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 2,
         "unit_composition": {
             "count": 2,
@@ -3275,7 +3507,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -3408,7 +3640,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -3544,7 +3776,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 3,
         "unit_composition": {
             "count": 3,
@@ -3649,7 +3881,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 3,
         "unit_composition": {
             "count": 3,
@@ -3985,7 +4217,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -4117,7 +4349,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -4318,7 +4550,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 10,
         "unit_composition": {
             "count": 10,
@@ -4488,7 +4720,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 10,
         "unit_composition": {
             "count": 10,
@@ -4868,7 +5100,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -4975,7 +5207,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": "Models in this unit have a 5 invulnerable save.",
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -5571,6 +5803,118 @@
                     "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Thulia Ghuld",
+        "points": 210,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "8",
+        "wounds": "10",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 210,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Adeptus Mechanicus",
+            "Character",
+            "Cult Mechanicus",
+            "Epic Hero",
+            "Extra Attacks Weapon",
+            "Imperium",
+            "Monster",
+            "Supreme Commander",
+            "Tech-Priest",
+            "Thulia Ghuld"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Jericho-class conversion resonator - sh",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Jericho-class conversion resonator - ti",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D6+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Rod of the War Forge - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Rod of the War Forge - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }

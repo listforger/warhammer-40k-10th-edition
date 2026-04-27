@@ -655,7 +655,7 @@
         "toughness": "11",
         "movement": "10",
         "wounds": "26",
-        "leadership": "5",
+        "leadership": "6",
         "oc": "10",
         "armour_save": "3",
         "invunerable_save": "5",
@@ -1791,6 +1791,178 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Knight Destrier",
+        "points": 250,
+        "unit_type": "model",
+        "toughness": "10",
+        "movement": "12",
+        "wounds": "18",
+        "leadership": "6",
+        "oc": "8",
+        "armour_save": "3",
+        "invunerable_save": "5",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 250,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Bellatus",
+            "Character",
+            "Imperial Knights",
+            "Imperium",
+            "Knight Destrier",
+            "Melee Weapon",
+            "Ranged Weapon",
+            "Titanic",
+            "Towering",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Chastiser gatling cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Frag bombard",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6+3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "rapidFire": 1,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Questoris heavy stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Bellatus reaper chainsword - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "attacksMultiplier": 2,
+                "damage": "D3+3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Bellatus reaper chainsword - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "10",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Thundershock spear - strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "D3+3",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Thundershock spear - sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "8",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Titanic feet",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",

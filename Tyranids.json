@@ -2431,6 +2431,40 @@
     },
     {
         "status": "success",
+        "unit_name": "Mucolid Spores (Sporocyst)",
+        "points": null,
+        "unit_type": "unit",
+        "toughness": "4",
+        "movement": "4",
+        "wounds": "3",
+        "leadership": "8",
+        "oc": "0",
+        "armour_save": "7",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Beast",
+            "Fly",
+            "Great Devourer",
+            "Mucolid Spores",
+            "Reference",
+            "Tyranids"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Neurogaunts",
         "points": 45,
         "unit_type": "unit",
@@ -5245,7 +5279,7 @@
     {
         "status": "success",
         "unit_name": "Tyranid Prime with Lash Whip",
-        "points": 85,
+        "points": 65,
         "unit_type": "model",
         "toughness": "5",
         "movement": "10",
@@ -5263,7 +5297,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -5273,6 +5307,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
+            "Extra Attacks Weapon",
             "Great Devourer",
             "Infantry",
             "Leader",

@@ -2119,11 +2119,11 @@
     {
         "status": "success",
         "unit_name": "Defiler",
-        "points": 165,
+        "points": 250,
         "unit_type": "model",
-        "toughness": "10",
-        "movement": "8",
-        "wounds": "14",
+        "toughness": "11",
+        "movement": "12",
+        "wounds": "18",
         "leadership": "6",
         "oc": "5",
         "armour_save": "3",
@@ -2137,7 +2137,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 165,
+                    "points": 250,
                     "source": "fallback"
                 }
             ],
@@ -2148,12 +2148,12 @@
             "feelNoPain": 6
         },
         "tags": [
+            "Attacks Dx+0 Modifier",
             "Chaos",
             "Chaos Daemons",
             "Daemon",
+            "Damage Dx+0 Modifier",
             "Defiler",
-            "Extra Attacks Weapon",
-            "Smoke",
             "Thousand Sons",
             "Tzeentch",
             "Vehicle",
@@ -2161,7 +2161,38 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Defiler cannon",
+                "name": "Ectoplasma destructor",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Excruciator cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 3,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 3
+                }
+            },
+            {
+                "name": "Hades battle cannon",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -2177,14 +2208,46 @@
                 }
             },
             {
-                "name": "Havoc launcher",
+                "name": "Hades lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "attacksMultiplier": 2,
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Heavy baleflamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "D6+3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Heavy missile launcher - frag",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2D6",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -2193,103 +2256,79 @@
                 }
             },
             {
-                "name": "Inferno combi-weapon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Reaper autocannon",
+                "name": "Heavy missile launcher - krak",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 7,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin heavy flamer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin inferno heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
+                "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "D6+1",
                 "parsed_weapon_types": {
-                    "twinLinked": true,
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Heavy reaper autocannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Pyraflux magma cutter",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "attacksMultiplier": 3,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 3
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Defiler claws",
+                "name": "Electroscourge",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Shearing claws - strike",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -2304,16 +2343,16 @@
                 }
             },
             {
-                "name": "Defiler scourge",
+                "name": "Shearing claws - sweep",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 12,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "10",
                 "attacksMultiplier": 1,
-                "damage": "2",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
