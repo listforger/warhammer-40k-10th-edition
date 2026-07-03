@@ -8069,6 +8069,133 @@
     },
     {
         "status": "success",
+        "unit_name": "Wazdakka Gutsmek",
+        "points": 175,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "14",
+        "wounds": "10",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 175,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "heal": true,
+            "healD3Wounds": true
+        },
+        "tags": [
+            "Character",
+            "Epic Hero",
+            "Mounted",
+            "Orks",
+            "Smoke",
+            "Speed Freeks",
+            "Vehicle",
+            "Wazdakka Gutsmek",
+            "Wazdakka Warlord Flag"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Grabba dragga",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Psyko-gatler",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "12",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Fixit's wrench",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Grabba dragga",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Speeding bulk and flaming exhaust",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Weirdboy",
         "points": 65,
         "unit_type": "model",

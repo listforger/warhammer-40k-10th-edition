@@ -1942,7 +1942,7 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "attacksMultiplier": 1,
-                "damage": "D6+6",
+                "damage": "2D6",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -2934,7 +2934,7 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "attacksMultiplier": 1,
-                "damage": "D6+6",
+                "damage": "2D6",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -3860,7 +3860,7 @@
                 "armor_penetration": 4,
                 "attacks": "2",
                 "attacksMultiplier": 1,
-                "damage": "D6+6",
+                "damage": "2D6",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -5049,6 +5049,81 @@
     },
     {
         "status": "success",
+        "unit_name": "The Red Terror",
+        "points": 130,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "10",
+        "wounds": "9",
+        "leadership": "8",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 130,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Burrowers",
+            "Character",
+            "Epic Hero",
+            "Great Devourer",
+            "Monster",
+            "The Red Terror",
+            "Tyranids",
+            "Vanguard Invader"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": [
+            {
+                "name": "Gaping maw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Scything talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "12",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "The Swarmlord",
         "points": 220,
         "unit_type": "model",
@@ -5231,7 +5306,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Character",
             "Great Devourer",
             "Monster",
             "Trygon",

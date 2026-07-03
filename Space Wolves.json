@@ -2040,7 +2040,7 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Absolver bolt pistol",
+                "name": "Absolvor bolt pistol",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -2075,6 +2075,394 @@
     },
     {
         "status": "success",
+        "unit_name": "Wolf Scout",
+        "points": null,
+        "unit_type": "model",
+        "toughness": null,
+        "movement": null,
+        "wounds": null,
+        "leadership": null,
+        "oc": null,
+        "armour_save": null,
+        "invunerable_save": null,
+        "modelCount": 5,
+        "unit_composition": {
+            "count": 5,
+            "default_model_count": 5,
+            "min_model_count": 5,
+            "max_model_count": 5,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Space Marines",
+            "Space Wolves"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Combat Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Scout Pack Leader",
+        "points": null,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Space Marines",
+            "Space Wolves"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Power weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Scout w\/ haywire mine",
+        "points": null,
+        "unit_type": "model",
+        "toughness": null,
+        "movement": null,
+        "wounds": null,
+        "leadership": null,
+        "oc": null,
+        "armour_save": null,
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Space Marines",
+            "Space Wolves"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Plasma pistol - standard",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma pistol - supercharge",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Combat Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Scout w\/ plasma gun",
+        "points": null,
+        "unit_type": "model",
+        "toughness": null,
+        "movement": null,
+        "wounds": null,
+        "leadership": null,
+        "oc": null,
+        "armour_save": null,
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Space Marines",
+            "Space Wolves"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Plasma gun - standard",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma gun - supercharge",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Combat Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Scout w\/ runic stave and Thunde...",
+        "points": null,
+        "unit_type": "model",
+        "toughness": null,
+        "movement": null,
+        "wounds": null,
+        "leadership": null,
+        "oc": null,
+        "armour_save": null,
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Space Marines",
+            "Space Wolves"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thunderclap",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Runic Stave",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "D3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Wolf Scouts",
         "points": 105,
         "unit_type": "unit",
@@ -2100,7 +2488,9 @@
             ],
             "source": "xml"
         },
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToWound": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Grenades",
@@ -2137,10 +2527,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "attacksMultiplier": 3,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 3
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2199,10 +2589,10 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "1",
-                "attacksMultiplier": 6,
+                "attacksMultiplier": 17,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 6
+                    "attacksMultiplier": 17
                 }
             },
             {
@@ -2214,11 +2604,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "D3",
-                "attacksMultiplier": 6,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
-                    "attacksMultiplier": 6
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -2232,10 +2622,10 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
-                "attacksMultiplier": 6,
+                "attacksMultiplier": 18,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 6
+                    "attacksMultiplier": 18
                 }
             },
             {
@@ -2262,10 +2652,10 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 6,
+                "attacksMultiplier": 2,
                 "damage": "D3",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 6
+                    "attacksMultiplier": 2
                 }
             },
             {

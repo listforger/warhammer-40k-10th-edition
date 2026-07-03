@@ -2547,6 +2547,208 @@
     },
     {
         "status": "success",
+        "unit_name": "Cadian Recon Squad",
+        "points": 80,
+        "unit_type": "unit",
+        "toughness": "3",
+        "movement": "6",
+        "wounds": "1",
+        "leadership": "7",
+        "oc": "1",
+        "armour_save": "5",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 80,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
+        "tags": [
+            "Astra Militarum",
+            "Cadian Recon Squad",
+            "Grenades",
+            "Imperium",
+            "Infantry",
+            "Regiment",
+            "Smoke"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Autostubber",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Lasgun",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 3,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 3
+                }
+            },
+            {
+                "name": "Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Long-las",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Missile launcher - frag",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Missile launcher - krak",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 5,
+                "strength": 9,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Plasma gun - standard",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 0,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 0
+                }
+            },
+            {
+                "name": "Plasma gun - supercharge",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 9,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 9
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Cadian Shock Troops",
         "points": 65,
         "unit_type": "unit",
@@ -3388,6 +3590,81 @@
     },
     {
         "status": "success",
+        "unit_name": "Centaur RSV",
+        "points": 85,
+        "unit_type": "model",
+        "toughness": "7",
+        "movement": "12",
+        "wounds": "10",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 85,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Astra Militarum",
+            "Centaur RSV",
+            "Dedicated Transport",
+            "Imperium",
+            "Smoke",
+            "Squadron",
+            "Transport",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Pintle-mounted heavy stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured hull",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Chimera",
         "points": 85,
         "unit_type": "model",
@@ -3670,6 +3947,321 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Commissar Graves",
+        "points": 110,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "12",
+        "wounds": "12",
+        "leadership": "6",
+        "oc": "5",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 110,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Astra Militarum",
+            "Character",
+            "Commissar Graves",
+            "Epic Hero",
+            "Extra Attacks Weapon",
+            "Imperium",
+            "Officer",
+            "Squadron",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Chiron gatling cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "12",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Prefectus heavy stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3,
+                    "attacksMultiplier": 2
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured hull",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Enforcer crew",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "10",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power sword and Manus Mortis",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Commissar Graves on Foot",
+        "points": 65,
+        "unit_type": "model",
+        "toughness": "3",
+        "movement": "6",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "5",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 65,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Astra Militarum",
+            "Character",
+            "Commissar Graves",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Leader"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Power sword and Manus Mortis",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Commissar Yarrick",
+        "points": 150,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "6",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "4",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 150,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Astra Militarum",
+            "Character",
+            "Commissar Yarrick",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Leader",
+            "Officer"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Bale Eye",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D3+1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Laspistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Storm bolter",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Power klaw",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -5620,6 +6212,159 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Hippogriff AFV",
+        "points": 70,
+        "unit_type": "unit",
+        "toughness": "8",
+        "movement": "12",
+        "wounds": "7",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 70,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Astra Militarum",
+            "Hippogriff AFV",
+            "Imperium",
+            "Smoke",
+            "Squadron",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Chiron gatling cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "12",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Heavy stubber",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 3,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Lascannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Melta cannon",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Meltagun",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Vigilator cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 4,
+                "strength": 8,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured hull",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 5,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "3",
