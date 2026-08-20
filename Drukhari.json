@@ -3797,12 +3797,12 @@
         "unit_name": "Troupe",
         "points": 85,
         "unit_type": "unit",
-        "toughness": null,
-        "movement": null,
-        "wounds": null,
-        "leadership": null,
-        "oc": null,
-        "armour_save": null,
+        "toughness": "3",
+        "movement": "8",
+        "wounds": "1",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "6",
         "invunerable_save": "4",
         "modelCount": 5,
         "unit_composition": {
@@ -3917,6 +3917,23 @@
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Harlequin's Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "5",
+                "attacksMultiplier": 5,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 5
+                }
+            },
             {
                 "name": "Harlequin's Special Weapon",
                 "range": "",
