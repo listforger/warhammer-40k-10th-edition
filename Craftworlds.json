@@ -82,7 +82,7 @@
     {
         "status": "success",
         "unit_name": "Autarch",
-        "points": 85,
+        "points": 70,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -100,7 +100,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -280,7 +280,7 @@
     {
         "status": "success",
         "unit_name": "Autarch Wayleaper",
-        "points": 80,
+        "points": 70,
         "unit_type": "model",
         "toughness": "3",
         "movement": "14",
@@ -298,7 +298,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -480,7 +480,7 @@
     {
         "status": "success",
         "unit_name": "Avatar of Khaine",
-        "points": 280,
+        "points": 250,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -498,7 +498,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 280,
+                    "points": 250,
                     "source": "fallback"
                 }
             ],
@@ -572,7 +572,7 @@
     {
         "status": "success",
         "unit_name": "Baharroth",
-        "points": 115,
+        "points": 125,
         "unit_type": "model",
         "toughness": "3",
         "movement": "14",
@@ -590,7 +590,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 115,
+                    "points": 125,
                     "source": "fallback"
                 }
             ],
@@ -655,6 +655,101 @@
     },
     {
         "status": "success",
+        "unit_name": "Clanblade",
+        "points": 70,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "4",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 70,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Character",
+            "Clanblade",
+            "Craftworlds",
+            "Exodite",
+            "Leader",
+            "Mobile",
+            "Mounted",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Solar Carbine",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Drakesteed Fangs and Talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Moonblades",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Corsair Skyreavers",
         "points": 75,
         "unit_type": "unit",
@@ -679,22 +774,22 @@
                 },
                 {
                     "model_count": 6,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 }
             ],
@@ -849,7 +944,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Close Combat Weapon",
+                "name": "Close combat weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -891,7 +986,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": "4",
+        "invunerable_save": null,
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -1111,7 +1206,7 @@
     {
         "status": "success",
         "unit_name": "Corsair Voidscarred",
-        "points": 80,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -1119,7 +1214,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "4",
+        "invunerable_save": null,
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -1129,7 +1224,7 @@
             "composition_options": [
                 {
                     "model_count": 9,
-                    "points": 160,
+                    "points": 140,
                     "source": "xml"
                 }
             ],
@@ -1336,7 +1431,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Close Combat Weapon",
+                "name": "Close combat weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -1453,10 +1548,10 @@
         "points": 160,
         "unit_type": "model",
         "toughness": "8",
-        "movement": "20",
+        "movement": "",
         "wounds": "12",
         "leadership": "6",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": "5",
         "modelCount": 1,
@@ -1557,7 +1652,7 @@
     {
         "status": "success",
         "unit_name": "D-Cannon Platform",
-        "points": 125,
+        "points": 110,
         "unit_type": "model",
         "toughness": "6",
         "movement": "7",
@@ -1575,7 +1670,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 125,
+                    "points": 110,
                     "source": "fallback"
                 }
             ],
@@ -1588,6 +1683,7 @@
             "Asuryani",
             "Craftworlds",
             "D-Cannon Platform",
+            "Frame",
             "Infantry",
             "Support Weapon",
             "Ynnari"
@@ -1649,7 +1745,7 @@
     {
         "status": "success",
         "unit_name": "Dark Reapers",
-        "points": 90,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -1667,27 +1763,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 90,
+                    "points": 95,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 195,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 195,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 195,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 195,
+                    "points": 200,
                     "source": "xml"
                 }
             ],
@@ -1827,7 +1923,7 @@
     {
         "status": "success",
         "unit_name": "Death Jester",
-        "points": 90,
+        "points": 65,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -1845,7 +1941,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 90,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -1903,7 +1999,7 @@
     {
         "status": "success",
         "unit_name": "Dire Avengers",
-        "points": 75,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -1921,27 +2017,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 75,
+                    "points": 70,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 }
             ],
@@ -1961,7 +2057,7 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Avenger Shuriken Catapult",
+                "name": "Avenger shuriken catapult",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -1969,10 +2065,10 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
-                "attacksMultiplier": 5,
+                "attacksMultiplier": 4,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 5
+                    "attacksMultiplier": 4
                 }
             },
             {
@@ -2017,10 +2113,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
-                "attacksMultiplier": 3,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 3
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -2032,10 +2128,146 @@
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "3",
-                "attacksMultiplier": 3,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 3
+                    "attacksMultiplier": 2
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Dragon Knights",
+        "points": 85,
+        "unit_type": "unit",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "4",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 2,
+            "max_model_count": 9,
+            "composition_options": [
+                {
+                    "model_count": 2,
+                    "points": 85,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 4,
+                    "points": 180,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 5,
+                    "points": 180,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 6,
+                    "points": 180,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 7,
+                    "points": 180,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 8,
+                    "points": 180,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 9,
+                    "points": 180,
+                    "source": "xml"
+                }
+            ],
+            "source": "xml"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Craftworlds",
+            "Dragon Knights",
+            "Exodite",
+            "Mobile",
+            "Mounted",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Laser Lance",
+                "range": "6",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Solar Carbine",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 2
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Drakesteed Fangs and Talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Laser Lance",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -2177,6 +2409,7 @@
             "Craftworlds",
             "Falcon",
             "Fly",
+            "Frame",
             "Transport",
             "Vehicle",
             "Ynnari"
@@ -2331,7 +2564,7 @@
     {
         "status": "success",
         "unit_name": "Farseer",
-        "points": 70,
+        "points": 60,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -2349,7 +2582,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -2465,7 +2698,7 @@
     {
         "status": "success",
         "unit_name": "Farseer Skyrunner",
-        "points": 80,
+        "points": 60,
         "unit_type": "model",
         "toughness": "4",
         "movement": "14",
@@ -2483,7 +2716,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -2615,7 +2848,7 @@
     {
         "status": "success",
         "unit_name": "Fire Dragons",
-        "points": 120,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -2633,7 +2866,7 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
@@ -2672,6 +2905,7 @@
             "Fire Dragons",
             "Grenades",
             "Infantry",
+            "Melta Weapon",
             "Torrent Weapon",
             "Ynnari"
         ],
@@ -2831,6 +3065,7 @@
             "Craftworlds",
             "Fire Prism",
             "Fly",
+            "Frame",
             "Vehicle",
             "Ynnari"
         ],
@@ -2921,7 +3156,7 @@
     {
         "status": "success",
         "unit_name": "Fuegan",
-        "points": 120,
+        "points": 130,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -2939,7 +3174,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 120,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -2958,6 +3193,7 @@
             "Grenades",
             "Infantry",
             "Leader",
+            "Melta Weapon",
             "Phoenix Lord"
         ],
         "ranged_weapons": [
@@ -3066,7 +3302,7 @@
     {
         "status": "success",
         "unit_name": "Guardian Defenders",
-        "points": 100,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -3084,7 +3320,7 @@
             "composition_options": [
                 {
                     "model_count": 11,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -3240,10 +3476,10 @@
         "points": 155,
         "unit_type": "model",
         "toughness": "8",
-        "movement": "20",
+        "movement": "",
         "wounds": "12",
         "leadership": "6",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -3298,7 +3534,7 @@
     {
         "status": "success",
         "unit_name": "Howling Banshees",
-        "points": 95,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
@@ -3306,7 +3542,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "5",
+        "invunerable_save": "4",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -3316,27 +3552,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 95,
+                    "points": 85,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 190,
+                    "points": 165,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 190,
+                    "points": 165,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 190,
+                    "points": 165,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 190,
+                    "points": 165,
                     "source": "xml"
                 }
             ],
@@ -3466,7 +3702,7 @@
     {
         "status": "success",
         "unit_name": "Jain Zar",
-        "points": 120,
+        "points": 105,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -3484,7 +3720,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 120,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -3547,7 +3783,7 @@
     {
         "status": "success",
         "unit_name": "Kharseth",
-        "points": 95,
+        "points": 80,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -3565,7 +3801,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -3625,6 +3861,98 @@
                     "antiTypeInfantry": true,
                     "anti2": true,
                     "psychic": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Leystalker",
+        "points": 75,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "4",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 75,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Character",
+            "Craftworlds",
+            "Exodite",
+            "Leystalker",
+            "Mobile",
+            "Mounted",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Long Rifle",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Drakesteed Fangs and Talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Hunting Blades",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -3812,7 +4140,7 @@
     {
         "status": "success",
         "unit_name": "Night Spinner",
-        "points": 190,
+        "points": 165,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -3830,7 +4158,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 190,
+                    "points": 165,
                     "source": "fallback"
                 }
             ],
@@ -3843,6 +4171,7 @@
             "Asuryani",
             "Craftworlds",
             "Fly",
+            "Frame",
             "Night Spinner",
             "Vehicle"
         ],
@@ -3950,6 +4279,7 @@
             "Aeldari",
             "Asuryani",
             "Craftworlds",
+            "Frame",
             "Monster",
             "Phantom Titan",
             "Titanic",
@@ -4183,7 +4513,7 @@
     {
         "status": "success",
         "unit_name": "Rangers",
-        "points": 55,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -4201,7 +4531,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 55,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
@@ -4327,6 +4657,7 @@
             "Asuryani",
             "Craftworlds",
             "Fly",
+            "Frame",
             "Monster",
             "Revenant Titan",
             "Titanic",
@@ -4407,7 +4738,7 @@
     {
         "status": "success",
         "unit_name": "Shadow Weaver Platform",
-        "points": 75,
+        "points": 60,
         "unit_type": "model",
         "toughness": "6",
         "movement": "7",
@@ -4425,7 +4756,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -4437,6 +4768,7 @@
             "Aeldari",
             "Asuryani",
             "Craftworlds",
+            "Frame",
             "Infantry",
             "Shadow Weaver Platform",
             "Support Weapon",
@@ -4497,7 +4829,7 @@
     {
         "status": "success",
         "unit_name": "Shadowseer",
-        "points": 60,
+        "points": 50,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -4515,7 +4847,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 60,
+                    "points": 50,
                     "source": "fallback"
                 }
             ],
@@ -4598,7 +4930,7 @@
     {
         "status": "success",
         "unit_name": "Shining Spears",
-        "points": 110,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -4616,17 +4948,17 @@
             "composition_options": [
                 {
                     "model_count": 2,
-                    "points": 110,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 220,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 220,
+                    "points": 200,
                     "source": "xml"
                 }
             ],
@@ -4768,7 +5100,7 @@
     {
         "status": "success",
         "unit_name": "Shroud Runners",
-        "points": 80,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -4786,22 +5118,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 80,
+                    "points": 90,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 160,
+                    "points": 165,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 160,
+                    "points": 165,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 165,
                     "source": "xml"
                 }
             ],
@@ -4933,7 +5265,7 @@
     {
         "status": "success",
         "unit_name": "Skyweavers",
-        "points": 95,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "14",
@@ -4951,17 +5283,17 @@
             "composition_options": [
                 {
                     "model_count": 2,
-                    "points": 95,
+                    "points": 90,
                     "source": "xml"
                 },
                 {
                     "model_count": 3,
-                    "points": 190,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 190,
+                    "points": 180,
                     "source": "xml"
                 }
             ],
@@ -5070,7 +5402,7 @@
     {
         "status": "success",
         "unit_name": "Solitaire",
-        "points": 115,
+        "points": 105,
         "unit_type": "model",
         "toughness": "3",
         "movement": "12",
@@ -5088,7 +5420,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 115,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -5129,7 +5461,7 @@
     {
         "status": "success",
         "unit_name": "Spiritseer",
-        "points": 65,
+        "points": 50,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -5147,7 +5479,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 50,
                     "source": "fallback"
                 }
             ],
@@ -5210,7 +5542,7 @@
     {
         "status": "success",
         "unit_name": "Starfangs",
-        "points": 75,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "14",
@@ -5228,7 +5560,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -5302,7 +5634,7 @@
     {
         "status": "success",
         "unit_name": "Starweaver",
-        "points": 80,
+        "points": 70,
         "unit_type": "model",
         "toughness": "6",
         "movement": "14",
@@ -5320,7 +5652,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -5334,6 +5666,7 @@
             "Craftworlds",
             "Dedicated Transport",
             "Fly",
+            "Frame",
             "Harlequin Allies",
             "Harlequins",
             "Smoke",
@@ -5380,8 +5713,141 @@
     },
     {
         "status": "success",
+        "unit_name": "Stonesinger",
+        "points": 55,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "10",
+        "wounds": "4",
+        "leadership": "7",
+        "oc": "2",
+        "armour_save": "4",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 55,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Aeldari",
+            "Asuryani",
+            "Character",
+            "Craftworlds",
+            "Exodite",
+            "Mobile",
+            "Mounted",
+            "Psyker",
+            "Stonesinger",
+            "Support",
+            "Ynnari"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Solar Carbine",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Song of Waning",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "psychic": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Venomcrest Spit",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 3,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "blast": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Drakesteed Fangs and Talons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Stone Stave",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "psychic": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Storm Guardians",
-        "points": 110,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -5399,7 +5865,7 @@
             "composition_options": [
                 {
                     "model_count": 11,
-                    "points": 110,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -5506,7 +5972,7 @@
     {
         "status": "success",
         "unit_name": "Striking Scorpions",
-        "points": 85,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -5524,27 +5990,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 85,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 150,
+                    "points": 145,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 150,
+                    "points": 145,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 150,
+                    "points": 145,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 150,
+                    "points": 145,
                     "source": "xml"
                 }
             ],
@@ -5855,7 +6321,7 @@
     {
         "status": "success",
         "unit_name": "The Visarch",
-        "points": 90,
+        "points": 80,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -5873,7 +6339,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 90,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -5887,7 +6353,7 @@
             "Craftworlds",
             "Epic Hero",
             "Infantry",
-            "Leader",
+            "Support",
             "The Visarch",
             "Ynnari"
         ],
@@ -5950,7 +6416,7 @@
     {
         "status": "success",
         "unit_name": "The Yncarne",
-        "points": 260,
+        "points": 230,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -5968,7 +6434,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 260,
+                    "points": 230,
                     "source": "fallback"
                 }
             ],
@@ -6393,6 +6859,7 @@
             "Aeldari",
             "Asuryani",
             "Craftworlds",
+            "Frame",
             "Infantry",
             "Support Weapon",
             "Vibro Cannon Platform",
@@ -6451,7 +6918,7 @@
     {
         "status": "success",
         "unit_name": "Voidweaver",
-        "points": 125,
+        "points": 115,
         "unit_type": "model",
         "toughness": "6",
         "movement": "14",
@@ -6469,7 +6936,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 125,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -6482,6 +6949,7 @@
             "Corsairs and Travelling Players",
             "Craftworlds",
             "Fly",
+            "Frame",
             "Harlequin Allies",
             "Harlequins",
             "Vehicle",
@@ -6592,15 +7060,20 @@
             "count": 1,
             "default_model_count": 1,
             "min_model_count": 1,
-            "max_model_count": 1,
+            "max_model_count": 2,
             "composition_options": [
                 {
                     "model_count": 1,
                     "points": 75,
-                    "source": "fallback"
+                    "source": "xml"
+                },
+                {
+                    "model_count": 2,
+                    "points": 140,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -6732,7 +7205,7 @@
     {
         "status": "success",
         "unit_name": "War Walkers",
-        "points": 85,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
@@ -6746,15 +7219,20 @@
             "count": 1,
             "default_model_count": 1,
             "min_model_count": 1,
-            "max_model_count": 1,
+            "max_model_count": 2,
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
-                    "source": "fallback"
+                    "points": 80,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 2,
+                    "points": 160,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -6886,7 +7364,7 @@
     {
         "status": "success",
         "unit_name": "Warlock",
-        "points": 45,
+        "points": 40,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -6904,7 +7382,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 45,
+                    "points": 40,
                     "source": "fallback"
                 }
             ],
@@ -6918,11 +7396,11 @@
             "Character",
             "Craftworlds",
             "Infantry",
-            "Leader",
             "Melee Weapon",
             "Psychic Weapon",
             "Psyker",
             "Ranged Weapon",
+            "Support",
             "Warlock",
             "Ynnari"
         ],
@@ -7041,12 +7519,12 @@
                 },
                 {
                     "model_count": 3,
-                    "points": 130,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 130,
+                    "points": 110,
                     "source": "xml"
                 }
             ],
@@ -7059,9 +7537,9 @@
             "Asuryani",
             "Craftworlds",
             "Infantry",
-            "Leader",
             "Psychic Weapon",
             "Psyker",
+            "Support",
             "Warlock",
             "Warlock Conclave",
             "Ynnari"
@@ -7194,10 +7672,10 @@
             "Asuryani",
             "Craftworlds",
             "Fly",
-            "Leader",
             "Mounted",
             "Psychic Weapon",
             "Psyker",
+            "Support",
             "Warlock",
             "Warlock Skyrunners",
             "Ynnari"
@@ -7333,22 +7811,22 @@
                 },
                 {
                     "model_count": 6,
-                    "points": 190,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 190,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 190,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 190,
+                    "points": 200,
                     "source": "xml"
                 }
             ],
@@ -7496,7 +7974,7 @@
     {
         "status": "success",
         "unit_name": "Wave Serpent",
-        "points": 125,
+        "points": 115,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -7514,7 +7992,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 125,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -7528,6 +8006,7 @@
             "Craftworlds",
             "Dedicated Transport",
             "Fly",
+            "Frame",
             "Transport",
             "Vehicle",
             "Wave Serpent",
@@ -7730,7 +8209,7 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Scatter Laser",
+                "name": "Scatter laser",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -7748,7 +8227,7 @@
                 }
             },
             {
-                "name": "Shuriken Cannon",
+                "name": "Shuriken cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -7765,7 +8244,7 @@
                 }
             },
             {
-                "name": "Twin Shuriken Catapult",
+                "name": "Twin shuriken catapult",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -7783,7 +8262,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Close Combat Weapon",
+                "name": "Close combat weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -7802,7 +8281,7 @@
     {
         "status": "success",
         "unit_name": "Wraithblades",
-        "points": 150,
+        "points": 140,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "6",
@@ -7820,7 +8299,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 150,
+                    "points": 140,
                     "source": "fallback"
                 }
             ],
@@ -7850,10 +8329,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -7876,7 +8355,7 @@
     {
         "status": "success",
         "unit_name": "Wraithguard",
-        "points": 160,
+        "points": 145,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "6",
@@ -7894,7 +8373,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 160,
+                    "points": 145,
                     "source": "fallback"
                 }
             ],
@@ -7967,7 +8446,7 @@
     {
         "status": "success",
         "unit_name": "Wraithknight",
-        "points": 435,
+        "points": 385,
         "unit_type": "model",
         "toughness": "12",
         "movement": "12",
@@ -7975,7 +8454,7 @@
         "leadership": "6",
         "oc": "10",
         "armour_save": "2",
-        "invunerable_save": "4",
+        "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -7985,7 +8464,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 435,
+                    "points": 385,
                     "source": "fallback"
                 }
             ],
@@ -8111,7 +8590,7 @@
     {
         "status": "success",
         "unit_name": "Wraithknight with Ghostglaive",
-        "points": 420,
+        "points": 380,
         "unit_type": "model",
         "toughness": "12",
         "movement": "12",
@@ -8119,7 +8598,7 @@
         "leadership": "6",
         "oc": "10",
         "armour_save": "2",
-        "invunerable_save": "4",
+        "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -8129,7 +8608,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 420,
+                    "points": 380,
                     "source": "fallback"
                 }
             ],
@@ -8254,7 +8733,7 @@
     {
         "status": "success",
         "unit_name": "Wraithlord",
-        "points": 130,
+        "points": 125,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -8272,7 +8751,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 130,
+                    "points": 125,
                     "source": "fallback"
                 }
             ],
@@ -8482,7 +8961,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "2",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -8574,7 +9053,7 @@
     {
         "status": "success",
         "unit_name": "Ynnari Incubi",
-        "points": 85,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -8592,27 +9071,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 85,
+                    "points": 80,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
@@ -8876,7 +9355,7 @@
     {
         "status": "success",
         "unit_name": "Ynnari Raider",
-        "points": 80,
+        "points": 70,
         "unit_type": "model",
         "toughness": "8",
         "movement": "14",
@@ -8894,7 +9373,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -8907,6 +9386,7 @@
             "Craftworlds",
             "Dedicated Transport",
             "Fly",
+            "Frame",
             "Raider",
             "Transport",
             "Vehicle",
@@ -9217,7 +9697,7 @@
     {
         "status": "success",
         "unit_name": "Ynnari Venom",
-        "points": 70,
+        "points": 65,
         "unit_type": "model",
         "toughness": "6",
         "movement": "14",
@@ -9235,7 +9715,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -9248,6 +9728,7 @@
             "Craftworlds",
             "Dedicated Transport",
             "Fly",
+            "Frame",
             "Transport",
             "Vehicle",
             "Venom",
@@ -9325,7 +9806,7 @@
         "leadership": "6",
         "oc": "2",
         "armour_save": "6",
-        "invunerable_save": "6",
+        "invunerable_save": "4",
         "modelCount": 10,
         "unit_composition": {
             "count": 10,
@@ -9410,7 +9891,7 @@
     {
         "status": "success",
         "unit_name": "Yvraine",
-        "points": 100,
+        "points": 90,
         "unit_type": "model",
         "toughness": "3",
         "movement": "8",
@@ -9428,15 +9909,13 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
-        "global_modifiers": {
-            "rerollOnesWounds": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Aeldari",

@@ -95,6 +95,7 @@
         "tags": [
             "Baal Predator",
             "Blood Angels",
+            "Frame",
             "Imperium",
             "Smoke",
             "Space Marines",
@@ -317,6 +318,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -351,7 +367,7 @@
     {
         "status": "success",
         "unit_name": "Chief Librarian Mephiston",
-        "points": 120,
+        "points": 110,
         "unit_type": "model",
         "toughness": "5",
         "movement": "7",
@@ -369,7 +385,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 120,
+                    "points": 110,
                     "source": "fallback"
                 }
             ],
@@ -488,7 +504,7 @@
     {
         "status": "success",
         "unit_name": "Commander Dante",
-        "points": 120,
+        "points": 125,
         "unit_type": "model",
         "toughness": "4",
         "movement": "12",
@@ -506,7 +522,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 120,
+                    "points": 125,
                     "source": "fallback"
                 }
             ],
@@ -662,6 +678,21 @@
                 "attacks": "7",
                 "attacksMultiplier": 1,
                 "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -827,6 +858,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -861,7 +907,7 @@
     {
         "status": "success",
         "unit_name": "Death Company Dreadnought",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -879,7 +925,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 160,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -1134,7 +1180,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -1364,7 +1409,6 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Pistol replacement",
             "Space Marines",
             "Tacticus"
         ],
@@ -1396,11 +1440,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
-                "attacksMultiplier": 4,
+                "attacksMultiplier": 5,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "pistol": true,
-                    "attacksMultiplier": 4
+                    "attacksMultiplier": 5
                 }
             },
             {
@@ -1540,7 +1584,7 @@
     {
         "status": "success",
         "unit_name": "Death Company Marines with Bolt Rifles",
-        "points": 85,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -1558,32 +1602,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 85,
+                    "points": 80,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 155,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 160,
+                    "points": 155,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 160,
+                    "points": 155,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 160,
+                    "points": 155,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 160,
+                    "points": 155,
                     "source": "xml"
                 }
             ],
@@ -1647,7 +1691,6 @@
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 3
                 }
             },
@@ -1851,7 +1894,7 @@
     {
         "status": "success",
         "unit_name": "Death Company Marines with Jump Packs",
-        "points": 120,
+        "points": 115,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -1869,7 +1912,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 120,
+                    "points": 115,
                     "source": "xml"
                 },
                 {
@@ -2154,7 +2197,7 @@
     {
         "status": "success",
         "unit_name": "Sanguinary Guard",
-        "points": 125,
+        "points": 120,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -2172,7 +2215,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 125,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
@@ -2303,16 +2346,18 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Blood Angels",
             "Character",
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Sanguinary Priest",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -2348,13 +2393,28 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "The Sanguinor",
-        "points": 130,
+        "points": 120,
         "unit_type": "model",
         "toughness": "4",
         "movement": "12",
@@ -2372,7 +2432,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 130,
+                    "points": 120,
                     "source": "fallback"
                 }
             ],

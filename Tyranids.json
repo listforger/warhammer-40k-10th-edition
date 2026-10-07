@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Barbgaunts",
-        "points": 55,
+        "points": 50,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -20,32 +20,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 55,
+                    "points": 50,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 110,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 110,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 110,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 110,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 110,
+                    "points": 100,
                     "source": "xml"
                 }
             ],
@@ -98,7 +98,7 @@
     {
         "status": "success",
         "unit_name": "Biovores",
-        "points": 50,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -112,15 +112,25 @@
             "count": 1,
             "default_model_count": 1,
             "min_model_count": 1,
-            "max_model_count": 1,
+            "max_model_count": 3,
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 50,
-                    "source": "fallback"
+                    "points": 60,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 2,
+                    "points": 100,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 3,
+                    "points": 140,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -263,7 +273,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Carnifexes",
-            "Extra Attacks Weapon",
             "Great Devourer",
             "Monster",
             "Tyranids"
@@ -486,7 +495,7 @@
     {
         "status": "success",
         "unit_name": "Exocrine",
-        "points": 140,
+        "points": 135,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -504,7 +513,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 135,
                     "source": "fallback"
                 }
             ],
@@ -559,7 +568,7 @@
     {
         "status": "success",
         "unit_name": "Gargoyles",
-        "points": 85,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "12",
@@ -577,57 +586,57 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 85,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
                     "model_count": 11,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 20,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 }
             ],
@@ -710,7 +719,9 @@
         "global_modifiers": {
             "rerollOnesHits": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
         "tags": [
             "Genestealers",
             "Great Devourer",
@@ -740,13 +751,13 @@
     {
         "status": "success",
         "unit_name": "Harpy",
-        "points": 215,
+        "points": 185,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "",
         "wounds": "12",
         "leadership": "8",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -758,7 +769,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 215,
+                    "points": 185,
                     "source": "fallback"
                 }
             ],
@@ -850,7 +861,7 @@
         "points": 610,
         "unit_type": "model",
         "toughness": "10",
-        "movement": "20",
+        "movement": "14",
         "wounds": "30",
         "leadership": "8",
         "oc": "0",
@@ -874,7 +885,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aircraft",
             "Fly",
             "Great Devourer",
             "Harridan",
@@ -949,7 +959,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Extra Attacks Weapon",
             "Great Devourer",
             "Haruspex",
             "Harvester",
@@ -1038,7 +1047,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Extra Attacks Weapon",
+            "Frame",
             "Great Devourer",
             "Hierophant",
             "Monster",
@@ -1117,13 +1126,13 @@
     {
         "status": "success",
         "unit_name": "Hive Crone",
-        "points": 200,
+        "points": 170,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "",
         "wounds": "12",
         "leadership": "8",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -1135,7 +1144,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 200,
+                    "points": 170,
                     "source": "fallback"
                 }
             ],
@@ -1147,7 +1156,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Aircraft",
-            "Extra Attacks Weapon",
             "Fly",
             "Great Devourer",
             "Hive Crone",
@@ -1247,7 +1255,7 @@
     {
         "status": "success",
         "unit_name": "Hive Guard",
-        "points": 90,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "6",
@@ -1265,22 +1273,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 90,
+                    "points": 80,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 180,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 180,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 180,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
@@ -1458,7 +1466,7 @@
     {
         "status": "success",
         "unit_name": "Hormagaunts",
-        "points": 65,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "10",
@@ -1476,7 +1484,7 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 65,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -2232,7 +2240,7 @@
     {
         "status": "success",
         "unit_name": "Maleceptor",
-        "points": 170,
+        "points": 180,
         "unit_type": "model",
         "toughness": "11",
         "movement": "8",
@@ -2250,7 +2258,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 170,
+                    "points": 180,
                     "source": "fallback"
                 }
             ],
@@ -2260,7 +2268,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Great Devourer",
-            "Malceptor",
+            "Maleceptor",
             "Monster",
             "Psyker",
             "Synapse",
@@ -2321,7 +2329,7 @@
     {
         "status": "success",
         "unit_name": "Mawloc",
-        "points": 135,
+        "points": 130,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -2339,7 +2347,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 135,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -2348,7 +2356,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Extra Attacks Weapon",
             "Great Devourer",
             "Mawloc",
             "Monster",
@@ -2525,7 +2532,7 @@
     {
         "status": "success",
         "unit_name": "Neurolictor",
-        "points": 70,
+        "points": 80,
         "unit_type": "model",
         "toughness": "5",
         "movement": "8",
@@ -2543,7 +2550,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -2583,7 +2590,7 @@
     {
         "status": "success",
         "unit_name": "Neurotyrant",
-        "points": 105,
+        "points": 120,
         "unit_type": "model",
         "toughness": "8",
         "movement": "6",
@@ -2601,7 +2608,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 120,
                     "source": "fallback"
                 }
             ],
@@ -3229,7 +3236,7 @@
     {
         "status": "success",
         "unit_name": "Norn Assimilator",
-        "points": 275,
+        "points": 250,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -3247,7 +3254,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 275,
+                    "points": 250,
                     "source": "fallback"
                 }
             ],
@@ -3256,7 +3263,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Extra Attacks Weapon",
             "Great Devourer",
             "Harvester",
             "Monster",
@@ -3317,7 +3323,7 @@
     {
         "status": "success",
         "unit_name": "Norn Emissary",
-        "points": 260,
+        "points": 250,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -3335,16 +3341,17 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 260,
+                    "points": 250,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
-            "Extra Attacks Weapon",
             "Great Devourer",
             "Monster",
             "Norn Emissary",
@@ -3442,7 +3449,7 @@
     {
         "status": "success",
         "unit_name": "Old One Eye",
-        "points": 150,
+        "points": 130,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -3460,7 +3467,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 150,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -3520,7 +3527,7 @@
     {
         "status": "success",
         "unit_name": "Parasite of Mortrex",
-        "points": 80,
+        "points": 65,
         "unit_type": "model",
         "toughness": "5",
         "movement": "12",
@@ -3538,7 +3545,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -3548,7 +3555,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
-            "Extra Attacks Weapon",
             "Fly",
             "Great Devourer",
             "Infantry",
@@ -4376,14 +4382,14 @@
     {
         "status": "success",
         "unit_name": "Ripper Swarms",
-        "points": 25,
+        "points": 30,
         "unit_type": "unit",
-        "toughness": "2",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "8",
-        "oc": "0",
-        "armour_save": "6",
+        "toughness": null,
+        "movement": null,
+        "wounds": null,
+        "leadership": null,
+        "oc": null,
+        "armour_save": null,
         "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
@@ -4394,7 +4400,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 25,
+                    "points": 30,
                     "source": "xml"
                 },
                 {
@@ -4463,12 +4469,12 @@
         "unit_name": "Ripper Swarms (Parasite of Mortrex)",
         "points": null,
         "unit_type": "unit",
-        "toughness": "2",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "8",
-        "oc": "0",
-        "armour_save": "6",
+        "toughness": null,
+        "movement": null,
+        "wounds": null,
+        "leadership": null,
+        "oc": null,
+        "armour_save": null,
         "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
@@ -4689,6 +4695,40 @@
     },
     {
         "status": "success",
+        "unit_name": "Spore Mines (Harpy)",
+        "points": null,
+        "unit_type": "unit",
+        "toughness": "1",
+        "movement": "4",
+        "wounds": "1",
+        "leadership": "8",
+        "oc": "0",
+        "armour_save": "7",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Beast",
+            "Fly",
+            "Great Devourer",
+            "Reference",
+            "Spore Mines",
+            "Tyranids"
+        ],
+        "ranged_weapons": [],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
         "unit_name": "Sporocyst",
         "points": 145,
         "unit_type": "model",
@@ -4760,7 +4800,7 @@
     {
         "status": "success",
         "unit_name": "Termagants",
-        "points": 60,
+        "points": 55,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -4778,57 +4818,57 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 60,
+                    "points": 55,
                     "source": "xml"
                 },
                 {
                     "model_count": 11,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 20,
-                    "points": 120,
+                    "points": 110,
                     "source": "xml"
                 }
             ],
@@ -4963,7 +5003,7 @@
     {
         "status": "success",
         "unit_name": "Tervigon",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "11",
         "movement": "8",
@@ -4981,7 +5021,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 160,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -5067,7 +5107,7 @@
     {
         "status": "success",
         "unit_name": "The Red Terror",
-        "points": 130,
+        "points": 120,
         "unit_type": "model",
         "toughness": "8",
         "movement": "10",
@@ -5085,7 +5125,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 130,
+                    "points": 120,
                     "source": "fallback"
                 }
             ],
@@ -5098,6 +5138,7 @@
             "Character",
             "Epic Hero",
             "Great Devourer",
+            "Mobile",
             "Monster",
             "The Red Terror",
             "Tyranids",
@@ -5142,7 +5183,7 @@
     {
         "status": "success",
         "unit_name": "The Swarmlord",
-        "points": 220,
+        "points": 210,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -5160,7 +5201,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 220,
+                    "points": 210,
                     "source": "fallback"
                 }
             ],
@@ -5221,7 +5262,7 @@
     {
         "status": "success",
         "unit_name": "Toxicrene",
-        "points": 150,
+        "points": 120,
         "unit_type": "model",
         "toughness": "11",
         "movement": "8",
@@ -5239,7 +5280,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 150,
+                    "points": 120,
                     "source": "fallback"
                 }
             ],
@@ -5297,7 +5338,7 @@
     {
         "status": "success",
         "unit_name": "Trygon",
-        "points": 140,
+        "points": 135,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -5315,7 +5356,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 135,
                     "source": "fallback"
                 }
             ],
@@ -5371,7 +5412,7 @@
     {
         "status": "success",
         "unit_name": "Tyranid Prime with Lash Whip",
-        "points": 65,
+        "points": 75,
         "unit_type": "model",
         "toughness": "5",
         "movement": "10",
@@ -5389,7 +5430,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -5399,7 +5440,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
-            "Extra Attacks Weapon",
             "Great Devourer",
             "Infantry",
             "Leader",
@@ -5468,7 +5508,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": "5",
+        "invunerable_save": null,
         "modelCount": 3,
         "unit_composition": {
             "count": 3,
@@ -5484,10 +5524,10 @@
             ],
             "source": "fallback"
         },
-        "global_modifiers": {
-            "rerollOnesHits": true
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
         },
-        "defenderGlobalModifiers": null,
         "tags": [
             "Great Devourer",
             "Infantry",
@@ -5519,7 +5559,7 @@
     {
         "status": "success",
         "unit_name": "Tyranid Warriors with Ranged Bio-Weapons",
-        "points": 65,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "6",
@@ -5527,7 +5567,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": "5",
+        "invunerable_save": null,
         "modelCount": 3,
         "unit_composition": {
             "count": 3,
@@ -5537,14 +5577,16 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 65,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
         "tags": [
             "Great Devourer",
             "Infantry",
@@ -5654,7 +5696,7 @@
     {
         "status": "success",
         "unit_name": "Tyrannocyte",
-        "points": 105,
+        "points": 80,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -5672,7 +5714,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -5728,7 +5770,7 @@
     {
         "status": "success",
         "unit_name": "Tyrannofex",
-        "points": 200,
+        "points": 170,
         "unit_type": "model",
         "toughness": "12",
         "movement": "9",
@@ -5746,7 +5788,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 200,
+                    "points": 170,
                     "source": "fallback"
                 }
             ],
@@ -5757,6 +5799,7 @@
         "tags": [
             "Great Devourer",
             "Monster",
+            "Ranged Weapon",
             "Tyranids",
             "Tyrannofex"
         ],
@@ -5873,7 +5916,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Great Devourer",
             "Infantry",
@@ -5933,7 +5978,7 @@
     {
         "status": "success",
         "unit_name": "Venomthropes",
-        "points": 70,
+        "points": 55,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "6",
@@ -5951,7 +5996,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 70,
+                    "points": 55,
                     "source": "fallback"
                 }
             ],
@@ -5993,7 +6038,7 @@
     {
         "status": "success",
         "unit_name": "Von Ryan's Leapers",
-        "points": 70,
+        "points": 55,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -6011,7 +6056,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 70,
+                    "points": 55,
                     "source": "fallback"
                 }
             ],
@@ -6048,7 +6093,7 @@
     {
         "status": "success",
         "unit_name": "Winged Hive Tyrant",
-        "points": 170,
+        "points": 185,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -6066,7 +6111,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 170,
+                    "points": 185,
                     "source": "fallback"
                 }
             ],
@@ -6181,7 +6226,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "5",
+        "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -6233,7 +6278,7 @@
     {
         "status": "success",
         "unit_name": "Zoanthropes",
-        "points": 100,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -6251,7 +6296,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],

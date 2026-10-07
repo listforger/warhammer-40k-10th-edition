@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Annihilation Barge",
-        "points": 105,
+        "points": 100,
         "unit_type": "model",
         "toughness": "8",
         "movement": "10",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -33,6 +33,7 @@
         "tags": [
             "Annihilation Barge",
             "Fly",
+            "Frame",
             "Necrons",
             "Vehicle"
         ],
@@ -113,7 +114,7 @@
     {
         "status": "success",
         "unit_name": "C'tan Shard of the Deceiver",
-        "points": 310,
+        "points": 330,
         "unit_type": "model",
         "toughness": "11",
         "movement": "8",
@@ -131,7 +132,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 310,
+                    "points": 330,
                     "source": "fallback"
                 }
             ],
@@ -195,7 +196,7 @@
     {
         "status": "success",
         "unit_name": "C'tan Shard of the Nightbringer",
-        "points": 340,
+        "points": 360,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -213,7 +214,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 340,
+                    "points": 360,
                     "source": "fallback"
                 }
             ],
@@ -288,7 +289,7 @@
     {
         "status": "success",
         "unit_name": "C'tan Shard of the Void Dragon",
-        "points": 330,
+        "points": 345,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -306,7 +307,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 330,
+                    "points": 345,
                     "source": "fallback"
                 }
             ],
@@ -322,7 +323,6 @@
             "C'tan Shard of the Void Dragon",
             "Character",
             "Epic Hero",
-            "Extra Attacks Weapon",
             "Fly",
             "Monster",
             "Necrons"
@@ -420,7 +420,7 @@
     {
         "status": "success",
         "unit_name": "Canoptek Doomstalker",
-        "points": 140,
+        "points": 130,
         "unit_type": "model",
         "toughness": "8",
         "movement": "8",
@@ -438,7 +438,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -513,7 +513,7 @@
     {
         "status": "success",
         "unit_name": "Canoptek Macrocytes",
-        "points": 85,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "8",
@@ -531,7 +531,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 85,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -754,7 +754,7 @@
     {
         "status": "success",
         "unit_name": "Canoptek Spyders",
-        "points": 75,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "5",
@@ -768,19 +768,25 @@
             "count": 1,
             "default_model_count": 1,
             "min_model_count": 1,
-            "max_model_count": 1,
+            "max_model_count": 2,
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
-                    "source": "fallback"
+                    "points": 65,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 2,
+                    "points": 110,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 6
         },
         "tags": [
             "Canoptek",
@@ -830,7 +836,7 @@
     {
         "status": "success",
         "unit_name": "Canoptek Tomb Crawlers",
-        "points": 50,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "5",
@@ -848,7 +854,7 @@
             "composition_options": [
                 {
                     "model_count": 2,
-                    "points": 50,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -861,6 +867,7 @@
         "tags": [
             "Beast",
             "Canoptek",
+            "Canoptek Retinue",
             "Necrons",
             "Tomb Crawlers"
         ],
@@ -920,7 +927,7 @@
     {
         "status": "success",
         "unit_name": "Canoptek Wraiths",
-        "points": 110,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "10",
@@ -938,7 +945,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 110,
+                    "points": 95,
                     "source": "xml"
                 },
                 {
@@ -961,7 +968,8 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Beast",
@@ -1073,8 +1081,10 @@
             "Catacomb Command Barge",
             "Character",
             "Fly",
+            "Frame",
             "Melee Weapon",
             "Necrons",
+            "Noble",
             "Ranged Weapon",
             "Vehicle"
         ],
@@ -1168,7 +1178,7 @@
     {
         "status": "success",
         "unit_name": "Chronomancer",
-        "points": 65,
+        "points": 70,
         "unit_type": "model",
         "toughness": "4",
         "movement": "5",
@@ -1186,7 +1196,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -1194,17 +1204,18 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "stealth": true
         },
         "tags": [
             "Character",
             "Chronomancer",
             "Cryptek",
             "Infantry",
-            "Leader",
             "Melee Weapon",
             "Necrons",
-            "Ranged Weapon"
+            "Ranged Weapon",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -1271,11 +1282,13 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 6
         },
         "tags": [
             "Convergence of Dominion",
             "Fortification",
+            "Frame",
             "Necrons",
             "Vehicle"
         ],
@@ -1330,6 +1343,7 @@
             "reanimationProtocols": true
         },
         "tags": [
+            "Canoptek Retinue",
             "Cryptothralls",
             "Infantry",
             "Necrons"
@@ -1443,13 +1457,13 @@
     {
         "status": "success",
         "unit_name": "Doom Scythe",
-        "points": 230,
+        "points": 200,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "",
         "wounds": "12",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -1461,7 +1475,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 230,
+                    "points": 200,
                     "source": "fallback"
                 }
             ],
@@ -1569,6 +1583,7 @@
         "tags": [
             "Doomsday Ark",
             "Fly",
+            "Frame",
             "Necrons",
             "Vehicle"
         ],
@@ -2206,7 +2221,7 @@
     {
         "status": "success",
         "unit_name": "Flayed Ones",
-        "points": 60,
+        "points": 55,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "5",
@@ -2224,32 +2239,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 60,
+                    "points": 55,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 120,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 120,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 120,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 120,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 120,
+                    "points": 100,
                     "source": "xml"
                 }
             ],
@@ -2324,8 +2339,8 @@
             "Cryptek",
             "Geomancer",
             "Infantry",
-            "Leader",
-            "Necrons"
+            "Necrons",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -2384,7 +2399,7 @@
     {
         "status": "success",
         "unit_name": "Ghost Ark",
-        "points": 115,
+        "points": 100,
         "unit_type": "model",
         "toughness": "9",
         "movement": "10",
@@ -2402,7 +2417,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 115,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -2415,6 +2430,7 @@
         "tags": [
             "Dedicated Transport",
             "Fly",
+            "Frame",
             "Ghost Ark",
             "Necrons",
             "Transport",
@@ -3114,7 +3130,7 @@
     {
         "status": "success",
         "unit_name": "Illuminor Szeras",
-        "points": 165,
+        "points": 175,
         "unit_type": "model",
         "toughness": "8",
         "movement": "8",
@@ -3132,7 +3148,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 165,
+                    "points": 175,
                     "source": "fallback"
                 }
             ],
@@ -3147,7 +3163,6 @@
             "Character",
             "Cryptek",
             "Epic Hero",
-            "Extra Attacks Weapon",
             "Illuminor Szeras",
             "Infantry",
             "Necrons"
@@ -3205,7 +3220,7 @@
     {
         "status": "success",
         "unit_name": "Immortals",
-        "points": 70,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -3219,36 +3234,41 @@
             "count": 5,
             "default_model_count": 5,
             "min_model_count": 5,
-            "max_model_count": 10,
+            "max_model_count": 11,
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 70,
+                    "points": 65,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 150,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 150,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 150,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 150,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 150,
+                    "points": 130,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 11,
+                    "points": 130,
                     "source": "xml"
                 }
             ],
@@ -3258,7 +3278,8 @@
             "rerollOnesWounds": true
         },
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Battleline",
@@ -3446,7 +3467,8 @@
             "rerollHits": true
         },
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Destroyer Cult",
@@ -3495,7 +3517,7 @@
     {
         "status": "success",
         "unit_name": "Lokhust Heavy Destroyers",
-        "points": 55,
+        "points": 50,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "8",
@@ -3513,7 +3535,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 50,
                     "source": "fallback"
                 }
             ],
@@ -3523,7 +3545,8 @@
             "rerollOnesWounds": true
         },
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Destroyer Cult",
@@ -3688,7 +3711,7 @@
     {
         "status": "success",
         "unit_name": "Lychguard",
-        "points": 85,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -3706,32 +3729,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 85,
+                    "points": 80,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
@@ -3785,7 +3808,7 @@
     {
         "status": "success",
         "unit_name": "Monolith",
-        "points": 400,
+        "points": 420,
         "unit_type": "model",
         "toughness": "13",
         "movement": "8",
@@ -3803,7 +3826,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 400,
+                    "points": 420,
                     "source": "fallback"
                 }
             ],
@@ -3815,6 +3838,7 @@
         },
         "tags": [
             "Fly",
+            "Frame",
             "Monolith",
             "Necrons",
             "Titanic",
@@ -3898,7 +3922,7 @@
     {
         "status": "success",
         "unit_name": "Necron Warriors",
-        "points": 90,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "5",
@@ -3912,61 +3936,66 @@
             "count": 10,
             "default_model_count": 10,
             "min_model_count": 10,
-            "max_model_count": 20,
+            "max_model_count": 21,
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 90,
+                    "points": 85,
                     "source": "xml"
                 },
                 {
                     "model_count": 11,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 200,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 20,
-                    "points": 200,
+                    "points": 190,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 21,
+                    "points": 190,
                     "source": "xml"
                 }
             ],
@@ -3974,7 +4003,8 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Battleline",
@@ -4040,7 +4070,7 @@
     {
         "status": "success",
         "unit_name": "Nekrosor Ammentar",
-        "points": 185,
+        "points": 195,
         "unit_type": "model",
         "toughness": "8",
         "movement": "10",
@@ -4058,7 +4088,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 185,
+                    "points": 195,
                     "source": "fallback"
                 }
             ],
@@ -4135,10 +4165,10 @@
     {
         "status": "success",
         "unit_name": "Night Scythe",
-        "points": 145,
+        "points": 125,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "14",
         "wounds": "12",
         "leadership": "7",
         "oc": "0",
@@ -4153,7 +4183,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 145,
+                    "points": 125,
                     "source": "fallback"
                 }
             ],
@@ -4164,7 +4194,6 @@
             "reanimationProtocols": true
         },
         "tags": [
-            "Aircraft",
             "Fly",
             "Necrons",
             "Night Scythe",
@@ -4213,7 +4242,7 @@
     {
         "status": "success",
         "unit_name": "Obelisk",
-        "points": 300,
+        "points": 280,
         "unit_type": "model",
         "toughness": "13",
         "movement": "8",
@@ -4231,7 +4260,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 300,
+                    "points": 280,
                     "source": "fallback"
                 }
             ],
@@ -4243,6 +4272,7 @@
         },
         "tags": [
             "Fly",
+            "Frame",
             "Necrons",
             "Obelisk",
             "Titanic",
@@ -4319,7 +4349,8 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Destroyer Cult",
@@ -4349,7 +4380,7 @@
     {
         "status": "success",
         "unit_name": "Orikan the Diviner",
-        "points": 80,
+        "points": 90,
         "unit_type": "model",
         "toughness": "4",
         "movement": "5",
@@ -4367,7 +4398,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -4383,9 +4414,9 @@
             "Cryptek",
             "Epic Hero",
             "Infantry",
-            "Leader",
             "Necrons",
-            "Orikan the Diviner"
+            "Orikan the Diviner",
+            "Support"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -4411,7 +4442,7 @@
     {
         "status": "success",
         "unit_name": "Overlord",
-        "points": 85,
+        "points": 90,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -4429,7 +4460,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -4537,7 +4568,7 @@
     {
         "status": "success",
         "unit_name": "Overlord with Translocation Shroud",
-        "points": 85,
+        "points": 90,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -4555,7 +4586,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -4598,7 +4629,7 @@
     {
         "status": "success",
         "unit_name": "Plasmancer",
-        "points": 55,
+        "points": 60,
         "unit_type": "model",
         "toughness": "4",
         "movement": "5",
@@ -4616,7 +4647,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -4630,11 +4661,11 @@
             "Character",
             "Cryptek",
             "Infantry",
-            "Leader",
             "Melee Weapon",
             "Necrons",
             "Plasmancer",
-            "Ranged Weapon"
+            "Ranged Weapon",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -4674,7 +4705,7 @@
     {
         "status": "success",
         "unit_name": "Psychomancer",
-        "points": 55,
+        "points": 65,
         "unit_type": "model",
         "toughness": "4",
         "movement": "5",
@@ -4692,7 +4723,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -4706,11 +4737,11 @@
             "Character",
             "Cryptek",
             "Infantry",
-            "Leader",
             "Melee Weapon",
             "Necrons",
             "Psychomancer",
-            "Ranged Weapon"
+            "Ranged Weapon",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -4857,6 +4888,7 @@
             "reanimationProtocols": true
         },
         "tags": [
+            "Frame",
             "Necrons",
             "Seraptek Heavy Construct",
             "Titanic",
@@ -4953,7 +4985,7 @@
     {
         "status": "success",
         "unit_name": "Skorpekh Destroyers",
-        "points": 90,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "8",
@@ -4971,7 +5003,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 90,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -4981,7 +5013,8 @@
             "rerollHits": true
         },
         "defenderGlobalModifiers": {
-            "reanimationProtocols": true
+            "reanimationProtocols": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Destroyer Cult",
@@ -5011,7 +5044,7 @@
     {
         "status": "success",
         "unit_name": "Skorpekh Lord",
-        "points": 90,
+        "points": 95,
         "unit_type": "model",
         "toughness": "7",
         "movement": "8",
@@ -5029,7 +5062,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 90,
+                    "points": 95,
                     "source": "fallback"
                 }
             ],
@@ -5130,6 +5163,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": {
             "reanimationProtocols": true,
+            "feelNoPain": 5,
             "heal": true,
             "healD3Wounds": true
         },
@@ -5138,10 +5172,10 @@
             "Cryptek",
             "Fly",
             "Infantry",
-            "Leader",
             "Melee Weapon",
             "Necrons",
             "Ranged Weapon",
+            "Support",
             "Technomancer"
         ],
         "ranged_weapons": [
@@ -5182,7 +5216,7 @@
     {
         "status": "success",
         "unit_name": "Tesseract Vault",
-        "points": 425,
+        "points": 465,
         "unit_type": "model",
         "toughness": "12",
         "movement": "8",
@@ -5200,7 +5234,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 425,
+                    "points": 465,
                     "source": "fallback"
                 }
             ],
@@ -5212,6 +5246,7 @@
         },
         "tags": [
             "Fly",
+            "Frame",
             "Necrons",
             "Tesseract Vault",
             "Titanic",
@@ -5317,7 +5352,7 @@
     {
         "status": "success",
         "unit_name": "The Silent King",
-        "points": 400,
+        "points": 420,
         "unit_type": "unit",
         "toughness": "10",
         "movement": "8",
@@ -5335,7 +5370,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 400,
+                    "points": 420,
                     "source": "fallback"
                 }
             ],
@@ -5441,7 +5476,7 @@
     {
         "status": "success",
         "unit_name": "Tomb Blades",
-        "points": 75,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "12",
@@ -5454,16 +5489,16 @@
         "unit_composition": {
             "count": 3,
             "default_model_count": 3,
-            "min_model_count": 3,
-            "max_model_count": 3,
+            "min_model_count": 1,
+            "max_model_count": 1,
             "composition_options": [
                 {
-                    "model_count": 3,
-                    "points": 75,
-                    "source": "fallback"
+                    "model_count": 1,
+                    "points": 70,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -5554,7 +5589,7 @@
     {
         "status": "success",
         "unit_name": "Transcendent C'tan",
-        "points": 325,
+        "points": 340,
         "unit_type": "model",
         "toughness": "11",
         "movement": "8",
@@ -5572,7 +5607,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 325,
+                    "points": 340,
                     "source": "fallback"
                 }
             ],
@@ -5637,7 +5672,7 @@
     {
         "status": "success",
         "unit_name": "Trazyn the Infinite",
-        "points": 75,
+        "points": 60,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -5655,7 +5690,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -5699,7 +5734,7 @@
     {
         "status": "success",
         "unit_name": "Triarch Praetorians",
-        "points": 90,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -5717,7 +5752,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 90,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -5833,8 +5868,10 @@
             "reanimationProtocols": true
         },
         "tags": [
+            "Frame",
             "Necrons",
-            "Triarch Stalker",
+            "Stalker",
+            "Triarch",
             "Vehicle",
             "Walker"
         ],

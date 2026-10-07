@@ -80,7 +80,7 @@
     {
         "status": "success",
         "unit_name": "Captain Titus",
-        "points": 90,
+        "points": 100,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -98,7 +98,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 90,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -178,7 +178,7 @@
     {
         "status": "success",
         "unit_name": "Cato Sicarius",
-        "points": 95,
+        "points": 105,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -196,7 +196,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -214,6 +214,7 @@
             "Leader",
             "Sicarius",
             "Space Marines",
+            "Support",
             "Tacticus",
             "Ultramarines"
         ],
@@ -291,7 +292,7 @@
     {
         "status": "success",
         "unit_name": "Chief Librarian Tigurius",
-        "points": 75,
+        "points": 85,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -309,14 +310,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Character",
             "Chief Librarian Tigurius",
@@ -510,7 +513,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Chapter Master",
             "Character",
@@ -579,7 +584,7 @@
     {
         "status": "success",
         "unit_name": "Marneus Calgar in Armour of Antilochus",
-        "points": 140,
+        "points": 155,
         "unit_type": "model",
         "toughness": "6",
         "movement": "6",
@@ -597,7 +602,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 155,
                     "source": "fallback"
                 }
             ],
@@ -658,7 +663,7 @@
     {
         "status": "success",
         "unit_name": "Roboute Guilliman",
-        "points": 340,
+        "points": 355,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -676,7 +681,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 340,
+                    "points": 355,
                     "source": "fallback"
                 }
             ],
@@ -688,6 +693,7 @@
             "Character",
             "Epic Hero",
             "Imperium",
+            "Mobile",
             "Monster",
             "Primarch",
             "Roboute Guilliman",
@@ -752,7 +758,7 @@
     {
         "status": "success",
         "unit_name": "Uriel Ventris",
-        "points": 95,
+        "points": 105,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -770,7 +776,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -870,17 +876,17 @@
                 },
                 {
                     "model_count": 4,
-                    "points": 220,
+                    "points": 230,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 220,
+                    "points": 230,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 220,
+                    "points": 230,
                     "source": "xml"
                 }
             ],
@@ -892,13 +898,12 @@
             "Ancient",
             "Champion",
             "Epic Hero",
-            "Honor Guard",
             "Imperium",
             "Infantry",
             "Space Marines",
             "Tacticus",
             "Ultramarines",
-            "Victrix"
+            "Victrix Honour Guard"
         ],
         "ranged_weapons": [
             {
@@ -954,7 +959,7 @@
     {
         "status": "success",
         "unit_name": "Wardens of Ultramar",
-        "points": 105,
+        "points": 120,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -972,7 +977,7 @@
             "composition_options": [
                 {
                     "model_count": 6,
-                    "points": 105,
+                    "points": 120,
                     "source": "fallback"
                 }
             ],
@@ -987,6 +992,7 @@
             "Infantry",
             "Psyker",
             "Space Marines",
+            "Support",
             "Tacticus",
             "Ultramarines",
             "Wardens of Ultramar"

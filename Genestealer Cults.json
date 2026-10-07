@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Aberrants",
-        "points": 135,
+        "points": 140,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "6",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 135,
+                    "points": 140,
                     "source": "fallback"
                 }
             ],
@@ -261,22 +261,22 @@
                 },
                 {
                     "model_count": 6,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 }
             ],
@@ -365,7 +365,7 @@
     {
         "status": "success",
         "unit_name": "Acolyte Hybrids with Hand Flamers",
-        "points": 70,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -383,7 +383,7 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 70,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
@@ -520,7 +520,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Acolyte Iconward",
             "Character",
@@ -593,17 +595,17 @@
                 },
                 {
                     "model_count": 6,
-                    "points": 150,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 150,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 150,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
@@ -753,7 +755,7 @@
     {
         "status": "success",
         "unit_name": "Benefictus",
-        "points": 70,
+        "points": 75,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -771,14 +773,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Benefictus",
             "Character",
@@ -872,14 +876,17 @@
         "global_modifiers": {
             "plusOneToWound": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Biophagus",
             "Character",
             "Genestealer Cults",
             "Great Devourer",
             "Infantry",
-            "Leader"
+            "Leader",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -966,14 +973,17 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Character",
             "Clamavus",
             "Genestealer Cults",
             "Great Devourer",
             "Infantry",
-            "Leader"
+            "Leader",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -2160,7 +2170,7 @@
     {
         "status": "success",
         "unit_name": "Gargoyles",
-        "points": 85,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "12",
@@ -2178,57 +2188,57 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 85,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
                     "model_count": 11,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 20,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 }
             ],
@@ -2284,7 +2294,7 @@
     {
         "status": "success",
         "unit_name": "Goliath Rockgrinder",
-        "points": 120,
+        "points": 110,
         "unit_type": "model",
         "toughness": "10",
         "movement": "12",
@@ -2302,7 +2312,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 120,
+                    "points": 110,
                     "source": "fallback"
                 }
             ],
@@ -2311,6 +2321,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Genestealer Cults",
             "Goliath Rockgrinder",
             "Great Devourer",
@@ -2421,7 +2432,7 @@
     {
         "status": "success",
         "unit_name": "Goliath Truck",
-        "points": 85,
+        "points": 75,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -2439,7 +2450,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -2451,6 +2462,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Dedicated Transport",
+            "Frame",
             "Genestealer Cults",
             "Goliath Truck",
             "Great Devourer",
@@ -2528,7 +2540,7 @@
     {
         "status": "success",
         "unit_name": "Hybrid Metamorphs",
-        "points": 70,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -2546,7 +2558,7 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 70,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
@@ -2574,7 +2586,7 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 5
+            "feelNoPain": "5"
         },
         "tags": [
             "Genestealer Cults",
@@ -2995,7 +3007,7 @@
     {
         "status": "success",
         "unit_name": "Locus",
-        "points": 45,
+        "points": 35,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -3013,14 +3025,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 45,
+                    "points": 35,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Character",
             "Genestealer Cults",
@@ -3028,7 +3042,8 @@
             "Infantry",
             "Leader",
             "Locus",
-            "Melee Weapon"
+            "Melee Weapon",
+            "Support"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -3639,7 +3654,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Character",
             "Genestealer Cults",
@@ -3689,7 +3706,7 @@
     {
         "status": "success",
         "unit_name": "Mawloc",
-        "points": 135,
+        "points": 130,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -3707,7 +3724,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 135,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -3716,7 +3733,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Extra Attacks Weapon",
             "Genestealer Cults",
             "Great Devourer",
             "Mawloc",
@@ -3765,7 +3781,7 @@
     {
         "status": "success",
         "unit_name": "Neophyte Hybrids",
-        "points": 65,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -3783,52 +3799,52 @@
             "composition_options": [
                 {
                     "model_count": 9,
-                    "points": 65,
+                    "points": 70,
                     "source": "xml"
                 },
                 {
                     "model_count": 11,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 145,
+                    "points": 135,
                     "source": "xml"
                 }
             ],
@@ -4060,7 +4076,7 @@
     {
         "status": "success",
         "unit_name": "Neurolictor",
-        "points": 70,
+        "points": 80,
         "unit_type": "model",
         "toughness": "5",
         "movement": "8",
@@ -4078,7 +4094,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -4118,7 +4134,7 @@
     {
         "status": "success",
         "unit_name": "Nexos",
-        "points": 60,
+        "points": 50,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -4136,21 +4152,24 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 60,
+                    "points": 50,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Character",
             "Genestealer Cults",
             "Great Devourer",
             "Infantry",
             "Leader",
-            "Nexos"
+            "Nexos",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -4755,7 +4774,7 @@
     {
         "status": "success",
         "unit_name": "Parasite of Mortrex",
-        "points": 80,
+        "points": 65,
         "unit_type": "model",
         "toughness": "5",
         "movement": "12",
@@ -4773,7 +4792,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -4783,7 +4802,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Character",
-            "Extra Attacks Weapon",
             "Fly",
             "Genestealer Cults",
             "Great Devourer",
@@ -4833,7 +4851,7 @@
     {
         "status": "success",
         "unit_name": "Patriarch",
-        "points": 75,
+        "points": 80,
         "unit_type": "model",
         "toughness": "5",
         "movement": "8",
@@ -4851,7 +4869,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -5457,7 +5475,7 @@
     {
         "status": "success",
         "unit_name": "Primus",
-        "points": 70,
+        "points": 60,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -5475,7 +5493,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -5484,7 +5502,9 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Character",
             "Genestealer Cults",
@@ -5665,7 +5685,7 @@
     {
         "status": "success",
         "unit_name": "Reductus Saboteur",
-        "points": 65,
+        "points": 70,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -5683,7 +5703,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -5777,12 +5797,12 @@
         "unit_name": "Ripper Swarms (Parasite of Mortrex)",
         "points": null,
         "unit_type": "unit",
-        "toughness": "2",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "8",
-        "oc": "0",
-        "armour_save": "6",
+        "toughness": null,
+        "movement": null,
+        "wounds": null,
+        "leadership": null,
+        "oc": null,
+        "armour_save": null,
         "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
@@ -5845,7 +5865,7 @@
     {
         "status": "success",
         "unit_name": "Sanctus",
-        "points": 50,
+        "points": 60,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -5863,7 +5883,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 50,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -5943,7 +5963,7 @@
     {
         "status": "success",
         "unit_name": "The Red Terror",
-        "points": 130,
+        "points": 120,
         "unit_type": "model",
         "toughness": "8",
         "movement": "10",
@@ -5961,7 +5981,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 130,
+                    "points": 120,
                     "source": "fallback"
                 }
             ],
@@ -5975,6 +5995,7 @@
             "Epic Hero",
             "Genestealer Cults",
             "Great Devourer",
+            "Mobile",
             "Monster",
             "The Red Terror",
             "Vanguard Invader"
@@ -6018,7 +6039,7 @@
     {
         "status": "success",
         "unit_name": "Trygon",
-        "points": 140,
+        "points": 135,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -6036,7 +6057,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 135,
                     "source": "fallback"
                 }
             ],
@@ -6092,7 +6113,7 @@
     {
         "status": "success",
         "unit_name": "Tyrannocyte",
-        "points": 105,
+        "points": 80,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -6110,7 +6131,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -6709,7 +6730,7 @@
     {
         "status": "success",
         "unit_name": "Von Ryan's Leapers",
-        "points": 70,
+        "points": 55,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -6727,7 +6748,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 70,
+                    "points": 55,
                     "source": "fallback"
                 }
             ],
@@ -6764,7 +6785,7 @@
     {
         "status": "success",
         "unit_name": "Winged Hive Tyrant",
-        "points": 170,
+        "points": 185,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -6782,7 +6803,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 170,
+                    "points": 185,
                     "source": "fallback"
                 }
             ],
@@ -6897,7 +6918,7 @@
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
-        "invunerable_save": "5",
+        "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
             "count": 1,

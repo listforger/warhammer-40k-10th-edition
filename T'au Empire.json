@@ -5,10 +5,10 @@
         "points": 315,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "20",
+        "movement": "",
         "wounds": "18",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": "5",
         "modelCount": 1,
@@ -764,7 +764,7 @@
     {
         "status": "success",
         "unit_name": "Breacher Team",
-        "points": 90,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -782,7 +782,7 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 90,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -889,7 +889,7 @@
     {
         "status": "success",
         "unit_name": "Broadside Battlesuits",
-        "points": 80,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -907,14 +907,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Battlesuit",
             "Broadside",
@@ -1150,7 +1152,7 @@
     {
         "status": "success",
         "unit_name": "Commander Farsight",
-        "points": 85,
+        "points": 70,
         "unit_type": "model",
         "toughness": "5",
         "movement": "10",
@@ -1168,7 +1170,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -1791,7 +1793,7 @@
     {
         "status": "success",
         "unit_name": "Crisis Fireknife Battlesuits",
-        "points": 120,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -1809,7 +1811,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 120,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -1898,7 +1900,7 @@
     {
         "status": "success",
         "unit_name": "Crisis Starscythe Battlesuits",
-        "points": 110,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -1916,7 +1918,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 110,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -2020,7 +2022,7 @@
     {
         "status": "success",
         "unit_name": "Crisis Sunforge Battlesuits",
-        "points": 140,
+        "points": 125,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -2038,7 +2040,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 140,
+                    "points": 125,
                     "source": "fallback"
                 }
             ],
@@ -2205,7 +2207,7 @@
     {
         "status": "success",
         "unit_name": "Devilfish",
-        "points": 85,
+        "points": 75,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -2223,7 +2225,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -2235,6 +2237,7 @@
             "Dedicated Transport",
             "Devilfish",
             "Fly",
+            "Frame",
             "Non-Kroot",
             "T'au Empire",
             "Transport",
@@ -2351,7 +2354,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Character",
             "Ethereal",
@@ -2401,7 +2406,7 @@
     {
         "status": "success",
         "unit_name": "Firesight Team",
-        "points": 60,
+        "points": 55,
         "unit_type": "model",
         "toughness": "3",
         "movement": "6",
@@ -2419,13 +2424,15 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 60,
+                    "points": 55,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
-        "global_modifiers": null,
+        "global_modifiers": {
+            "rerollHits": true
+        },
         "defenderGlobalModifiers": {
             "stealth": true
         },
@@ -2493,7 +2500,7 @@
     {
         "status": "success",
         "unit_name": "Ghostkeel Battlesuit",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "8",
         "movement": "10",
@@ -2511,7 +2518,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 160,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -2653,7 +2660,7 @@
     {
         "status": "success",
         "unit_name": "Hammerhead Gunship",
-        "points": 145,
+        "points": 150,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -2671,7 +2678,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 145,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -2683,6 +2690,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fly",
+            "Frame",
             "Hammerhead Gunship",
             "Non-Kroot",
             "T'au Empire",
@@ -3456,47 +3464,47 @@
                 },
                 {
                     "model_count": 11,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 }
             ],
@@ -3599,7 +3607,7 @@
     {
         "status": "success",
         "unit_name": "Kroot Farstalkers",
-        "points": 85,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -3617,7 +3625,7 @@
             "composition_options": [
                 {
                     "model_count": 12,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -3798,7 +3806,8 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "stealth": true
+            "stealth": true,
+            "feelNoPain": 5
         },
         "tags": [
             "Character",
@@ -3848,7 +3857,7 @@
     {
         "status": "success",
         "unit_name": "Kroot Hounds",
-        "points": 40,
+        "points": 45,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "12",
@@ -3866,7 +3875,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 40,
+                    "points": 45,
                     "source": "fallback"
                 }
             ],
@@ -4028,7 +4037,7 @@
     {
         "status": "success",
         "unit_name": "Kroot Trail Shaper",
-        "points": 55,
+        "points": 50,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -4046,7 +4055,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 50,
                     "source": "fallback"
                 }
             ],
@@ -4104,7 +4113,7 @@
     {
         "status": "success",
         "unit_name": "Kroot War Shaper",
-        "points": 50,
+        "points": 60,
         "unit_type": "model",
         "toughness": "3",
         "movement": "7",
@@ -4122,7 +4131,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 50,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -4321,7 +4330,7 @@
     {
         "status": "success",
         "unit_name": "Krootox Riders",
-        "points": 40,
+        "points": 45,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "7",
@@ -4339,7 +4348,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 40,
+                    "points": 45,
                     "source": "xml"
                 },
                 {
@@ -4358,7 +4367,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Extra Attacks Weapon",
             "Grenades",
             "Kroot",
             "Krootox Riders",
@@ -4438,10 +4446,10 @@
         "points": 2100,
         "unit_type": "model",
         "toughness": "14",
-        "movement": "20",
+        "movement": "40",
         "wounds": "60",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "2",
         "invunerable_save": "5",
         "modelCount": 1,
@@ -4466,6 +4474,7 @@
         "tags": [
             "Aircraft",
             "Fly",
+            "Frame",
             "Manta",
             "Markerlight",
             "Non-Kroot",
@@ -4592,7 +4601,7 @@
     {
         "status": "success",
         "unit_name": "Pathfinder Team",
-        "points": 90,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "7",
@@ -4610,7 +4619,7 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 90,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -4792,8 +4801,8 @@
     },
     {
         "status": "success",
-        "unit_name": "Piranha",
-        "points": 60,
+        "unit_name": "Piranhas",
+        "points": 65,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "14",
@@ -4807,20 +4816,31 @@
             "count": 1,
             "default_model_count": 1,
             "min_model_count": 1,
-            "max_model_count": 1,
+            "max_model_count": 3,
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 60,
-                    "source": "fallback"
+                    "points": 65,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 2,
+                    "points": 110,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 3,
+                    "points": 165,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
             "Fly",
+            "Frame",
             "Non-Kroot",
             "Piranha",
             "T'au Empire",
@@ -4913,13 +4933,13 @@
     {
         "status": "success",
         "unit_name": "Razorshark Strike Fighter",
-        "points": 170,
+        "points": 160,
         "unit_type": "model",
         "toughness": "10",
-        "movement": "20",
+        "movement": "",
         "wounds": "12",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -4931,7 +4951,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 170,
+                    "points": 160,
                     "source": "fallback"
                 }
             ],
@@ -5050,7 +5070,7 @@
     {
         "status": "success",
         "unit_name": "Riptide Battlesuit",
-        "points": 200,
+        "points": 190,
         "unit_type": "model",
         "toughness": "9",
         "movement": "10",
@@ -5068,7 +5088,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 200,
+                    "points": 190,
                     "source": "fallback"
                 }
             ],
@@ -5827,7 +5847,7 @@
     {
         "status": "success",
         "unit_name": "Sky Ray Gunship",
-        "points": 150,
+        "points": 140,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -5845,7 +5865,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 150,
+                    "points": 140,
                     "source": "fallback"
                 }
             ],
@@ -5857,6 +5877,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fly",
+            "Frame",
             "Markerlight",
             "Non-Kroot",
             "Sky Ray Gunship",
@@ -5974,8 +5995,7 @@
             "source": "fallback"
         },
         "global_modifiers": {
-            "rerollOnesHits": true,
-            "rerollOnesWounds": true
+            "rerollOnesHits": true
         },
         "defenderGlobalModifiers": {
             "stealth": true
@@ -6077,7 +6097,7 @@
     {
         "status": "success",
         "unit_name": "Stormsurge",
-        "points": 360,
+        "points": 375,
         "unit_type": "model",
         "toughness": "11",
         "movement": "8",
@@ -6095,7 +6115,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 360,
+                    "points": 375,
                     "source": "fallback"
                 }
             ],
@@ -6422,13 +6442,13 @@
     {
         "status": "success",
         "unit_name": "Sun Shark Bomber",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "",
         "wounds": "12",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -6440,7 +6460,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 160,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -6587,6 +6607,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Non-Kroot",
             "T'au Empire",
             "Ta'unar Supremacy Armour",
@@ -6764,7 +6785,7 @@
     {
         "status": "success",
         "unit_name": "The Twin Lance",
-        "points": 185,
+        "points": 240,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "10",
@@ -6782,7 +6803,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 185,
+                    "points": 240,
                     "source": "fallback"
                 }
             ],
@@ -6980,6 +7001,7 @@
         "tags": [
             "Fly",
             "Fortification",
+            "Frame",
             "Non-Kroot",
             "T'au Empire",
             "Tidewall Droneport",
@@ -7038,6 +7060,7 @@
         "tags": [
             "Fly",
             "Fortification",
+            "Frame",
             "Non-Kroot",
             "T'au Empire",
             "Tidewall Gunrig",
@@ -7069,7 +7092,7 @@
     {
         "status": "success",
         "unit_name": "Tidewall Shieldline",
-        "points": 20,
+        "points": 85,
         "unit_type": "model",
         "toughness": "8",
         "movement": "4",
@@ -7087,7 +7110,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 20,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -7110,13 +7133,13 @@
     {
         "status": "success",
         "unit_name": "Tiger Shark",
-        "points": 325,
+        "points": 395,
         "unit_type": "model",
         "toughness": "11",
-        "movement": "20",
+        "movement": "",
         "wounds": "18",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": "5",
         "modelCount": 1,
@@ -7128,7 +7151,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 325,
+                    "points": 395,
                     "source": "fallback"
                 }
             ],
@@ -7326,7 +7349,7 @@
     {
         "status": "success",
         "unit_name": "Vespid Stingwings",
-        "points": 65,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -7344,27 +7367,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 65,
+                    "points": 70,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 130,
+                    "points": 115,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 130,
+                    "points": 115,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 130,
+                    "points": 115,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 130,
+                    "points": 115,
                     "source": "xml"
                 }
             ],

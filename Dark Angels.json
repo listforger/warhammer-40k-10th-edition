@@ -10,7 +10,7 @@
         "leadership": "5",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -98,7 +98,7 @@
     {
         "status": "success",
         "unit_name": "Azrael",
-        "points": 125,
+        "points": 140,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -116,14 +116,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 125,
+                    "points": 140,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Azrael",
             "Chapter Master",
@@ -184,7 +186,7 @@
     {
         "status": "success",
         "unit_name": "Belial",
-        "points": 85,
+        "points": 75,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -192,7 +194,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -202,7 +204,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -262,7 +264,7 @@
     {
         "status": "success",
         "unit_name": "Deathwing Knights",
-        "points": 250,
+        "points": 240,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -270,7 +272,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,
@@ -280,7 +282,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 250,
+                    "points": 240,
                     "source": "fallback"
                 }
             ],
@@ -288,7 +290,8 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "minusOneDamage": true
+            "minusOneDamage": true,
+            "feelNoPain": 4
         },
         "tags": [
             "Dark Angels",
@@ -376,7 +379,7 @@
     {
         "status": "success",
         "unit_name": "Deathwing Terminator Squad",
-        "points": 180,
+        "points": 165,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -394,32 +397,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 180,
+                    "points": 165,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 }
             ],
@@ -428,7 +431,9 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Dark Angels",
             "Deathwing",
@@ -544,11 +549,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 2,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -614,7 +619,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -728,7 +733,7 @@
     {
         "status": "success",
         "unit_name": "Inner Circle Companions",
-        "points": 90,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -746,7 +751,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 90,
+                    "points": 80,
                     "source": "xml"
                 }
             ],
@@ -824,7 +829,7 @@
     {
         "status": "success",
         "unit_name": "Land Speeder Vengeance",
-        "points": 120,
+        "points": 130,
         "unit_type": "model",
         "toughness": "8",
         "movement": "14",
@@ -832,7 +837,7 @@
         "leadership": "6",
         "oc": "3",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -842,7 +847,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 120,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -853,8 +858,10 @@
         "tags": [
             "Dark Angels",
             "Fly",
+            "Frame",
             "Imperium",
             "Land Speeder Vengeance",
+            "Plasma",
             "Ravenwing",
             "Space Marines",
             "Vehicle"
@@ -959,7 +966,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -976,7 +983,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 3
+        },
         "tags": [
             "Captain",
             "Character",
@@ -1033,7 +1042,7 @@
     {
         "status": "success",
         "unit_name": "Lion El'Jonson",
-        "points": 315,
+        "points": 265,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -1041,7 +1050,7 @@
         "leadership": "5",
         "oc": "4",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "3",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -1051,7 +1060,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 315,
+                    "points": 265,
                     "source": "fallback"
                 }
             ],
@@ -1065,6 +1074,7 @@
             "Epic Hero",
             "Imperium",
             "Lion El'Jonson",
+            "Mobile",
             "Monster",
             "Primarch",
             "Space Marines"
@@ -1144,13 +1154,13 @@
     {
         "status": "success",
         "unit_name": "Nephilim Jetfighter",
-        "points": 195,
+        "points": 180,
         "unit_type": "model",
         "toughness": "8",
-        "movement": "20",
+        "movement": "",
         "wounds": "11",
         "leadership": "6",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -1162,7 +1172,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 195,
+                    "points": 180,
                     "source": "fallback"
                 }
             ],
@@ -1273,7 +1283,7 @@
     {
         "status": "success",
         "unit_name": "Ravenwing Black Knights",
-        "points": 80,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "12",
@@ -1281,7 +1291,7 @@
         "leadership": "6",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 3,
         "unit_composition": {
             "count": 3,
@@ -1291,22 +1301,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 80,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 }
             ],
@@ -1333,11 +1343,11 @@
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "D3",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1349,10 +1359,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "D3",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1427,7 +1437,7 @@
     {
         "status": "success",
         "unit_name": "Ravenwing Command Squad",
-        "points": 120,
+        "points": 105,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "12",
@@ -1435,7 +1445,7 @@
         "leadership": "6",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 3,
         "unit_composition": {
             "count": 3,
@@ -1445,7 +1455,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 120,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -1458,13 +1468,13 @@
             "Dark Angels",
             "Grenades",
             "Imperium",
-            "Leader",
             "Melee Weapon",
             "Mounted",
             "Ranged Weapon",
             "Ravenwing",
             "Ravenwing Command Squad",
-            "Space Marines"
+            "Space Marines",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -1579,21 +1589,36 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Ravenwing Dark Talon",
-        "points": 210,
+        "points": 200,
         "unit_type": "model",
         "toughness": "8",
-        "movement": "20",
+        "movement": "",
         "wounds": "11",
         "leadership": "6",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -1603,7 +1628,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 210,
+                    "points": 200,
                     "source": "fallback"
                 }
             ],
@@ -1679,7 +1704,7 @@
     {
         "status": "success",
         "unit_name": "Ravenwing Darkshroud",
-        "points": 100,
+        "points": 70,
         "unit_type": "model",
         "toughness": "8",
         "movement": "14",
@@ -1697,7 +1722,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -1709,6 +1734,7 @@
             "Dark Angels",
             "Darkshroud",
             "Fly",
+            "Frame",
             "Imperium",
             "Ravenwing",
             "Space Marines",
@@ -1772,7 +1798,7 @@
     {
         "status": "success",
         "unit_name": "Sammael",
-        "points": 115,
+        "points": 105,
         "unit_type": "model",
         "toughness": "5",
         "movement": "12",
@@ -1780,7 +1806,7 @@
         "leadership": "6",
         "oc": "2",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -1790,7 +1816,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 115,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -1804,10 +1830,12 @@
             "Dark Angels",
             "Epic Hero",
             "Fly",
+            "Frame",
             "Grenades",
             "Imperium",
             "Leader",
             "Mounted",
+            "Plasma",
             "Ravenwing",
             "Sammael",
             "Space Marines"

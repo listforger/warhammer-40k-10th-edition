@@ -5,10 +5,10 @@
         "points": 160,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "",
         "wounds": "10",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -83,10 +83,10 @@
         "points": 185,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "",
         "wounds": "10",
         "leadership": "7",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -194,10 +194,10 @@
     {
         "status": "success",
         "unit_name": "Archaeopter Transvector",
-        "points": 150,
+        "points": 145,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "14",
         "wounds": "10",
         "leadership": "7",
         "oc": "0",
@@ -212,7 +212,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 150,
+                    "points": 145,
                     "source": "fallback"
                 }
             ],
@@ -222,7 +222,6 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Mechanicus",
-            "Aircraft",
             "Archaeopter Transvector",
             "Fly",
             "Imperium",
@@ -273,7 +272,7 @@
     {
         "status": "success",
         "unit_name": "Belisarius Cawl",
-        "points": 210,
+        "points": 220,
         "unit_type": "model",
         "toughness": "8",
         "movement": "8",
@@ -291,7 +290,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 210,
+                    "points": 220,
                     "source": "fallback"
                 }
             ],
@@ -299,6 +298,7 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
+            "feelNoPain": 5,
             "heal": true,
             "healD3Wounds": true
         },
@@ -308,8 +308,8 @@
             "Character",
             "Cult Mechanicus",
             "Epic Hero",
-            "Extra Attacks Weapon",
             "Imperium",
+            "Mobile",
             "Monster",
             "Supreme Commander",
             "Tech-Priest"
@@ -1021,7 +1021,7 @@
     {
         "status": "success",
         "unit_name": "Corpuscarii Electro-Priests",
-        "points": 65,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -1039,32 +1039,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 65,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 130,
+                    "points": 120,
                     "source": "xml"
                 }
             ],
@@ -1127,7 +1127,7 @@
     {
         "status": "success",
         "unit_name": "Cybernetica Datasmith",
-        "points": 35,
+        "points": 20,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -1145,24 +1145,26 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 35,
+                    "points": 20,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Character",
             "Cybernetica Datasmith",
             "Imperium",
-            "Infantry",
-            "Leader",
             "Legio Cybernetica",
             "Melee Weapon",
-            "Tech-Priest"
+            "Support",
+            "Tech-Priest",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
@@ -1181,6 +1183,23 @@
                     "devWoundsOn6s": true,
                     "pistol": true,
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "TL-409",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 11,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -1205,7 +1224,7 @@
     {
         "status": "success",
         "unit_name": "Fulgurite Electro-Priests",
-        "points": 70,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -1223,32 +1242,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 70,
+                    "points": 65,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 }
             ],
@@ -1290,7 +1309,7 @@
     {
         "status": "success",
         "unit_name": "Hastarii Exterminators",
-        "points": 135,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "5",
@@ -1308,14 +1327,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 135,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Exterminators",
@@ -1418,7 +1439,7 @@
     {
         "status": "success",
         "unit_name": "Hastarii Fusiliers",
-        "points": 145,
+        "points": 105,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "5",
@@ -1436,14 +1457,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 145,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Fusiliers",
@@ -2156,7 +2179,7 @@
     {
         "status": "success",
         "unit_name": "Ironstrider Ballistarii",
-        "points": 85,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
@@ -2174,7 +2197,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -2184,6 +2207,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Mechanicus",
+            "Damage Dx+0 Modifier",
             "Imperium",
             "Ironstrider Ballistarii",
             "Skitarii",
@@ -2252,7 +2276,7 @@
     {
         "status": "success",
         "unit_name": "Kastelan Robots",
-        "points": 180,
+        "points": 150,
         "unit_type": "unit",
         "toughness": "9",
         "movement": "6",
@@ -2270,24 +2294,26 @@
             "composition_options": [
                 {
                     "model_count": 2,
-                    "points": 180,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 3,
-                    "points": 360,
+                    "points": 300,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 360,
+                    "points": 300,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Imperium",
@@ -2416,7 +2442,7 @@
     {
         "status": "success",
         "unit_name": "Kataphron Breachers",
-        "points": 160,
+        "points": 140,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "5",
@@ -2434,22 +2460,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 160,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 320,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 320,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 320,
+                    "points": 290,
                     "source": "xml"
                 }
             ],
@@ -2458,7 +2484,9 @@
         "global_modifiers": {
             "rerollHits": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Breachers",
@@ -2546,7 +2574,7 @@
     {
         "status": "success",
         "unit_name": "Kataphron Destroyers",
-        "points": 105,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -2564,29 +2592,31 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 105,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 210,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 210,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 210,
+                    "points": 200,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Cult Mechanicus",
@@ -2725,7 +2755,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Character",
@@ -3332,7 +3364,7 @@
     {
         "status": "success",
         "unit_name": "Onager Dunecrawler",
-        "points": 155,
+        "points": 150,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -3350,7 +3382,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 155,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -3360,6 +3392,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Mechanicus",
+            "Damage Dx+0 Modifier",
             "Imperium",
             "Onager Dunecrawler",
             "Skitarii",
@@ -3575,6 +3608,7 @@
             "Infantry",
             "Jump Pack",
             "Pteraxii",
+            "Recon Augury",
             "Skitarii",
             "Skystalkers"
         ],
@@ -3650,7 +3684,7 @@
     {
         "status": "success",
         "unit_name": "Pteraxii Sterylizors",
-        "points": 80,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -3668,32 +3702,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 80,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 }
             ],
@@ -3710,6 +3744,7 @@
             "Infantry",
             "Jump Pack",
             "Pteraxii",
+            "Recon Augury",
             "Skitarii",
             "Sterylizors"
         ],
@@ -3801,7 +3836,7 @@
             "count": 3,
             "default_model_count": 3,
             "min_model_count": 3,
-            "max_model_count": 6,
+            "max_model_count": 7,
             "composition_options": [
                 {
                     "model_count": 3,
@@ -3810,28 +3845,36 @@
                 },
                 {
                     "model_count": 4,
-                    "points": 120,
+                    "points": 105,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 120,
+                    "points": 105,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 120,
+                    "points": 105,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 7,
+                    "points": 105,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Imperium",
             "Mounted",
+            "Recon Augury",
             "Serberys Raiders",
             "Skitarii"
         ],
@@ -3916,29 +3959,31 @@
                 },
                 {
                     "model_count": 4,
-                    "points": 110,
+                    "points": 95,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 110,
+                    "points": 95,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 110,
+                    "points": 95,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true
+        },
         "tags": [
             "Adeptus Mechanicus",
-            "Extra Attacks Weapon",
             "Imperium",
             "Mounted",
+            "Recon Augury",
             "Serberys Sulphurhounds",
             "Skitarii"
         ],
@@ -4055,12 +4100,12 @@
     {
         "status": "success",
         "unit_name": "Servitor Battleclade",
-        "points": 60,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
-        "wounds": "2",
-        "leadership": "7",
+        "wounds": "1",
+        "leadership": "8",
         "oc": "1",
         "armour_save": "4",
         "invunerable_save": "6",
@@ -4073,14 +4118,16 @@
             "composition_options": [
                 {
                     "model_count": 9,
-                    "points": 60,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Cult Mechanicus",
@@ -4291,6 +4338,7 @@
             "Imperium",
             "Infantry",
             "Infiltrators",
+            "Recon Augury",
             "Sicarian",
             "Skitarii"
         ],
@@ -4367,7 +4415,7 @@
     {
         "status": "success",
         "unit_name": "Sicarian Ruststalkers",
-        "points": 80,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "8",
@@ -4385,32 +4433,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 80,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 165,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 165,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 165,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 165,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 165,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
@@ -4517,16 +4565,19 @@
         "global_modifiers": {
             "rerollHits": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "stealth": true,
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Character",
             "Imperium",
             "Infantry",
-            "Leader",
             "Marshal",
             "Melee Weapon",
-            "Skitarii"
+            "Skitarii",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -4545,6 +4596,23 @@
                     "devWoundsOn6s": true,
                     "pistol": true,
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "TL-409",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 11,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -4594,13 +4662,16 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Battleline",
             "Imperium",
             "Infantry",
             "Rangers",
+            "Recon Augury",
             "Skitarii"
         ],
         "ranged_weapons": [
@@ -4740,7 +4811,7 @@
     {
         "status": "success",
         "unit_name": "Skitarii Vanguard",
-        "points": 95,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "3",
         "movement": "6",
@@ -4758,14 +4829,16 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 95,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Battleline",
@@ -4914,7 +4987,7 @@
     {
         "status": "success",
         "unit_name": "Skorpius Disintegrator",
-        "points": 165,
+        "points": 160,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -4932,7 +5005,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 165,
+                    "points": 160,
                     "source": "fallback"
                 }
             ],
@@ -4944,6 +5017,8 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Mechanicus",
+            "Damage Dx+0 Modifier",
+            "Frame",
             "Imperium",
             "Skitarii",
             "Skorpius Disintegrator",
@@ -5040,7 +5115,7 @@
     {
         "status": "success",
         "unit_name": "Skorpius Dunerider",
-        "points": 85,
+        "points": 75,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -5058,7 +5133,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -5071,6 +5146,7 @@
         "tags": [
             "Adeptus Mechanicus",
             "Dedicated Transport",
+            "Frame",
             "Imperium",
             "Skitarii",
             "Skorpius Dunerider",
@@ -5144,12 +5220,12 @@
                 },
                 {
                     "model_count": 2,
-                    "points": 100,
+                    "points": 95,
                     "source": "xml"
                 },
                 {
                     "model_count": 3,
-                    "points": 150,
+                    "points": 140,
                     "source": "xml"
                 }
             ],
@@ -5229,7 +5305,7 @@
     {
         "status": "success",
         "unit_name": "Sydonian Dragoons with taser lances",
-        "points": 65,
+        "points": 60,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
@@ -5243,15 +5319,25 @@
             "count": 1,
             "default_model_count": 1,
             "min_model_count": 1,
-            "max_model_count": 1,
+            "max_model_count": 3,
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
-                    "source": "fallback"
+                    "points": 60,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 2,
+                    "points": 120,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 3,
+                    "points": 170,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -5314,8 +5400,8 @@
     {
         "status": "success",
         "unit_name": "Sydonian Skatros",
-        "points": 50,
-        "unit_type": "unit",
+        "points": 45,
+        "unit_type": "model",
         "toughness": "4",
         "movement": "8",
         "wounds": "4",
@@ -5332,7 +5418,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 50,
+                    "points": 45,
                     "source": "fallback"
                 }
             ],
@@ -5409,6 +5495,23 @@
                     "antiTypeVehicleOrMonster": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "TL-409",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 11,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
+                }
             }
         ],
         "melee_weapons": [
@@ -5432,7 +5535,7 @@
     {
         "status": "success",
         "unit_name": "Tech-Priest Dominus",
-        "points": 65,
+        "points": 60,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -5450,14 +5553,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Character",
@@ -5535,6 +5640,23 @@
                 }
             },
             {
+                "name": "TL-409",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 11,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
                 "name": "Volkite blaster",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
@@ -5599,6 +5721,7 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
+            "feelNoPain": 5,
             "heal": true,
             "healD3Wounds": true
         },
@@ -5607,7 +5730,6 @@
             "Character",
             "Cult Mechanicus",
             "Enginseer",
-            "Extra Attacks Weapon",
             "Imperium",
             "Infantry",
             "Leader",
@@ -5631,6 +5753,23 @@
                     "devWoundsOn6s": true,
                     "pistol": true,
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "TL-409",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 11,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -5695,7 +5834,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Character",
@@ -5722,6 +5863,23 @@
                 "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "TL-409",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 11,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -5789,15 +5947,17 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Character",
             "Cult Mechanicus",
             "Imperium",
             "Infantry",
-            "Leader",
             "Melee Weapon",
+            "Support",
             "Tech-Priest",
             "Technoarcheologist"
         ],
@@ -5818,6 +5978,23 @@
                     "devWoundsOn6s": true,
                     "pistol": true,
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "TL-409",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 11,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -5847,7 +6024,7 @@
     {
         "status": "success",
         "unit_name": "Thulia Ghuld",
-        "points": 210,
+        "points": 180,
         "unit_type": "model",
         "toughness": "8",
         "movement": "8",
@@ -5865,21 +6042,23 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 210,
+                    "points": 180,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Adeptus Mechanicus",
             "Character",
             "Cult Mechanicus",
             "Epic Hero",
-            "Extra Attacks Weapon",
             "Imperium",
+            "Mobile",
             "Monster",
             "Supreme Commander",
             "Tech-Priest",

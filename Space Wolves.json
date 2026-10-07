@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Arjac Rockfist",
-        "points": 105,
+        "points": 95,
         "unit_type": "model",
         "toughness": "5",
         "movement": "6",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 95,
                     "source": "fallback"
                 }
             ],
@@ -93,7 +93,7 @@
         "leadership": "6",
         "oc": "3",
         "armour_save": "2",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -255,52 +255,52 @@
                 },
                 {
                     "model_count": 11,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 },
                 {
                     "model_count": 20,
-                    "points": 285,
+                    "points": 270,
                     "source": "xml"
                 }
             ],
@@ -331,7 +331,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -404,7 +403,7 @@
     {
         "status": "success",
         "unit_name": "Fenrisian Wolves",
-        "points": 40,
+        "points": 45,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "10",
@@ -422,7 +421,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 40,
+                    "points": 45,
                     "source": "fallback"
                 }
             ],
@@ -526,7 +525,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -663,7 +661,7 @@
     {
         "status": "success",
         "unit_name": "Iron Priest",
-        "points": 55,
+        "points": 50,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
@@ -681,7 +679,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 50,
                     "source": "fallback"
                 }
             ],
@@ -743,6 +741,21 @@
         ],
         "melee_weapons": [
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Tempest hammer and Servo-arm",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -762,7 +775,7 @@
     {
         "status": "success",
         "unit_name": "Logan Grimnar",
-        "points": 110,
+        "points": 100,
         "unit_type": "model",
         "toughness": "5",
         "movement": "6",
@@ -780,7 +793,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 110,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -792,7 +805,6 @@
             "Chapter Master",
             "Character",
             "Epic Hero",
-            "Extra Attacks Weapon",
             "Imperium",
             "Infantry",
             "Leader",
@@ -970,7 +982,7 @@
     {
         "status": "success",
         "unit_name": "Njal Stormcaller",
-        "points": 85,
+        "points": 75,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
@@ -988,7 +1000,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -1021,7 +1033,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -1089,7 +1100,7 @@
     {
         "status": "success",
         "unit_name": "Ragnar Blackmane",
-        "points": 100,
+        "points": 90,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
@@ -1107,7 +1118,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -1172,7 +1183,7 @@
     {
         "status": "success",
         "unit_name": "Thunderwolf Cavalry",
-        "points": 115,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "12",
@@ -1190,22 +1201,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 115,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 230,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 230,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 230,
+                    "points": 200,
                     "source": "xml"
                 }
             ],
@@ -1234,7 +1245,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -1423,7 +1433,7 @@
     {
         "status": "success",
         "unit_name": "Venerable Dreadnought",
-        "points": 130,
+        "points": 125,
         "unit_type": "model",
         "toughness": "9",
         "movement": "8",
@@ -1441,7 +1451,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 130,
+                    "points": 125,
                     "source": "fallback"
                 }
             ],
@@ -1733,6 +1743,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Thunder Hammer",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1747,6 +1772,142 @@
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Guard Headtaker w\/ paired weapons",
+        "points": null,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "3",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Headtakers",
+            "Imperium",
+            "Infantry",
+            "Space Marines",
+            "Space Wolves",
+            "Tacticus",
+            "Wolf Guard"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "pistol": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Paired Master-crafted Power Weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Wolf Guard Headtaker w\/ Storm Shield",
+        "points": null,
+        "unit_type": "model",
+        "toughness": "4",
+        "movement": "7",
+        "wounds": "3",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Headtakers",
+            "Imperium",
+            "Infantry",
+            "Space Marines",
+            "Space Wolves",
+            "Tacticus",
+            "Wolf Guard"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "pistol": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -1772,7 +1933,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 110,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -1789,7 +1950,8 @@
             "Space Marines",
             "Space Wolves",
             "Tacticus",
-            "Wolf Guard"
+            "Wolf Guard",
+            "Wolf Guard Headtakers"
         ],
         "ranged_weapons": [
             {
@@ -1834,10 +1996,10 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
-                "attacksMultiplier": 3,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 3
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1860,7 +2022,7 @@
     {
         "status": "success",
         "unit_name": "Wolf Guard Terminators",
-        "points": 170,
+        "points": 155,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "6",
@@ -1878,32 +2040,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 170,
+                    "points": 155,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 340,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 340,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 340,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 340,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 340,
+                    "points": 310,
                     "source": "xml"
                 }
             ],
@@ -2090,6 +2252,21 @@
                 "attacks": "5",
                 "attacksMultiplier": 1,
                 "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -2452,7 +2629,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -2496,7 +2672,7 @@
     {
         "status": "success",
         "unit_name": "Wolf Scouts",
-        "points": 105,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "7",
@@ -2514,7 +2690,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 90,
                     "source": "xml"
                 }
             ],
@@ -2547,7 +2723,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -2931,7 +3106,7 @@
         "leadership": "7",
         "oc": "0",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 5,
         "unit_composition": {
             "count": 5,

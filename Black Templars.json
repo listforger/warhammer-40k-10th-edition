@@ -37,10 +37,10 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Lieutenant",
             "Melee Weapon",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -117,13 +117,28 @@
                     "lethalHitsOn6s": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Chaplain Grimaldus",
-        "points": 110,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -141,7 +156,7 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 110,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -155,10 +170,11 @@
         },
         "tags": [
             "Black Templars",
-            "Chaplain Grimaldus",
+            "Chaplain",
             "Character",
             "Epic Hero",
             "Grenades",
+            "Grimaldus",
             "Imperium",
             "Infantry",
             "Leader",
@@ -235,7 +251,7 @@
     {
         "status": "success",
         "unit_name": "Crusade Ancient",
-        "points": 55,
+        "points": 40,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -253,7 +269,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 40,
                     "source": "fallback"
                 }
             ],
@@ -269,9 +285,9 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Melee Weapon",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -287,7 +303,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -307,6 +322,21 @@
                 "parsed_weapon_types": {
                     "lethalHits": true,
                     "lethalHitsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -338,52 +368,52 @@
                 },
                 {
                     "model_count": 11,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 },
                 {
                     "model_count": 20,
-                    "points": 300,
+                    "points": 290,
                     "source": "xml"
                 }
             ],
@@ -415,7 +445,6 @@
                 "attacksMultiplier": 5,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 5
                 }
             },
@@ -572,7 +601,7 @@
     {
         "status": "success",
         "unit_name": "Emperor's Champion",
-        "points": 100,
+        "points": 90,
         "unit_type": "model",
         "toughness": "4",
         "movement": "8",
@@ -590,7 +619,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -658,6 +687,21 @@
                 "attacks": "10",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -755,13 +799,28 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Execrator",
-        "points": 60,
+        "points": 50,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -779,7 +838,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 60,
+                    "points": 50,
                     "source": "fallback"
                 }
             ],
@@ -792,7 +851,6 @@
             "Chaplain",
             "Character",
             "Execrator",
-            "Extra Attacks Weapon",
             "Grenades",
             "Imperium",
             "Infantry",
@@ -869,6 +927,21 @@
                     "lethalHitsOn6s": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -903,6 +976,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Black Templars",
+            "Frame",
             "Gladiator Lancer",
             "Imperium",
             "Smoke",
@@ -1058,6 +1132,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Black Templars",
+            "Frame",
             "Gladiator Reaper",
             "Imperium",
             "Smoke",
@@ -1202,6 +1277,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Black Templars",
+            "Frame",
             "Gladiator Valiant",
             "Imperium",
             "Smoke",
@@ -1298,7 +1374,7 @@
     {
         "status": "success",
         "unit_name": "High Marshal Helbrecht",
-        "points": 120,
+        "points": 110,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -1316,7 +1392,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 120,
+                    "points": 110,
                     "source": "fallback"
                 }
             ],
@@ -1395,7 +1471,7 @@
     {
         "status": "success",
         "unit_name": "Impulsor",
-        "points": 85,
+        "points": 75,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -1413,7 +1489,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -1424,6 +1500,7 @@
         "tags": [
             "Black Templars",
             "Dedicated Transport",
+            "Frame",
             "Imperium",
             "Impulsor",
             "Space Marines",
@@ -1619,6 +1696,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Black Templars",
+            "Frame",
             "Grenades",
             "Imperium",
             "Land Raider",
@@ -1847,13 +1925,28 @@
                     "lethalHitsOn6s": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Repulsor",
-        "points": 180,
+        "points": 170,
         "unit_type": "model",
         "toughness": "12",
         "movement": "10",
@@ -1871,7 +1964,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 180,
+                    "points": 170,
                     "source": "fallback"
                 }
             ],
@@ -1881,6 +1974,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Black Templars",
+            "Frame",
             "Imperium",
             "Repulsor",
             "Smoke",
@@ -2027,7 +2121,7 @@
     {
         "status": "success",
         "unit_name": "Repulsor Executioner",
-        "points": 235,
+        "points": 255,
         "unit_type": "model",
         "toughness": "12",
         "movement": "10",
@@ -2045,7 +2139,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 235,
+                    "points": 255,
                     "source": "fallback"
                 }
             ],
@@ -2057,6 +2151,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Black Templars",
+            "Frame",
             "Imperium",
             "Repulsor Executioner",
             "Smoke",
@@ -2279,27 +2374,27 @@
                 },
                 {
                     "model_count": 6,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
@@ -2482,7 +2577,7 @@
     {
         "status": "success",
         "unit_name": "Sword Brethren Squad",
-        "points": 105,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -2496,41 +2591,46 @@
             "count": 4,
             "default_model_count": 4,
             "min_model_count": 4,
-            "max_model_count": 10,
+            "max_model_count": 11,
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 105,
+                    "points": 100,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 130,
+                    "points": 125,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 235,
+                    "points": 225,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 235,
+                    "points": 225,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 235,
+                    "points": 225,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 235,
+                    "points": 225,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 260,
+                    "points": 250,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 11,
+                    "points": 250,
                     "source": "xml"
                 }
             ],
@@ -2544,8 +2644,8 @@
             "Imperium",
             "Infantry",
             "Power Weapon",
-            "Primaris Sword Brethren",
             "Space Marines",
+            "Sword Brethren Squad",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -2690,7 +2790,7 @@
     {
         "status": "success",
         "unit_name": "Terminator Squad",
-        "points": 175,
+        "points": 160,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -2708,32 +2808,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 175,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 330,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 330,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 330,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 330,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 330,
+                    "points": 320,
                     "source": "xml"
                 }
             ],

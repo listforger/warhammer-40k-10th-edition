@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Caanok Var",
-        "points": 100,
+        "points": 90,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -96,7 +96,7 @@
     {
         "status": "success",
         "unit_name": "Iron Father Feirros",
-        "points": 95,
+        "points": 85,
         "unit_type": "model",
         "toughness": "6",
         "movement": "5",
@@ -114,7 +114,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -123,11 +123,12 @@
         "global_modifiers": {
             "plusOneToHit": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Character",
             "Epic Hero",
-            "Extra Attacks Weapon",
             "Gravis",
             "Imperium",
             "Infantry",

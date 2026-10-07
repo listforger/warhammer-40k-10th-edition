@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Arkanyst Evaluator",
-        "points": 65,
+        "points": 70,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -107,7 +107,7 @@
     {
         "status": "success",
         "unit_name": "Berehk Stornbröw",
-        "points": 95,
+        "points": 85,
         "unit_type": "model",
         "toughness": "6",
         "movement": "6",
@@ -125,7 +125,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -208,11 +208,11 @@
     {
         "status": "success",
         "unit_name": "Brôkhyr Iron-master",
-        "points": 75,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
-        "wounds": "1",
+        "wounds": "4",
         "leadership": "7",
         "oc": "1",
         "armour_save": "4",
@@ -226,7 +226,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 75,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -392,17 +392,17 @@
                 },
                 {
                     "model_count": 4,
-                    "points": 160,
+                    "points": 170,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 160,
+                    "points": 170,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 170,
                     "source": "xml"
                 }
             ],
@@ -493,7 +493,7 @@
     {
         "status": "success",
         "unit_name": "Buri Aegnirssen",
-        "points": 95,
+        "points": 85,
         "unit_type": "model",
         "toughness": "6",
         "movement": "5",
@@ -511,7 +511,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -526,6 +526,7 @@
             "Character",
             "Epic Hero",
             "Infantry",
+            "Leader",
             "Leagues of Votann"
         ],
         "ranged_weapons": [
@@ -582,7 +583,7 @@
     {
         "status": "success",
         "unit_name": "Cthonian Beserks",
-        "points": 100,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "6",
@@ -600,32 +601,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 100,
+                    "points": 90,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 }
             ],
@@ -682,7 +683,7 @@
     {
         "status": "success",
         "unit_name": "Cthonian Earthshakers",
-        "points": 110,
+        "points": 100,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "4",
@@ -700,7 +701,7 @@
             "composition_options": [
                 {
                     "model_count": 2,
-                    "points": 110,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -790,7 +791,7 @@
     {
         "status": "success",
         "unit_name": "Einhyr Champion",
-        "points": 70,
+        "points": 65,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -808,7 +809,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -879,7 +880,7 @@
     {
         "status": "success",
         "unit_name": "Einhyr Hearthguard",
-        "points": 135,
+        "points": 130,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -897,7 +898,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 135,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
@@ -1069,7 +1070,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 5
+        },
         "tags": [
             "Character",
             "Grimnyr",
@@ -1167,7 +1170,7 @@
     {
         "status": "success",
         "unit_name": "Hearthkyn Warriors",
-        "points": 100,
+        "points": 90,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -1175,7 +1178,7 @@
         "leadership": "7",
         "oc": "2",
         "armour_save": "4",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 10,
         "unit_composition": {
             "count": 10,
@@ -1185,7 +1188,7 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -1195,7 +1198,7 @@
             "rerollOnesHits": true
         },
         "defenderGlobalModifiers": {
-            "feelNoPain": 6
+            "feelNoPain": "6"
         },
         "tags": [
             "Battleline",
@@ -1388,7 +1391,7 @@
     {
         "status": "success",
         "unit_name": "Hekaton Land Fortress",
-        "points": 240,
+        "points": 250,
         "unit_type": "model",
         "toughness": "12",
         "movement": "10",
@@ -1406,7 +1409,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 240,
+                    "points": 250,
                     "source": "fallback"
                 }
             ],
@@ -1417,6 +1420,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Hekaton Land Fortress",
             "Leagues of Votann",
             "Transport",
@@ -1566,7 +1570,7 @@
     {
         "status": "success",
         "unit_name": "Hernkyn Pioneers",
-        "points": 80,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "12",
@@ -1584,22 +1588,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 80,
+                    "points": 85,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 160,
+                    "points": 170,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 160,
+                    "points": 170,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 170,
                     "source": "xml"
                 }
             ],
@@ -1612,9 +1616,10 @@
         "tags": [
             "Fly",
             "Grenades",
-            "Hernkyn Pioneers",
+            "Hernkyn",
             "Leagues of Votann",
-            "Mounted"
+            "Mounted",
+            "Pioneers"
         ],
         "ranged_weapons": [
             {
@@ -1747,9 +1752,10 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Grenades",
-            "Hernkyn Yaegirs",
+            "Hernkyn",
             "Infantry",
-            "Leagues of Votann"
+            "Leagues of Votann",
+            "Yaegirs"
         ],
         "ranged_weapons": [
             {
@@ -1854,7 +1860,7 @@
     {
         "status": "success",
         "unit_name": "Ironkin Steeljacks with Heavy Volkan...",
-        "points": 85,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -1872,7 +1878,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 80,
                     "source": "xml"
                 }
             ],
@@ -1960,7 +1966,7 @@
     {
         "status": "success",
         "unit_name": "Ironkin Steeljacks with Melee Weapons",
-        "points": 85,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -1978,22 +1984,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 85,
+                    "points": 75,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 170,
+                    "points": 150,
                     "source": "xml"
                 }
             ],
@@ -2066,7 +2072,7 @@
     {
         "status": "success",
         "unit_name": "Kapricus Carrier",
-        "points": 75,
+        "points": 70,
         "unit_type": "model",
         "toughness": "7",
         "movement": "12",
@@ -2084,7 +2090,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -2157,7 +2163,7 @@
     {
         "status": "success",
         "unit_name": "Kapricus Defenders",
-        "points": 70,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "12",
@@ -2171,15 +2177,20 @@
             "count": 1,
             "default_model_count": 1,
             "min_model_count": 1,
-            "max_model_count": 1,
+            "max_model_count": 2,
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
-                    "source": "fallback"
+                    "points": 75,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 2,
+                    "points": 150,
+                    "source": "xml"
                 }
             ],
-            "source": "fallback"
+            "source": "xml"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
@@ -3557,7 +3568,7 @@
     {
         "status": "success",
         "unit_name": "Sagitaur",
-        "points": 90,
+        "points": 85,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -3575,7 +3586,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 90,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -3585,6 +3596,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Dedicated Transport",
+            "Frame",
             "Leagues of Votann",
             "Sagitaur",
             "Transport",
@@ -4239,7 +4251,7 @@
     {
         "status": "success",
         "unit_name": "Ûthar the Destined",
-        "points": 95,
+        "points": 100,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -4257,7 +4269,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],

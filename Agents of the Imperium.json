@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Aquila Kill Team",
-        "points": 100,
+        "points": 110,
         "unit_type": "unit",
         "toughness": null,
         "movement": null,
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 200,
+                    "points": 210,
                     "source": "xml"
                 }
             ],
@@ -448,7 +448,7 @@
         "points": 180,
         "unit_type": "model",
         "toughness": "10",
-        "movement": "20",
+        "movement": "14",
         "wounds": "14",
         "leadership": "6",
         "oc": "0",
@@ -475,10 +475,10 @@
         },
         "tags": [
             "Agents of the Imperium",
-            "Aircraft",
             "Corvus Blackstar",
             "Deathwatch",
             "Fly",
+            "Frame",
             "Imperium",
             "Ordo Xenos",
             "Retinue",
@@ -617,7 +617,8 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "stealth": true
+            "stealth": true,
+            "feelNoPain": 2
         },
         "tags": [
             "Agents of the Imperium",
@@ -1139,15 +1140,15 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 0,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 0
                 }
             },
             {
-                "name": "Plasma pistol - supercharge",
+                "name": "Plasma gun - supercharge",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -1353,7 +1354,7 @@
     {
         "status": "success",
         "unit_name": "Deathwatch Kill Team",
-        "points": 100,
+        "points": 115,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -1371,27 +1372,27 @@
             "composition_options": [
                 {
                     "model_count": 4,
-                    "points": 100,
+                    "points": 115,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 200,
+                    "points": 220,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 200,
+                    "points": 220,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 200,
+                    "points": 220,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 200,
+                    "points": 220,
                     "source": "xml"
                 }
             ],
@@ -1650,6 +1651,7 @@
             "Crucible",
             "Enthroned Agent",
             "Imperium",
+            "Leader",
             "Vehicle",
             "Walker"
         ],
@@ -2033,15 +2035,15 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 0,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 0
                 }
             },
             {
-                "name": "Plasma pistol - supercharge",
+                "name": "Plasma gun - supercharge",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -2247,7 +2249,7 @@
     {
         "status": "success",
         "unit_name": "Eversor Assassin",
-        "points": 110,
+        "points": 100,
         "unit_type": "model",
         "toughness": "4",
         "movement": "9",
@@ -2265,7 +2267,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 110,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -2537,9 +2539,9 @@
     {
         "status": "success",
         "unit_name": "Grey Knights Terminator Squad",
-        "points": 190,
+        "points": 175,
         "unit_type": "unit",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "5",
         "wounds": "3",
         "leadership": "6",
@@ -2555,7 +2557,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 190,
+                    "points": 175,
                     "source": "fallback"
                 }
             ],
@@ -2633,15 +2635,15 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 2,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 3
                 }
             }
         ],
@@ -2655,11 +2657,11 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
-                "attacksMultiplier": 4,
+                "attacksMultiplier": 5,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "psychic": true,
-                    "attacksMultiplier": 4
+                    "attacksMultiplier": 5
                 }
             }
         ]
@@ -2905,7 +2907,7 @@
     {
         "status": "success",
         "unit_name": "Imperial Rhino",
-        "points": 75,
+        "points": 65,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -2923,7 +2925,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -2934,6 +2936,7 @@
         "tags": [
             "Agents of the Imperium",
             "Dedicated Transport",
+            "Frame",
             "Imperial Rhino",
             "Imperium",
             "Smoke",
@@ -2962,9 +2965,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -3472,6 +3475,7 @@
             "Imperium",
             "Inquisitor",
             "Kroyle",
+            "Leader",
             "Mounted",
             "Ordo Xenos"
         ],
@@ -3565,37 +3569,37 @@
             "composition_options": [
                 {
                     "model_count": 6,
-                    "points": 50,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 100,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 100,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 100,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 100,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 11,
-                    "points": 100,
+                    "points": 60,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 100,
+                    "points": 60,
                     "source": "xml"
                 }
             ],
@@ -3786,7 +3790,7 @@
     {
         "status": "success",
         "unit_name": "Inquisitorial Chimera",
-        "points": 70,
+        "points": 60,
         "unit_type": "model",
         "toughness": "9",
         "movement": "10",
@@ -3804,7 +3808,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -3815,6 +3819,7 @@
         "tags": [
             "Agents of the Imperium",
             "Dedicated Transport",
+            "Frame",
             "Imperium",
             "Inquisitorial Chimera",
             "Smoke",
@@ -4374,15 +4379,15 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "1",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 0,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 1,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 0
                 }
             },
             {
-                "name": "Plasma pistol - supercharge",
+                "name": "Plasma gun - supercharge",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -4619,11 +4624,11 @@
             "Character",
             "Imperium",
             "Infantry",
-            "Leader",
             "Melee Weapon",
             "Ministorum Priest",
             "Ordo Hereticus",
-            "Ranged Weapon"
+            "Ranged Weapon",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -5153,7 +5158,7 @@
     {
         "status": "success",
         "unit_name": "Sisters of Battle Immolator",
-        "points": 100,
+        "points": 90,
         "unit_type": "model",
         "toughness": "10",
         "movement": "12",
@@ -5171,7 +5176,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],
@@ -5182,6 +5187,7 @@
         "tags": [
             "Agents of the Imperium",
             "Dedicated Transport",
+            "Frame",
             "Imperium",
             "Ordo Hereticus",
             "Sisters of Battle Immolator",
@@ -5909,7 +5915,7 @@
     {
         "status": "success",
         "unit_name": "Vindicare Assassin",
-        "points": 45,
+        "points": 110,
         "unit_type": "model",
         "toughness": "4",
         "movement": "7",
@@ -5927,7 +5933,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 45,
+                    "points": 110,
                     "source": "fallback"
                 }
             ],
@@ -6147,7 +6153,7 @@
     {
         "status": "success",
         "unit_name": "Watch Captain Artemis",
-        "points": 65,
+        "points": 75,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -6155,7 +6161,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "4",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -6165,7 +6171,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -6232,7 +6238,7 @@
     {
         "status": "success",
         "unit_name": "Watch Master",
-        "points": 95,
+        "points": 105,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -6250,7 +6256,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],

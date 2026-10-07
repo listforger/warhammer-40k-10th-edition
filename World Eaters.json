@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Angron",
-        "points": 340,
+        "points": 330,
         "unit_type": "model",
         "toughness": "11",
         "movement": "14",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 340,
+                    "points": 330,
                     "source": "fallback"
                 }
             ],
@@ -82,7 +82,7 @@
     {
         "status": "success",
         "unit_name": "Bloodcrushers",
-        "points": 110,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "7",
         "movement": "10",
@@ -100,22 +100,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 110,
+                    "points": 95,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 220,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 220,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 220,
+                    "points": 190,
                     "source": "xml"
                 }
             ],
@@ -180,7 +180,7 @@
         "leadership": "6",
         "oc": "1",
         "armour_save": "6",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -619,7 +619,7 @@
     {
         "status": "success",
         "unit_name": "Bloodthirster",
-        "points": 305,
+        "points": 320,
         "unit_type": "model",
         "toughness": "11",
         "movement": "12",
@@ -637,7 +637,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 305,
+                    "points": 320,
                     "source": "fallback"
                 }
             ],
@@ -1136,7 +1136,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Land Raider",
-        "points": 220,
+        "points": 200,
         "unit_type": "model",
         "toughness": "12",
         "movement": "10",
@@ -1154,7 +1154,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 220,
+                    "points": 200,
                     "source": "fallback"
                 }
             ],
@@ -1164,6 +1164,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Chaos",
+            "Frame",
             "Khorne",
             "Land Raider",
             "Smoke",
@@ -1177,9 +1178,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -1193,9 +1194,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -1283,7 +1284,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Predator Annihilator",
-        "points": 145,
+        "points": 130,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -1301,7 +1302,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 145,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -1313,6 +1314,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Chaos",
+            "Frame",
             "Khorne",
             "Predator Annihilator",
             "Smoke",
@@ -1325,9 +1327,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -1341,9 +1343,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -1446,7 +1448,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Predator Destructor",
-        "points": 145,
+        "points": 130,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -1464,7 +1466,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 145,
+                    "points": 130,
                     "source": "fallback"
                 }
             ],
@@ -1474,6 +1476,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Chaos",
+            "Frame",
             "Khorne",
             "Predator Destructor",
             "Smoke",
@@ -1486,9 +1489,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -1502,9 +1505,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -1606,7 +1609,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Rhino",
-        "points": 85,
+        "points": 75,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -1624,7 +1627,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -1635,6 +1638,7 @@
         "tags": [
             "Chaos",
             "Dedicated Transport",
+            "Frame",
             "Khorne",
             "Rhino",
             "Smoke",
@@ -1648,9 +1652,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 2,
                 "damage": "1",
@@ -1664,9 +1668,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -1718,7 +1722,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Spawn",
-        "points": 90,
+        "points": 95,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "10",
@@ -1736,7 +1740,7 @@
             "composition_options": [
                 {
                     "model_count": 2,
-                    "points": 90,
+                    "points": 95,
                     "source": "fallback"
                 }
             ],
@@ -1777,7 +1781,7 @@
         "unit_name": "Chaos Terminators",
         "points": 175,
         "unit_type": "unit",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "7",
         "wounds": "3",
         "leadership": "6",
@@ -1789,7 +1793,7 @@
             "count": 5,
             "default_model_count": 5,
             "min_model_count": 5,
-            "max_model_count": 10,
+            "max_model_count": 11,
             "composition_options": [
                 {
                     "model_count": 5,
@@ -1820,6 +1824,11 @@
                     "model_count": 10,
                     "points": 350,
                     "source": "xml"
+                },
+                {
+                    "model_count": 11,
+                    "points": 350,
+                    "source": "xml"
                 }
             ],
             "source": "xml"
@@ -1842,9 +1851,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 5,
                 "damage": "1",
@@ -1858,9 +1867,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 6,
                 "damage": "1",
@@ -2076,7 +2085,7 @@
     {
         "status": "success",
         "unit_name": "Daemon Prince of Khorne with wings",
-        "points": 180,
+        "points": 170,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -2094,7 +2103,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 180,
+                    "points": 170,
                     "source": "fallback"
                 }
             ],
@@ -2170,7 +2179,7 @@
     {
         "status": "success",
         "unit_name": "Defiler",
-        "points": 250,
+        "points": 270,
         "unit_type": "model",
         "toughness": "11",
         "movement": "14",
@@ -2188,7 +2197,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 250,
+                    "points": 270,
                     "source": "fallback"
                 }
             ],
@@ -2305,7 +2314,7 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
-                    "rapidFire": 1,
+                    "rapidFire": 3,
                     "attacksMultiplier": 1
                 }
             },
@@ -2450,7 +2459,6 @@
             "Character",
             "Crucible",
             "Eight-blessed Lord",
-            "Extra Attacks Weapon",
             "Khorne",
             "Leader",
             "Mounted",
@@ -2824,7 +2832,7 @@
     {
         "status": "success",
         "unit_name": "Eightbound",
-        "points": 135,
+        "points": 125,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "10",
@@ -2842,22 +2850,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 135,
+                    "points": 125,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 270,
+                    "points": 250,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 270,
+                    "points": 250,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 270,
+                    "points": 250,
                     "source": "xml"
                 }
             ],
@@ -2900,7 +2908,7 @@
     {
         "status": "success",
         "unit_name": "Exalted Eightbound",
-        "points": 140,
+        "points": 130,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "10",
@@ -2918,22 +2926,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 140,
+                    "points": 130,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 280,
+                    "points": 260,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 280,
+                    "points": 260,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 280,
+                    "points": 260,
                     "source": "xml"
                 }
             ],
@@ -3053,7 +3061,7 @@
     {
         "status": "success",
         "unit_name": "Forgefiend",
-        "points": 165,
+        "points": 140,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -3071,7 +3079,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 165,
+                    "points": 140,
                     "source": "fallback"
                 }
             ],
@@ -3162,7 +3170,7 @@
     {
         "status": "success",
         "unit_name": "Goremongers",
-        "points": 75,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "9",
@@ -3180,7 +3188,7 @@
             "composition_options": [
                 {
                     "model_count": 8,
-                    "points": 75,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -3310,9 +3318,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 2,
                 "damage": "1",
@@ -3512,10 +3520,10 @@
     {
         "status": "success",
         "unit_name": "Heldrake",
-        "points": 200,
+        "points": 175,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "12",
         "wounds": "12",
         "leadership": "6",
         "oc": "0",
@@ -3530,7 +3538,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 200,
+                    "points": 175,
                     "source": "fallback"
                 }
             ],
@@ -3541,7 +3549,6 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aircraft",
             "Chaos",
             "Chaos Daemons",
             "Daemon",
@@ -3794,9 +3801,9 @@
     {
         "status": "success",
         "unit_name": "Khorne Berzerkers",
-        "points": 180,
+        "points": 170,
         "unit_type": "unit",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "8",
         "wounds": "2",
         "leadership": "6",
@@ -3812,57 +3819,57 @@
             "composition_options": [
                 {
                     "model_count": 10,
-                    "points": 180,
+                    "points": 170,
                     "source": "xml"
                 },
                 {
                     "model_count": 11,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 12,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 13,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 14,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 15,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 16,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 17,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 18,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 19,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 },
                 {
                     "model_count": 20,
-                    "points": 360,
+                    "points": 330,
                     "source": "xml"
                 }
             ],
@@ -3885,9 +3892,9 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 3,
                 "damage": "1",
@@ -3903,7 +3910,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "4",
@@ -3963,6 +3970,7 @@
             "Chaos",
             "Chaos Daemons",
             "Daemon",
+            "Frame",
             "Khorne",
             "Lord of Skulls",
             "Titanic",
@@ -4094,9 +4102,9 @@
     {
         "status": "success",
         "unit_name": "Khârn the Betrayer",
-        "points": 100,
+        "points": 115,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "8",
         "wounds": "5",
         "leadership": "6",
@@ -4112,7 +4120,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -4189,7 +4197,7 @@
     {
         "status": "success",
         "unit_name": "Lord Invocatus",
-        "points": 110,
+        "points": 100,
         "unit_type": "model",
         "toughness": "6",
         "movement": "10",
@@ -4207,7 +4215,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 110,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -4219,7 +4227,6 @@
             "Chaos",
             "Character",
             "Epic Hero",
-            "Extra Attacks Weapon",
             "Khorne",
             "Leader",
             "Lord Invocatus",
@@ -4232,9 +4239,9 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -4283,7 +4290,7 @@
     {
         "status": "success",
         "unit_name": "Lord on Juggernaut",
-        "points": 105,
+        "points": 95,
         "unit_type": "model",
         "toughness": "6",
         "movement": "10",
@@ -4301,7 +4308,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 95,
                     "source": "fallback"
                 }
             ],
@@ -4312,7 +4319,6 @@
         "tags": [
             "Chaos",
             "Character",
-            "Extra Attacks Weapon",
             "Khorne",
             "Leader",
             "Lord on Juggernaut",
@@ -4394,7 +4400,7 @@
         "unit_name": "Master of Executions",
         "points": 60,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "8",
         "wounds": "4",
         "leadership": "6",
@@ -4439,9 +4445,9 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -4474,7 +4480,7 @@
     {
         "status": "success",
         "unit_name": "Maulerfiend",
-        "points": 150,
+        "points": 140,
         "unit_type": "model",
         "toughness": "10",
         "movement": "12",
@@ -4492,7 +4498,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 150,
+                    "points": 140,
                     "source": "fallback"
                 }
             ],
@@ -4569,7 +4575,7 @@
     {
         "status": "success",
         "unit_name": "Skarbrand",
-        "points": 305,
+        "points": 315,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -4587,7 +4593,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 305,
+                    "points": 315,
                     "source": "fallback"
                 }
             ],
@@ -4662,7 +4668,7 @@
     {
         "status": "success",
         "unit_name": "Slaughterbound",
-        "points": 100,
+        "points": 90,
         "unit_type": "model",
         "toughness": "6",
         "movement": "10",
@@ -4680,7 +4686,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 90,
                     "source": "fallback"
                 }
             ],

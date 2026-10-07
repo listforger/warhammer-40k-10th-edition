@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Acastus Knight Asterius",
-        "points": 765,
+        "points": 785,
         "unit_type": "model",
         "toughness": "13",
         "movement": "8",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 765,
+                    "points": 785,
                     "source": "fallback"
                 }
             ],
@@ -32,6 +32,7 @@
             "Acastus",
             "Chaos",
             "Chaos Knights",
+            "Frame",
             "Knight Asterius",
             "Titanic",
             "Towering",
@@ -118,7 +119,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Acastus Knight Porphyrion",
-        "points": 700,
+        "points": 725,
         "unit_type": "model",
         "toughness": "13",
         "movement": "8",
@@ -136,7 +137,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 700,
+                    "points": 725,
                     "source": "fallback"
                 }
             ],
@@ -148,6 +149,7 @@
             "Acastus",
             "Chaos",
             "Chaos Knights",
+            "Frame",
             "Knight Porphyrion",
             "Titanic",
             "Towering",
@@ -259,7 +261,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Cerastus Knight Acheron",
-        "points": 385,
+        "points": 370,
         "unit_type": "model",
         "toughness": "11",
         "movement": "12",
@@ -277,7 +279,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 385,
+                    "points": 370,
                     "source": "fallback"
                 }
             ],
@@ -372,7 +374,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Cerastus Knight Atrapos",
-        "points": 395,
+        "points": 385,
         "unit_type": "model",
         "toughness": "11",
         "movement": "12",
@@ -390,7 +392,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 395,
+                    "points": 385,
                     "source": "fallback"
                 }
             ],
@@ -529,7 +531,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Cerastus Knight Castigator",
-        "points": 385,
+        "points": 370,
         "unit_type": "model",
         "toughness": "11",
         "movement": "12",
@@ -547,7 +549,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 385,
+                    "points": 370,
                     "source": "fallback"
                 }
             ],
@@ -754,6 +756,7 @@
             "Chaos",
             "Chaos Knights",
             "Character",
+            "Frame",
             "Knight Character",
             "Knight Magaera",
             "Melee Weapon",
@@ -886,7 +889,7 @@
     {
         "status": "success",
         "unit_name": "Chaos Questoris Knight Styrix",
-        "points": 375,
+        "points": 365,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -904,7 +907,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 375,
+                    "points": 365,
                     "source": "fallback"
                 }
             ],
@@ -917,6 +920,7 @@
             "Chaos",
             "Chaos Knights",
             "Character",
+            "Frame",
             "Knight Character",
             "Knight Styrix",
             "Melee Weapon",
@@ -1051,7 +1055,7 @@
     {
         "status": "success",
         "unit_name": "Knight Abominant",
-        "points": 355,
+        "points": 350,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -1069,7 +1073,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 355,
+                    "points": 350,
                     "source": "fallback"
                 }
             ],
@@ -1082,7 +1086,6 @@
             "Chaos",
             "Chaos Knights",
             "Character",
-            "Extra Attacks Weapon",
             "Knight Abominant",
             "Knight Character",
             "Melee Weapon",
@@ -1124,6 +1127,7 @@
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "ignoresCover": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1167,7 +1171,7 @@
     {
         "status": "success",
         "unit_name": "Knight Desecrator",
-        "points": 355,
+        "points": 350,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -1185,7 +1189,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 355,
+                    "points": 350,
                     "source": "fallback"
                 }
             ],
@@ -1221,6 +1225,8 @@
                 "attacksMultiplier": 1,
                 "damage": "D6+3",
                 "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -1307,7 +1313,7 @@
     {
         "status": "success",
         "unit_name": "Knight Despoiler",
-        "points": 390,
+        "points": 360,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -1325,7 +1331,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 390,
+                    "points": 360,
                     "source": "fallback"
                 }
             ],
@@ -1580,7 +1586,7 @@
     {
         "status": "success",
         "unit_name": "Knight Rampager",
-        "points": 365,
+        "points": 350,
         "unit_type": "model",
         "toughness": "11",
         "movement": "12",
@@ -1598,7 +1604,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 365,
+                    "points": 350,
                     "source": "fallback"
                 }
             ],
@@ -1717,7 +1723,7 @@
     {
         "status": "success",
         "unit_name": "Knight Ruinator",
-        "points": 355,
+        "points": 325,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
@@ -1735,7 +1741,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 355,
+                    "points": 325,
                     "source": "fallback"
                 }
             ],
@@ -1747,6 +1753,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Abhorrent",
+            "Attacks Dx+0 Modifier",
             "Chaos",
             "Chaos Knights",
             "Character",
@@ -1768,7 +1775,7 @@
                 "strength": 8,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2D6",
+                "attacks": "D6+6",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -1785,7 +1792,7 @@
                 "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2D6",
+                "attacks": "D6+6",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -1833,7 +1840,7 @@
     {
         "status": "success",
         "unit_name": "Knight Tyrant",
-        "points": 410,
+        "points": 390,
         "unit_type": "model",
         "toughness": "12",
         "movement": "8",
@@ -1851,7 +1858,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 410,
+                    "points": 390,
                     "source": "fallback"
                 }
             ],
@@ -2033,7 +2040,7 @@
     {
         "status": "success",
         "unit_name": "War Dog Brigand",
-        "points": 140,
+        "points": 135,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -2051,7 +2058,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 135,
                     "source": "fallback"
                 }
             ],
@@ -2262,7 +2269,7 @@
     {
         "status": "success",
         "unit_name": "War Dog Huntsman",
-        "points": 140,
+        "points": 135,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -2280,7 +2287,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 135,
                     "source": "fallback"
                 }
             ],
@@ -2386,7 +2393,7 @@
     {
         "status": "success",
         "unit_name": "War Dog Karnivore",
-        "points": 150,
+        "points": 145,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -2404,7 +2411,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 150,
+                    "points": 145,
                     "source": "fallback"
                 }
             ],
@@ -2661,7 +2668,7 @@
     {
         "status": "success",
         "unit_name": "War Dog Stalker",
-        "points": 140,
+        "points": 135,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -2679,7 +2686,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 135,
                     "source": "fallback"
                 }
             ],

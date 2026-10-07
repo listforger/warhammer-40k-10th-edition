@@ -2,7 +2,7 @@
     {
         "status": "success",
         "unit_name": "Aggressor Squad",
-        "points": 95,
+        "points": 80,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "5",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 95,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -109,7 +109,7 @@
     {
         "status": "success",
         "unit_name": "Ancient",
-        "points": 50,
+        "points": 40,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -127,22 +127,24 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 50,
+                    "points": 40,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Ancient",
             "Character",
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -158,7 +160,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -195,6 +196,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Power weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -213,8 +229,8 @@
     },
     {
         "status": "success",
-        "unit_name": "Ancient in Terminator Armor",
-        "points": 75,
+        "unit_name": "Ancient in Terminator Armour",
+        "points": 65,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -232,7 +248,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -245,8 +261,8 @@
             "Character",
             "Imperium",
             "Infantry",
-            "Leader",
             "Space Marines",
+            "Support",
             "Terminator"
         ],
         "ranged_weapons": [
@@ -296,6 +312,21 @@
                 "attacks": "5",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -368,7 +399,7 @@
     {
         "status": "success",
         "unit_name": "Apothecary",
-        "points": 50,
+        "points": 40,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -386,7 +417,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 50,
+                    "points": 40,
                     "source": "fallback"
                 }
             ],
@@ -400,9 +431,9 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Ranged Weapon",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -454,6 +485,21 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -493,8 +539,8 @@
             "Gravis",
             "Imperium",
             "Infantry",
-            "Leader",
-            "Space Marines"
+            "Space Marines",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -526,6 +572,21 @@
                 "attacks": "4",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -733,7 +794,7 @@
     {
         "status": "success",
         "unit_name": "Assault Intercessors with Jump Packs",
-        "points": 90,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -751,32 +812,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 90,
+                    "points": 85,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
@@ -942,6 +1003,7 @@
         "tags": [
             "Astraeus",
             "Imperium",
+            "Plasma",
             "Space Marines",
             "Titanic",
             "Vehicle"
@@ -1155,7 +1217,7 @@
     {
         "status": "success",
         "unit_name": "Bladeguard Ancient",
-        "points": 45,
+        "points": 40,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -1173,7 +1235,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 45,
+                    "points": 40,
                     "source": "fallback"
                 }
             ],
@@ -1188,8 +1250,8 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -1225,6 +1287,21 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -1254,24 +1331,24 @@
                 },
                 {
                     "model_count": 4,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
         "global_modifiers": {
-            "rerollOnesHits": true
+            "plusOneToHit": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
@@ -1371,7 +1448,7 @@
     {
         "status": "success",
         "unit_name": "Brutalis Dreadnought",
-        "points": 160,
+        "points": 150,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -1389,7 +1466,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 160,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -1702,6 +1779,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -1752,7 +1844,6 @@
         "tags": [
             "Captain",
             "Character",
-            "Extra Attacks Weapon",
             "Gravis",
             "Grenades",
             "Imperium",
@@ -1807,6 +1898,21 @@
                 "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -1964,13 +2070,28 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Captain in Terminator Armour",
-        "points": 95,
+        "points": 85,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -1988,7 +2109,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -2046,6 +2167,21 @@
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Relic Fist",
                 "range": "",
@@ -2199,6 +2335,21 @@
                 "attacks": "7",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -2404,17 +2555,17 @@
                 },
                 {
                     "model_count": 4,
-                    "points": 350,
+                    "points": 365,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 350,
+                    "points": 365,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 350,
+                    "points": 365,
                     "source": "xml"
                 }
             ],
@@ -3225,6 +3376,21 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -3256,7 +3422,9 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
         "tags": [
             "Chaplain",
             "Character",
@@ -3299,13 +3467,28 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Chaplain on Bike",
-        "points": 75,
+        "points": 70,
         "unit_type": "model",
         "toughness": "5",
         "movement": "12",
@@ -3323,7 +3506,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -3389,6 +3572,21 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -3433,6 +3631,22 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Absolvor bolt pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "pistol": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Bolt Pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -3444,7 +3658,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -3605,6 +3818,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -3672,7 +3900,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -3764,7 +3991,7 @@
     {
         "status": "success",
         "unit_name": "Desolation Squad",
-        "points": 200,
+        "points": 180,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -3782,7 +4009,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 200,
+                    "points": 180,
                     "source": "fallback"
                 }
             ],
@@ -3811,7 +4038,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -3968,7 +4194,6 @@
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 3
                 }
             },
@@ -4494,7 +4719,7 @@
     {
         "status": "success",
         "unit_name": "Drop Pod",
-        "points": 70,
+        "points": 60,
         "unit_type": "model",
         "toughness": "7",
         "movement": "",
@@ -4512,7 +4737,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 60,
                     "source": "fallback"
                 }
             ],
@@ -4523,6 +4748,7 @@
         "tags": [
             "Dedicated Transport",
             "Drop Pod",
+            "Frame",
             "Imperium",
             "Space Marines",
             "Transport",
@@ -4534,7 +4760,7 @@
     {
         "status": "success",
         "unit_name": "Eliminator Squad",
-        "points": 85,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -4552,7 +4778,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 85,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -4583,7 +4809,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -4718,7 +4943,6 @@
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 3
                 }
             },
@@ -4771,6 +4995,96 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 3
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Eradicator Squad with Heavy Bolters",
+        "points": 80,
+        "unit_type": "unit",
+        "toughness": "6",
+        "movement": "5",
+        "wounds": "3",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 80,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Eradicator Squad",
+            "Eradicator Squad with Heavy Bolters",
+            "Gravis",
+            "Imperium",
+            "Infantry",
+            "Space Marines"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Bolt Pistol",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Heavy Bolter",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 2
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -4893,6 +5207,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Gladiator Lancer",
             "Imperium",
             "Smoke",
@@ -5030,6 +5345,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Gladiator Reaper",
             "Imperium",
             "Smoke",
@@ -5156,6 +5472,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Gladiator Valiant",
             "Imperium",
             "Smoke",
@@ -5280,6 +5597,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fortification",
+            "Frame",
             "Hammerfall Bunker",
             "Imperium",
             "Space Marines"
@@ -5432,7 +5750,6 @@
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 3
                 }
             },
@@ -5547,6 +5864,7 @@
             "Hellblaster Squad",
             "Imperium",
             "Infantry",
+            "Plasma",
             "Space Marines",
             "Tacticus"
         ],
@@ -5563,7 +5881,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -5651,7 +5968,7 @@
     {
         "status": "success",
         "unit_name": "Impulsor",
-        "points": 80,
+        "points": 70,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -5669,7 +5986,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 80,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -5826,7 +6143,7 @@
     {
         "status": "success",
         "unit_name": "Inceptor Squad",
-        "points": 120,
+        "points": 125,
         "unit_type": "unit",
         "toughness": "6",
         "movement": "10",
@@ -5844,7 +6161,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 120,
+                    "points": 125,
                     "source": "fallback"
                 }
             ],
@@ -5859,6 +6176,7 @@
             "Inceptor Squad",
             "Infantry",
             "Jump Pack",
+            "Plasma",
             "Space Marines"
         ],
         "ranged_weapons": [
@@ -5938,7 +6256,7 @@
     {
         "status": "success",
         "unit_name": "Incursor Squad",
-        "points": 80,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -5956,7 +6274,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 80,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -5988,7 +6306,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -6033,7 +6350,7 @@
     {
         "status": "success",
         "unit_name": "Infernus Squad",
-        "points": 90,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -6051,7 +6368,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 90,
+                    "points": 85,
                     "source": "xml"
                 },
                 {
@@ -6105,7 +6422,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -6148,7 +6464,7 @@
     {
         "status": "success",
         "unit_name": "Infiltrator Squad",
-        "points": 100,
+        "points": 110,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -6166,39 +6482,41 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 100,
+                    "points": 110,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 200,
+                    "points": 180,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": 6
+        },
         "tags": [
             "Grenades",
             "Imperium",
@@ -6221,7 +6539,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -6285,27 +6602,27 @@
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 160,
+                    "points": 150,
                     "source": "xml"
                 }
             ],
@@ -6366,7 +6683,6 @@
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 3
                 }
             },
@@ -6546,6 +6862,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Grenades",
             "Imperium",
             "Invader ATV",
@@ -6565,7 +6882,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -6782,7 +7098,7 @@
     {
         "status": "success",
         "unit_name": "Judiciar",
-        "points": 70,
+        "points": 55,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -6800,7 +7116,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 55,
                     "source": "fallback"
                 }
             ],
@@ -6816,6 +7132,7 @@
             "Leader",
             "Melee Weapon",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -6853,6 +7170,21 @@
                     "devWoundsOn6s": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
@@ -6886,6 +7218,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Imperium",
             "Land Raider",
             "Smoke",
@@ -7026,6 +7359,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Grenades",
             "Imperium",
             "Land Raider",
@@ -7142,7 +7476,7 @@
     {
         "status": "success",
         "unit_name": "Land Raider Redeemer",
-        "points": 270,
+        "points": 260,
         "unit_type": "model",
         "toughness": "12",
         "movement": "12",
@@ -7160,7 +7494,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 270,
+                    "points": 260,
                     "source": "fallback"
                 }
             ],
@@ -7169,6 +7503,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Grenades",
             "Imperium",
             "Land Raider",
@@ -7284,8 +7619,130 @@
     },
     {
         "status": "success",
+        "unit_name": "Land Speeder",
+        "points": 105,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "14",
+        "wounds": "9",
+        "leadership": "6",
+        "oc": "3",
+        "armour_save": "3",
+        "invunerable_save": null,
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 105,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
+        "tags": [
+            "Fly",
+            "Imperium",
+            "Land Speeder",
+            "Space Marines",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy Flamer",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "D6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "ignoresCover": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Multi-melta",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 4,
+                "armor_penetration": 4,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D6",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Onslaught gatling cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "8",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Stormfury Missile Launcher",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D6+1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Close combat weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Librarian",
-        "points": 65,
+        "points": 70,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -7303,7 +7760,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -7335,7 +7792,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -7388,6 +7844,21 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "psychic": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -7446,7 +7917,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -7501,13 +7971,28 @@
                     "psychic": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Librarian in Terminator Armour",
-        "points": 75,
+        "points": 85,
         "unit_type": "model",
         "toughness": "5",
         "movement": "5",
@@ -7525,7 +8010,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -7630,6 +8115,21 @@
                 "damage": "D3",
                 "parsed_weapon_types": {
                     "psychic": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -8253,7 +8753,7 @@
     {
         "status": "success",
         "unit_name": "Lieutenant",
-        "points": 55,
+        "points": 45,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -8271,7 +8771,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 45,
                     "source": "fallback"
                 }
             ],
@@ -8284,10 +8784,10 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Lieutenant",
             "Ranged Weapon",
             "Space Marines",
+            "Support",
             "Tacticus"
         ],
         "ranged_weapons": [
@@ -8421,6 +8921,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -8440,7 +8955,7 @@
     {
         "status": "success",
         "unit_name": "Lieutenant in Phobos Armour",
-        "points": 55,
+        "points": 45,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -8458,7 +8973,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 45,
                     "source": "fallback"
                 }
             ],
@@ -8476,7 +8991,8 @@
             "Melee Weapon",
             "Phobos",
             "Ranged Weapon",
-            "Space Marines"
+            "Space Marines",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -8513,6 +9029,21 @@
         ],
         "melee_weapons": [
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Paired Combat Blades",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -8535,7 +9066,7 @@
     {
         "status": "success",
         "unit_name": "Lieutenant in Reiver Armour",
-        "points": 55,
+        "points": 45,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -8553,7 +9084,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 55,
+                    "points": 45,
                     "source": "fallback"
                 }
             ],
@@ -8566,14 +9097,14 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Leader",
             "Lieutenant",
             "Lieutenant in Reiver Armour",
             "Melee Weapon",
             "Phobos",
             "Ranged Weapon",
             "Smoke",
-            "Space Marines"
+            "Space Marines",
+            "Support"
         ],
         "ranged_weapons": [
             {
@@ -8608,13 +9139,28 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Lieutenant with Combi-weapon",
-        "points": 85,
+        "points": 95,
         "unit_type": "model",
         "toughness": "4",
         "movement": "6",
@@ -8632,7 +9178,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 95,
                     "source": "fallback"
                 }
             ],
@@ -8681,6 +9227,21 @@
         ],
         "melee_weapons": [
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Paired Combat Blades",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -8706,11 +9267,11 @@
     {
         "status": "success",
         "unit_name": "Outrider Squad",
-        "points": 80,
+        "points": 70,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "12",
-        "wounds": "4",
+        "wounds": "8",
         "leadership": "6",
         "oc": "2",
         "armour_save": "3",
@@ -8720,26 +9281,31 @@
             "count": 3,
             "default_model_count": 3,
             "min_model_count": 3,
-            "max_model_count": 6,
+            "max_model_count": 7,
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 80,
+                    "points": 70,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 160,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 160,
+                    "points": 140,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 160,
+                    "points": 140,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 7,
+                    "points": 140,
                     "source": "xml"
                 }
             ],
@@ -8750,6 +9316,7 @@
         "tags": [
             "Grenades",
             "Imperium",
+            "Invader ATV",
             "Mounted",
             "Outrider Squad",
             "Space Marines"
@@ -8767,7 +9334,6 @@
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -9148,7 +9714,7 @@
     {
         "status": "success",
         "unit_name": "Razorback",
-        "points": 95,
+        "points": 85,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -9166,7 +9732,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 95,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -9176,6 +9742,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Dedicated Transport",
+            "Frame",
             "Imperium",
             "Razorback",
             "Smoke",
@@ -9273,7 +9840,7 @@
     {
         "status": "success",
         "unit_name": "Redemptor Dreadnought",
-        "points": 205,
+        "points": 195,
         "unit_type": "model",
         "toughness": "10",
         "movement": "8",
@@ -9291,7 +9858,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 205,
+                    "points": 195,
                     "source": "fallback"
                 }
             ],
@@ -9467,7 +10034,7 @@
     {
         "status": "success",
         "unit_name": "Reiver Squad",
-        "points": 80,
+        "points": 75,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -9485,7 +10052,7 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 80,
+                    "points": 75,
                     "source": "fallback"
                 }
             ],
@@ -9571,7 +10138,7 @@
     {
         "status": "success",
         "unit_name": "Repulsor",
-        "points": 180,
+        "points": 170,
         "unit_type": "model",
         "toughness": "12",
         "movement": "10",
@@ -9589,7 +10156,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 180,
+                    "points": 170,
                     "source": "fallback"
                 }
             ],
@@ -9598,6 +10165,7 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Imperium",
             "Repulsor",
             "Smoke",
@@ -9727,7 +10295,7 @@
     {
         "status": "success",
         "unit_name": "Repulsor Executioner",
-        "points": 230,
+        "points": 255,
         "unit_type": "model",
         "toughness": "12",
         "movement": "10",
@@ -9756,6 +10324,7 @@
         },
         "defenderGlobalModifiers": null,
         "tags": [
+            "Frame",
             "Imperium",
             "Repulsor Executioner",
             "Smoke",
@@ -9938,7 +10507,7 @@
     {
         "status": "success",
         "unit_name": "Rhino",
-        "points": 75,
+        "points": 65,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -9956,7 +10525,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 65,
                     "source": "fallback"
                 }
             ],
@@ -9966,6 +10535,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Dedicated Transport",
+            "Frame",
             "Imperium",
             "Rhino",
             "Smoke",
@@ -10028,7 +10598,7 @@
     {
         "status": "success",
         "unit_name": "Scout Squad",
-        "points": 70,
+        "points": 65,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "6",
@@ -10046,32 +10616,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 70,
+                    "points": 65,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 140,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 140,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 140,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 140,
+                    "points": 120,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 140,
+                    "points": 120,
                     "source": "xml"
                 }
             ],
@@ -10115,7 +10685,6 @@
                 "attacksMultiplier": 5,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 5
                 }
             },
@@ -10473,7 +11042,7 @@
     {
         "status": "success",
         "unit_name": "Storm Speeder Hailstrike",
-        "points": 115,
+        "points": 105,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -10491,7 +11060,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 115,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -10501,6 +11070,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fly",
+            "Frame",
             "Imperium",
             "Space Marines",
             "Storm Speeder Hailstrike",
@@ -10579,7 +11149,7 @@
     {
         "status": "success",
         "unit_name": "Storm Speeder Hammerstrike",
-        "points": 125,
+        "points": 140,
         "unit_type": "model",
         "toughness": "9",
         "movement": "14",
@@ -10597,7 +11167,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 125,
+                    "points": 140,
                     "source": "fallback"
                 }
             ],
@@ -10607,6 +11177,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fly",
+            "Frame",
             "Imperium",
             "Space Marines",
             "Storm Speeder Hammerstrike",
@@ -10712,6 +11283,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Fly",
+            "Frame",
             "Imperium",
             "Space Marines",
             "Storm Speeder Thunderstrike",
@@ -10792,10 +11364,10 @@
         "points": 155,
         "unit_type": "model",
         "toughness": "9",
-        "movement": "20",
+        "movement": "",
         "wounds": "10",
         "leadership": "6",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -10971,7 +11543,7 @@
         "points": 280,
         "unit_type": "model",
         "toughness": "10",
-        "movement": "20",
+        "movement": "14",
         "wounds": "14",
         "leadership": "6",
         "oc": "0",
@@ -10997,9 +11569,9 @@
             "minusOneDamage": true
         },
         "tags": [
-            "Aircraft",
             "Fly",
             "Imperium",
+            "Plasma",
             "Space Marines",
             "Stormraven Gunship",
             "Transport",
@@ -11199,10 +11771,10 @@
         "points": 165,
         "unit_type": "model",
         "toughness": "8",
-        "movement": "20",
+        "movement": "",
         "wounds": "10",
         "leadership": "6",
-        "oc": "0",
+        "oc": "",
         "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
@@ -11358,7 +11930,7 @@
     {
         "status": "success",
         "unit_name": "Suppressor Squad",
-        "points": 75,
+        "points": 85,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -11376,7 +11948,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 75,
+                    "points": 85,
                     "source": "fallback"
                 }
             ],
@@ -11422,7 +11994,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             }
@@ -11495,7 +12066,6 @@
                 "attacksMultiplier": 4,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 4
                 }
             },
@@ -12012,6 +12582,21 @@
                 }
             },
             {
+                "name": "Orksbane",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Servo-arm",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -12031,7 +12616,7 @@
     {
         "status": "success",
         "unit_name": "Terminator Assault Squad",
-        "points": 180,
+        "points": 155,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -12049,32 +12634,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 180,
+                    "points": 155,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 360,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 360,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 360,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 360,
+                    "points": 310,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 360,
+                    "points": 310,
                     "source": "xml"
                 }
             ],
@@ -12129,7 +12714,7 @@
     {
         "status": "success",
         "unit_name": "Terminator Squad",
-        "points": 170,
+        "points": 160,
         "unit_type": "unit",
         "toughness": "5",
         "movement": "5",
@@ -12147,32 +12732,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 170,
+                    "points": 160,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 340,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 340,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 340,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 340,
+                    "points": 320,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 340,
+                    "points": 320,
                     "source": "xml"
                 }
             ],
@@ -12353,7 +12938,6 @@
         "global_modifiers": null,
         "defenderGlobalModifiers": null,
         "tags": [
-            "Aircraft",
             "Fly",
             "Imperium",
             "Space Marines",
@@ -12419,7 +13003,7 @@
     {
         "status": "success",
         "unit_name": "Vanguard Veteran Squad with Jump Packs",
-        "points": 100,
+        "points": 105,
         "unit_type": "unit",
         "toughness": "4",
         "movement": "12",
@@ -12437,32 +13021,32 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 100,
+                    "points": 105,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 200,
+                    "points": 210,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 200,
+                    "points": 210,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 200,
+                    "points": 210,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 200,
+                    "points": 210,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 200,
+                    "points": 210,
                     "source": "xml"
                 }
             ],
@@ -12493,7 +13077,6 @@
                 "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -12531,6 +13114,22 @@
                     "ignoresCover": true,
                     "pistol": true,
                     "autoHit": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "pistol": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -12587,6 +13186,21 @@
         ],
         "melee_weapons": [
             {
+                "name": "Master-crafted Power Weapon",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
                 "name": "Vanguard Veteran Weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -12639,6 +13253,7 @@
             "Crucible",
             "Dreadnought",
             "Imperium",
+            "Plasma",
             "Space Marines",
             "Vehicle",
             "Venerable Battle-Brother",
@@ -13088,7 +13703,7 @@
     {
         "status": "success",
         "unit_name": "Whirlwind",
-        "points": 190,
+        "points": 175,
         "unit_type": "model",
         "toughness": "10",
         "movement": "10",
@@ -13106,7 +13721,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 190,
+                    "points": 175,
                     "source": "fallback"
                 }
             ],
