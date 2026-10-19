@@ -2,9 +2,9 @@
     {
         "status": "success",
         "unit_name": "Asmodai",
-        "points": 70,
+        "points": 80,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "4",
         "leadership": "5",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -37,7 +37,7 @@
             "Dark Angels",
             "Deathwing",
             "Epic Hero",
-            "Grenades",
+            "Explosives",
             "Imperium",
             "Infantry",
             "Leader",
@@ -50,14 +50,13 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -98,9 +97,9 @@
     {
         "status": "success",
         "unit_name": "Azrael",
-        "points": 140,
+        "points": 150,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "6",
         "leadership": "6",
@@ -116,16 +115,14 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 140,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 4
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Azrael",
             "Chapter Master",
@@ -133,7 +130,7 @@
             "Dark Angels",
             "Deathwing",
             "Epic Hero",
-            "Grenades",
+            "Explosives",
             "Imperium",
             "Infantry",
             "Leader",
@@ -186,9 +183,9 @@
     {
         "status": "success",
         "unit_name": "Belial",
-        "points": 75,
+        "points": 100,
         "unit_type": "model",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "5",
         "wounds": "6",
         "leadership": "6",
@@ -204,13 +201,15 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
-        "global_modifiers": null,
+        "global_modifiers": {
+            "plusOneToWound": true
+        },
         "defenderGlobalModifiers": null,
         "tags": [
             "Belial",
@@ -231,14 +230,13 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "rapidFire": 2,
                     "attacksMultiplier": 1
                 }
             }
@@ -250,8 +248,8 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "2",
@@ -264,9 +262,9 @@
     {
         "status": "success",
         "unit_name": "Deathwing Knights",
-        "points": 240,
+        "points": 255,
         "unit_type": "unit",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "5",
         "wounds": "4",
         "leadership": "6",
@@ -282,17 +280,14 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 240,
+                    "points": 255,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "minusOneDamage": true,
-            "feelNoPain": 4
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Dark Angels",
             "Deathwing",
@@ -325,7 +320,22 @@
                 }
             },
             {
-                "name": "Mace of absolution",
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Mace of Absolution",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -338,7 +348,6 @@
                 "parsed_weapon_types": {
                     "anti": true,
                     "anti4": true,
-                    "antiTypeVehicleOrMonster": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -373,15 +382,30 @@
                     "lethalHitsOn6s": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Deathwing Terminator Squad",
-        "points": 165,
+        "points": 190,
         "unit_type": "unit",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "5",
         "wounds": "3",
         "leadership": "6",
@@ -397,43 +421,39 @@
             "composition_options": [
                 {
                     "model_count": 5,
-                    "points": 165,
+                    "points": 190,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 330,
+                    "points": 380,
                     "source": "xml"
                 },
                 {
                     "model_count": 7,
-                    "points": 330,
+                    "points": 380,
                     "source": "xml"
                 },
                 {
                     "model_count": 8,
-                    "points": 330,
+                    "points": 380,
                     "source": "xml"
                 },
                 {
                     "model_count": 9,
-                    "points": 330,
+                    "points": 380,
                     "source": "xml"
                 },
                 {
                     "model_count": 10,
-                    "points": 330,
+                    "points": 380,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
-        "defenderGlobalModifiers": {
-            "feelNoPain": 4
-        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": null,
         "tags": [
             "Dark Angels",
             "Deathwing",
@@ -445,18 +465,37 @@
         ],
         "ranged_weapons": [
             {
+                "name": "Assault Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Cyclone missile launcher - frag",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2D6",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
+                    "blast2": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -465,12 +504,12 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",
                 "attacksMultiplier": 1,
-                "damage": "D6",
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -483,11 +522,12 @@
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
+                    "blast": true,
+                    "blast2": true,
                     "autoHit": true,
                     "attacksMultiplier": 1
                 }
@@ -500,9 +540,9 @@
                 "strength": 7,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "D3",
+                "attacks": "3",
                 "attacksMultiplier": 0,
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
                     "attacksMultiplier": 0
@@ -516,28 +556,12 @@
                 "strength": 8,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "D3",
+                "attacks": "3",
                 "attacksMultiplier": 1,
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true,
                     "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Storm Bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 2
                 }
             },
             {
@@ -545,39 +569,66 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "rapidFire": 2,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Chainfist",
+                "name": "Chainfist - Hunter: Monster\/Vehicle",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 12,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 3,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 3
+                }
+            },
+            {
+                "name": "Chainfist - Standard",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
                 "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 2,
+                "attacks": "2",
+                "attacksMultiplier": 3,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeVehicle": true,
-                    "anti3": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 3
                 }
             },
             {
-                "name": "Power Fist",
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Power fist",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
@@ -605,17 +656,32 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Ezekiel",
-        "points": 75,
+        "points": 110,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
-        "wounds": "4",
+        "wounds": "5",
         "leadership": "6",
         "oc": "1",
         "armour_save": "2",
@@ -629,7 +695,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 75,
+                    "points": 110,
                     "source": "fallback"
                 }
             ],
@@ -642,18 +708,19 @@
             "Dark Angels",
             "Deathwing",
             "Epic Hero",
+            "Explosives",
             "Ezekiel",
-            "Grenades",
             "Imperium",
             "Infantry",
             "Leader",
             "Librarian",
             "Psyker",
-            "Space Marines"
+            "Space Marines",
+            "Tacticus"
         ],
         "ranged_weapons": [
             {
-                "name": "Mind Wipe - focussed witchfire",
+                "name": "Mind Wipe - focused witchfire",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
@@ -662,7 +729,7 @@
                 "armor_penetration": 2,
                 "attacks": "1",
                 "attacksMultiplier": 1,
-                "damage": "D6",
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeCharacter": true,
@@ -696,14 +763,13 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -715,15 +781,12 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "4",
                 "attacksMultiplier": 1,
-                "damage": "D3",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeChaos": true,
-                    "anti2": true,
                     "psychic": true,
                     "attacksMultiplier": 1
                 }
@@ -733,9 +796,9 @@
     {
         "status": "success",
         "unit_name": "Inner Circle Companions",
-        "points": 80,
+        "points": 90,
         "unit_type": "unit",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "3",
         "leadership": "6",
@@ -751,7 +814,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 80,
+                    "points": 90,
                     "source": "xml"
                 }
             ],
@@ -776,14 +839,13 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -823,17 +885,47 @@
                     "sustainedHits2": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Land Speeder Vengeance",
-        "points": 130,
+        "points": 150,
         "unit_type": "model",
-        "toughness": "8",
+        "toughness": "9",
         "movement": "14",
-        "wounds": "10",
+        "wounds": "11",
         "leadership": "6",
         "oc": "3",
         "armour_save": "3",
@@ -847,7 +939,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 130,
+                    "points": 150,
                     "source": "fallback"
                 }
             ],
@@ -864,28 +956,30 @@
             "Plasma",
             "Ravenwing",
             "Space Marines",
+            "Speeder",
             "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Assault cannon",
+                "name": "Assault Cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Heavy bolter",
+                "name": "Heavy Bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -896,6 +990,7 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
@@ -907,10 +1002,10 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 9,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "D6+1",
+                "attacks": "D3+3",
                 "attacksMultiplier": 0,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -924,10 +1019,10 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 9,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "D6+1",
+                "attacks": "D3+3",
                 "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
@@ -939,16 +1034,46 @@
         ],
         "melee_weapons": [
             {
-                "name": "Close Combat Weapon",
+                "name": "Armoured Hull",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
+                "ballistic_skill": 4,
+                "strength": 6,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "4",
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -958,9 +1083,9 @@
     {
         "status": "success",
         "unit_name": "Lazarus",
-        "points": 70,
+        "points": 80,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "5",
         "leadership": "6",
@@ -976,16 +1101,14 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 3
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Captain",
             "Character",
@@ -1006,14 +1129,13 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1042,11 +1164,11 @@
     {
         "status": "success",
         "unit_name": "Lion El'Jonson",
-        "points": 265,
+        "points": 415,
         "unit_type": "model",
-        "toughness": "9",
+        "toughness": "10",
         "movement": "8",
-        "wounds": "10",
+        "wounds": "16",
         "leadership": "5",
         "oc": "4",
         "armour_save": "2",
@@ -1060,14 +1182,16 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 265,
+                    "points": 415,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "4"
+        },
         "tags": [
             "Character",
             "Dark Angels",
@@ -1082,33 +1206,31 @@
         "ranged_weapons": [
             {
                 "name": "Arma Luminis - bolt",
-                "range": "12",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "4",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
             {
                 "name": "Arma Luminis - plasma",
-                "range": "12",
+                "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "2",
                 "attacksMultiplier": 1,
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1139,7 +1261,7 @@
                 "strength": 6,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "16",
+                "attacks": "12",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -1154,7 +1276,7 @@
     {
         "status": "success",
         "unit_name": "Nephilim Jetfighter",
-        "points": 180,
+        "points": 200,
         "unit_type": "model",
         "toughness": "8",
         "movement": "",
@@ -1162,7 +1284,7 @@
         "leadership": "6",
         "oc": "",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -1172,7 +1294,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 180,
+                    "points": 200,
                     "source": "fallback"
                 }
             ],
@@ -1219,7 +1341,7 @@
                 "armor_penetration": 2,
                 "attacks": "2",
                 "attacksMultiplier": 1,
-                "damage": "D6",
+                "damage": "D3+2",
                 "parsed_weapon_types": {
                     "anti": true,
                     "antiTypeFly": true,
@@ -1237,7 +1359,7 @@
                 "armor_penetration": 3,
                 "attacks": "2",
                 "attacksMultiplier": 1,
-                "damage": "D6+1",
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -1254,6 +1376,7 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
@@ -1264,7 +1387,7 @@
         ],
         "melee_weapons": [
             {
-                "name": "Armoured hull",
+                "name": "Armoured Hull",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
@@ -1277,15 +1400,45 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Ravenwing Black Knights",
-        "points": 75,
+        "points": 85,
         "unit_type": "unit",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "12",
         "wounds": "3",
         "leadership": "6",
@@ -1301,22 +1454,22 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 75,
+                    "points": 85,
                     "source": "xml"
                 },
                 {
                     "model_count": 4,
-                    "points": 150,
+                    "points": 170,
                     "source": "xml"
                 },
                 {
                     "model_count": 5,
-                    "points": 150,
+                    "points": 170,
                     "source": "xml"
                 },
                 {
                     "model_count": 6,
-                    "points": 150,
+                    "points": 170,
                     "source": "xml"
                 }
             ],
@@ -1335,37 +1488,6 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Astartes grenade launcher - frag",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Astartes grenade launcher - krak",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            },
-            {
                 "name": "Bolt Pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
@@ -1379,6 +1501,38 @@
                 "parsed_weapon_types": {
                     "pistol": true,
                     "attacksMultiplier": 3
+                }
+            },
+            {
+                "name": "Grenade Launcher - Frag",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Grenade Launcher - Krak",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 2,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1416,14 +1570,14 @@
         ],
         "melee_weapons": [
             {
-                "name": "Black Knight combat weapon",
+                "name": "Corvus Hammers",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
+                "attacks": "4",
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1431,15 +1585,45 @@
                     "devWoundsOn6s": true,
                     "attacksMultiplier": 3
                 }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Ravenwing Command Squad",
-        "points": 105,
+        "points": 115,
         "unit_type": "unit",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "12",
         "wounds": "4",
         "leadership": "6",
@@ -1455,7 +1639,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 105,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -1466,7 +1650,7 @@
         "tags": [
             "Character",
             "Dark Angels",
-            "Grenades",
+            "Explosives",
             "Imperium",
             "Melee Weapon",
             "Mounted",
@@ -1477,37 +1661,6 @@
             "Support"
         ],
         "ranged_weapons": [
-            {
-                "name": "Astartes grenade launcher - frag",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "attacksMultiplier": 3,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 3
-                }
-            },
-            {
-                "name": "Astartes grenade launcher - krak",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 3,
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 3
-                }
-            },
             {
                 "name": "Bolt Pistol",
                 "range": "12",
@@ -1522,6 +1675,38 @@
                 "parsed_weapon_types": {
                     "pistol": true,
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Grenade Launcher - Frag",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 3,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 3
+                }
+            },
+            {
+                "name": "Grenade Launcher - Krak",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 3,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 3
                 }
             },
             {
@@ -1559,20 +1744,35 @@
         ],
         "melee_weapons": [
             {
-                "name": "Black Knight combat weapon",
+                "name": "Corvus Hammers",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "3",
-                "attacksMultiplier": 1,
+                "attacks": "4",
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 2,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
                 }
             },
             {
@@ -1580,7 +1780,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
+                "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
@@ -1591,18 +1791,18 @@
                 }
             },
             {
-                "name": "Orksbane",
+                "name": "Thief of Secrets",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "3",
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 2,
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -1610,7 +1810,7 @@
     {
         "status": "success",
         "unit_name": "Ravenwing Dark Talon",
-        "points": 200,
+        "points": 190,
         "unit_type": "model",
         "toughness": "8",
         "movement": "",
@@ -1628,7 +1828,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 200,
+                    "points": 190,
                     "source": "fallback"
                 }
             ],
@@ -1652,9 +1852,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "6",
                 "attacksMultiplier": 2,
                 "damage": "1",
@@ -1698,13 +1898,43 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Ravenwing Darkshroud",
-        "points": 70,
+        "points": 80,
         "unit_type": "model",
         "toughness": "8",
         "movement": "14",
@@ -1712,7 +1942,7 @@
         "leadership": "6",
         "oc": "3",
         "armour_save": "3",
-        "invunerable_save": null,
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -1722,7 +1952,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 70,
+                    "points": 80,
                     "source": "fallback"
                 }
             ],
@@ -1742,24 +1972,25 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Assault cannon",
+                "name": "Assault Cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Heavy bolter",
+                "name": "Heavy Bolter",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -1770,6 +2001,7 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
@@ -1779,16 +2011,46 @@
         ],
         "melee_weapons": [
             {
-                "name": "Close Combat Weapon",
+                "name": "Armoured Hull",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
+                "ballistic_skill": 4,
+                "strength": 6,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "4",
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -1798,9 +2060,9 @@
     {
         "status": "success",
         "unit_name": "Sammael",
-        "points": 105,
+        "points": 120,
         "unit_type": "model",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "12",
         "wounds": "7",
         "leadership": "6",
@@ -1816,7 +2078,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 120,
                     "source": "fallback"
                 }
             ],
@@ -1829,9 +2091,9 @@
             "Character",
             "Dark Angels",
             "Epic Hero",
+            "Explosives",
             "Fly",
             "Frame",
-            "Grenades",
             "Imperium",
             "Leader",
             "Mounted",
@@ -1846,14 +2108,13 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -1865,9 +2126,9 @@
                 "strength": 8,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "D3",
+                "attacks": "3",
                 "attacksMultiplier": 1,
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "blast": true,
                     "attacksMultiplier": 1
@@ -1878,9 +2139,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",

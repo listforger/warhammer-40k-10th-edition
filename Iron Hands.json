@@ -2,9 +2,9 @@
     {
         "status": "success",
         "unit_name": "Caanok Var",
-        "points": 90,
+        "points": 100,
         "unit_type": "model",
-        "toughness": "5",
+        "toughness": "6",
         "movement": "5",
         "wounds": "6",
         "leadership": "6",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 90,
+                    "points": 100,
                     "source": "fallback"
                 }
             ],
@@ -28,7 +28,7 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 5
+            "feelNoPain": "5"
         },
         "tags": [
             "Caanok Var",
@@ -48,9 +48,9 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",
@@ -67,26 +67,11 @@
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 8,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "5",
                 "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Axiom - Sweep",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "10",
-                "attacksMultiplier": 1,
-                "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -120,11 +105,9 @@
             ],
             "source": "fallback"
         },
-        "global_modifiers": {
-            "plusOneToHit": true
-        },
+        "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 5
+            "feelNoPain": "5"
         },
         "tags": [
             "Character",
@@ -143,14 +126,13 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -159,13 +141,14 @@
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
+                "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits2": true,
@@ -194,7 +177,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "2",

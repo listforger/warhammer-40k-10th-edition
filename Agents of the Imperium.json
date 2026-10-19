@@ -4,12 +4,12 @@
         "unit_name": "Aquila Kill Team",
         "points": 110,
         "unit_type": "unit",
-        "toughness": null,
-        "movement": null,
-        "wounds": null,
-        "leadership": null,
-        "oc": null,
-        "armour_save": null,
+        "toughness": "5",
+        "movement": "6",
+        "wounds": "2",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 5,
         "unit_composition": {
@@ -27,7 +27,7 @@
             "source": "xml"
         },
         "global_modifiers": {
-            "rerollHits": true
+            "rerollOnesHits": true
         },
         "defenderGlobalModifiers": null,
         "tags": [
@@ -44,51 +44,17 @@
         ],
         "ranged_weapons": [
             {
-                "name": "Astartes grenade launcher - frag",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Astartes grenade launcher - krak",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 9,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
                 "name": "Bolt Pistol",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
-                    "lethalHits": true,
-                    "lethalHitsOn6s": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -117,13 +83,45 @@
                 "strength": 7,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "D3",
+                "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
                     "lethalHits": true,
                     "lethalHitsOn6s": true,
+                    "rapidFire": 1,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Grenade Launcher (Frag)",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Grenade Launcher (Krak)",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
                     "rapidFire": 1,
                     "attacksMultiplier": 1
                 }
@@ -146,7 +144,7 @@
                 }
             },
             {
-                "name": "Infernus heavy bolter - heavy bolter",
+                "name": "Infernus heavy bolter (Bolt)",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
@@ -157,6 +155,7 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
@@ -164,18 +163,18 @@
                 }
             },
             {
-                "name": "Infernus heavy bolter - heavy flamer",
+                "name": "Infernus heavy bolter (Infernus)",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
+                    "blast": true,
                     "autoHit": true,
                     "attacksMultiplier": 1
                 }
@@ -190,8 +189,9 @@
                 "armor_penetration": 2,
                 "attacks": "2",
                 "attacksMultiplier": 0,
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 1,
                     "attacksMultiplier": 0
                 }
             },
@@ -207,6 +207,7 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 1,
                     "attacksMultiplier": 1
                 }
             },
@@ -222,7 +223,6 @@
                 "attacksMultiplier": 0,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 0
                 }
             },
@@ -238,7 +238,6 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -247,14 +246,13 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "lethalHits": true,
                     "lethalHitsOn6s": true,
                     "attacksMultiplier": 1
@@ -280,36 +278,6 @@
         ],
         "melee_weapons": [
             {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 3,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 3
-                }
-            },
-            {
-                "name": "Combat knife",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
                 "name": "Heavy thunder hammer",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -327,6 +295,21 @@
                 }
             },
             {
+                "name": "Knives and Fists",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 3,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 3
+                }
+            },
+            {
                 "name": "Power weapon",
                 "range": "",
                 "weapon_types": "Melee Weapons",
@@ -336,7 +319,7 @@
                 "armor_penetration": 2,
                 "attacks": "4",
                 "attacksMultiplier": 2,
-                "damage": "2",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
@@ -417,6 +400,8 @@
                     "anti": true,
                     "antiTypeInfantry": true,
                     "anti2": true,
+                    "blast": true,
+                    "blast2": true,
                     "autoHit": true,
                     "attacksMultiplier": 1
                 }
@@ -617,8 +602,7 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "stealth": true,
-            "feelNoPain": 2
+            "stealth": true
         },
         "tags": [
             "Agents of the Imperium",
@@ -1356,7 +1340,7 @@
         "unit_name": "Deathwatch Kill Team",
         "points": 115,
         "unit_type": "unit",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "2",
         "leadership": "6",
@@ -1419,35 +1403,64 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "rapidFire": 1,
                     "attacksMultiplier": 3
                 }
             },
             {
-                "name": "Combi-weapon",
-                "range": "24",
+                "name": "Combi-weapon (Damnatus)",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 4,
+                "ballistic_skill": 3,
+                "strength": 9,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Combi-weapon (Infernus)",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
                 "strength": 4,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "1",
-                "attacksMultiplier": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti4": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "rapidFire": 1,
-                    "attacksMultiplier": 2
+                    "blast": true,
+                    "autoHit": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Combi-weapon (Purgatus)",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1456,13 +1469,13 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1473,17 +1486,19 @@
                 "strength": 7,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D3",
-                "attacksMultiplier": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
                     "rapidFire": 1,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Infernus heavy bolter - heavy bolter",
+                "name": "Infernus heavy bolter (Bolt)",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 4,
@@ -1491,30 +1506,31 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "3",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Infernus heavy bolter - heavy flamer",
+                "name": "Infernus heavy bolter (Infernus)",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
+                    "blast": true,
                     "autoHit": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1522,14 +1538,14 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -1543,30 +1559,15 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "twinLinked": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 8,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 8
-                }
-            },
-            {
-                "name": "Deathwatch thunder hammer",
+                "name": "Heavy thunder hammer",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
@@ -1574,12 +1575,27 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "3",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Knives and Fists",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 4,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 4
                 }
             },
             {
@@ -1606,12 +1622,12 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "4",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]

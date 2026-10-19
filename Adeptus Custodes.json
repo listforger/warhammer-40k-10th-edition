@@ -1,203 +1,13 @@
 [
     {
         "status": "success",
-        "unit_name": "Agamatus Custodians",
-        "points": 225,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "12",
-        "wounds": "4",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 3,
-        "unit_composition": {
-            "count": 3,
-            "default_model_count": 3,
-            "min_model_count": 3,
-            "max_model_count": 6,
-            "composition_options": [
-                {
-                    "model_count": 3,
-                    "points": 225,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 4,
-                    "points": 450,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 5,
-                    "points": 450,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 6,
-                    "points": 450,
-                    "source": "xml"
-                }
-            ],
-            "source": "xml"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Agamatus Custodians",
-            "Fly",
-            "Frame",
-            "Imperium",
-            "Mounted"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Adrathic devastator",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Lastrum bolt cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin las-pulsar",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Interceptor Lance",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 3,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true,
-                    "attacksMultiplier": 3
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Aleya",
-        "points": 55,
-        "unit_type": "model",
-        "toughness": "3",
-        "movement": "6",
-        "wounds": "4",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "3",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 55,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": {
-            "plusOneToHit": true,
-            "plusOneToWound": true
-        },
-        "defenderGlobalModifiers": {
-            "feelNoPain": "3"
-        },
-        "tags": [
-            "Adeptus Custodes",
-            "Aleya",
-            "Anathema Psykana",
-            "Character",
-            "Epic Hero",
-            "Imperium",
-            "Infantry",
-            "Leader"
-        ],
-        "ranged_weapons": [],
-        "melee_weapons": [
-            {
-                "name": "Somnus",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "anti": true,
-                    "antiTypePsyker": true,
-                    "anti5": true,
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
         "unit_name": "Allarus Custodians",
-        "points": 120,
+        "points": 180,
         "unit_type": "unit",
-        "toughness": "7",
-        "movement": "5",
-        "wounds": "4",
-        "leadership": "6",
+        "toughness": "8",
+        "movement": "7",
+        "wounds": "6",
+        "leadership": "5",
         "oc": "2",
         "armour_save": "2",
         "invunerable_save": "4",
@@ -206,43 +16,31 @@
             "count": 2,
             "default_model_count": 2,
             "min_model_count": 2,
-            "max_model_count": 6,
+            "max_model_count": 3,
             "composition_options": [
                 {
                     "model_count": 2,
-                    "points": 120,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 3,
                     "points": 180,
                     "source": "xml"
                 },
                 {
-                    "model_count": 4,
-                    "points": 300,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 5,
-                    "points": 300,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 6,
-                    "points": 360,
+                    "model_count": 3,
+                    "points": 270,
                     "source": "xml"
                 }
             ],
             "source": "xml"
         },
         "global_modifiers": {
-            "rerollWounds": true
+            "plusOneToWound": true
         },
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
             "Adeptus Custodes",
             "Allarus Custodians",
+            "Emissaries",
             "Imperium",
             "Infantry",
             "Terminator"
@@ -253,15 +51,15 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
                     "blast": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -276,6 +74,7 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "attacksMultiplier": 1
                 }
             },
@@ -291,6 +90,7 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
                     "attacksMultiplier": 1
                 }
             }
@@ -301,12 +101,12 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
                 "attacksMultiplier": 1,
-                "damage": "3",
+                "damage": "4",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -316,27 +116,12 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
+                "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Misericordia",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -346,7 +131,7 @@
     {
         "status": "success",
         "unit_name": "Anathema Psykana Rhino",
-        "points": 65,
+        "points": 70,
         "unit_type": "model",
         "toughness": "9",
         "movement": "12",
@@ -364,7 +149,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 65,
+                    "points": 70,
                     "source": "fallback"
                 }
             ],
@@ -377,10 +162,10 @@
         "tags": [
             "Adeptus Custodes",
             "Anathema Psykana",
+            "Anathema Psykana Rhino",
             "Dedicated Transport",
             "Frame",
             "Imperium",
-            "Rhino",
             "Smoke",
             "Transport",
             "Vehicle"
@@ -396,7 +181,7 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "attacksMultiplier": 1,
-                "damage": "D6",
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "oneShot": true,
                     "attacksMultiplier": 1
@@ -419,18 +204,76 @@
                 }
             }
         ],
+        "melee_weapons": []
+    },
+    {
+        "status": "success",
+        "unit_name": "Aquilon Terminators with Solarite Po...",
+        "points": 285,
+        "unit_type": "unit",
+        "toughness": "8",
+        "movement": "7",
+        "wounds": "6",
+        "leadership": "5",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 285,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Aquilon Terminators with Solarite Power Gauntlets",
+            "Emissaries",
+            "Imperium",
+            "Infantry",
+            "Terminator"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Adrathic Combi-destructor",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
             {
-                "name": "Armoured tracks",
+                "name": "Solarite Power Gauntlet",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
                 "attacksMultiplier": 1,
-                "damage": "1",
+                "damage": "3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -439,137 +282,96 @@
     },
     {
         "status": "success",
-        "unit_name": "Aquilon Custodians",
-        "points": 195,
+        "unit_name": "Aquilon Terminators with Solarite Po...",
+        "points": 275,
         "unit_type": "unit",
-        "toughness": "7",
-        "movement": "5",
-        "wounds": "4",
-        "leadership": "6",
+        "toughness": "8",
+        "movement": "7",
+        "wounds": "6",
+        "leadership": "5",
         "oc": "2",
         "armour_save": "2",
         "invunerable_save": "4",
-        "modelCount": 3,
+        "modelCount": 1,
         "unit_composition": {
-            "count": 3,
-            "default_model_count": 3,
-            "min_model_count": 3,
-            "max_model_count": 6,
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
             "composition_options": [
                 {
-                    "model_count": 3,
-                    "points": 195,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 4,
-                    "points": 390,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 5,
-                    "points": 390,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 6,
-                    "points": 390,
-                    "source": "xml"
+                    "model_count": 1,
+                    "points": 275,
+                    "source": "fallback"
                 }
             ],
-            "source": "xml"
+            "source": "fallback"
         },
-        "global_modifiers": {
-            "rerollOnesWounds": true
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
         },
-        "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Custodes",
-            "Aquilon Custodians",
+            "Aquilon Terminators with Solarite Power Talons",
+            "Emissaries",
             "Imperium",
             "Infantry",
             "Terminator"
         ],
         "ranged_weapons": [
             {
-                "name": "Infernus firepike",
+                "name": "Infernus Firepike",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
-                "strength": 6,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
+                    "blast": true,
+                    "blast2": true,
                     "autoHit": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Lastrum storm bolter",
+                "name": "Lastrum Storm Bolter",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Twin adrathic destructor",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "attacksMultiplier": 2
+                    "rapidFire": 3,
+                    "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Solerite power gauntlet",
+                "name": "Solarite Power Talons",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 3,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 3
-                }
-            },
-            {
-                "name": "Solerite power talon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
-                "attacksMultiplier": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 3
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits2": true,
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -602,11 +404,14 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
             "Adeptus Custodes",
             "Aircraft",
             "Ares Gunship",
+            "Emissaries",
             "Fly",
             "Imperium",
             "Vehicle"
@@ -622,7 +427,7 @@
                 "armor_penetration": 3,
                 "attacks": "4",
                 "attacksMultiplier": 2,
-                "damage": "D6+1",
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 2
                 }
@@ -664,12 +469,12 @@
     {
         "status": "success",
         "unit_name": "Blade Champion",
-        "points": 110,
+        "points": 175,
         "unit_type": "model",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "6",
-        "leadership": "6",
+        "toughness": "7",
+        "movement": "8",
+        "wounds": "7",
+        "leadership": "5",
         "oc": "2",
         "armour_save": "2",
         "invunerable_save": "4",
@@ -682,37 +487,79 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 110,
+                    "points": 175,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "global_modifiers": {
+            "plusOneToWound": true
+        },
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
             "Adeptus Custodes",
             "Blade Champion",
             "Character",
+            "Emissaries",
             "Imperium",
             "Infantry",
             "Leader",
             "Melee Weapon"
         ],
-        "ranged_weapons": [],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
         "melee_weapons": [
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Vaultswords - Behemor",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
                 "attacksMultiplier": 1,
-                "damage": "2",
+                "damage": "3",
                 "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -721,10 +568,10 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
+                "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "9",
+                "attacks": "10",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -739,15 +586,13 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 6,
+                "strength": 8,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "5",
+                "attacks": "8",
                 "attacksMultiplier": 1,
-                "damage": "3",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -755,13 +600,13 @@
     },
     {
         "status": "success",
-        "unit_name": "Caladius Grav-tank",
-        "points": 210,
+        "unit_name": "Caladius Annihilator Grav-tank",
+        "points": 250,
         "unit_type": "model",
         "toughness": "11",
         "movement": "10",
         "wounds": "14",
-        "leadership": "6",
+        "leadership": "5",
         "oc": "4",
         "armour_save": "2",
         "invunerable_save": "5",
@@ -774,25 +619,29 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 210,
+                    "points": 250,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
             "Adeptus Custodes",
-            "Caladius Grav-tank",
+            "Caladius Annihilator Grav-tank",
+            "Emissaries",
             "Fly",
             "Frame",
+            "Grav-assault",
             "Imperium",
             "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin arachnus heavy blaze cannon",
+                "name": "Arachnus Blaze Carronade",
                 "range": "48",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
@@ -803,42 +652,64 @@
                 "attacksMultiplier": 1,
                 "damage": "D6+2",
                 "parsed_weapon_types": {
-                    "twinLinked": true,
+                    "lethalHits": true,
+                    "lethalHitsOn6s": true,
                     "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Twin iliastus accelerator cannon",
-                "range": "48",
+                "name": "Auriferous Orb",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 10,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "rapidFire": 4,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin lastrum bolt cannon",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
                 "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Lastrum Bolt Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Neutronium Cascade Projectors",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "autoHit": true,
+                    "twinLinked": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -858,18 +729,184 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Caladius Grav-tank",
+        "points": 230,
+        "unit_type": "model",
+        "toughness": "11",
+        "movement": "10",
+        "wounds": "14",
+        "leadership": "5",
+        "oc": "4",
+        "armour_save": "2",
+        "invunerable_save": "5",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 230,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Caladius Grav-tank",
+            "Emissaries",
+            "Fly",
+            "Frame",
+            "Grav-assault",
+            "Imperium",
+            "Vehicle"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Iliastus Accelerator Cannon",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "rapidFire": 4,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Lastrum Bolt Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Neutronium Cascade Projectors",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "autoHit": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Armoured hull",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Contemptor-Achillus Dreadnought",
-        "points": 155,
+        "points": 230,
         "unit_type": "model",
-        "toughness": "9",
-        "movement": "6",
-        "wounds": "10",
-        "leadership": "6",
+        "toughness": "10",
+        "movement": "9",
+        "wounds": "12",
+        "leadership": "5",
         "oc": "3",
         "armour_save": "2",
         "invunerable_save": "5",
@@ -882,32 +919,35 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 155,
+                    "points": 230,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
-            "AC Walker",
             "Adeptus Custodes",
             "Contemptor-Achillus Dreadnought",
+            "Dreadnought",
+            "Emissaries",
             "Imperium",
             "Vehicle",
             "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Achillus dreadspear",
+                "name": "Adrathic combi-destructor",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
+                "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "1",
+                "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
@@ -915,19 +955,36 @@
                 }
             },
             {
-                "name": "Infernus incinerator",
+                "name": "Auriferous Orb",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
-                    "autoHit": true,
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Dreadspear",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             },
@@ -939,26 +996,29 @@
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 2,
+                    "rapidFire": 3,
                     "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Twin adrathic destructor",
-                "range": "18",
+                "name": "Twin Infernus incinerator",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 0,
                 "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
                 "attacksMultiplier": 1,
-                "damage": "3",
+                "damage": "1",
                 "parsed_weapon_types": {
+                    "blast": true,
+                    "blast2": true,
+                    "autoHit": true,
                     "twinLinked": true,
                     "attacksMultiplier": 1
                 }
@@ -966,18 +1026,33 @@
         ],
         "melee_weapons": [
             {
-                "name": "Achillus dreadspear",
+                "name": "Dreadspear",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
                 "attacks": "5",
                 "attacksMultiplier": 1,
-                "damage": "D6+1",
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "plusOneToWound": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -986,12 +1061,12 @@
     {
         "status": "success",
         "unit_name": "Contemptor-Galatus Dreadnought",
-        "points": 165,
+        "points": 220,
         "unit_type": "model",
-        "toughness": "9",
-        "movement": "6",
-        "wounds": "10",
-        "leadership": "6",
+        "toughness": "10",
+        "movement": "9",
+        "wounds": "12",
+        "leadership": "5",
         "oc": "3",
         "armour_save": "2",
         "invunerable_save": "4",
@@ -1004,36 +1079,59 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 165,
+                    "points": 220,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
-            "AC Walker",
             "Adeptus Custodes",
             "Contemptor-Galatus Dreadnought",
+            "Dreadnought",
+            "Emissaries",
             "Imperium",
             "Vehicle",
             "Walker"
         ],
         "ranged_weapons": [
             {
-                "name": "Galatus warblade",
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Warblade",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 6,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
+                "attacks": "4",
                 "attacksMultiplier": 1,
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
+                    "blast": true,
+                    "blast2": true,
                     "autoHit": true,
                     "twinLinked": true,
                     "attacksMultiplier": 1
@@ -1042,17 +1140,35 @@
         ],
         "melee_weapons": [
             {
-                "name": "Galatus warblade",
+                "name": "Emperor's Light",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Warblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "8",
                 "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1061,12 +1177,12 @@
     {
         "status": "success",
         "unit_name": "Coronus Grav-carrier",
-        "points": 180,
+        "points": 225,
         "unit_type": "model",
         "toughness": "12",
         "movement": "12",
         "wounds": "16",
-        "leadership": "6",
+        "leadership": "5",
         "oc": "5",
         "armour_save": "2",
         "invunerable_save": "5",
@@ -1079,59 +1195,97 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 180,
+                    "points": 225,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
-        "global_modifiers": {
-            "rerollWounds": true
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
         },
-        "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Custodes",
             "Coronus Grav-carrier",
+            "Emissaries",
             "Fly",
             "Frame",
+            "Grav-assault",
             "Imperium",
             "Transport",
             "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Twin arachnus blaze cannon",
-                "range": "24",
+                "name": "Auriferous Orb",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Arachnus Blaze Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
                     "twinLinked": true,
                     "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Twin lastrum bolt cannon",
+                "name": "Twin Lastrum Bolt Cannon",
                 "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
                 "attacksMultiplier": 1,
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Neutronium Cascade Projectors",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "autoHit": true,
+                    "twinLinked": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -1142,12 +1296,27 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 4,
-                "strength": 8,
+                "strength": 6,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "6",
+                "attacks": "4",
                 "attacksMultiplier": 1,
                 "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
@@ -1156,48 +1325,64 @@
     },
     {
         "status": "success",
-        "unit_name": "Custodian Guard",
-        "points": 180,
+        "unit_name": "Custodian Guard Sodality",
+        "points": 240,
         "unit_type": "unit",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "3",
-        "leadership": "6",
-        "oc": "2",
+        "toughness": "7",
+        "movement": "8",
+        "wounds": "5",
+        "leadership": "5",
+        "oc": "3",
         "armour_save": "2",
         "invunerable_save": "4",
-        "modelCount": 4,
+        "modelCount": 1,
         "unit_composition": {
-            "count": 4,
-            "default_model_count": 4,
-            "min_model_count": 4,
-            "max_model_count": 5,
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
             "composition_options": [
                 {
-                    "model_count": 4,
-                    "points": 180,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 5,
-                    "points": 225,
-                    "source": "xml"
+                    "model_count": 1,
+                    "points": 240,
+                    "source": "fallback"
                 }
             ],
-            "source": "xml"
+            "source": "fallback"
         },
-        "global_modifiers": {
-            "rerollWounds": true
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
         },
-        "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Custodes",
             "Battleline",
-            "Custodian Guard",
+            "Custodian Guard Sodality",
+            "Emissaries",
             "Imperium",
-            "Infantry"
+            "Infantry",
+            "Trusted Sentinel"
         ],
         "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Guardian Spear",
                 "range": "24",
@@ -1210,170 +1395,36 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Sentinel Blade",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "pistol": true,
+                    "rapidFire": 2,
                     "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Guardian Spear",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Misericordia",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Sentinel Blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Custodian Guard with Adrasite and Py...",
-        "points": 250,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "3",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 5,
-        "unit_composition": {
-            "count": 5,
-            "default_model_count": 5,
-            "min_model_count": 5,
-            "max_model_count": 5,
-            "composition_options": [
-                {
-                    "model_count": 5,
-                    "points": 250,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": {
-            "rerollWounds": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Custodian Guard",
-            "Imperium",
-            "Infantry"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Adrasite spear",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Pyrithite spear",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "melta": true,
-                    "melta2": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Adrasite spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Pyrithite spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
+                "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -1385,30 +1436,30 @@
     {
         "status": "success",
         "unit_name": "Custodian Wardens",
-        "points": 210,
+        "points": 200,
         "unit_type": "unit",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "3",
+        "toughness": "7",
+        "movement": "8",
+        "wounds": "5",
         "leadership": "6",
-        "oc": "2",
+        "oc": "3",
         "armour_save": "2",
         "invunerable_save": "4",
         "modelCount": 4,
         "unit_composition": {
             "count": 4,
             "default_model_count": 4,
-            "min_model_count": 4,
-            "max_model_count": 5,
+            "min_model_count": 2,
+            "max_model_count": 3,
             "composition_options": [
                 {
-                    "model_count": 4,
-                    "points": 210,
+                    "model_count": 2,
+                    "points": 200,
                     "source": "xml"
                 },
                 {
-                    "model_count": 5,
-                    "points": 260,
+                    "model_count": 3,
+                    "points": 295,
                     "source": "xml"
                 }
             ],
@@ -1416,15 +1467,36 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 4
+            "feelNoPain": "5"
         },
         "tags": [
             "Adeptus Custodes",
             "Custodian Wardens",
+            "Emissaries",
             "Imperium",
-            "Infantry"
+            "Infantry",
+            "Trusted Sentinel"
         ],
         "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Castellan axe",
                 "range": "24",
@@ -1434,10 +1506,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1449,10 +1522,11 @@
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
                 }
             }
         ],
@@ -1462,14 +1536,29 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "attacksMultiplier": 2,
-                "damage": "3",
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "4",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1477,14 +1566,14 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 7,
+                "strength": 8,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]
@@ -1522,6 +1611,7 @@
             "Adeptus Custodes",
             "Character",
             "Crucible",
+            "Emissaries",
             "Guardian of the Throne",
             "Imperium",
             "Infantry",
@@ -1855,6 +1945,170 @@
     },
     {
         "status": "success",
+        "unit_name": "Gyrfalcon Jetbike Sodality",
+        "points": 260,
+        "unit_type": "unit",
+        "toughness": "8",
+        "movement": "12",
+        "wounds": "9",
+        "leadership": "5",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 260,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Emissaries",
+            "Fly",
+            "Frame",
+            "Gyrfalcon Jetbike Sodality",
+            "Imperium",
+            "Mounted"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Adrathic Devastator",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Arachnus Volley Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "8",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Lastrum Bolt Cannon",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Corvae Las-pulser",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Solarite Power Lance",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
         "unit_name": "Kataphraktoi Exemplar [Crucible]",
         "points": 150,
         "unit_type": "model",
@@ -1889,6 +2143,7 @@
             "Character",
             "Crucible",
             "Dawneagle Jetbike",
+            "Emissaries",
             "Fly",
             "Imperium",
             "Kataphraktoi Exemplar",
@@ -2227,7 +2482,7 @@
         "points": 55,
         "unit_type": "model",
         "toughness": "3",
-        "movement": "6",
+        "movement": "7",
         "wounds": "4",
         "leadership": "6",
         "oc": "1",
@@ -2260,9 +2515,29 @@
             "Infantry",
             "Knight-Centura",
             "Leader",
-            "Melee Weapon"
+            "Melee Weapon",
+            "Support"
         ],
         "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
             {
                 "name": "Master-crafted boltgun",
                 "range": "24",
@@ -2271,50 +2546,42 @@
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "1",
+                "attacks": "2",
                 "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "anti": true,
+                    "antiTypePsyker": true,
+                    "anti4": true,
                     "rapidFire": 1,
                     "attacksMultiplier": 2
                 }
             },
             {
-                "name": "Witchseeker flamer",
+                "name": "Master-crafted Flamer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 2,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
+                    "anti": true,
+                    "antiTypePsyker": true,
+                    "anti4": true,
+                    "blast": true,
+                    "blast2": true,
                     "autoHit": true,
-                    "attacksMultiplier": 1
+                    "attacksMultiplier": 2
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 4,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 4
-                }
-            },
-            {
-                "name": "Executioner Greatblade",
+                "name": "Emperor's Light",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -2325,12 +2592,42 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Executioner Greatblade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
                     "anti": true,
                     "antiTypePsyker": true,
                     "anti5": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
                     "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Gun Stock",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 3,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
                 }
             }
         ]
@@ -2363,14 +2660,13 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 3
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Adeptus Custodes",
             "Anathema Psykana",
             "Character",
             "Crucible",
+            "Emissaries",
             "Imperium",
             "Infantry",
             "Leader",
@@ -2730,9 +3026,12 @@
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
             "Adeptus Custodes",
+            "Emissaries",
             "Fly",
             "Imperium",
             "Orion Assault Dropship",
@@ -2750,7 +3049,7 @@
                 "armor_penetration": 3,
                 "attacks": "4",
                 "attacksMultiplier": 2,
-                "damage": "D6+1",
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 2
                 }
@@ -2763,11 +3062,12 @@
                 "strength": 7,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6+6",
+                "attacks": "8",
                 "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "blast": true,
+                    "blast2": true,
                     "attacksMultiplier": 2
                 }
             },
@@ -2777,15 +3077,16 @@
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
                 "attacksMultiplier": 2,
-                "damage": "1",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "sustainedHits": true,
                     "sustainedHitsOn6s": true,
                     "sustainedHits1": true,
+                    "twinLinked": true,
                     "attacksMultiplier": 2
                 }
             }
@@ -2811,761 +3112,15 @@
     {
         "status": "success",
         "unit_name": "Pallas Grav-attack",
-        "points": 100,
-        "unit_type": "model",
-        "toughness": "8",
-        "movement": "12",
-        "wounds": "9",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 100,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": {
-            "plusOneToWound": true
-        },
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Fly",
-            "Frame",
-            "Imperium",
-            "Pallas Grav-attack",
-            "Vehicle"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Twin arachnus blaze cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "8",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured hull",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 6,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Prosecutors",
-        "points": 50,
-        "unit_type": "unit",
-        "toughness": "3",
-        "movement": "6",
-        "wounds": "1",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "3",
-        "invunerable_save": null,
-        "modelCount": 4,
-        "unit_composition": {
-            "count": 4,
-            "default_model_count": 4,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 50,
-                    "source": "xml"
-                }
-            ],
-            "source": "xml"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": "3"
-        },
-        "tags": [
-            "Adeptus Custodes",
-            "Anathema Psykana",
-            "Imperium",
-            "Infantry",
-            "Prosecutors"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Boltgun",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 3,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "1",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 1,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Close combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
-                "strength": 3,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Sagittarum Custodians",
-        "points": 225,
-        "unit_type": "unit",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "3",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 5,
-        "unit_composition": {
-            "count": 5,
-            "default_model_count": 5,
-            "min_model_count": 5,
-            "max_model_count": 5,
-            "composition_options": [
-                {
-                    "model_count": 5,
-                    "points": 225,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Imperium",
-            "Infantry",
-            "Sagittarum Custodians"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Adrastus bolt caliver",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Misericordia",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Shield-Captain",
-        "points": 110,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "6",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 110,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Character",
-            "Imperium",
-            "Infantry",
-            "Leader",
-            "Melee Weapon",
-            "Ranged Weapon",
-            "Shield-Captain"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Castellan axe",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Guardian Spear",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Pyrithite Spear",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "melta": true,
-                    "melta2": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Sentinel Blade",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "pistol": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Castellan axe",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Guardian Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Pyrithite Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Sentinel Blade",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Shield-Captain in Allarus Terminator...",
-        "points": 130,
-        "unit_type": "model",
-        "toughness": "7",
-        "movement": "5",
-        "wounds": "7",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 130,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Character",
-            "Imperium",
-            "Infantry",
-            "Leader",
-            "Melee Weapon",
-            "Ranged Weapon",
-            "Shield-Captain",
-            "Terminator"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Balistus grenade launcher",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "D6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Castellan axe",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Guardian Spear",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Castellan axe",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Guardian Spear",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "7",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Shield-Captain on Dawneagle Jetbike",
-        "points": 150,
-        "unit_type": "model",
-        "toughness": "7",
-        "movement": "12",
-        "wounds": "8",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 150,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Character",
-            "Dawneagle Jetbike",
-            "Fly",
-            "Imperium",
-            "Leader",
-            "Melee Weapon",
-            "Mounted",
-            "Ranged Weapon",
-            "Shield-Captain"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Salvo launcher",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 10,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Vertus hurricane bolter",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "rapidFire": 3,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Interceptor lance",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Telemon Heavy Dreadnought",
-        "points": 225,
-        "unit_type": "model",
-        "toughness": "10",
-        "movement": "8",
-        "wounds": "12",
-        "leadership": "6",
-        "oc": "4",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 225,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "minusOneDamage": true
-        },
-        "tags": [
-            "AC Walker",
-            "Adeptus Custodes",
-            "Imperium",
-            "Telemon Heavy Dreadnought",
-            "Vehicle",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Arachnus storm cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "12",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Iliastus accelerator culverin",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Spiculus bolt launcher",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6+3",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin plasma projector",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 0,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D3",
-                "attacksMultiplier": 2,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "autoHit": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 2
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Armoured feet",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Telemon Caestus",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 2,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Trajann Valoris",
         "points": 135,
         "unit_type": "model",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "7",
+        "toughness": "9",
+        "movement": "12",
+        "wounds": "10",
         "leadership": "5",
         "oc": "2",
         "armour_save": "2",
-        "invunerable_save": "2",
+        "invunerable_save": "5",
         "modelCount": 1,
         "unit_composition": {
             "count": 1,
@@ -3583,102 +3138,96 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 5
+            "feelNoPain": "5"
         },
         "tags": [
             "Adeptus Custodes",
-            "Character",
-            "Epic Hero",
+            "Emissaries",
+            "Fly",
+            "Frame",
+            "Grav-assault",
             "Imperium",
-            "Infantry",
-            "Leader",
-            "Trajann Valoris"
+            "Pallas Grav-attack",
+            "Vehicle"
         ],
         "ranged_weapons": [
             {
-                "name": "Eagle's Scream",
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Arachnus Blaze Cannon",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Iliastus Accelerator Fusil",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "3",
                 "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "twinLinked": true,
                     "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Watcher's Axe",
+                "name": "Armoured hull",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 10,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "6",
+                "ballistic_skill": 4,
+                "strength": 6,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
                 "attacksMultiplier": 1,
-                "damage": "3",
+                "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Valerian",
-        "points": 120,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "6",
-        "leadership": "6",
-        "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 120,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 6
-        },
-        "tags": [
-            "Adeptus Custodes",
-            "Character",
-            "Epic Hero",
-            "Imperium",
-            "Infantry",
-            "Leader",
-            "Shield-Captain",
-            "Valerian"
-        ],
-        "ranged_weapons": [
+            },
             {
-                "name": "Gnosis",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
                 "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "2",
@@ -3686,265 +3235,19 @@
                     "attacksMultiplier": 1
                 }
             }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Gnosis",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "7",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Venatari Custodians",
-        "points": 150,
+        "unit_name": "Prosecutor Squad",
+        "points": 45,
         "unit_type": "unit",
-        "toughness": "6",
-        "movement": "10",
-        "wounds": "3",
+        "toughness": "3",
+        "movement": "7",
+        "wounds": "1",
         "leadership": "6",
         "oc": "2",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 3,
-        "unit_composition": {
-            "count": 3,
-            "default_model_count": 3,
-            "min_model_count": 3,
-            "max_model_count": 6,
-            "composition_options": [
-                {
-                    "model_count": 3,
-                    "points": 150,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 4,
-                    "points": 300,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 5,
-                    "points": 300,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 6,
-                    "points": 300,
-                    "source": "xml"
-                }
-            ],
-            "source": "xml"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "Adeptus Custodes",
-            "Fly",
-            "Imperium",
-            "Infantry",
-            "Jump Pack",
-            "Venatari Custodians"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Kinetic destroyer",
-                "range": "12",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "pistol": true,
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Venatari lance",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Tarsis buckler",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Venatari lance",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "plusOneToWound": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Venerable Contemptor Dreadnought",
-        "points": 170,
-        "unit_type": "model",
-        "toughness": "9",
-        "movement": "6",
-        "wounds": "10",
-        "leadership": "6",
-        "oc": "3",
-        "armour_save": "2",
-        "invunerable_save": "5",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 170,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
-        "tags": [
-            "AC Walker",
-            "Adeptus Custodes",
-            "Imperium",
-            "Vehicle",
-            "Venerable Contemptor Dreadnought",
-            "Walker"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Combi-bolter",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Kheres-pattern assault cannon",
-                "range": "24",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 7,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "1",
-                "parsed_weapon_types": {
-                    "devWounds": true,
-                    "devWoundsOn6s": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Multi-melta",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 9,
-                "armour_penetration": 4,
-                "armor_penetration": 4,
-                "attacks": "2",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "melta": true,
-                    "melta2": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Contemptor combat weapon",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Venerable Land Raider",
-        "points": 220,
-        "unit_type": "model",
-        "toughness": "12",
-        "movement": "10",
-        "wounds": "16",
-        "leadership": "6",
-        "oc": "5",
-        "armour_save": "2",
+        "armour_save": "3",
         "invunerable_save": null,
         "modelCount": 1,
         "unit_composition": {
@@ -3955,101 +3258,54 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 220,
+                    "points": 45,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "3"
+        },
         "tags": [
             "Adeptus Custodes",
-            "Frame",
+            "Anathema Psykana",
             "Imperium",
-            "Smoke",
-            "Transport",
-            "Vehicle",
-            "Venerable Land Raider"
+            "Infantry",
+            "Prosecutor Squad"
         ],
         "ranged_weapons": [
             {
-                "name": "Godhammer lascannon",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 12,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "2",
-                "attacksMultiplier": 2,
-                "damage": "D6+1",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 2
-                }
-            },
-            {
-                "name": "Hunter-killer missile",
-                "range": "48",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 14,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "1",
-                "attacksMultiplier": 1,
-                "damage": "D6",
-                "parsed_weapon_types": {
-                    "oneShot": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Storm bolter",
+                "name": "Boltgun",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
+                "ballistic_skill": 3,
                 "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "2",
+                "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "rapidFire": 2,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Twin heavy bolter",
-                "range": "36",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "3",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "sustainedHits": true,
-                    "sustainedHitsOn6s": true,
-                    "sustainedHits1": true,
-                    "twinLinked": true,
+                    "anti": true,
+                    "antiTypePsyker": true,
+                    "anti4": true,
+                    "rapidFire": 1,
                     "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Armoured tracks",
+                "name": "Gun Stock",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 4,
-                "strength": 8,
+                "ballistic_skill": 3,
+                "strength": 3,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "6",
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -4060,49 +3316,210 @@
     },
     {
         "status": "success",
-        "unit_name": "Vertus Praetors",
-        "points": 155,
+        "unit_name": "Sentinel Guard Sodality",
+        "points": 240,
         "unit_type": "unit",
         "toughness": "7",
-        "movement": "12",
+        "movement": "8",
         "wounds": "5",
-        "leadership": "6",
+        "leadership": "5",
         "oc": "2",
         "armour_save": "2",
         "invunerable_save": "4",
-        "modelCount": 2,
+        "modelCount": 1,
         "unit_composition": {
-            "count": 2,
-            "default_model_count": 2,
-            "min_model_count": 2,
-            "max_model_count": 3,
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
             "composition_options": [
                 {
-                    "model_count": 2,
-                    "points": 155,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 3,
-                    "points": 230,
-                    "source": "xml"
+                    "model_count": 1,
+                    "points": 240,
+                    "source": "fallback"
                 }
             ],
-            "source": "xml"
+            "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
             "Adeptus Custodes",
-            "Fly",
+            "Battleline",
+            "Emissaries",
             "Imperium",
-            "Mounted",
-            "Vertus Praetors"
+            "Infantry",
+            "Sentinel Guard Sodality",
+            "Trusted Sentinel"
         ],
         "ranged_weapons": [
             {
-                "name": "Salvo launcher",
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Sentinel Blade",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Sentinel Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Shield-Captain",
+        "points": 180,
+        "unit_type": "model",
+        "toughness": "7",
+        "movement": "8",
+        "wounds": "8",
+        "leadership": "5",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 180,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Character",
+            "Emissaries",
+            "Imperium",
+            "Infantry",
+            "Leader",
+            "Melee Weapon",
+            "Ranged Weapon",
+            "Shield-Captain"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Castellan Axe",
                 "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Guardian Spear",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Pyrithite Spear",
+                "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 10,
@@ -4110,14 +3527,314 @@
                 "armor_penetration": 3,
                 "attacks": "1",
                 "attacksMultiplier": 1,
-                "damage": "D6+1",
+                "damage": "D3+2",
                 "parsed_weapon_types": {
-                    "twinLinked": true,
+                    "melta": true,
+                    "melta2": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Castellan Axe",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "4",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Vertus hurricane bolter",
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Eternity-pattern Paragon Blade",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Guardian Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "8",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Pyrithite Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "8",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Shield-Captain in Allarus Terminator...",
+        "points": 185,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "7",
+        "wounds": "9",
+        "leadership": "5",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 185,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Character",
+            "Emissaries",
+            "Imperium",
+            "Infantry",
+            "Leader",
+            "Shield-Captain",
+            "Terminator"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Balistus grenade launcher",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Castellan Axe",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Guardian Spear",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Castellan Axe",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "4",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Guardian Spear",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "8",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Shield-Captain on Dawneagle Jetbike",
+        "points": 205,
+        "unit_type": "model",
+        "toughness": "8",
+        "movement": "12",
+        "wounds": "10",
+        "leadership": "5",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 205,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Character",
+            "Emissaries",
+            "Fly",
+            "Imperium",
+            "Leader",
+            "Melee Weapon",
+            "Mounted",
+            "Shield-Captain"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Hurricane bolter",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
@@ -4132,11 +3849,546 @@
                     "twinLinked": true,
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Salvo launcher",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ],
         "melee_weapons": [
             {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
                 "name": "Interceptor lance",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "8",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Telemon Heavy Dreadnought",
+        "points": 280,
+        "unit_type": "model",
+        "toughness": "11",
+        "movement": "10",
+        "wounds": "14",
+        "leadership": "5",
+        "oc": "4",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 280,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Dreadnought",
+            "Emissaries",
+            "Imperium",
+            "Telemon Heavy Dreadnought",
+            "Vehicle",
+            "Walker"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Adrathic Desolator",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 2,
+                "damage": "4",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Arachnus Storm Cannon",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "12",
+                "attacksMultiplier": 2,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Iliastus Accelerator Culverin",
+                "range": "48",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 2,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "rapidFire": 3,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Spiculus bolt launcher",
+                "range": "36",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "blast2": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Twin Neutronium Cascade Projectors",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 0,
+                "strength": 7,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 5,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "blast": true,
+                    "autoHit": true,
+                    "twinLinked": true,
+                    "attacksMultiplier": 5
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Caestus Fist",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "attacksMultiplier": 3,
+                "damage": "4",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 3
+                }
+            },
+            {
+                "name": "Dual Caestus Fists",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "7",
+                "attacksMultiplier": 2,
+                "damage": "4",
+                "parsed_weapon_types": {
+                    "twinLinked": true,
+                    "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Trajann Valoris",
+        "points": 265,
+        "unit_type": "model",
+        "toughness": "7",
+        "movement": "8",
+        "wounds": "10",
+        "leadership": "5",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 265,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": {
+            "rerollOnesHits": true,
+            "rerollOnesWounds": true
+        },
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Character",
+            "Emissaries",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Leader",
+            "Trajann Valoris"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Eagle's Scream",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 2,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Watcher's Axe",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 12,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "4",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Venatari with Kinetic Destroyers",
+        "points": 255,
+        "unit_type": "unit",
+        "toughness": "7",
+        "movement": "12",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 255,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": {
+            "rerollHits": true
+        },
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Emissaries",
+            "Explosives",
+            "Fly",
+            "Imperium",
+            "Infantry",
+            "Jump Pack",
+            "Venatari with Kinetic Destroyers"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Kinetic destroyer",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Tarsis buckler",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Venatari with Verutum Lances",
+        "points": 270,
+        "unit_type": "unit",
+        "toughness": "7",
+        "movement": "12",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 3,
+            "max_model_count": 3,
+            "composition_options": [
+                {
+                    "model_count": 3,
+                    "points": 270,
+                    "source": "xml"
+                }
+            ],
+            "source": "xml"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Emissaries",
+            "Explosives",
+            "Fly",
+            "Imperium",
+            "Infantry",
+            "Jump Pack",
+            "Venatari with Kinetic Destroyers"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Verutum Lance",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Verutum Lance",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
@@ -4144,41 +4396,172 @@
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "plusOneToWound": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Vigilators",
+        "unit_name": "Vertus Praetors",
+        "points": 220,
+        "unit_type": "unit",
+        "toughness": "8",
+        "movement": "12",
+        "wounds": "7",
+        "leadership": "5",
+        "oc": "2",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 2,
+        "unit_composition": {
+            "count": 2,
+            "default_model_count": 2,
+            "min_model_count": 2,
+            "max_model_count": 3,
+            "composition_options": [
+                {
+                    "model_count": 2,
+                    "points": 220,
+                    "source": "xml"
+                },
+                {
+                    "model_count": 3,
+                    "points": 330,
+                    "source": "xml"
+                }
+            ],
+            "source": "xml"
+        },
+        "global_modifiers": null,
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
+        "tags": [
+            "Adeptus Custodes",
+            "Emissaries",
+            "Fly",
+            "Imperium",
+            "Mounted",
+            "Vertus Praetors"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Auriferous Orb",
+                "range": "12",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 1,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "anti": true,
+                    "anti4": true,
+                    "devWounds": true,
+                    "devWoundsOn6s": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Hurricane bolter",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 3,
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Salvo launcher",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "2",
+                "attacksMultiplier": 1,
+                "damage": "D3+2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Emperor's Light",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Interceptor lance",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 8,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "plusOneToWound": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Vigilator Squad",
         "points": 50,
         "unit_type": "unit",
         "toughness": "3",
-        "movement": "6",
+        "movement": "7",
         "wounds": "1",
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
         "invunerable_save": null,
-        "modelCount": 4,
+        "modelCount": 1,
         "unit_composition": {
-            "count": 4,
-            "default_model_count": 4,
+            "count": 1,
+            "default_model_count": 1,
             "min_model_count": 1,
             "max_model_count": 1,
             "composition_options": [
                 {
                     "model_count": 1,
                     "points": 50,
-                    "source": "xml"
+                    "source": "fallback"
                 }
             ],
-            "source": "xml"
+            "source": "fallback"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -4189,7 +4572,7 @@
             "Anathema Psykana",
             "Imperium",
             "Infantry",
-            "Vigilators"
+            "Vigilator Squad"
         ],
         "ranged_weapons": [],
         "melee_weapons": [
@@ -4201,8 +4584,8 @@
                 "strength": 5,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
@@ -4210,37 +4593,37 @@
                     "anti5": true,
                     "devWounds": true,
                     "devWoundsOn6s": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]
     },
     {
         "status": "success",
-        "unit_name": "Witchseekers",
-        "points": 50,
+        "unit_name": "Witchseeker Squad",
+        "points": 55,
         "unit_type": "unit",
         "toughness": "3",
-        "movement": "6",
+        "movement": "7",
         "wounds": "1",
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
         "invunerable_save": null,
-        "modelCount": 4,
+        "modelCount": 1,
         "unit_composition": {
-            "count": 4,
-            "default_model_count": 4,
+            "count": 1,
+            "default_model_count": 1,
             "min_model_count": 1,
             "max_model_count": 1,
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 50,
-                    "source": "xml"
+                    "points": 55,
+                    "source": "fallback"
                 }
             ],
-            "source": "xml"
+            "source": "fallback"
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
@@ -4251,41 +4634,44 @@
             "Anathema Psykana",
             "Imperium",
             "Infantry",
-            "Witchseekers"
+            "Witchseeker Squad"
         ],
         "ranged_weapons": [
             {
-                "name": "Witchseeker flamer",
+                "name": "Flamer",
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 0,
                 "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
-                "attacks": "D6",
-                "attacksMultiplier": 2,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "ignoresCover": true,
+                    "anti": true,
+                    "antiTypePsyker": true,
+                    "anti4": true,
+                    "blast": true,
                     "autoHit": true,
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Close combat weapon",
+                "name": "Gun Stock",
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 3,
                 "strength": 3,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
-                "attacks": "2",
-                "attacksMultiplier": 2,
+                "attacks": "3",
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             }
         ]

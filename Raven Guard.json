@@ -2,9 +2,9 @@
     {
         "status": "success",
         "unit_name": "Aethon Shaan",
-        "points": 100,
+        "points": 105,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "14",
         "wounds": "5",
         "leadership": "6",
@@ -20,7 +20,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 105,
                     "source": "fallback"
                 }
             ],
@@ -35,12 +35,14 @@
             "Chapter Master",
             "Character",
             "Epic Hero",
+            "Explosives",
             "Fly",
             "Imperium",
             "Infantry",
             "Jump Pack",
             "Leader",
             "Raven Guard",
+            "Smoke",
             "Space Marines",
             "Tacticus"
         ],
@@ -50,14 +52,13 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -87,7 +88,7 @@
     {
         "status": "success",
         "unit_name": "Kayvaan Shrike",
-        "points": 100,
+        "points": 95,
         "unit_type": "model",
         "toughness": "4",
         "movement": "12",
@@ -105,20 +106,19 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 95,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "stealth": true
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
-            "Chapter Master",
+            "Captain",
             "Character",
             "Epic Hero",
+            "Explosives",
             "Fly",
             "Imperium",
             "Infantry",
@@ -127,6 +127,7 @@
             "Leader",
             "Phobos",
             "Raven Guard",
+            "Smoke",
             "Space Marines"
         ],
         "ranged_weapons": [
@@ -142,7 +143,6 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }

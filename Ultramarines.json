@@ -80,9 +80,9 @@
     {
         "status": "success",
         "unit_name": "Captain Titus",
-        "points": 100,
+        "points": 115,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "6",
         "leadership": "6",
@@ -98,7 +98,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 100,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -106,13 +106,13 @@
         },
         "global_modifiers": null,
         "defenderGlobalModifiers": {
-            "feelNoPain": 5
+            "feelNoPain": "5"
         },
         "tags": [
             "Captain",
             "Character",
             "Epic Hero",
-            "Grenades",
+            "Explosives",
             "Imperium",
             "Infantry",
             "Leader",
@@ -127,14 +127,13 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -143,13 +142,14 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
+                    "rapidFire": 1,
                     "attacksMultiplier": 1
                 }
             }
@@ -168,8 +168,7 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "anti": true,
-                    "antiTypeInfantry": true,
-                    "anti2": true,
+                    "anti4": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -178,9 +177,9 @@
     {
         "status": "success",
         "unit_name": "Cato Sicarius",
-        "points": 105,
+        "points": 115,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "5",
         "leadership": "6",
@@ -196,7 +195,7 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 105,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -209,6 +208,7 @@
             "Cato",
             "Character",
             "Epic Hero",
+            "Explosives",
             "Imperium",
             "Infantry",
             "Leader",
@@ -231,7 +231,6 @@
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -292,11 +291,11 @@
     {
         "status": "success",
         "unit_name": "Chief Librarian Tigurius",
-        "points": 85,
+        "points": 115,
         "unit_type": "model",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
-        "wounds": "4",
+        "wounds": "5",
         "leadership": "6",
         "oc": "1",
         "armour_save": "3",
@@ -310,20 +309,19 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 85,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
         "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 4
-        },
+        "defenderGlobalModifiers": null,
         "tags": [
             "Character",
             "Chief Librarian Tigurius",
             "Epic Hero",
+            "Explosives",
             "Imperium",
             "Infantry",
             "Leader",
@@ -337,43 +335,25 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
             {
-                "name": "Storm of the Emperor’s Wrath - Focuse",
+                "name": "Storm of the Emperor’s Wrath",
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2D6",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "blast": true,
-                    "psychic": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Storm of the Emperor’s Wrath - Witchf",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 6,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "D6",
+                "attacks": "D3+6",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -388,15 +368,109 @@
                 "name": "Rod of Tigurius",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 3,
+                "ballistic_skill": 2,
                 "strength": 7,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "5",
                 "attacksMultiplier": 1,
-                "damage": "D3",
+                "damage": "2",
                 "parsed_weapon_types": {
                     "psychic": true,
+                    "attacksMultiplier": 1
+                }
+            }
+        ]
+    },
+    {
+        "status": "success",
+        "unit_name": "Kaius Konorius",
+        "points": 100,
+        "unit_type": "model",
+        "toughness": "5",
+        "movement": "6",
+        "wounds": "5",
+        "leadership": "6",
+        "oc": "1",
+        "armour_save": "2",
+        "invunerable_save": "4",
+        "modelCount": 1,
+        "unit_composition": {
+            "count": 1,
+            "default_model_count": 1,
+            "min_model_count": 1,
+            "max_model_count": 1,
+            "composition_options": [
+                {
+                    "model_count": 1,
+                    "points": 100,
+                    "source": "fallback"
+                }
+            ],
+            "source": "fallback"
+        },
+        "global_modifiers": {
+            "rerollOnesHits": true,
+            "rerollOnesWounds": true
+        },
+        "defenderGlobalModifiers": {
+            "feelNoPain": 4
+        },
+        "tags": [
+            "Character",
+            "Epic Hero",
+            "Explosives",
+            "Infantry",
+            "Space Marines",
+            "Support",
+            "Tacticus",
+            "Ultramarines"
+        ],
+        "ranged_weapons": [
+            {
+                "name": "Heavy Bolt Pistol",
+                "range": "18",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 2,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            }
+        ],
+        "melee_weapons": [
+            {
+                "name": "Severance and Rebuke - Strike",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 10,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "5",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Severance and Rebuke - Sweep",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             }
@@ -452,14 +526,13 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -488,8 +561,8 @@
     {
         "status": "success",
         "unit_name": "Marneus Calgar",
-        "points": 200,
-        "unit_type": "unit",
+        "points": 180,
+        "unit_type": "model",
         "toughness": "6",
         "movement": "6",
         "wounds": "6",
@@ -506,103 +579,7 @@
             "composition_options": [
                 {
                     "model_count": 3,
-                    "points": 200,
-                    "source": "fallback"
-                }
-            ],
-            "source": "fallback"
-        },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": {
-            "feelNoPain": 4
-        },
-        "tags": [
-            "Chapter Master",
-            "Character",
-            "Epic Hero",
-            "Gravis",
-            "Imperium",
-            "Infantry",
-            "Leader",
-            "Marneus Calgar",
-            "Space Marines",
-            "Ultramarines"
-        ],
-        "ranged_weapons": [
-            {
-                "name": "Gauntlets of Ultramar",
-                "range": "18",
-                "weapon_types": "Ranged Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
-                "attacks": "4",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "pistol": true,
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            }
-        ],
-        "melee_weapons": [
-            {
-                "name": "Gauntlets of Ultramar",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 8,
-                "armour_penetration": 3,
-                "armor_penetration": 3,
-                "attacks": "6",
-                "attacksMultiplier": 1,
-                "damage": "3",
-                "parsed_weapon_types": {
-                    "twinLinked": true,
-                    "attacksMultiplier": 1
-                }
-            },
-            {
-                "name": "Victrix Power Sword",
-                "range": "",
-                "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 5,
-                "armour_penetration": 2,
-                "armor_penetration": 2,
-                "attacks": "5",
-                "attacksMultiplier": 1,
-                "damage": "2",
-                "parsed_weapon_types": {
-                    "attacksMultiplier": 1
-                }
-            }
-        ]
-    },
-    {
-        "status": "success",
-        "unit_name": "Marneus Calgar in Armour of Antilochus",
-        "points": 155,
-        "unit_type": "model",
-        "toughness": "6",
-        "movement": "6",
-        "wounds": "6",
-        "leadership": "6",
-        "oc": "1",
-        "armour_save": "2",
-        "invunerable_save": "4",
-        "modelCount": 1,
-        "unit_composition": {
-            "count": 1,
-            "default_model_count": 1,
-            "min_model_count": 1,
-            "max_model_count": 1,
-            "composition_options": [
-                {
-                    "model_count": 1,
-                    "points": 155,
+                    "points": 180,
                     "source": "fallback"
                 }
             ],
@@ -628,14 +605,13 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 1,
-                "armor_penetration": 1,
+                "strength": 5,
+                "armour_penetration": 2,
+                "armor_penetration": 2,
                 "attacks": "4",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "twinLinked": true,
                     "attacksMultiplier": 1
                 }
@@ -647,12 +623,28 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
                 "attacks": "6",
                 "attacksMultiplier": 1,
                 "damage": "3",
+                "parsed_weapon_types": {
+                    "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Gauntlets of Ultramar (Overhead Smash)",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 14,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "D3+3",
                 "parsed_weapon_types": {
                     "twinLinked": true,
                     "attacksMultiplier": 1
@@ -663,11 +655,11 @@
     {
         "status": "success",
         "unit_name": "Roboute Guilliman",
-        "points": 355,
+        "points": 415,
         "unit_type": "model",
-        "toughness": "9",
+        "toughness": "10",
         "movement": "8",
-        "wounds": "10",
+        "wounds": "16",
         "leadership": "5",
         "oc": "4",
         "armour_save": "2",
@@ -681,14 +673,19 @@
             "composition_options": [
                 {
                     "model_count": 1,
-                    "points": 355,
+                    "points": 415,
                     "source": "fallback"
                 }
             ],
             "source": "fallback"
         },
-        "global_modifiers": null,
-        "defenderGlobalModifiers": null,
+        "global_modifiers": {
+            "rerollOnesHits": true,
+            "rerollOnesWounds": true
+        },
+        "defenderGlobalModifiers": {
+            "feelNoPain": "5"
+        },
         "tags": [
             "Character",
             "Epic Hero",
@@ -703,17 +700,20 @@
         "ranged_weapons": [
             {
                 "name": "Hand of Dominion",
-                "range": "30",
+                "range": "36",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
                 "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
-                "attacks": "2",
+                "attacks": "4",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
                     "rapidFire": 2,
+                    "sustainedHits": true,
+                    "sustainedHitsOn6s": true,
+                    "sustainedHits1": true,
                     "attacksMultiplier": 1
                 }
             }
@@ -741,10 +741,10 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 8,
+                "strength": 10,
                 "armour_penetration": 3,
                 "armor_penetration": 3,
-                "attacks": "14",
+                "attacks": "10",
                 "attacksMultiplier": 1,
                 "damage": "2",
                 "parsed_weapon_types": {
@@ -802,14 +802,13 @@
                 "range": "12",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
-                "armour_penetration": 0,
-                "armor_penetration": 0,
+                "strength": 5,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             },
@@ -853,9 +852,9 @@
     {
         "status": "success",
         "unit_name": "Victrix Honour Guard",
-        "points": 110,
+        "points": 120,
         "unit_type": "unit",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "3",
         "leadership": "6",
@@ -866,27 +865,12 @@
         "unit_composition": {
             "count": 3,
             "default_model_count": 3,
-            "min_model_count": 1,
+            "min_model_count": 6,
             "max_model_count": 6,
             "composition_options": [
                 {
-                    "model_count": 1,
-                    "points": 110,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 4,
-                    "points": 230,
-                    "source": "xml"
-                },
-                {
-                    "model_count": 5,
-                    "points": 230,
-                    "source": "xml"
-                },
-                {
                     "model_count": 6,
-                    "points": 230,
+                    "points": 250,
                     "source": "xml"
                 }
             ],
@@ -911,14 +895,15 @@
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 2,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
-                "attacksMultiplier": 1,
+                "attacksMultiplier": 2,
                 "damage": "2",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 1
+                    "rapidFire": 1,
+                    "attacksMultiplier": 2
                 }
             }
         ],
@@ -928,7 +913,7 @@
                 "range": "",
                 "weapon_types": "Melee Weapons",
                 "ballistic_skill": 2,
-                "strength": 5,
+                "strength": 6,
                 "armour_penetration": 2,
                 "armor_penetration": 2,
                 "attacks": "6",
@@ -936,6 +921,21 @@
                 "damage": "2",
                 "parsed_weapon_types": {
                     "twinLinked": true,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Imperium's Sword",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 7,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "3",
+                "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
             },
@@ -953,21 +953,36 @@
                 "parsed_weapon_types": {
                     "attacksMultiplier": 1
                 }
+            },
+            {
+                "name": "Thief of Secrets",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 2,
+                "strength": 6,
+                "armour_penetration": 3,
+                "armor_penetration": 3,
+                "attacks": "6",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
+                }
             }
         ]
     },
     {
         "status": "success",
         "unit_name": "Wardens of Ultramar",
-        "points": 120,
+        "points": 115,
         "unit_type": "unit",
-        "toughness": "4",
+        "toughness": "5",
         "movement": "6",
         "wounds": "4",
         "leadership": "6",
-        "oc": "1",
+        "oc": "2",
         "armour_save": "3",
-        "invunerable_save": "5",
+        "invunerable_save": "4",
         "modelCount": 6,
         "unit_composition": {
             "count": 6,
@@ -977,7 +992,7 @@
             "composition_options": [
                 {
                     "model_count": 6,
-                    "points": 120,
+                    "points": 115,
                     "source": "fallback"
                 }
             ],
@@ -987,7 +1002,7 @@
         "defenderGlobalModifiers": null,
         "tags": [
             "Epic Hero",
-            "Grenades",
+            "Explosives",
             "Imperium",
             "Infantry",
             "Psyker",
@@ -1010,7 +1025,6 @@
                 "attacksMultiplier": 3,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 3
                 }
             },
@@ -1022,7 +1036,7 @@
                 "strength": 4,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
-                "attacks": "D6",
+                "attacks": "3",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
@@ -1032,17 +1046,34 @@
                 }
             },
             {
-                "name": "Bolt Rifle",
+                "name": "Bolt Rifle - Focused Fire",
                 "range": "24",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 6,
+                "armour_penetration": 1,
+                "armor_penetration": 1,
+                "attacks": "1",
+                "attacksMultiplier": 1,
+                "damage": "2",
+                "parsed_weapon_types": {
+                    "rapidFire": 1,
+                    "attacksMultiplier": 1
+                }
+            },
+            {
+                "name": "Bolt Rifle - Saturation",
+                "range": "24",
+                "weapon_types": "Ranged Weapons",
+                "ballistic_skill": 3,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "2",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
+                    "rapidFire": 1,
                     "attacksMultiplier": 1
                 }
             },
@@ -1051,32 +1082,31 @@
                 "range": "18",
                 "weapon_types": "Ranged Weapons",
                 "ballistic_skill": 3,
-                "strength": 4,
+                "strength": 5,
                 "armour_penetration": 1,
                 "armor_penetration": 1,
                 "attacks": "1",
                 "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "pistol": true,
                     "attacksMultiplier": 1
                 }
             }
         ],
         "melee_weapons": [
             {
-                "name": "Close combat weapon",
+                "name": "Ceramite Fists",
                 "range": "",
                 "weapon_types": "Melee Weapons",
-                "ballistic_skill": 2,
-                "strength": 4,
+                "ballistic_skill": 3,
+                "strength": 5,
                 "armour_penetration": 0,
                 "armor_penetration": 0,
                 "attacks": "4",
-                "attacksMultiplier": 2,
+                "attacksMultiplier": 1,
                 "damage": "1",
                 "parsed_weapon_types": {
-                    "attacksMultiplier": 2
+                    "attacksMultiplier": 1
                 }
             },
             {
@@ -1123,6 +1153,21 @@
                 "damage": "1",
                 "parsed_weapon_types": {
                     "attacksMultiplier": 2
+                }
+            },
+            {
+                "name": "Ultramarian Combat Weapons",
+                "range": "",
+                "weapon_types": "Melee Weapons",
+                "ballistic_skill": 3,
+                "strength": 4,
+                "armour_penetration": 0,
+                "armor_penetration": 0,
+                "attacks": "4",
+                "attacksMultiplier": 1,
+                "damage": "1",
+                "parsed_weapon_types": {
+                    "attacksMultiplier": 1
                 }
             }
         ]
